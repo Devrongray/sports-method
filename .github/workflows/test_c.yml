@@ -1,0 +1,34 @@
+name: Test (c) Pinnacle reliability
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 10 * * 1"       # Mondays 10:40 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  test_c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: pytest -q
+      - run: python -m method.pinnacle_reliability --out analysis/test_c
+      - uses: actions/upload-artifact@v4
+        with:
+          name: test_c
+          path: analysis/test_c
+      - name: Commit results
+        run: |
+          git config user.name "method-bot"
+          git config user.email "method-bot@users.noreply.github.com"
+          git add analysis/test_c
+          git commit -m "test (c): Pinnacle reliability $(date -u +%F)" || echo "nothing to commit"
+          git push

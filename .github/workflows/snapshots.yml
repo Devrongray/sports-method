@@ -1,0 +1,35 @@
+name: Snapshots (Polymarket US + Pinnacle)
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"      # every 30 minutes; each run loops for ~27 minutes
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: "How long to loop"
+        default: "27"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshots
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Record
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python -m method.snapshot loop --out data --minutes ${{ github.event.inputs.minutes || '27' }}
+      - name: Commit to the data branch
+        run: bash scripts/commit_data.sh data

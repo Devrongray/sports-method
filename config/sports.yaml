@@ -1,0 +1,76 @@
+# Sports and markets from Sports Prediction Method v1 (Run 4 shortlist).
+#
+# polymarket_league: slug for GET /v2/leagues/{slug}/events. "nfl" and "nba"
+#   are documented; the others are best guesses. Run
+#   `python -m method.snapshot leagues` to print the real list and fix these.
+# odds_api_sport: sport key for The Odds API v4 (null = not carried there).
+# markets: Polymarket sportsMarketType values we record (MONEYLINE, TOTAL,
+#   SPREAD). NFL sides/spreads are excluded by rule; props and futures are
+#   not recorded in v0.1.
+
+sports:
+  - key: mlb
+    name: MLB
+    role: core
+    polymarket_league: mlb
+    odds_api_sport: baseball_mlb
+    markets: [MONEYLINE, TOTAL]
+  - key: nba
+    name: NBA
+    role: core
+    polymarket_league: nba
+    odds_api_sport: basketball_nba
+    markets: [MONEYLINE, TOTAL]
+  - key: ncaab
+    name: College basketball
+    role: core
+    polymarket_league: ncaab
+    odds_api_sport: basketball_ncaab
+    markets: [MONEYLINE, TOTAL]
+  - key: nhl
+    name: NHL
+    role: windows
+    polymarket_league: nhl
+    odds_api_sport: icehockey_nhl
+    markets: [MONEYLINE, TOTAL]
+  - key: nfl
+    name: NFL (totals only)
+    role: windows
+    polymarket_league: nfl
+    odds_api_sport: americanfootball_nfl
+    markets: [TOTAL]
+  - key: cs2
+    name: Counter-Strike 2
+    role: core
+    polymarket_league: cs2
+    odds_api_sport: null
+    markets: [MONEYLINE, SPREAD, TOTAL]
+  - key: lol
+    name: League of Legends
+    role: core
+    polymarket_league: lol
+    odds_api_sport: null
+    markets: [MONEYLINE, SPREAD, TOTAL]
+
+cadence:
+  # Outside the pre-start window
+  polymarket_minutes: 10
+  odds_api_minutes: 30
+  # Inside the window before a game starts
+  pre_start_window_minutes: 90
+  polymarket_window_minutes: 1
+  odds_api_window_minutes: 5
+  # Record full order books at these minutes-before-start checkpoints
+  book_checkpoints_minutes: [60, 15, 2]
+  # Only look at games starting within this horizon (hours)
+  horizon_hours: 36
+
+odds_api:
+  regions: eu
+  markets: [h2h, totals]
+  bookmakers: [pinnacle]
+
+fees:
+  taker_coefficient: 0.0695
+  table_tennis_coefficient: 0.10
+  maker_rebate: 0.0        # retail tier from 19 Oct 2026
