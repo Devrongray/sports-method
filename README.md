@@ -107,10 +107,21 @@ on the data branch, via the **News timestamps** workflow (every 30 minutes,
   API schedule with game states. The goalie parser is written later from the
   stored pages.
 
+## Daily analysis
+
+`python -m method.analysis.report --data data --out analysis/daily` (the
+**Daily analysis** workflow, 10:05 UTC) reads the data branch and writes
+`analysis/daily/<date>/` plus `analysis/daily/latest.md`: coverage; the
+Polymarket-to-Pinnacle event matching; Polymarket mid against de-vigged
+Pinnacle fair by sport and time-to-start (with spread, depth and the
+after-fee taker edge); test (b) calibration of last pre-game mids once games
+settle; and, for test (a), each news event joined to the contract's
+minute-level path (mid before, moves after 5/15/30 min, Pinnacle fair before
+and after, minutes until the mid is within 1¢ of the new fair).
+
 ## Not yet built
 
 - Esports roster/veto timestamps; a Pinnacle esports feed (OddsPapi).
-- The daily analysis job that joins news times to the price paths.
 - Pinnacle esports feed.
 - The order-placement layer (Phase 2, needs your go and an API key).
 
