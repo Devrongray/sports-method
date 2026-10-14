@@ -1,0 +1,23 @@
+{
+  "best_devig_method": "additive",
+  "mean_log_loss_by_method": {
+    "additive": 0.9679821993394321,
+    "power": 0.9680015855915896,
+    "shin": 0.968010704606834,
+    "multiplicative": 0.9682204499164692
+  },
+  "seasons_slope_in_band": {
+    "2019/20": true,
+    "2020/21": true,
+    "2021/22": true,
+    "2022/23": true,
+    "2023/24": false,
+    "2024/25": true,
+    "2025/26": false
+  },
+  "pass": false,
+  "slope_band": [
+    0.95,
+    1.05
+  ]
+}
