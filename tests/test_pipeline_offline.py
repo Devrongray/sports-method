@@ -130,9 +130,9 @@ def test_collect_markets_with_stub_client():
                  "markets": [{"id": "a", "slug": "soon-ml", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_WINNER", "marketSides": []},
                              {"id": "b", "slug": "soon-prop", "sportsMarketType": "SPORTS_MARKET_TYPE_PROP", "marketSides": []},
                              {"id": "t1", "slug": "soon-t-220", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_TOTAL",
-                              "line": 220.5, "marketSides": [{"identifier": "Over", "price": "0.62"}, {"identifier": "Under", "price": "0.40"}]},
+                              "line": 220.5, "marketSides": [{"identifier": "x-220pt5", "price": "0.62", "long": True}, {"identifier": "x-220pt5", "price": "0.63", "long": False}]},
                              {"id": "t2", "slug": "soon-t-224", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_TOTAL",
-                              "line": 224.5, "marketSides": [{"identifier": "Over", "price": "0.51"}, {"identifier": "Under", "price": "0.51"}]}]},
+                              "line": 224.5, "marketSides": [{"identifier": "x-224pt5", "price": "0.50", "long": True}, {"identifier": "x-224pt5", "price": "0.52", "long": False}]}]},
                 {"id": "2", "slug": "far", "startTime": "2026-10-30T23:30:00Z",
                  "markets": [{"id": "c", "slug": "far-ml", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_WINNER", "marketSides": []}]},
                 {"id": "3", "slug": "done", "startTime": "2026-10-21T23:30:00Z", "ended": True,
@@ -211,13 +211,28 @@ def test_nfl_half_team_total_disambiguation():
 
 
 def test_main_line_picks_closest_to_even_per_team():
-    mk = lambda t, line, p1, p2, team=None: {
-        "sportsMarketType": t, "line": line,
-        "marketSides": [{"identifier": "Over", "price": str(p1), "teamId": team}, {"identifier": "Under", "price": str(p2), "teamId": team}]}
-    markets = [mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 41.5, 0.70, 0.32), mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 44.5, 0.52, 0.50),
-               mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 47.5, 0.30, 0.72),
+    # Sides are (bid, ask) of one contract, as in the live payload; the main line is the mid nearest 0.50.
+    mk = lambda t, line, bid, ask, team=None: {
+        "sportsMarketType": t, "line": line, "bestBidQuote": str(bid), "bestAskQuote": str(ask),
+        "marketSides": [{"identifier": f"x-{line}", "price": str(bid), "long": True, "teamId": team},
+                        {"identifier": f"x-{line}", "price": str(ask), "long": False, "teamId": team}]}
+    markets = [mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 41.5, 0.70, 0.71), mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 44.5, 0.50, 0.52),
+               mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 47.5, 0.30, 0.31),
                mk("FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", 20.5, 0.50, 0.52, team=1),
-               mk("FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", 23.5, 0.40, 0.62, team=1),
+               mk("FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", 23.5, 0.40, 0.41, team=1),
                mk("FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", 24.5, 0.49, 0.53, team=2)]
     parsed = pm.classify_event_markets(markets)
     assert pm.mark_main_lines(markets, parsed) == [False, True, False, True, False, True]
+    assert pm.market_mid(markets[1]) == pytest.approx(0.51)
+
+
+def test_main_line_on_real_nhl_ladder():
+    # Montreal–Washington, 14 Oct 2026 pass: totals 2.5..9.5 with 1-cent spreads at every line.
+    ladder = [(2.5, 0.98, 0.99), (3.5, 0.90, 0.91), (4.5, 0.83, 0.84), (5.5, 0.63, 0.64),
+              (6.5, 0.51, 0.52), (7.5, 0.30, 0.31), (8.5, 0.22, 0.23), (9.5, 0.10, 0.11)]
+    markets = [{"sportsMarketType": "HOCKEY_TEAM_FULL_GAME_TOTAL", "line": l,
+                "marketSides": [{"identifier": f"t-{l}", "price": str(b), "long": True},
+                                {"identifier": f"t-{l}", "price": str(a), "long": False}]} for l, b, a in ladder]
+    parsed = pm.classify_event_markets(markets)
+    mains = pm.mark_main_lines(markets, parsed)
+    assert [l for (l, _, _), m in zip(ladder, mains) if m] == [6.5]

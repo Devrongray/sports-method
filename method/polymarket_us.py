@@ -225,17 +225,27 @@ def _side_prices(m: dict) -> list[float]:
     return out
 
 
-def _evenness(m: dict) -> float:
-    """Distance of a market from a 50/50 price; smaller = closer to the main line."""
-    ps = _side_prices(m)
-    if len(ps) >= 2:
-        return abs(ps[0] - ps[1])
-    if len(ps) == 1:
-        return abs(ps[0] - 0.5) * 2
+def market_mid(m: dict) -> float | None:
+    """Mid price of a market from the event payload.
+
+    Live payloads (14 Oct 2026) list two marketSides per market that share one
+    identifier: the long side carries the best bid and the short side the best
+    ask of the same contract (e.g. 0.51 / 0.52), so the mid is their mean. The
+    market-level bestBidQuote/bestAskQuote carry the same numbers.
+    """
     bid, ask = _amount(m.get("bestBidQuote")), _amount(m.get("bestAskQuote"))
     if bid is not None and ask is not None:
-        return abs((bid + ask) / 2 - 0.5) * 2
-    return 9.0
+        return (bid + ask) / 2
+    ps = _side_prices(m)
+    if ps:
+        return sum(ps) / len(ps)
+    return None
+
+
+def _evenness(m: dict) -> float:
+    """Distance of a market's mid from 0.50; smaller = closer to the main line."""
+    mid = market_mid(m)
+    return 9.0 if mid is None else abs(mid - 0.5)
 
 
 def mark_main_lines(markets: list[dict], parsed: list[tuple[str, str, str, str]]) -> list[bool]:
@@ -322,6 +332,7 @@ def normalize_event_markets(ev: dict, league_slug: str, keep_classes: set[str] |
             "market_class": cls,
             "segment": seg,
             "is_main": is_main,
+            "mid": market_mid(m),
             "question": m.get("question") or m.get("title"),
             "line": _num(m.get("line")),
             "active": m.get("active"),

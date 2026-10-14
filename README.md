@@ -96,3 +96,11 @@ the lag test, so both are kept.
   via MLB StatsAPI, NHL goalie confirmations). Next addition.
 - Pinnacle esports feed.
 - The order-placement layer (Phase 2, needs your go and an API key).
+
+## Data notes
+
+- `data/polymarket/2026-10-14/*_20261014T192700Z.*`: first live pass. Its
+  `is_main` flags on totals/spread ladders are unreliable (the picker then
+  compared the two side prices, which are the bid and ask of one contract,
+  rather than the contract mid). All lines are in the markets file, so the
+  main line can be recomputed; BBO rows exist only for the lines it picked.
