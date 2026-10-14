@@ -94,7 +94,7 @@ sports:
 cadence:
   # Outside the pre-start window
   polymarket_minutes: 10
-  odds_api_minutes: 30
+  odds_api_minutes: 60      # hourly outside game windows: fits the 20,000-credit plan (about 15k/month)
   # Inside the window before a game starts
   pre_start_window_minutes: 90
   polymarket_window_minutes: 1
