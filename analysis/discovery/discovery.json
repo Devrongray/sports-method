@@ -1,0 +1,2452 @@
+{
+  "ts": "2026-10-14T19:16:06+00:00",
+  "n_leagues": 381,
+  "leagues": [
+    {
+      "slug": "uefa",
+      "name": "UEFA",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "mlb",
+      "name": "MLB",
+      "isOperational": true,
+      "sportId": 5
+    },
+    {
+      "slug": "f1",
+      "name": "Formula 1",
+      "isOperational": true,
+      "sportId": 11
+    },
+    {
+      "slug": "boxing",
+      "name": "Boxing",
+      "isOperational": true,
+      "sportId": 12
+    },
+    {
+      "slug": "poly-open",
+      "name": "Polymarket Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "itfm",
+      "name": "ITF Men",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "itfw",
+      "name": "ITF Women",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "fwc",
+      "name": "World Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "masters",
+      "name": "Golf",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "cjcupbyr",
+      "name": "THE CJ CUP Byron Nelson",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "ucl",
+      "name": "UCL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "epl",
+      "name": "EPL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "nbasl",
+      "name": "NBA Summer League",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "cbb",
+      "name": "CBB",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "wnba",
+      "name": "WNBA",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "nba",
+      "name": "NBA",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "mls",
+      "name": "MLS",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cham",
+      "name": "TOUR Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "cycling",
+      "name": "Cycling",
+      "isOperational": true,
+      "sportId": 15
+    },
+    {
+      "slug": "nhl",
+      "name": "NHL",
+      "isOperational": true,
+      "sportId": 4
+    },
+    {
+      "slug": "nfl",
+      "name": "NFL",
+      "isOperational": true,
+      "sportId": 3
+    },
+    {
+      "slug": "lal",
+      "name": "La Liga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cws",
+      "name": "CWS",
+      "isOperational": true,
+      "sportId": 5
+    },
+    {
+      "slug": "bun",
+      "name": "Bundesliga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ufc",
+      "name": "UFC",
+      "isOperational": true,
+      "sportId": 6
+    },
+    {
+      "slug": "wcbb",
+      "name": "WCBB",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "cadi",
+      "name": "Cadillac Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "lol",
+      "name": "League of Legends",
+      "isOperational": true,
+      "sportId": 10
+    },
+    {
+      "slug": "onefmyrtbeac",
+      "name": "ONEflight Myrtle Beach Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "trui",
+      "name": "Truist Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "atpcq",
+      "name": "ATP Challenger Qualifiers",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "ipl",
+      "name": "IPL",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "rbcheri",
+      "name": "RBC Heritage",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "flc",
+      "name": "Chance Liga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cs2",
+      "name": "CS2",
+      "isOperational": true,
+      "sportId": 10
+    },
+    {
+      "slug": "charschw",
+      "name": "Charles Schwab Challenge",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "cod",
+      "name": "Call of Duty",
+      "isOperational": true,
+      "sportId": 10
+    },
+    {
+      "slug": "twc",
+      "name": "Worst Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "valetexa",
+      "name": "Valero Texas Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "test",
+      "name": "Test International",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "indy500",
+      "name": "Indy 500",
+      "isOperational": true,
+      "sportId": 11
+    },
+    {
+      "slug": "pgacham",
+      "name": "PGA Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "nb1",
+      "name": "Hungarian NB I",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "memotour",
+      "name": "the Memorial Tournament pres. by Workday",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "t20blast",
+      "name": "T20 Blast (M)",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "mlsas",
+      "name": "MLS All-Star Game",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "sea",
+      "name": "Serie A",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "blw",
+      "name": "Big League Wiffle Ball",
+      "isOperational": true,
+      "sportId": 19
+    },
+    {
+      "slug": "mlc",
+      "name": "Major League Cricket",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "valorant",
+      "name": "Valorant",
+      "isOperational": true,
+      "sportId": 10
+    },
+    {
+      "slug": "dota2",
+      "name": "Dota 2",
+      "isOperational": true,
+      "sportId": 10
+    },
+    {
+      "slug": "etpl",
+      "name": "European T20 Premier League",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "ncaams",
+      "name": "NCAA Men's Soccer",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "icaa",
+      "name": "ICAA",
+      "isOperational": true,
+      "sportId": 19
+    },
+    {
+      "slug": "rbccana",
+      "name": "RBC Canadian Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "intf",
+      "name": "Friendlies",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ittf",
+      "name": "ITTF",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "ttelite",
+      "name": "TT Elite Series",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "t20blastw",
+      "name": "T20 Blast (W)",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "itfme",
+      "name": "ITF Mens",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "itfwo",
+      "name": "ITF Womens",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "rockclas",
+      "name": "Rocket Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "lmx",
+      "name": "Liga MX",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "us",
+      "name": "U.S. Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "mlp",
+      "name": "Major League Pickleball",
+      "isOperational": true,
+      "sportId": 18
+    },
+    {
+      "slug": "t20i",
+      "name": "T20 International (M)",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "t20iw",
+      "name": "T20 International (W)",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "kbo",
+      "name": "KBO",
+      "isOperational": true,
+      "sportId": 5
+    },
+    {
+      "slug": "3m",
+      "name": "3M Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "pdcdarts",
+      "name": "Professional Darts Corporation",
+      "isOperational": true,
+      "sportId": 17
+    },
+    {
+      "slug": "ligpor",
+      "name": "Liga Portugal",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "npb",
+      "name": "NPB",
+      "isOperational": true,
+      "sportId": 5
+    },
+    {
+      "slug": "wtt",
+      "name": "WTT",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "travcham",
+      "name": "Travelers Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "t20worldcupw",
+      "name": "Women's T20 World Cup",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "dodgeball",
+      "name": "Dodgeball",
+      "isOperational": true,
+      "sportId": 19
+    },
+    {
+      "slug": "cfb",
+      "name": "CFB",
+      "isOperational": true,
+      "sportId": 3
+    },
+    {
+      "slug": "cpl",
+      "name": "Caribbean Premier League",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "spl",
+      "name": "Saudi Pro League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "motogp",
+      "name": "MotoGP",
+      "isOperational": true,
+      "sportId": 11
+    },
+    {
+      "slug": "corapunt",
+      "name": "Corales Puntacana Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "fibawcq",
+      "name": "FIBA",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "usc",
+      "name": "UEFA Super Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "egpl",
+      "name": "Egyptian Premier League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "czechligapro",
+      "name": "Czech Liga Pro",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "russialigapro",
+      "name": "Russia Liga Pro",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "genescot",
+      "name": "Genesis Scottish Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "ttcup",
+      "name": "TT Cup",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "setkacup",
+      "name": "Setka Cup",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "ttchallenger",
+      "name": "Challenger Series",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "wincup",
+      "name": "Win Cup",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "tsl",
+      "name": "S\u00fcper Lig",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "iscocham",
+      "name": "ISCO Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "misc",
+      "name": "Misc",
+      "isOperational": true,
+      "sportId": 14
+    },
+    {
+      "slug": "sclc",
+      "name": "Scottish League Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "johndeer",
+      "name": "John Deere Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "ekst",
+      "name": "Ekstraklasa",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "theopen",
+      "name": "The Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "svnp",
+      "name": "PrvaLiga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "atbl",
+      "name": "Austrian Bundesliga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "uslc",
+      "name": "USL Championship",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "alsv",
+      "name": "Allsvenskan",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "bra",
+      "name": "Brasileir\u00e3o",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "brb",
+      "name": "S\u00e9rie B",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "kl1",
+      "name": "K League 1",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cpbl",
+      "name": "Chinese Professional Baseball League",
+      "isOperational": true,
+      "sportId": 5
+    },
+    {
+      "slug": "els",
+      "name": "Eliteserien",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "csl",
+      "name": "CSL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "nor1",
+      "name": "OBOS-ligaen",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lpa",
+      "name": "Liga Argentina",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "pl1",
+      "name": "Liga 1",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "slr",
+      "name": "SuperLiga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lco",
+      "name": "Liga Colombia",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "rpl",
+      "name": "RPL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "pdc",
+      "name": "Primera Chile",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "nls",
+      "name": "Nik\u00e9 Liga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "sld",
+      "name": "Superliga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lng",
+      "name": "Liga Nacional",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lpc",
+      "name": "Liga Prom\u00e9rica",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ecu1",
+      "name": "LigaPro Ecuador",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "den1",
+      "name": "Danish 1. Division",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "irlp",
+      "name": "LOI Premier Division",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "irl1",
+      "name": "LOI First Division",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "vkl",
+      "name": "Veikkausliiga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "dfb",
+      "name": "DFB-Pokal",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "danigolf",
+      "name": "Danish Golf Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "cshield",
+      "name": "Community Shield",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "wsl",
+      "name": "WSL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "dflsc",
+      "name": "DFL-Supercup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "scp",
+      "name": "Scottish Prem",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "uel",
+      "name": "UEL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "uecl",
+      "name": "UECL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "sud",
+      "name": "Sudamericana",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "auc",
+      "name": "Australia Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ofb",
+      "name": "\u00d6FB Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "nwsl",
+      "name": "NWSL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "uwcl",
+      "name": "UWCL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "iplcr",
+      "name": "IPL CR",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "mlccr",
+      "name": "Major League Cricket CR",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "womessco",
+      "name": "Women's Scottish Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "portclas",
+      "name": "Portland Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "t20worldcupwcr",
+      "name": "Women's T20 World Cup CR",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "espnocho",
+      "name": "The Ocho",
+      "isOperational": true,
+      "sportId": 19
+    },
+    {
+      "slug": "polyclas",
+      "name": "The Polymarket Classic",
+      "isOperational": false,
+      "sportId": 7
+    },
+    {
+      "slug": "cplcr",
+      "name": "Caribbean Premier League CR",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "swsl",
+      "name": "Swiss Super League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "pvl",
+      "name": "Parva Liga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cfac",
+      "name": "Chinese FA Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "clbf",
+      "name": "Club Friendlies",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ykk",
+      "name": "Ykk\u00f6sliiga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "uzb1",
+      "name": "Uzbekistan Superliga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "swe2",
+      "name": "Superettan",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "testcr",
+      "name": "Test Intl",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "swcl",
+      "name": "Challenge League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "uru1",
+      "name": "Primera Uruguay",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lexp",
+      "name": "Liga de Expansi\u00f3n MX",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "arg2",
+      "name": "Primera Nacional",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "t20blastwcr",
+      "name": "T20 Blast (W) CR",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "t20iwcr",
+      "name": "T20 Intl (W)",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "t20blastcr",
+      "name": "T20 Blast (M) CR",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "odiwcr",
+      "name": "ODI Intl (W)",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "t20icr",
+      "name": "T20 Intl (M)",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "odicr",
+      "name": "ODI (M)",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "setkameua",
+      "name": "Setka Cup Ukraine Men",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "setkamemd",
+      "name": "Setka Cup Moldova Men",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "setkamecz",
+      "name": "Setka Cup Czechia Men",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "setkawoua",
+      "name": "Setka Cup Ukraine Women",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "rl",
+      "name": "Rocket League",
+      "isOperational": true,
+      "sportId": 10
+    },
+    {
+      "slug": "ow",
+      "name": "Overwatch",
+      "isOperational": true,
+      "sportId": 10
+    },
+    {
+      "slug": "r6",
+      "name": "Rainbow Six Siege",
+      "isOperational": true,
+      "sportId": 10
+    },
+    {
+      "slug": "isl1",
+      "name": "Besta deild",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "par2",
+      "name": "Paraguay Segunda",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "btla",
+      "name": "Botola Pro",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "nascar",
+      "name": "NASCAR",
+      "isOperational": true,
+      "sportId": 11
+    },
+    {
+      "slug": "hundred",
+      "name": "The Hundred",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "hundredw",
+      "name": "The Hundred Women",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "t20gsl",
+      "name": "T20 Global Super League",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "odcup",
+      "name": "One-Day Cup",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "acle",
+      "name": "AFC Champions League Elite",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cop",
+      "name": "Coppa Italia",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "usoc",
+      "name": "US Open Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ere",
+      "name": "Eredivisie",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lig2",
+      "name": "Ligue 2",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "womes",
+      "name": "Women's Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "cdb",
+      "name": "Copa do Brasil",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "eflc",
+      "name": "EFL Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lgscup",
+      "name": "Leagues Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "wyndcham",
+      "name": "Wyndham Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "ncaaws",
+      "name": "NCAA Women's Soccer",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "bmwcham",
+      "name": "BMW Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "unitking",
+      "name": "United Kingdom Individual",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "lpb",
+      "name": "Liga Boliviana",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "newyorki",
+      "name": "New York Individual",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "tdc",
+      "name": "Troph\u00e9e des Champions",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lg1",
+      "name": "Ligue 1",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lib",
+      "name": "Copa Libertadores",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "eflch",
+      "name": "EFL Championship",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "lal2",
+      "name": "LaLiga 2",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "srb",
+      "name": "Serie B",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "tdp",
+      "name": "Ta\u00e7a de Portugal",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "fedestju",
+      "name": "FedEx St. Jude Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "prescup",
+      "name": "Presidents Cup",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "bmwpgach",
+      "name": "BMW PGA Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "uaepl",
+      "name": "UAE Pro League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "euromast",
+      "name": "European Masters",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "wtadb",
+      "name": "WTA Doubles",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "fmcham",
+      "name": "FM Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "atpdb",
+      "name": "ATP Doubles",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "iris",
+      "name": "Irish Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "britmast",
+      "name": "British Masters",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "utr",
+      "name": "UTR",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "bbl",
+      "name": "Basketball Bundesliga",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "county",
+      "name": "County Championship",
+      "isOperational": true,
+      "sportId": 9
+    },
+    {
+      "slug": "dwcs",
+      "name": "Dana White's Contender Series",
+      "isOperational": true,
+      "sportId": 6
+    },
+    {
+      "slug": "indiindi",
+      "name": "Indianapolis Individual",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "cpkcwome",
+      "name": "CPKC Women's Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "modus",
+      "name": "MODUS Super Series",
+      "isOperational": true,
+      "sportId": 17
+    },
+    {
+      "slug": "fibawwc",
+      "name": "FIBA Women's World Cup",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "baycclas",
+      "name": "Baycurrent Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "nexocham",
+      "name": "Nexo Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "bankutah",
+      "name": "Bank of Utah Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "cmpcup",
+      "name": "Campeones Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "nbl",
+      "name": "Australia NBL",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "nwarkach",
+      "name": "NW Arkansas Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "defran",
+      "name": "Open de France",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "polandmasters",
+      "name": "Poland Masters",
+      "isOperational": true,
+      "sportId": 16
+    },
+    {
+      "slug": "liv",
+      "name": "LIV Golf",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "lpga",
+      "name": "LPGA",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "dpwt",
+      "name": "DP World Tour",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "natichil",
+      "name": "Nationwide Children's Hospital Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "pureinsu",
+      "name": "Pure Insurance Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "biltcham",
+      "name": "Biltmore Championship Asheville",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "acb",
+      "name": "Spain Liga ACB",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "wta",
+      "name": "WTA",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "atp",
+      "name": "ATP",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "alfrdunh",
+      "name": "Alfred Dunhill Links Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "lnbp",
+      "name": "LNBP",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "bcl",
+      "name": "Basketball Champions League",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "ahl",
+      "name": "AHL",
+      "isOperational": true,
+      "sportId": 4
+    },
+    {
+      "slug": "lnb",
+      "name": "France LNB Elite",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "eurolg",
+      "name": "EuroLeague",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "pll",
+      "name": "Premier Lacrosse League",
+      "isOperational": true,
+      "sportId": 22
+    },
+    {
+      "slug": "ppa",
+      "name": "The Pro Tour of Pickleball",
+      "isOperational": true,
+      "sportId": 18
+    },
+    {
+      "slug": "khl",
+      "name": "KHL",
+      "isOperational": true,
+      "sportId": 4
+    },
+    {
+      "slug": "compsolu",
+      "name": "Compliance Solutions Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "del",
+      "name": "DEL",
+      "isOperational": true,
+      "sportId": 4
+    },
+    {
+      "slug": "indicham",
+      "name": "India Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "buiclpga",
+      "name": "Buick LPGA Shanghai",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "sascham",
+      "name": "SAS Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "deespa",
+      "name": "Open de Espana",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "kornferr",
+      "name": "Korn Ferry Tour Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "consfury",
+      "name": "Constellation Furyk & Friends",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "ebattlesefia",
+      "name": "eBattles: International A",
+      "isOperational": true,
+      "sportId": 23
+    },
+    {
+      "slug": "ebattlesefib",
+      "name": "eBattles: International B",
+      "isOperational": true,
+      "sportId": 23
+    },
+    {
+      "slug": "ebattlesefcwc",
+      "name": "eBattles: Club World Cup",
+      "isOperational": true,
+      "sportId": 23
+    },
+    {
+      "slug": "ebattlesefwca",
+      "name": "eBattles: World Cup A",
+      "isOperational": true,
+      "sportId": 23
+    },
+    {
+      "slug": "ebattlesefwcb",
+      "name": "eBattles: World Cup B",
+      "isOperational": true,
+      "sportId": 23
+    },
+    {
+      "slug": "ebattlesefpl",
+      "name": "eBattles: Premier League",
+      "isOperational": true,
+      "sportId": 23
+    },
+    {
+      "slug": "ebattlesefsa",
+      "name": "eBattles: Serie A",
+      "isOperational": true,
+      "sportId": 23
+    },
+    {
+      "slug": "vtb",
+      "name": "VTB United League",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "daviscup",
+      "name": "Davis Cup",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "lavercup",
+      "name": "Laver Cup",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "gbl",
+      "name": "Greece GBL",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "denbl",
+      "name": "Denmark Basketligaen",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "slnbl",
+      "name": "Slovenia Liga OTP banka",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "svkbl",
+      "name": "Slovakia SBL",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "hunbl",
+      "name": "Hungary NB I/A",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "fra2",
+      "name": "France Elite 2",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "unl",
+      "name": "UEFA Nations League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "grcup",
+      "name": "Greek Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "bsl",
+      "name": "Turkey BSL",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "lba",
+      "name": "Italy LBA Serie A",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "lkl",
+      "name": "Lithuania LKL",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "lottcham",
+      "name": "LOTTE Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "lehivall",
+      "name": "Lehigh Valley Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "cnl",
+      "name": "CONCACAF Nations League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "buttberm",
+      "name": "Butterfield Bermuda Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "shl",
+      "name": "SHL",
+      "isOperational": true,
+      "sportId": 4
+    },
+    {
+      "slug": "snhl",
+      "name": "National League",
+      "isOperational": true,
+      "sportId": 4
+    },
+    {
+      "slug": "cehl",
+      "name": "Czech Extraliga",
+      "isOperational": true,
+      "sportId": 4
+    },
+    {
+      "slug": "j1",
+      "name": "J1 League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "j2",
+      "name": "J2 League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "par1",
+      "name": "Paraguay Primera Divisi\u00f3n",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "bun2",
+      "name": "2. Bundesliga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "tff1",
+      "name": "TFF 1. Lig",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "bel1",
+      "name": "Belgian Pro League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "fnl",
+      "name": "Czech National Football League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "grsl",
+      "name": "Super League Greece",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "idnsl",
+      "name": "Indonesia Super League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "hnl",
+      "name": "Croatian HNL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "efl1",
+      "name": "EFL League One",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "efl2",
+      "name": "EFL League Two",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "engnl",
+      "name": "English National League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "thai1",
+      "name": "Thai League 1",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "mysl",
+      "name": "Malaysia Super League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "serca",
+      "name": "Serie C Girone A",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "sercb",
+      "name": "Serie C Girone B",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "sercc",
+      "name": "Serie C Girone C",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "brc",
+      "name": "Brasileir\u00e3o S\u00e9rie C",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ligaf",
+      "name": "Liga F",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "sapl",
+      "name": "South African Premiership",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cyp1",
+      "name": "Cyprus First Division",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "fbl",
+      "name": "Frauen-Bundesliga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cba",
+      "name": "China CBA",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "eurocup",
+      "name": "EuroCup",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "kbl",
+      "name": "Korean Basketball League",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "bjkcup",
+      "name": "Billie Jean King Cup",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "jpbl",
+      "name": "Japan B.League Premier",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "slb",
+      "name": "British Super League Basketball",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "ita2",
+      "name": "Italian Serie A2",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "autbl",
+      "name": "Austrian Superliga",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "sixkings",
+      "name": "Six Kings Slam",
+      "isOperational": true,
+      "sportId": 8
+    },
+    {
+      "slug": "uslcp",
+      "name": "USL Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "afcq",
+      "name": "Africa Cup of Nations Qualification",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "czcup",
+      "name": "Czech Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "nrl",
+      "name": "NRL",
+      "isOperational": true,
+      "sportId": 24
+    },
+    {
+      "slug": "nrlw",
+      "name": "NRLW",
+      "isOperational": true,
+      "sportId": 24
+    },
+    {
+      "slug": "superleague",
+      "name": "Super League",
+      "isOperational": true,
+      "sportId": 24
+    },
+    {
+      "slug": "urc",
+      "name": "United Rugby Championship",
+      "isOperational": true,
+      "sportId": 24
+    },
+    {
+      "slug": "bolcup",
+      "name": "Copa Bolivia",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "vidamexi",
+      "name": "VidantaWorld Mexico Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "svk2",
+      "name": "Slovak 2. Liga",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "prem",
+      "name": "PREM Rugby",
+      "isOperational": true,
+      "sportId": 24
+    },
+    {
+      "slug": "top14",
+      "name": "TOP 14",
+      "isOperational": true,
+      "sportId": 24
+    },
+    {
+      "slug": "liiga",
+      "name": "Liiga",
+      "isOperational": true,
+      "sportId": 4
+    },
+    {
+      "slug": "arfa",
+      "name": "Torneo Regional Federal Amateur",
+      "isOperational": false,
+      "sportId": 2
+    },
+    {
+      "slug": "urupda",
+      "name": "Uruguay Primera Divisional C",
+      "isOperational": false,
+      "sportId": 2
+    },
+    {
+      "slug": "nscup",
+      "name": "North of Scotland Cup",
+      "isOperational": false,
+      "sportId": 2
+    },
+    {
+      "slug": "bmwladic",
+      "name": "BMW Ladies Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "genecham",
+      "name": "Genesis Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "stifchar",
+      "name": "Stifel Charity Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "asgames",
+      "name": "Asian Games Men's Football",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "aseanc",
+      "name": "ASEAN Cup Challenge Division",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "maybcham",
+      "name": "Maybank Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "u19f",
+      "name": "U19 International Friendlies",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ilaln",
+      "name": "Israel Liga Alef North",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ilals",
+      "name": "Israel Liga Alef South",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "caru20",
+      "name": "Carioca U20",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "mne2",
+      "name": "Montenegro Second League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "nmcup",
+      "name": "Norwegian Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "wecq",
+      "name": "UEFA Women's Europa Cup Qualifying",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "norw1",
+      "name": "Norway Women's First Division",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ngnpfl",
+      "name": "Nigeria NPFL",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ghpl",
+      "name": "Ghana Premier League",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cpreina",
+      "name": "Copa de la Reina",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "u21eq",
+      "name": "UEFA U21 European Championship Qualifying",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "svn3e",
+      "name": "Slovenia Third League East",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cpafed",
+      "name": "Copa Federaci\u00f3n",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "be1acff",
+      "name": "Belgium Nationale 1 ACFF",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "be1vv",
+      "name": "Belgium Nationale 1 VV",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "fawlc",
+      "name": "FA Women's League Cup",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "minw",
+      "name": "Campeonato Mineiro Women",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "peu20",
+      "name": "Pernambucano U20",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "gaub",
+      "name": "Ga\u00facho S\u00e9rie B U23",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ch1cl",
+      "name": "Swiss 1. Liga Classic",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cpauy",
+      "name": "Copa Uruguay",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "slps",
+      "name": "Southern League Premier South",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "isthp",
+      "name": "Isthmian League Premier",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "ven2",
+      "name": "Venezuela Segunda Divisi\u00f3n",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cpapy",
+      "name": "Copa Paraguay",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "gtasc",
+      "name": "Guatemala Primera Divisi\u00f3n de Ascenso",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "cpach",
+      "name": "Copa Chile",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "one",
+      "name": "ONE Championship",
+      "isOperational": true,
+      "sportId": 6
+    },
+    {
+      "slug": "pfl",
+      "name": "Professional Fighters League",
+      "isOperational": true,
+      "sportId": 6
+    },
+    {
+      "slug": "bledisloe",
+      "name": "Bledisloe Cup",
+      "isOperational": true,
+      "sportId": 24
+    },
+    {
+      "slug": "uwwcq",
+      "name": "UEFA Women's World Cup Qualifying",
+      "isOperational": true,
+      "sportId": 2
+    },
+    {
+      "slug": "powerslap",
+      "name": "Power Slap",
+      "isOperational": true,
+      "sportId": 25
+    },
+    {
+      "slug": "aba",
+      "name": "Adriatic ABA League",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "cznbl",
+      "name": "Czech NBL",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "koris",
+      "name": "Korisliiga",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "abudhabc",
+      "name": "Abu Dhabi Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "totojapa",
+      "name": "Toto Japan Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "bsktcua",
+      "name": "BSKT Cup",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "bsktcin",
+      "name": "BSKT Cup International",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "dpworlch",
+      "name": "DP World Tour Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "anni",
+      "name": "ANNIKA",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "bskt3x3",
+      "name": "BSKT Cup 3x3",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "acw",
+      "name": "Astra Cup Women",
+      "isOperational": true,
+      "sportId": 26
+    },
+    {
+      "slug": "austcham",
+      "name": "Austin Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "worlwide",
+      "name": "World Wide Technology Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "simmbank",
+      "name": "Simmons Bank Championship",
+      "isOperational": true,
+      "sportId": 7
+    }
+  ],
+  "checks": [
+    {
+      "sport": "mlb",
+      "slug": "mlb",
+      "slug_listed": true,
+      "events": 5,
+      "upcoming_in_horizon": 3,
+      "market_types": {
+        "BASEBALL_TEAM_FULL_GAME_SPREAD": 40,
+        "BASEBALL_TEAM_FULL_GAME_TOTAL": 14,
+        "BASEBALL_TEAM_FIRST_FIVE_TOTAL": 15,
+        "BASEBALL_TEAM_FIRST_FIVE_SPREAD": 6,
+        "BASEBALL_TEAM_INNING8_TOTAL": 6,
+        "BASEBALL_TEAM_INNING3_TOTAL": 6,
+        "BASEBALL_TEAM_INNING4_TOTAL": 6,
+        "BASEBALL_TEAM_INNING5_TOTAL": 6,
+        "BASEBALL_TEAM_INNING6_TOTAL": 6,
+        "BASEBALL_TEAM_INNING7_TOTAL": 6,
+        "BASEBALL_TEAM_INNING2_TOTAL": 6,
+        "BASEBALL_TEAM_FULL_GAME_WINNER": 5,
+        "BASEBALL_TEAM_INNING9_TOTAL": 6,
+        "BASEBALL_TEAM_INNING1_TOTAL": 3
+      },
+      "error": null,
+      "example_event": {
+        "slug": "mlb-mil-lad-2026-10-14",
+        "title": "Game 3: MIL Brewers vs. LA Dodgers",
+        "start": "2026-10-15T00:00:00Z"
+      }
+    },
+    {
+      "sport": "nba",
+      "slug": "nba",
+      "slug_listed": true,
+      "events": 89,
+      "upcoming_in_horizon": 9,
+      "market_types": {
+        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 117,
+        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 134,
+        "BASKETBALL_TEAM_FULL_GAME_WINNER": 89
+      },
+      "error": null,
+      "example_event": {
+        "slug": "nba-bkn-mia-2026-10-14",
+        "title": "BKN Nets vs. MIA Heat",
+        "start": "2026-10-14T23:30:00Z"
+      }
+    },
+    {
+      "sport": "ncaab",
+      "slug": "ncaab",
+      "slug_listed": false,
+      "events": 0,
+      "upcoming_in_horizon": 0,
+      "market_types": {},
+      "error": null,
+      "example_event": null,
+      "candidates": [
+        "bbl",
+        "bcl",
+        "kbl",
+        "slb"
+      ]
+    },
+    {
+      "sport": "nhl",
+      "slug": "nhl",
+      "slug_listed": true,
+      "events": 31,
+      "upcoming_in_horizon": 13,
+      "market_types": {
+        "HOCKEY_TEAM_FULL_GAME_TOTAL": 248,
+        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": 124,
+        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": 124,
+        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": 124,
+        "HOCKEY_TEAM_FULL_GAME_SPREAD": 186,
+        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": 124,
+        "HOCKEY_TEAM_FIRST_PERIOD_TOTAL": 124,
+        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": 124,
+        "HOCKEY_TEAM_FULL_GAME_WINNER": 31
+      },
+      "error": null,
+      "example_event": {
+        "slug": "nhl-mon-was-2026-10-14",
+        "title": "MTL Canadiens vs. WSH Capitals",
+        "start": "2026-10-14T23:30:00Z"
+      }
+    },
+    {
+      "sport": "nfl",
+      "slug": "nfl",
+      "slug_listed": true,
+      "events": 28,
+      "upcoming_in_horizon": 1,
+      "market_types": {
+        "FOOTBALL_TEAM_FIRST_HALF_SPREAD": 868,
+        "FOOTBALL_TEAM_SECOND_HALF_SPREAD": 868,
+        "FOOTBALL_TEAM_FULL_GAME_SPREAD": 1148,
+        "FOOTBALL_GAME_FIRST_QUARTER_TOTAL": 400,
+        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": 400,
+        "FOOTBALL_GAME_THIRD_QUARTER_TOTAL": 400,
+        "FOOTBALL_GAME_FOURTH_QUARTER_TOTAL": 400,
+        "FOOTBALL_TEAM_FULL_GAME_TOTAL": 812,
+        "FOOTBALL_TEAM_FIRST_HALF_TOTAL": 448,
+        "FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL": 952,
+        "FOOTBALL_GAME_FIRST_HALF_TOTAL": 308,
+        "FOOTBALL_GAME_SECOND_HALF_TOTAL": 308,
+        "FOOTBALL_TEAM_THIRD_QUARTER_SPREAD": 140,
+        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": 140,
+        "FOOTBALL_TEAM_SECOND_QUARTER_SPREAD": 140,
+        "FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD": 140,
+        "FOOTBALL_TEAM_FULL_GAME_WINNER": 28,
+        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": 448
+      },
+      "error": null,
+      "example_event": {
+        "slug": "nfl-sea-den-2026-10-15",
+        "title": "SEA Seahawks vs. DEN Broncos",
+        "start": "2026-10-16T00:15:00Z"
+      }
+    },
+    {
+      "sport": "cs2",
+      "slug": "cs2",
+      "slug_listed": true,
+      "events": 56,
+      "upcoming_in_horizon": 32,
+      "market_types": {
+        "ESPORTS_MATCH_WINNER": 56,
+        "ESPORTS_SERIES_MAP_HANDICAP": 4,
+        "ESPORTS_MAP_ROUNDS_HANDICAP_2": 6,
+        "ESPORTS_SERIES_TOTAL_MAPS": 8,
+        "ESPORTS_MAP_ROUNDS_HANDICAP_1": 5,
+        "ESPORTS_MAP_TOTAL_ROUNDS_1": 5,
+        "ESPORTS_MAP_TOTAL_ROUNDS_2": 5
+      },
+      "error": null,
+      "example_event": {
+        "slug": "cs2-re-pcific-2026-10-14",
+        "title": "Rune Eaters vs. WRAITH PCIFIC",
+        "start": "2026-10-14T19:30:00Z"
+      }
+    },
+    {
+      "sport": "lol",
+      "slug": "lol",
+      "slug_listed": true,
+      "events": 3,
+      "upcoming_in_horizon": 3,
+      "market_types": {
+        "ESPORTS_MATCH_WINNER": 3
+      },
+      "error": null,
+      "example_event": {
+        "slug": "lol-we-bro-2026-10-15",
+        "title": "Team WE vs. HANJIN BRION",
+        "start": "2026-10-15T09:00:00Z"
+      }
+    }
+  ]
+}
