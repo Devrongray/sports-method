@@ -88,3 +88,20 @@ def test_robots_allows_parses_disallow(tmp_path):
     assert robots_allows(S("User-agent: *\nDisallow: /admin/\n"), "https://x", "/starting-goalies/") is True
     assert robots_allows(S("User-agent: *\nDisallow: /\nAllow: /starting-goalies/\n"), "https://x", "/starting-goalies/") is True
     assert robots_allows(S("User-agent: Googlebot\nDisallow: /\n"), "https://x", "/starting-goalies/") is True
+
+
+def test_dailyfaceoff_parser_reads_embedded_json():
+    from method.news.nhl import parse_dailyfaceoff
+    page = ('<html><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"data":[{"date":"2026-10-14",'
+            '"time":"19:30","dateGmt":"2026-10-14T23:30:00.000Z","pointSpread":1.5,"homeTeamId":30,"homeTeamName":"Washington Capitals",'
+            '"homeGoalieId":2615,"homeGoalieName":"Charlie Lindgren","homeNewsStrengthId":2,"homeNewsStrengthName":"Confirmed",'
+            '"homeNewsDetails":"Lindgren will start.","homeNewsSourceName":"Tom Gulitti","homeNewsSourceUrl":"https://x.com/x",'
+            '"homeNewsCreatedAt":"2026-10-14T21:01:39.432Z","awayTeamId":16,"awayTeamName":"Montreal Canadiens","awayGoalieId":31895,'
+            '"awayGoalieName":"Jakub Dobes","awayNewsStrengthName":"Likely","awayNewsCreatedAt":"2026-10-13T14:08:54.208Z"}]}}}</script></html>')
+    games = parse_dailyfaceoff(page)
+    assert len(games) == 1
+    g = games[0]
+    assert g["homeGoalieName"] == "Charlie Lindgren" and g["homeNewsStrengthName"] == "Confirmed"
+    assert g["homeNewsCreatedAt"] == "2026-10-14T21:01:39.432Z" and g["awayNewsStrengthName"] == "Likely"
+    assert g["dateGmt"] == "2026-10-14T23:30:00.000Z"
+    assert parse_dailyfaceoff("<html>no data</html>") == []
