@@ -136,3 +136,29 @@ def test_collect_markets_with_stub_client():
     rows = collect_markets(Stub(), cfg, now)
     assert [r["market_slug"] for r in rows] == ["soon-ml"]      # prop filtered, far beyond horizon, ended dropped
     assert rows[0]["sport"] == "nba" and abs(rows[0]["minutes_to_start"] - 210) < 1e-9
+
+
+def test_discover_flags_wrong_slugs():
+    from method.snapshot import discover, load_config
+    cfg = load_config()
+    now = datetime(2026, 10, 22, 20, 0, tzinfo=timezone.utc)
+
+    class Stub:
+        def leagues(self):
+            return [{"slug": "nba", "name": "NBA"}, {"slug": "counter-strike", "name": "Counter-Strike 2"},
+                    {"slug": "mlb", "name": "MLB"}]
+
+        def league_events(self, slug):
+            if slug == "nba":
+                return [{"slug": "a", "startTime": "2026-10-22T23:30:00Z",
+                         "markets": [{"sportsMarketType": "SPORTS_MARKET_TYPE_MONEYLINE"}]}]
+            if slug == "cs2":
+                raise RuntimeError("404")
+            return []
+
+    rep = discover(Stub(), cfg, now)
+    by = {c["sport"]: c for c in rep["checks"]}
+    assert by["nba"]["slug_listed"] and by["nba"]["upcoming_in_horizon"] == 1
+    assert by["nba"]["market_types"] == {"MONEYLINE": 1}
+    assert not by["cs2"]["slug_listed"] and "404" in by["cs2"]["error"]
+    assert "counter-strike" in by["cs2"]["candidates"]

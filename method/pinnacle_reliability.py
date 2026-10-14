@@ -38,8 +38,15 @@ def season_label(code: str) -> str:
     return f"20{code[:2]}/{code[2:]}"
 
 
+HEADERS = {"User-Agent": "Mozilla/5.0 (research; sports-method test c)"}
+
+
 def fetch_csv(season: str, league: str, timeout: float = 30) -> pd.DataFrame | None:
-    r = requests.get(URL.format(season=season, league=league), timeout=timeout)
+    try:
+        r = requests.get(URL.format(season=season, league=league), timeout=timeout, headers=HEADERS)
+    except requests.RequestException as e:
+        print(f"[error] {season} {league}: {e}")
+        return None
     if r.status_code != 200 or not r.content:
         return None
     return parse_csv(r.content)

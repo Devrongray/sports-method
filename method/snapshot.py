@@ -58,7 +58,71 @@ def _write_json(path: Path, obj: dict) -> None:
 def cmd_leagues(args) -> None:
     client = pm.PolymarketUS()
     for lg in client.leagues():
-        print(f"{lg.get('slug'):<24} {lg.get('name'):<32} operational={lg.get('isOperational')} sportId={lg.get('sportId')}")
+        print(f"{str(lg.get('slug')):<24} {str(lg.get('name')):<32} "
+              f"operational={lg.get('isOperational')} sportId={lg.get('sportId')}")
+
+
+def discover(client, cfg: dict, now: datetime) -> dict:
+    """Live league list plus a check of every configured slug: does it exist,
+    how many events, how many start within the horizon, which market types."""
+    leagues = client.leagues() or []
+    by_slug = {str(lg.get("slug")): lg for lg in leagues}
+    horizon = timedelta(hours=cfg["cadence"]["horizon_hours"])
+    checks = []
+    for sp in cfg["sports"]:
+        slug = sp["polymarket_league"]
+        c = {"sport": sp["key"], "slug": slug, "slug_listed": slug in by_slug,
+             "events": 0, "upcoming_in_horizon": 0, "market_types": {}, "error": None,
+             "example_event": None}
+        try:
+            events = client.league_events(slug) or []
+        except Exception as e:
+            c["error"] = str(e)[:300]
+            events = []
+        c["events"] = len(events)
+        for ev in events:
+            start = pm.parse_iso(pm.event_start(ev))
+            if start and now <= start <= now + horizon and not (ev.get("ended") or ev.get("closed")):
+                c["upcoming_in_horizon"] += 1
+                if c["example_event"] is None:
+                    c["example_event"] = {"slug": ev.get("slug"), "title": ev.get("title"), "start": pm.event_start(ev)}
+            for m in ev.get("markets") or []:
+                t = pm.market_type(m)
+                c["market_types"][t] = c["market_types"].get(t, 0) + 1
+        checks.append(c)
+    # Candidate slugs for anything that looks wrong: listed leagues whose slug or
+    # name shares a token with the sport key or name.
+    for c, sp in zip(checks, cfg["sports"]):
+        if c["slug_listed"] and c["events"]:
+            continue
+        tokens = {sp["key"].lower(), *sp["name"].lower().replace("(", " ").replace(")", " ").split()}
+        tokens -= {"only", "totals", "of", "the"}
+        c["candidates"] = [s for s, lg in by_slug.items()
+                           if any(t in s.lower() or t in str(lg.get("name", "")).lower() for t in tokens)][:15]
+    return {"ts": now.isoformat(timespec="seconds"), "n_leagues": len(leagues),
+            "leagues": [{"slug": lg.get("slug"), "name": lg.get("name"),
+                         "isOperational": lg.get("isOperational"), "sportId": lg.get("sportId")} for lg in leagues],
+            "checks": checks}
+
+
+def cmd_discover(args) -> None:
+    cfg = load_config(args.config)
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+    rep = discover(pm.PolymarketUS(), cfg, _utcnow())
+    (out / "discovery.json").write_text(json.dumps(rep, indent=2, default=str) + "\n")
+    lines = [f"# Polymarket US discovery {rep['ts']}", "",
+             f"{rep['n_leagues']} leagues listed.", "",
+             "| Sport | Slug | Listed | Events | Next 36h | Market types | Note |", "|---|---|---|---|---|---|---|"]
+    for c in rep["checks"]:
+        note = c["error"] or (", ".join(c.get("candidates", [])) and "candidates: " + ", ".join(c.get("candidates", [])))
+        types = ", ".join(f"{k} {v}" for k, v in sorted(c["market_types"].items()))
+        lines.append(f"| {c['sport']} | {c['slug']} | {'yes' if c['slug_listed'] else 'NO'} | {c['events']} | "
+                     f"{c['upcoming_in_horizon']} | {types} | {note or ''} |")
+    lines += ["", "## All leagues", "", "| Slug | Name | Operational |", "|---|---|---|"]
+    lines += [f"| {lg['slug']} | {lg['name']} | {lg['isOperational']} |" for lg in rep["leagues"]]
+    (out / "summary.md").write_text("\n".join(lines) + "\n")
+    print("\n".join(lines[:4 + len(rep["checks"]) + 2]))
 
 
 # --- one pass ---------------------------------------------------------------
@@ -256,6 +320,9 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--config", default=str(CONFIG))
     sub = p.add_subparsers(dest="cmd", required=True)
     sub.add_parser("leagues").set_defaults(fn=cmd_leagues)
+    sd = sub.add_parser("discover")
+    sd.add_argument("--out", default="analysis/discovery")
+    sd.set_defaults(fn=cmd_discover)
     sp = sub.add_parser("pass")
     sp.add_argument("--out", default="data")
     sp.add_argument("--skip-pinnacle", action="store_true")

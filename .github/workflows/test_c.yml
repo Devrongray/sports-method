@@ -1,12 +1,22 @@
 name: Test (c) Pinnacle reliability
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "analysis/**"
+      - "data/**"
+      - "**.md"
   workflow_dispatch:
   schedule:
     - cron: "40 10 * * 1"       # Mondays 10:40 UTC
 
 permissions:
   contents: write
+
+concurrency:
+  group: main-writes
+  cancel-in-progress: false
 
 jobs:
   test_c:
@@ -27,8 +37,4 @@ jobs:
           path: analysis/test_c
       - name: Commit results
         run: |
-          git config user.name "method-bot"
-          git config user.email "method-bot@users.noreply.github.com"
-          git add analysis/test_c
-          git commit -m "test (c): Pinnacle reliability $(date -u +%F)" || echo "nothing to commit"
-          git push
+          bash scripts/commit_main.sh analysis/test_c "test (c): Pinnacle reliability $(date -u +%F)"
