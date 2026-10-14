@@ -72,8 +72,10 @@ def discover(client, cfg: dict, now: datetime) -> dict:
     for sp in cfg["sports"]:
         slug = sp["polymarket_league"]
         c = {"sport": sp["key"], "slug": slug, "slug_listed": slug in by_slug,
-             "events": 0, "upcoming_in_horizon": 0, "market_types": {}, "error": None,
+             "events": 0, "upcoming_in_horizon": 0, "market_types": {}, "market_classes": {},
+             "main_lines_in_horizon": 0, "unclassified": [], "examples": {}, "error": None,
              "example_event": None}
+        keep = set(sp["markets"])
         try:
             events = client.league_events(slug) or []
         except Exception as e:
@@ -82,13 +84,30 @@ def discover(client, cfg: dict, now: datetime) -> dict:
         c["events"] = len(events)
         for ev in events:
             start = pm.parse_iso(pm.event_start(ev))
-            if start and now <= start <= now + horizon and not (ev.get("ended") or ev.get("closed")):
+            upcoming = bool(start and now <= start <= now + horizon and not (ev.get("ended") or ev.get("closed")))
+            if upcoming:
                 c["upcoming_in_horizon"] += 1
                 if c["example_event"] is None:
                     c["example_event"] = {"slug": ev.get("slug"), "title": ev.get("title"), "start": pm.event_start(ev)}
-            for m in ev.get("markets") or []:
-                t = pm.market_type(m)
-                c["market_types"][t] = c["market_types"].get(t, 0) + 1
+            markets = ev.get("markets") or []
+            parsed = pm.classify_event_markets(markets)
+            mains = pm.mark_main_lines(markets, parsed)
+            for m, (raw, cls, seg, scope), is_main in zip(markets, parsed, mains):
+                c["market_types"][raw] = c["market_types"].get(raw, 0) + 1
+                ck = f"{cls}/{seg}"
+                c["market_classes"][ck] = c["market_classes"].get(ck, 0) + 1
+                if cls == "OTHER" and raw not in c["unclassified"]:
+                    c["unclassified"].append(raw)
+                if upcoming and is_main and cls in keep:
+                    c["main_lines_in_horizon"] += 1
+                if raw not in c["examples"] or (is_main and not c["examples"][raw].get("is_main")):
+                    c["examples"][raw] = {
+                        "class": cls, "segment": seg, "is_main": is_main,
+                        "question": m.get("question") or m.get("title"), "line": m.get("line"),
+                        "slug": m.get("slug"),
+                        "sides": [{"identifier": s.get("identifier"), "teamId": s.get("teamId"),
+                                   "price": pm._amount(s.get("price"))} for s in (m.get("marketSides") or [])],
+                    }
         checks.append(c)
     # Candidate slugs for anything that looks wrong: listed leagues whose slug or
     # name shares a token with the sport key or name.
@@ -113,23 +132,48 @@ def cmd_discover(args) -> None:
     (out / "discovery.json").write_text(json.dumps(rep, indent=2, default=str) + "\n")
     lines = [f"# Polymarket US discovery {rep['ts']}", "",
              f"{rep['n_leagues']} leagues listed.", "",
-             "| Sport | Slug | Listed | Events | Next 36h | Market types | Note |", "|---|---|---|---|---|---|---|"]
+             "| Sport | Slug | Listed | Events | Next 36h | Main lines to record (next 36h) | Unclassified types | Note |",
+             "|---|---|---|---|---|---|---|---|"]
     for c in rep["checks"]:
         note = c["error"] or (", ".join(c.get("candidates", [])) and "candidates: " + ", ".join(c.get("candidates", [])))
-        types = ", ".join(f"{k} {v}" for k, v in sorted(c["market_types"].items()))
         lines.append(f"| {c['sport']} | {c['slug']} | {'yes' if c['slug_listed'] else 'NO'} | {c['events']} | "
-                     f"{c['upcoming_in_horizon']} | {types} | {note or ''} |")
+                     f"{c['upcoming_in_horizon']} | {c['main_lines_in_horizon']} | "
+                     f"{', '.join(c['unclassified']) or '-'} | {note or ''} |")
+    lines += ["", "## Market types seen, with one example each", "",
+              "| Sport | Raw type | Class/segment | Count | Example question | Line | Sides |", "|---|---|---|---|---|---|---|"]
+    for c in rep["checks"]:
+        for raw, n in sorted(c["market_types"].items()):
+            ex = c["examples"].get(raw, {})
+            sides = "; ".join(f"{s['identifier']}{'' if s['teamId'] is None else ' (team ' + str(s['teamId']) + ')'}"
+                              f"{'' if s['price'] is None else ' @' + format(s['price'], '.2f')}" for s in ex.get("sides", []))
+            lines.append(f"| {c['sport']} | {raw} | {ex.get('class')}/{ex.get('segment')} | {n} | "
+                         f"{str(ex.get('question') or '')[:60]} | {ex.get('line') if ex.get('line') is not None else ''} | {sides[:90]} |")
     lines += ["", "## All leagues", "", "| Slug | Name | Operational |", "|---|---|---|"]
     lines += [f"| {lg['slug']} | {lg['name']} | {lg['isOperational']} |" for lg in rep["leagues"]]
     (out / "summary.md").write_text("\n".join(lines) + "\n")
-    print("\n".join(lines[:4 + len(rep["checks"]) + 2]))
+    print("\n".join(lines[:6 + len(rep["checks"])]))
 
 
 # --- one pass ---------------------------------------------------------------
 
-def collect_markets(client: pm.PolymarketUS, cfg: dict, now: datetime) -> list[dict]:
+def _segments_for(cfg: dict) -> set[str] | None:
+    """None = every segment; otherwise only the full game / match."""
+    return None if cfg["cadence"].get("record_derivatives", True) else set(pm.MAIN_SEGMENTS)
+
+
+def collect_markets_full(client: pm.PolymarketUS, cfg: dict, now: datetime) -> tuple[list[dict], list[dict]]:
+    """Returns (kept, everything).
+
+    kept:       main lines of the configured market classes, the rows that get
+                BBO/book calls and price histories.
+    everything: every market of every upcoming event (all classes, all
+                alternate lines, with is_main flags), written once per pass
+                because it costs nothing extra.
+    """
     horizon = timedelta(hours=cfg["cadence"]["horizon_hours"])
-    rows: list[dict] = []
+    segments = _segments_for(cfg)
+    kept: list[dict] = []
+    everything: list[dict] = []
     for sp in cfg["sports"]:
         slug = sp["polymarket_league"]
         keep = set(sp["markets"])
@@ -146,12 +190,20 @@ def collect_markets(client: pm.PolymarketUS, cfg: dict, now: datetime) -> list[d
                 continue
             if ev.get("ended") or ev.get("closed"):
                 continue
-            for row in pm.normalize_event_markets(ev, slug, keep):
+            mts = (start - now).total_seconds() / 60.0
+            for row in pm.normalize_event_markets(ev, slug):
                 row["sport"] = sp["key"]
                 row["role"] = sp["role"]
-                row["minutes_to_start"] = (start - now).total_seconds() / 60.0
-                rows.append(row)
-    return rows
+                row["minutes_to_start"] = mts
+                everything.append(row)
+                if (row["market_class"] in keep and row["is_main"]
+                        and (segments is None or row["segment"] in segments)):
+                    kept.append(row)
+    return kept, everything
+
+
+def collect_markets(client: pm.PolymarketUS, cfg: dict, now: datetime) -> list[dict]:
+    return collect_markets_full(client, cfg, now)[0]
 
 
 def cmd_pass(args) -> dict:
@@ -162,10 +214,10 @@ def cmd_pass(args) -> dict:
     ts = now.isoformat(timespec="seconds")
     client = pm.PolymarketUS()
 
-    markets = collect_markets(client, cfg, now)
-    for m in markets:
+    markets, everything = collect_markets_full(client, cfg, now)
+    for m in everything:
         m["ts"] = ts
-    n_m = _write_ndjson(out / "polymarket" / day / f"markets_{_stamp(now)}.ndjson.gz", markets)
+    n_m = _write_ndjson(out / "polymarket" / day / f"markets_{_stamp(now)}.ndjson.gz", everything)
 
     window = cfg["cadence"]["pre_start_window_minutes"]
     checkpoints = cfg["cadence"]["book_checkpoints_minutes"]
@@ -179,29 +231,32 @@ def cmd_pass(args) -> dict:
         except Exception as e:
             print(f"[warn] bbo {slug}: {e}")
             continue
+        ctx = {"ts": ts, "sport": m["sport"], "event_id": m["event_id"], "start": m["start"],
+               "market_type": m["market_type"], "market_class": m["market_class"], "segment": m["segment"],
+               "line": m["line"], "minutes_to_start": round(m["minutes_to_start"], 2)}
         if md:
-            bbo_rows.append({"ts": ts, "sport": m["sport"], "event_id": m["event_id"], "start": m["start"],
-                             "market_type": m["market_type"], "line": m["line"],
-                             "minutes_to_start": round(m["minutes_to_start"], 2), **pm.normalize_bbo(md)})
+            bbo_rows.append({**ctx, **pm.normalize_bbo(md)})
         mts = m["minutes_to_start"]
         near_checkpoint = any(abs(mts - c) <= cfg["cadence"]["polymarket_window_minutes"] for c in checkpoints)
-        if 0 <= mts <= window and near_checkpoint:
+        if 0 <= mts <= window and near_checkpoint and m["segment"] in pm.MAIN_SEGMENTS:
             try:
                 bk = client.book(slug)
             except Exception as e:
                 print(f"[warn] book {slug}: {e}")
                 bk = None
             if bk:
-                book_rows.append({"ts": ts, "sport": m["sport"], "event_id": m["event_id"], "start": m["start"],
-                                  "market_type": m["market_type"], "line": m["line"],
-                                  "minutes_to_start": round(mts, 2), **pm.normalize_book(bk)})
+                book_rows.append({**ctx, **pm.normalize_book(bk)})
     n_b = _write_ndjson(out / "polymarket" / day / f"bbo_{_stamp(now)}.ndjson.gz", bbo_rows)
     n_k = _write_ndjson(out / "polymarket" / day / f"book_{_stamp(now)}.ndjson.gz", book_rows) if book_rows else 0
 
     n_p = 0
     if not args.skip_pinnacle and os.environ.get("ODDS_API_KEY"):
         n_p = pinnacle_pass(cfg, out, now, ts)
-    summary = {"ts": ts, "markets": n_m, "bbo": n_b, "books": n_k, "pinnacle_rows": n_p}
+    by_sport: dict[str, int] = {}
+    for m in markets:
+        by_sport[m["sport"]] = by_sport.get(m["sport"], 0) + 1
+    summary = {"ts": ts, "markets_all": n_m, "markets_main": len(markets), "bbo": n_b, "books": n_k,
+               "pinnacle_rows": n_p, "main_by_sport": by_sport}
     print(json.dumps(summary))
     return summary
 
@@ -213,6 +268,8 @@ def pinnacle_pass(cfg: dict, out: Path, now: datetime, ts: str, sports: list[str
     for sp in cfg["sports"]:
         key = sp.get("odds_api_sport")
         if not key or (sports and sp["key"] not in sports):
+            continue
+        if sp.get("role") == "benchmark" and not oc.get("include_benchmark", False):
             continue
         try:
             events = api.odds(key, tuple(oc["markets"]), oc["regions"], tuple(oc["bookmakers"]))
@@ -242,6 +299,7 @@ def cmd_history(args) -> None:
     now = _utcnow()
     client = pm.PolymarketUS()
     since = now - timedelta(hours=args.hours)
+    segments = _segments_for(cfg)
     done = 0
     for sp in cfg["sports"]:
         slug = sp["polymarket_league"]
@@ -255,7 +313,7 @@ def cmd_history(args) -> None:
             start = pm.parse_iso(pm.event_start(ev))
             if start is None or not (since <= start <= now):
                 continue
-            for row in pm.normalize_event_markets(ev, slug, keep):
+            for row in pm.normalize_event_markets(ev, slug, keep, segments, main_only=True):
                 mslug = row.get("market_slug")
                 if not mslug:
                     continue
@@ -273,7 +331,8 @@ def cmd_history(args) -> None:
                     "sport": sp["key"], "league": slug,
                     "event_id": row["event_id"], "event_slug": row["event_slug"],
                     "event_title": row["event_title"], "start": row["start"], "teams": row["teams"],
-                    "market_slug": mslug, "market_type": row["market_type"], "line": row["line"],
+                    "market_slug": mslug, "market_type": row["market_type"],
+                    "market_class": row["market_class"], "segment": row["segment"], "line": row["line"],
                     "sides": row["sides"], "fee_coefficient": row["fee_coefficient"],
                     "window_start_ts": s, "window_end_ts": e,
                     "last_pregame": close, "settlement": settle, "n_points": len(hist),

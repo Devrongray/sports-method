@@ -24,11 +24,15 @@ import numpy as np
 import pandas as pd
 import requests
 
+from math import erf, sqrt
+
 from .devig import METHODS, devig
 from .metrics import calibration_fit, log_loss, murphy_decomposition
 
 URL = "https://www.football-data.co.uk/mmz4281/{season}/{league}.csv"
-SEASONS = ["1920", "2021", "2122", "2223", "2324", "2425", "2526"]
+SEASONS = ["1920", "2021", "2122", "2223", "2324", "2425", "2526", "2627"]
+EARLY = {"1920", "2021", "2122", "2223"}      # pre-registered split for the era comparison
+LATE = {"2324", "2425", "2526", "2627"}
 LEAGUES = {"E0": "England Premier League", "SP1": "Spain La Liga", "D1": "Germany Bundesliga",
            "I1": "Italy Serie A", "F1": "France Ligue 1"}
 OUTCOMES = ["H", "D", "A"]
@@ -126,9 +130,16 @@ def run(frames: list[tuple[str, str, pd.DataFrame]], out: Path,
         slope_band: tuple[float, float] = (0.95, 1.05)) -> dict:
     out.mkdir(parents=True, exist_ok=True)
     rows = []
+    coverage = []
     by_season: dict[str, list[pd.DataFrame]] = {}
     for season, league, df in frames:
         d = prepare(df, "PSC")
+        played = int(df["FTR"].isin(OUTCOMES).sum()) if "FTR" in df.columns else 0
+        coverage.append({"season": season_label(season), "league": league, "rows_in_file": int(len(df)),
+                         "matches_with_result": played, "matches_with_pinnacle_close": int(len(d)),
+                         "share_with_close": (len(d) / played) if played else None,
+                         "has_PSC_columns": all(c in df.columns for c in ("PSCH", "PSCD", "PSCA")),
+                         "last_date_in_file": str(df["Date"].iloc[-1]) if "Date" in df.columns and len(df) else None})
         if d.empty:
             print(f"[skip] {season} {league}: no Pinnacle closing columns or no rows")
             continue
@@ -152,8 +163,10 @@ def run(frames: list[tuple[str, str, pd.DataFrame]], out: Path,
 
     res = pd.DataFrame(rows)
     pool = pd.DataFrame(pooled)
+    cov = pd.DataFrame(coverage)
     res.to_csv(out / "by_league.csv", index=False)
     pool.to_csv(out / "pooled_by_season.csv", index=False)
+    cov.to_csv(out / "coverage.csv", index=False)
 
     verdict = {}
     if not pool.empty:
@@ -164,11 +177,50 @@ def run(frames: list[tuple[str, str, pd.DataFrame]], out: Path,
         verdict["seasons_slope_in_band"] = {r["season"]: bool(r["slope_in_band"]) for _, r in shin_rows.iterrows()}
         verdict["pass"] = bool(shin_rows["slope_in_band"].all()) if len(shin_rows) else None
         verdict["slope_band"] = list(slope_band)
+        verdict["shin_slope_by_season"] = {r["season"]: [round(float(r["cal_slope"]), 4), round(float(r["cal_slope_se"]), 4)]
+                                           for _, r in shin_rows.iterrows()}
+        # How often this pass rule would fail if Pinnacle were perfectly calibrated,
+        # given the standard errors actually observed (power check on the rule itself).
+        lo, hi = slope_band
+        p_all_in = 1.0
+        for _, r in shin_rows.iterrows():
+            se = float(r["cal_slope_se"])
+            if se > 0:
+                p_in = _norm_cdf((hi - 1.0) / se) - _norm_cdf((lo - 1.0) / se)
+                p_all_in *= p_in
+        verdict["false_fail_probability_if_calibrated"] = round(1.0 - p_all_in, 3)
+        verdict["seasons_outside_2se_of_1"] = [r["season"] for _, r in shin_rows.iterrows()
+                                                if abs(float(r["cal_slope"]) - 1.0) > 2 * float(r["cal_slope_se"])]
+        # Era comparison: pooled early vs late seasons (split fixed in advance in EARLY/LATE)
+        early = [d for sn, parts in by_season.items() if sn in EARLY for d in parts]
+        late = [d for sn, parts in by_season.items() if sn in LATE for d in parts]
+        if early and late:
+            e_fit = evaluate(pd.concat(early, ignore_index=True), "shin")
+            l_fit = evaluate(pd.concat(late, ignore_index=True), "shin")
+            diff = l_fit["cal_slope"] - e_fit["cal_slope"]
+            se_d = sqrt(e_fit["cal_slope_se"] ** 2 + l_fit["cal_slope_se"] ** 2)
+            z = diff / se_d if se_d > 0 else float("nan")
+            verdict["era_comparison"] = {
+                "early_seasons": sorted(season_label(s) for s in by_season if s in EARLY),
+                "late_seasons": sorted(season_label(s) for s in by_season if s in LATE),
+                "early_slope": round(e_fit["cal_slope"], 4), "early_se": round(e_fit["cal_slope_se"], 4),
+                "early_n": e_fit["n_matches"],
+                "late_slope": round(l_fit["cal_slope"], 4), "late_se": round(l_fit["cal_slope_se"], 4),
+                "late_n": l_fit["n_matches"],
+                "late_minus_early": round(diff, 4), "z": round(z, 2),
+                "two_sided_p": round(2 * (1 - _norm_cdf(abs(z))), 4) if z == z else None,
+                "early_log_loss": round(e_fit["log_loss_multinomial"], 5),
+                "late_log_loss": round(l_fit["log_loss_multinomial"], 5),
+            }
     with open(out / "verdict.json", "w") as f:
         json.dump(verdict, f, indent=2)
     write_summary(out, pool, verdict)
     print(json.dumps(verdict, indent=2))
     return verdict
+
+
+def _norm_cdf(x: float) -> float:
+    return 0.5 * (1.0 + erf(x / sqrt(2.0)))
 
 
 def write_summary(out: Path, pool: pd.DataFrame, verdict: dict) -> None:
@@ -186,6 +238,28 @@ def write_summary(out: Path, pool: pd.DataFrame, verdict: dict) -> None:
                          f"{r['cal_intercept']:+.3f} | {r['mean_overround']:.3%} | {'yes' if r['slope_in_band'] else 'no'} |")
     lines += ["", "Pooled over the top five leagues; calibration fitted on (match, outcome) pairs. "
               "Matches with an implied overround outside −2%…+15% are dropped as data errors."]
+    if "false_fail_probability_if_calibrated" in verdict:
+        lines += ["", "## Rule power check", "",
+                  f"If Pinnacle were perfectly calibrated (slope exactly 1 every season), the pre-registered "
+                  f"all-seasons-in-band rule would still fail with probability "
+                  f"**{verdict['false_fail_probability_if_calibrated']:.0%}**, given the standard errors observed. "
+                  f"Seasons whose slope differs from 1 by more than 2 SE: "
+                  f"{', '.join(verdict['seasons_outside_2se_of_1']) or 'none'}."]
+    ec = verdict.get("era_comparison")
+    if ec:
+        lines += ["", "## Era comparison (Shin de-vig, pooled)", "",
+                  "| Era | Seasons | Matches | Slope (SE) | Log loss |", "|---|---|---|---|---|",
+                  f"| Early | {', '.join(ec['early_seasons'])} | {ec['early_n']} | {ec['early_slope']:.3f} ({ec['early_se']:.3f}) | {ec['early_log_loss']:.4f} |",
+                  f"| Late | {', '.join(ec['late_seasons'])} | {ec['late_n']} | {ec['late_slope']:.3f} ({ec['late_se']:.3f}) | {ec['late_log_loss']:.4f} |",
+                  "", f"Late minus early slope: **{ec['late_minus_early']:+.3f}** (z = {ec['z']}, two-sided p = {ec['two_sided_p']})."]
+    cov_path = out / "coverage.csv"
+    if cov_path.exists():
+        cov = pd.read_csv(cov_path)
+        lines += ["", "## Data coverage", "", "| Season | League | Matches with result | With Pinnacle close | Share | Last date in file |",
+                  "|---|---|---|---|---|---|"]
+        for _, r in cov.iterrows():
+            share = "" if pd.isna(r["share_with_close"]) else f"{r['share_with_close']:.0%}"
+            lines.append(f"| {r['season']} | {r['league']} | {r['matches_with_result']} | {r['matches_with_pinnacle_close']} | {share} | {r['last_date_in_file']} |")
     (out / "summary.md").write_text("\n".join(lines) + "\n")
 
 

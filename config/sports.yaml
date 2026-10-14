@@ -1,12 +1,19 @@
 # Sports and markets from Sports Prediction Method v1 (Run 4 shortlist).
 #
-# polymarket_league: slug for GET /v2/leagues/{slug}/events. "nfl" and "nba"
-#   are documented; the others are best guesses. Run
-#   `python -m method.snapshot leagues` to print the real list and fix these.
+# polymarket_league: slug for GET /v2/leagues/{slug}/events. All slugs below
+#   were confirmed against the live league list on 14 Oct 2026
+#   (analysis/discovery/summary.md). College basketball is `cbb`.
 # odds_api_sport: sport key for The Odds API v4 (null = not carried there).
-# markets: Polymarket sportsMarketType values we record (MONEYLINE, TOTAL,
-#   SPREAD). NFL sides/spreads are excluded by rule; props and futures are
-#   not recorded in v0.1.
+# markets: market classes to record (WINNER, TOTAL, SPREAD, TEAM_TOTAL).
+#   Polymarket's raw type names are sport-specific
+#   (BASKETBALL_TEAM_FULL_GAME_WINNER, HOCKEY_TEAM_FIRST_PERIOD_TOTAL, ...);
+#   method/polymarket_us.py maps them to these classes and to a segment
+#   (FULL_GAME, FIRST_HALF, FIRST_PERIOD, INNING3, MAP_1, SERIES, ...).
+#   NFL sides/spreads are excluded by rule; props and futures are not
+#   recorded in v0.1.
+# role: core = shortlist sport; windows = information-window sport;
+#   benchmark = recorded so Polymarket US can be compared with the free
+#   Pinnacle closing prices on football-data.co.uk (no Odds API cost).
 
 sports:
   - key: mlb
@@ -14,25 +21,25 @@ sports:
     role: core
     polymarket_league: mlb
     odds_api_sport: baseball_mlb
-    markets: [MONEYLINE, TOTAL]
+    markets: [WINNER, TOTAL, SPREAD]
   - key: nba
     name: NBA
     role: core
     polymarket_league: nba
     odds_api_sport: basketball_nba
-    markets: [MONEYLINE, TOTAL]
+    markets: [WINNER, TOTAL, SPREAD]
   - key: ncaab
     name: College basketball
     role: core
-    polymarket_league: ncaab
+    polymarket_league: cbb
     odds_api_sport: basketball_ncaab
-    markets: [MONEYLINE, TOTAL]
+    markets: [WINNER, TOTAL, SPREAD]
   - key: nhl
     name: NHL
     role: windows
     polymarket_league: nhl
     odds_api_sport: icehockey_nhl
-    markets: [MONEYLINE, TOTAL]
+    markets: [WINNER, TOTAL, SPREAD]
   - key: nfl
     name: NFL (totals only)
     role: windows
@@ -44,13 +51,45 @@ sports:
     role: core
     polymarket_league: cs2
     odds_api_sport: null
-    markets: [MONEYLINE, SPREAD, TOTAL]
+    markets: [WINNER, SPREAD, TOTAL]
   - key: lol
     name: League of Legends
     role: core
     polymarket_league: lol
     odds_api_sport: null
-    markets: [MONEYLINE, SPREAD, TOTAL]
+    markets: [WINNER, SPREAD, TOTAL]
+  # Soccer: Pinnacle closing prices are free after the fact (test (c) data),
+  # so these give a Polymarket-vs-Pinnacle comparison at no feed cost.
+  - key: epl
+    name: England Premier League
+    role: benchmark
+    polymarket_league: epl
+    odds_api_sport: soccer_epl
+    markets: [WINNER, TOTAL]
+  - key: laliga
+    name: Spain La Liga
+    role: benchmark
+    polymarket_league: lal
+    odds_api_sport: soccer_spain_la_liga
+    markets: [WINNER, TOTAL]
+  - key: bundesliga
+    name: Germany Bundesliga
+    role: benchmark
+    polymarket_league: bun
+    odds_api_sport: soccer_germany_bundesliga
+    markets: [WINNER, TOTAL]
+  - key: seriea
+    name: Italy Serie A
+    role: benchmark
+    polymarket_league: sea
+    odds_api_sport: soccer_italy_serie_a
+    markets: [WINNER, TOTAL]
+  - key: ligue1
+    name: France Ligue 1
+    role: benchmark
+    polymarket_league: lg1
+    odds_api_sport: soccer_france_ligue_one
+    markets: [WINNER, TOTAL]
 
 cadence:
   # Outside the pre-start window
@@ -64,11 +103,20 @@ cadence:
   book_checkpoints_minutes: [60, 15, 2]
   # Only look at games starting within this horizon (hours)
   horizon_hours: 36
+  # Record BBO for derivative segments (halves, periods, innings, maps) as
+  # well as the full game. Run 4: thin derivative markets are a documented
+  # opportunity, so they are worth a quote snapshot each pass.
+  record_derivatives: true
+  # Every market of every event (all alternate lines) is written to the
+  # markets_* file each pass regardless; BBO/book calls go to main lines only.
 
 odds_api:
+  # Only the Odds API sports with role core/windows are polled by default;
+  # benchmark (soccer) sports are polled only if odds_api.include_benchmark is true.
   regions: eu
   markets: [h2h, totals]
   bookmakers: [pinnacle]
+  include_benchmark: false
 
 fees:
   taker_coefficient: 0.0695

@@ -19,6 +19,7 @@ objects alongside the parsed fields.
 """
 from __future__ import annotations
 
+import re
 import time
 from datetime import datetime, timezone
 from typing import Any, Iterator
@@ -144,14 +145,116 @@ class PolymarketUS:
 # --- normalisers ---------------------------------------------------------
 
 def market_type(m: dict) -> str:
+    """Raw market type with the SPORTS_MARKET_TYPE_ prefix removed.
+
+    Live values (discovery run, 14 Oct 2026) are sport-specific, e.g.
+    BASKETBALL_TEAM_FULL_GAME_WINNER, HOCKEY_TEAM_FIRST_PERIOD_TOTAL,
+    FOOTBALL_GAME_FIRST_HALF_TOTAL, BASEBALL_TEAM_INNING3_TOTAL,
+    ESPORTS_MATCH_WINNER, ESPORTS_MAP_TOTAL_ROUNDS_1, ESPORTS_SERIES_MAP_HANDICAP.
+    """
     t = m.get("sportsMarketType") or m.get("sportsMarketTypeV2") or m.get("marketType") or ""
     t = str(t).upper()
     if t.startswith(MARKET_TYPE_PREFIX):
         t = t[len(MARKET_TYPE_PREFIX):]
-    aliases = {"MONEYLINE": "MONEYLINE", "SPREADS": "SPREAD", "SPREAD": "SPREAD",
-               "TOTALS": "TOTAL", "TOTAL": "TOTAL", "PROP": "PROP", "FUTURE": "FUTURE",
-               "DRAWABLE_OUTCOME": "DRAWABLE_OUTCOME"}
-    return aliases.get(t, t or "UNKNOWN")
+    return t or "UNKNOWN"
+
+
+_LEGACY = {"MONEYLINE": ("WINNER", "FULL_GAME"), "SPREADS": ("SPREAD", "FULL_GAME"),
+           "SPREAD": ("SPREAD", "FULL_GAME"), "TOTALS": ("TOTAL", "FULL_GAME"),
+           "TOTAL": ("TOTAL", "FULL_GAME"), "PROP": ("PROP", "FULL_GAME"),
+           "FUTURE": ("FUTURE", "SEASON"), "DRAWABLE_OUTCOME": ("WINNER", "FULL_GAME")}
+_BALL = re.compile(r"^(?P<sport>[A-Z]+)_(?P<scope>TEAM|GAME)_(?P<pts>POINTS_)?(?P<seg>[A-Z0-9_]+?)_(?P<cls>WINNER|TOTAL|SPREAD)$")
+_ESP = [
+    (re.compile(r"^ESPORTS_MATCH_WINNER$"), lambda m: ("WINNER", "MATCH")),
+    (re.compile(r"^ESPORTS_MAP_(\d+)_WINNER$|^ESPORTS_MAP_WINNER_(\d+)$"),
+     lambda m: ("WINNER", f"MAP_{m.group(1) or m.group(2)}")),
+    (re.compile(r"^ESPORTS_MAP_ROUNDS_HANDICAP_(\d+)$"), lambda m: ("SPREAD", f"MAP_{m.group(1)}")),
+    (re.compile(r"^ESPORTS_MAP_TOTAL_ROUNDS_(\d+)$"), lambda m: ("TOTAL", f"MAP_{m.group(1)}")),
+    (re.compile(r"^ESPORTS_SERIES_MAP_HANDICAP$"), lambda m: ("SPREAD", "SERIES")),
+    (re.compile(r"^ESPORTS_SERIES_TOTAL_MAPS$"), lambda m: ("TOTAL", "SERIES")),
+]
+MAIN_SEGMENTS = {"FULL_GAME", "MATCH"}
+
+
+def classify(raw: str) -> tuple[str, str, str]:
+    """(market_class, segment, scope) for a raw type.
+
+    market_class: WINNER | SPREAD | TOTAL | TEAM_TOTAL | PROP | FUTURE | OTHER
+    segment:      FULL_GAME, MATCH, FIRST_HALF, FIRST_PERIOD, INNING3, MAP_1, SERIES, ...
+    scope:        TEAM | GAME | ESPORTS | LEGACY | UNKNOWN (used to tell team totals
+                  from game totals when both exist for one segment)
+    """
+    if raw in _LEGACY:
+        c, s = _LEGACY[raw]
+        return c, s, "LEGACY"
+    for pat, fn in _ESP:
+        m = pat.match(raw)
+        if m:
+            c, s = fn(m)
+            return c, s, "ESPORTS"
+    m = _BALL.match(raw)
+    if m:
+        cls = "TEAM_TOTAL" if (m.group("pts") and m.group("cls") == "TOTAL") else m.group("cls")
+        return cls, m.group("seg"), m.group("scope")
+    return "OTHER", "UNKNOWN", "UNKNOWN"
+
+
+def classify_event_markets(markets: list[dict]) -> list[tuple[str, str, str, str]]:
+    """Classify every market of one event, resolving the GAME/TEAM ambiguity:
+    when a segment has both a GAME_*_TOTAL and a TEAM_*_TOTAL (NFL halves and
+    quarters), the TEAM one is a team total. FULL_GAME has no GAME_ variant, so
+    *_TEAM_FULL_GAME_TOTAL is the game total and *_TEAM_POINTS_FULL_GAME_TOTAL
+    the team total."""
+    raw = [market_type(m) for m in markets]
+    parsed = [classify(r) for r in raw]
+    game_total_segments = {seg for (cls, seg, scope) in parsed if cls == "TOTAL" and scope == "GAME"}
+    out = []
+    for r, (cls, seg, scope) in zip(raw, parsed):
+        if cls == "TOTAL" and scope == "TEAM" and seg in game_total_segments:
+            cls = "TEAM_TOTAL"
+        out.append((r, cls, seg, scope))
+    return out
+
+
+def _side_prices(m: dict) -> list[float]:
+    out = []
+    for s in m.get("marketSides") or []:
+        p = _amount(s.get("price"))
+        if p is not None:
+            out.append(p)
+    return out
+
+
+def _evenness(m: dict) -> float:
+    """Distance of a market from a 50/50 price; smaller = closer to the main line."""
+    ps = _side_prices(m)
+    if len(ps) >= 2:
+        return abs(ps[0] - ps[1])
+    if len(ps) == 1:
+        return abs(ps[0] - 0.5) * 2
+    bid, ask = _amount(m.get("bestBidQuote")), _amount(m.get("bestAskQuote"))
+    if bid is not None and ask is not None:
+        return abs((bid + ask) / 2 - 0.5) * 2
+    return 9.0
+
+
+def mark_main_lines(markets: list[dict], parsed: list[tuple[str, str, str, str]]) -> list[bool]:
+    """Within each (class, segment, team set) pick the line closest to even
+    as the main line. WINNER markets are always main."""
+    groups: dict[tuple, list[int]] = {}
+    for i, (m, (_, cls, seg, _)) in enumerate(zip(markets, parsed)):
+        team_ids = tuple(sorted(str(s.get("teamId")) for s in (m.get("marketSides") or []) if s.get("teamId") is not None))
+        key = (cls, seg, team_ids if cls == "TEAM_TOTAL" else ())
+        groups.setdefault(key, []).append(i)
+    is_main = [False] * len(markets)
+    for key, idxs in groups.items():
+        if key[0] == "WINNER":
+            for i in idxs:
+                is_main[i] = True
+            continue
+        best = min(idxs, key=lambda i: (_evenness(markets[i]), i))
+        is_main[best] = True
+    return is_main
 
 
 def event_start(ev: dict) -> str | None:
@@ -170,14 +273,27 @@ def parse_iso(s: str | None) -> datetime | None:
         return None
 
 
-def normalize_event_markets(ev: dict, league_slug: str, keep_types: set[str] | None = None) -> Iterator[dict]:
-    """One row per market of an event, with its sides and the event context."""
+def normalize_event_markets(ev: dict, league_slug: str, keep_classes: set[str] | None = None,
+                            segments: set[str] | None = None, main_only: bool = False) -> Iterator[dict]:
+    """One row per market of an event, with its sides and the event context.
+
+    keep_classes: market classes to keep (WINNER, TOTAL, SPREAD, TEAM_TOTAL, ...);
+                  None keeps everything.
+    segments:     segments to keep (FULL_GAME, MATCH, FIRST_HALF, ...); None keeps all.
+    main_only:    keep only the line closest to even within each class/segment.
+    """
     start = event_start(ev)
     teams = [{"id": t.get("id"), "name": t.get("name"), "abbr": t.get("abbreviation")}
              for t in (ev.get("teams") or [])]
-    for m in ev.get("markets") or []:
-        mt = market_type(m)
-        if keep_types and mt not in keep_types:
+    markets = ev.get("markets") or []
+    parsed = classify_event_markets(markets)
+    mains = mark_main_lines(markets, parsed)
+    for m, (mt, cls, seg, scope), is_main in zip(markets, parsed, mains):
+        if keep_classes and cls not in keep_classes:
+            continue
+        if segments and seg not in segments:
+            continue
+        if main_only and not is_main:
             continue
         sides = []
         for s in m.get("marketSides") or []:
@@ -203,6 +319,9 @@ def normalize_event_markets(ev: dict, league_slug: str, keep_types: set[str] | N
             "market_id": m.get("id"),
             "market_slug": m.get("slug"),
             "market_type": mt,
+            "market_class": cls,
+            "segment": seg,
+            "is_main": is_main,
             "question": m.get("question") or m.get("title"),
             "line": _num(m.get("line")),
             "active": m.get("active"),

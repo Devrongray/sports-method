@@ -28,8 +28,10 @@ def test_event_market_normaliser():
             {"id": "m3", "slug": "lal-bos-prop", "sportsMarketType": "SPORTS_MARKET_TYPE_PROP", "marketSides": []},
         ],
     }
-    rows = list(pm.normalize_event_markets(ev, "nba", {"MONEYLINE", "TOTAL"}))
-    assert [r["market_type"] for r in rows] == ["MONEYLINE", "TOTAL"]
+    rows = list(pm.normalize_event_markets(ev, "nba", {"WINNER", "TOTAL"}))
+    assert [r["market_class"] for r in rows] == ["WINNER", "TOTAL"]
+    assert [r["market_type"] for r in rows] == ["MONEYLINE", "TOTAL"]       # legacy names still map
+    assert all(r["is_main"] for r in rows)
     assert rows[0]["sides"][0]["price"] == 0.44 and rows[0]["sides"][1]["price"] == 0.57
     assert rows[1]["line"] == 224.5
     assert rows[0]["teams"][1]["abbr"] == "BOS"
@@ -125,17 +127,26 @@ def test_collect_markets_with_stub_client():
                 return []
             return [
                 {"id": "1", "slug": "soon", "startTime": "2026-10-22T23:30:00Z",
-                 "markets": [{"id": "a", "slug": "soon-ml", "sportsMarketType": "SPORTS_MARKET_TYPE_MONEYLINE", "marketSides": []},
-                             {"id": "b", "slug": "soon-prop", "sportsMarketType": "SPORTS_MARKET_TYPE_PROP", "marketSides": []}]},
+                 "markets": [{"id": "a", "slug": "soon-ml", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_WINNER", "marketSides": []},
+                             {"id": "b", "slug": "soon-prop", "sportsMarketType": "SPORTS_MARKET_TYPE_PROP", "marketSides": []},
+                             {"id": "t1", "slug": "soon-t-220", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_TOTAL",
+                              "line": 220.5, "marketSides": [{"identifier": "Over", "price": "0.62"}, {"identifier": "Under", "price": "0.40"}]},
+                             {"id": "t2", "slug": "soon-t-224", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_TOTAL",
+                              "line": 224.5, "marketSides": [{"identifier": "Over", "price": "0.51"}, {"identifier": "Under", "price": "0.51"}]}]},
                 {"id": "2", "slug": "far", "startTime": "2026-10-30T23:30:00Z",
-                 "markets": [{"id": "c", "slug": "far-ml", "sportsMarketType": "SPORTS_MARKET_TYPE_MONEYLINE", "marketSides": []}]},
+                 "markets": [{"id": "c", "slug": "far-ml", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_WINNER", "marketSides": []}]},
                 {"id": "3", "slug": "done", "startTime": "2026-10-21T23:30:00Z", "ended": True,
-                 "markets": [{"id": "d", "slug": "done-ml", "sportsMarketType": "SPORTS_MARKET_TYPE_MONEYLINE", "marketSides": []}]},
+                 "markets": [{"id": "d", "slug": "done-ml", "sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_WINNER", "marketSides": []}]},
             ]
 
-    rows = collect_markets(Stub(), cfg, now)
-    assert [r["market_slug"] for r in rows] == ["soon-ml"]      # prop filtered, far beyond horizon, ended dropped
+    from method.snapshot import collect_markets_full
+    rows, everything = collect_markets_full(Stub(), cfg, now)
+    # prop filtered, alt total dropped (main line only), far beyond horizon, ended dropped
+    assert [r["market_slug"] for r in rows] == ["soon-ml", "soon-t-224"]
     assert rows[0]["sport"] == "nba" and abs(rows[0]["minutes_to_start"] - 210) < 1e-9
+    assert [r["market_slug"] for r in everything] == ["soon-ml", "soon-prop", "soon-t-220", "soon-t-224"]
+    assert [r["is_main"] for r in everything] == [True, True, False, True]
+    assert collect_markets(Stub(), cfg, now) == rows
 
 
 def test_discover_flags_wrong_slugs():
@@ -151,7 +162,7 @@ def test_discover_flags_wrong_slugs():
         def league_events(self, slug):
             if slug == "nba":
                 return [{"slug": "a", "startTime": "2026-10-22T23:30:00Z",
-                         "markets": [{"sportsMarketType": "SPORTS_MARKET_TYPE_MONEYLINE"}]}]
+                         "markets": [{"sportsMarketType": "SPORTS_MARKET_TYPE_BASKETBALL_TEAM_FULL_GAME_WINNER"}]}]
             if slug == "cs2":
                 raise RuntimeError("404")
             return []
@@ -159,6 +170,54 @@ def test_discover_flags_wrong_slugs():
     rep = discover(Stub(), cfg, now)
     by = {c["sport"]: c for c in rep["checks"]}
     assert by["nba"]["slug_listed"] and by["nba"]["upcoming_in_horizon"] == 1
-    assert by["nba"]["market_types"] == {"MONEYLINE": 1}
+    assert by["nba"]["market_types"] == {"BASKETBALL_TEAM_FULL_GAME_WINNER": 1}
+    assert by["nba"]["market_classes"] == {"WINNER/FULL_GAME": 1} and by["nba"]["main_lines_in_horizon"] == 1
     assert not by["cs2"]["slug_listed"] and "404" in by["cs2"]["error"]
     assert "counter-strike" in by["cs2"]["candidates"]
+
+
+@pytest.mark.parametrize("raw,cls,seg", [
+    ("BASKETBALL_TEAM_FULL_GAME_WINNER", "WINNER", "FULL_GAME"),
+    ("BASEBALL_TEAM_FULL_GAME_TOTAL", "TOTAL", "FULL_GAME"),
+    ("HOCKEY_TEAM_FULL_GAME_SPREAD", "SPREAD", "FULL_GAME"),
+    ("FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", "TEAM_TOTAL", "FULL_GAME"),
+    ("BASEBALL_TEAM_FIRST_FIVE_SPREAD", "SPREAD", "FIRST_FIVE"),
+    ("BASEBALL_TEAM_INNING3_TOTAL", "TOTAL", "INNING3"),
+    ("HOCKEY_TEAM_SECOND_PERIOD_TOTAL", "TOTAL", "SECOND_PERIOD"),
+    ("FOOTBALL_GAME_FIRST_QUARTER_TOTAL", "TOTAL", "FIRST_QUARTER"),
+    ("FOOTBALL_TEAM_FIRST_HALF_SPREAD", "SPREAD", "FIRST_HALF"),
+    ("ESPORTS_MATCH_WINNER", "WINNER", "MATCH"),
+    ("ESPORTS_MAP_ROUNDS_HANDICAP_2", "SPREAD", "MAP_2"),
+    ("ESPORTS_MAP_TOTAL_ROUNDS_1", "TOTAL", "MAP_1"),
+    ("ESPORTS_SERIES_MAP_HANDICAP", "SPREAD", "SERIES"),
+    ("ESPORTS_SERIES_TOTAL_MAPS", "TOTAL", "SERIES"),
+    ("MONEYLINE", "WINNER", "FULL_GAME"),
+    ("SOMETHING_NEW", "OTHER", "UNKNOWN"),
+])
+def test_classify_real_type_names(raw, cls, seg):
+    c, s, _ = pm.classify(raw)
+    assert (c, s) == (cls, seg)
+
+
+def test_nfl_half_team_total_disambiguation():
+    # When a segment has both a GAME_ total and a TEAM_ total, the TEAM one is a team total.
+    markets = [{"sportsMarketType": "FOOTBALL_GAME_FIRST_HALF_TOTAL", "line": 21.5, "marketSides": []},
+               {"sportsMarketType": "FOOTBALL_TEAM_FIRST_HALF_TOTAL", "line": 10.5, "marketSides": [{"teamId": 7}]},
+               {"sportsMarketType": "FOOTBALL_TEAM_FULL_GAME_TOTAL", "line": 44.5, "marketSides": []},
+               {"sportsMarketType": "FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", "line": 20.5, "marketSides": [{"teamId": 7}]}]
+    parsed = pm.classify_event_markets(markets)
+    assert [p[1] for p in parsed] == ["TOTAL", "TEAM_TOTAL", "TOTAL", "TEAM_TOTAL"]
+    assert [p[2] for p in parsed] == ["FIRST_HALF", "FIRST_HALF", "FULL_GAME", "FULL_GAME"]
+
+
+def test_main_line_picks_closest_to_even_per_team():
+    mk = lambda t, line, p1, p2, team=None: {
+        "sportsMarketType": t, "line": line,
+        "marketSides": [{"identifier": "Over", "price": str(p1), "teamId": team}, {"identifier": "Under", "price": str(p2), "teamId": team}]}
+    markets = [mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 41.5, 0.70, 0.32), mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 44.5, 0.52, 0.50),
+               mk("FOOTBALL_TEAM_FULL_GAME_TOTAL", 47.5, 0.30, 0.72),
+               mk("FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", 20.5, 0.50, 0.52, team=1),
+               mk("FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", 23.5, 0.40, 0.62, team=1),
+               mk("FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL", 24.5, 0.49, 0.53, team=2)]
+    parsed = pm.classify_event_markets(markets)
+    assert pm.mark_main_lines(markets, parsed) == [False, True, False, True, False, True]

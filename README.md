@@ -26,14 +26,30 @@ branch so the repo stays the single durable home for code and data.
 
 ## Setup (one time)
 
-1. Create a GitHub repository and push this folder.
+1. Push this folder to a GitHub repository. On the first push, two workflows
+   run by themselves and commit their results to `analysis/`: **Test (c)**
+   (Pinnacle closing reliability, no key needed) and **Discover** (the live
+   Polymarket US league list and a check of every configured slug and
+   market type). The 30-minute snapshot loop and the daily history pull
+   start on their schedules.
 2. Add the repository secret `ODDS_API_KEY` (The Odds API). Without it the
    Polymarket side still runs; the Pinnacle side is skipped.
-3. Run the **Test (c)** workflow once by hand (Actions → Pinnacle reliability →
-   Run workflow). It needs no key.
-4. Check `config/sports.yaml`: the Polymarket league slugs are best guesses.
-   The first snapshot run prints the real slugs from `/v2/leagues`; fix any
-   that differ.
+3. League slugs in `config/sports.yaml` were confirmed against the live list
+   on 14 Oct 2026; `analysis/discovery/summary.md` is refreshed daily and
+   shows any slug that stops matching.
+
+## Market classes
+
+Polymarket US names market types by sport (`BASKETBALL_TEAM_FULL_GAME_WINNER`,
+`HOCKEY_TEAM_FIRST_PERIOD_TOTAL`, `FOOTBALL_GAME_FIRST_HALF_TOTAL`,
+`BASEBALL_TEAM_INNING3_TOTAL`, `ESPORTS_MATCH_WINNER`,
+`ESPORTS_MAP_TOTAL_ROUNDS_1`, ...). `polymarket_us.classify` maps each to a
+class (`WINNER`, `TOTAL`, `SPREAD`, `TEAM_TOTAL`) and a segment
+(`FULL_GAME`, `FIRST_HALF`, `FIRST_PERIOD`, `INNING3`, `MAP_1`, `SERIES`,
+...). Every market of every upcoming event is written to the `markets_*`
+file each pass (all alternate lines, with an `is_main` flag for the line
+closest to even). BBO calls, order books and price histories go to main
+lines of the configured classes only.
 
 ## Running locally
 
