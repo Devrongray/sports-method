@@ -77,9 +77,11 @@ python -m method.pinnacle_reliability --out analysis/test_c
 ## Data layout (`data` branch)
 
 ```
-data/polymarket/YYYY-MM-DD/markets_<ts>.ndjson.gz   # event + market metadata per pass
-data/polymarket/YYYY-MM-DD/bbo_<ts>.ndjson.gz       # one row per market per pass
-data/polymarket/YYYY-MM-DD/book_<ts>.ndjson.gz      # order books inside the pre-start window
+data/polymarket/YYYY-MM-DD/markets_<ts>.ndjson.gz   # full rows for main lines, every 10 min ("full" pass)
+data/polymarket/YYYY-MM-DD/ladder_<ts>.ndjson.gz    # compact row per line (all alternates), every 10 min
+data/polymarket/YYYY-MM-DD/bbo_<ts>.ndjson.gz       # quotes for main lines, full pass
+data/polymarket/YYYY-MM-DD/bbow_<ts>.ndjson.gz      # quotes for markets inside the 90-min window, every minute
+data/polymarket/YYYY-MM-DD/book_<ts>.ndjson.gz      # order books at the 60/15/2-minute checkpoints
 data/polymarket_history/YYYY-MM-DD/<market_slug>.json.gz  # minute-level price path + settlement
 data/pinnacle/YYYY-MM-DD/odds_<ts>.ndjson.gz        # one row per outcome per pass
 analysis/test_c/                                     # test (c) outputs

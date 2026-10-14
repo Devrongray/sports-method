@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Commit a directory of recorded data to the `data` branch of this repo.
 # Creates the branch on first use. Run from the repo root inside GitHub Actions.
+#
+# actions/checkout fetches only the triggering branch, so the data branch is
+# fetched explicitly here before a worktree is made from it.
 set -euo pipefail
 SRC="${1:-data}"
 BRANCH="${DATA_BRANCH:-data}"
@@ -15,7 +18,8 @@ git config user.email "method-bot@users.noreply.github.com"
 
 STORE="$(mktemp -d)"
 if git ls-remote --exit-code --heads "$REMOTE" "$BRANCH" >/dev/null 2>&1; then
-  git worktree add "$STORE" "$REMOTE/$BRANCH" --detach
+  git fetch --depth 1 "$REMOTE" "+refs/heads/$BRANCH:refs/remotes/$REMOTE/$BRANCH"
+  git worktree add --detach "$STORE" "refs/remotes/$REMOTE/$BRANCH"
   (cd "$STORE" && git checkout -B "$BRANCH")
 else
   git worktree add --detach "$STORE"
@@ -31,7 +35,14 @@ cp -R "$SRC"/. "$STORE/$SRC"/
     echo "no new data"
   else
     git commit -qm "data: $(date -u +%FT%TZ) $(find "$SRC" -type f | wc -l) files"
-    git push "$REMOTE" "HEAD:$BRANCH"
+    for i in 1 2 3 4 5; do
+      if git push "$REMOTE" "HEAD:$BRANCH"; then exit 0; fi
+      echo "push rejected, rebasing (attempt $i)"
+      git fetch --depth 1 "$REMOTE" "$BRANCH"
+      git rebase -q FETCH_HEAD
+    done
+    echo "could not push after 5 attempts" >&2
+    exit 1
   fi
 )
 git worktree remove --force "$STORE"

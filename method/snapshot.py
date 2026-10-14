@@ -206,21 +206,49 @@ def collect_markets(client: pm.PolymarketUS, cfg: dict, now: datetime) -> list[d
     return collect_markets_full(client, cfg, now)[0]
 
 
+def ladder_row(m: dict, ts: str) -> dict:
+    """Compact per-line record for every market (all alternate lines) so the
+    full ladder is kept each pass without repeating the event metadata."""
+    return {"ts": ts, "sport": m["sport"], "event_id": m["event_id"], "start": m["start"],
+            "market_slug": m["market_slug"], "market_type": m["market_type"],
+            "market_class": m["market_class"], "segment": m["segment"], "line": m["line"],
+            "is_main": m["is_main"], "mid": m.get("mid"),
+            "bid": m.get("best_bid_quote"), "ask": m.get("best_ask_quote"),
+            "minutes_to_start": round(m["minutes_to_start"], 1)}
+
+
 def cmd_pass(args) -> dict:
+    """One recording pass.
+
+    scope "full"   (default, every polymarket_minutes): all upcoming events in the
+                    horizon; writes markets_* (full rows, main lines), ladder_*
+                    (compact rows, every line) and bbo_* for the main lines.
+    scope "window" (every polymarket_window_minutes while a game is near): only
+                    markets starting within the pre-start window; writes bbo_* and
+                    books at the checkpoints. Keeps the data volume proportional
+                    to what is actually changing.
+    """
     cfg = load_config(args.config)
     out = Path(args.out)
     now = _utcnow()
     day = now.strftime("%Y-%m-%d")
     ts = now.isoformat(timespec="seconds")
+    scope = getattr(args, "scope", "full") or "full"
     client = pm.PolymarketUS()
-
-    markets, everything = collect_markets_full(client, cfg, now)
-    for m in everything:
-        m["ts"] = ts
-    n_m = _write_ndjson(out / "polymarket" / day / f"markets_{_stamp(now)}.ndjson.gz", everything)
 
     window = cfg["cadence"]["pre_start_window_minutes"]
     checkpoints = cfg["cadence"]["book_checkpoints_minutes"]
+    markets, everything = collect_markets_full(client, cfg, now)
+    n_m = n_l = 0
+    if scope == "full":
+        for m in markets:
+            m["ts"] = ts
+        n_m = _write_ndjson(out / "polymarket" / day / f"markets_{_stamp(now)}.ndjson.gz", markets)
+        n_l = _write_ndjson(out / "polymarket" / day / f"ladder_{_stamp(now)}.ndjson.gz",
+                            [ladder_row(m, ts) for m in everything])
+    else:
+        markets = [m for m in markets if 0 <= m["minutes_to_start"] <= window]
+
     bbo_rows, book_rows = [], []
     for m in markets:
         slug = m.get("market_slug")
@@ -246,17 +274,19 @@ def cmd_pass(args) -> dict:
                 bk = None
             if bk:
                 book_rows.append({**ctx, **pm.normalize_book(bk)})
-    n_b = _write_ndjson(out / "polymarket" / day / f"bbo_{_stamp(now)}.ndjson.gz", bbo_rows)
+    tag = "" if scope == "full" else "w"
+    n_b = _write_ndjson(out / "polymarket" / day / f"bbo{tag}_{_stamp(now)}.ndjson.gz", bbo_rows) if bbo_rows else 0
     n_k = _write_ndjson(out / "polymarket" / day / f"book_{_stamp(now)}.ndjson.gz", book_rows) if book_rows else 0
 
     n_p = 0
-    if not args.skip_pinnacle and os.environ.get("ODDS_API_KEY"):
+    if not getattr(args, "skip_pinnacle", False) and os.environ.get("ODDS_API_KEY"):
         n_p = pinnacle_pass(cfg, out, now, ts)
     by_sport: dict[str, int] = {}
     for m in markets:
         by_sport[m["sport"]] = by_sport.get(m["sport"], 0) + 1
-    summary = {"ts": ts, "markets_all": n_m, "markets_main": len(markets), "bbo": n_b, "books": n_k,
-               "pinnacle_rows": n_p, "main_by_sport": by_sport}
+    summary = {"ts": ts, "scope": scope, "markets_main": n_m, "ladder_rows": n_l, "bbo": n_b, "books": n_k,
+               "pinnacle_rows": n_p, "by_sport": by_sport,
+               "min_mts": sorted({round(m["minutes_to_start"], 1) for m in markets})[:3]}
     print(json.dumps(summary))
     return summary
 
@@ -351,27 +381,27 @@ def cmd_loop(args) -> None:
     cfg = load_config(args.config)
     cad = cfg["cadence"]
     end = time.monotonic() + args.minutes * 60
-    last_pm = last_odds = 0.0
+    last_full = last_window = last_odds = -1e9
+    near = False
     while time.monotonic() < end:
         now = _utcnow()
-        client = pm.PolymarketUS()
-        try:
-            markets = collect_markets(client, cfg, now)
-        except Exception as e:
-            print(f"[warn] collect: {e}")
-            markets = []
-        near = any(0 <= m["minutes_to_start"] <= cad["pre_start_window_minutes"] for m in markets)
-        pm_every = cad["polymarket_window_minutes"] if near else cad["polymarket_minutes"]
-        odds_every = cad["odds_api_window_minutes"] if near else cad["odds_api_minutes"]
         t = time.monotonic()
-        if t - last_pm >= pm_every * 60:
-            args.skip_pinnacle = True
-            cmd_pass(args)
-            last_pm = time.monotonic()
+        args.skip_pinnacle = True
+        if t - last_full >= cad["polymarket_minutes"] * 60:
+            args.scope = "full"
+            summary = cmd_pass(args)
+            last_full = last_window = time.monotonic()
+            near = any(0 <= m <= cad["pre_start_window_minutes"] for m in summary.get("min_mts", []))
+        elif near and t - last_window >= cad["polymarket_window_minutes"] * 60:
+            args.scope = "window"
+            summary = cmd_pass(args)
+            last_window = time.monotonic()
+            near = any(0 <= m <= cad["pre_start_window_minutes"] for m in summary.get("min_mts", []))
+        odds_every = cad["odds_api_window_minutes"] if near else cad["odds_api_minutes"]
         if os.environ.get("ODDS_API_KEY") and t - last_odds >= odds_every * 60:
             pinnacle_pass(cfg, Path(args.out), now, now.isoformat(timespec="seconds"))
             last_odds = time.monotonic()
-        time.sleep(min(60, max(5, pm_every * 60 / 2)))
+        time.sleep(15)
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -384,6 +414,7 @@ def main(argv: list[str] | None = None) -> None:
     sd.set_defaults(fn=cmd_discover)
     sp = sub.add_parser("pass")
     sp.add_argument("--out", default="data")
+    sp.add_argument("--scope", choices=["full", "window"], default="full")
     sp.add_argument("--skip-pinnacle", action="store_true")
     sp.set_defaults(fn=cmd_pass)
     sh = sub.add_parser("history")
