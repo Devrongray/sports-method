@@ -1,4 +1,4 @@
-# Polymarket US discovery 2026-10-14T21:36:04+00:00
+# Polymarket US discovery 2026-10-14T21:41:13+00:00
 
 381 leagues listed.
 
@@ -36,8 +36,8 @@
 | mlb | BASEBALL_TEAM_INNING8_TOTAL | TOTAL/INNING8 | 6 | Will the Milwaukee Brewers and Los Angeles Dodgers combine f | 0.5 | tsc-mlb-mil-lad-2026-10-14-i8-0pt5 @0.45; tsc-mlb-mil-lad-2026-10-14-i8-0pt5 @0.46 |
 | mlb | BASEBALL_TEAM_INNING9_TOTAL | TOTAL/INNING9 | 6 | Will the Milwaukee Brewers and Los Angeles Dodgers combine f | 0.5 | tsc-mlb-mil-lad-2026-10-14-i9-0pt5 @0.33; tsc-mlb-mil-lad-2026-10-14-i9-0pt5 @0.34 |
 | nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 118 | Will the BKN Nets cover 5.5 vs the MIA Heat in BKN Nets vs.  | 5.5 | asc-nba-bkn-mia-2026-10-14-pos-5pt5 (team 22) @0.48; asc-nba-bkn-mia-2026-10-14-pos-5pt5 ( |
-| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 135 | Will the total in BKN Nets vs. MIA Heat be more than 234.5? | 234.5 | tsc-nba-bkn-mia-2026-10-14-234pt5 @0.44; tsc-nba-bkn-mia-2026-10-14-234pt5 @0.55 |
-| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 89 | Who will win in the upcoming basketball event BKN Nets vs MI |  | aec-nba-bkn-mia-2026-10-14 (team 22) @0.33; aec-nba-bkn-mia-2026-10-14 (team 14) @0.35 |
+| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 135 | Will the total in BKN Nets vs. MIA Heat be more than 233.5? | 233.5 | tsc-nba-bkn-mia-2026-10-14-233pt5 @0.51; tsc-nba-bkn-mia-2026-10-14-233pt5 @0.52 |
+| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 89 | Who will win in the upcoming basketball event BKN Nets vs MI |  | aec-nba-bkn-mia-2026-10-14 (team 22) @0.33; aec-nba-bkn-mia-2026-10-14 (team 14) @0.34 |
 | nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 124 | Will MTL Canadiens cover +0.5 vs WSH Capitals in the first p | 0.5 | asc-nhl-mon-was-2026-10-14-p1-pos-0pt5 (team 1487) @0.64; asc-nhl-mon-was-2026-10-14-p1-po |
 | nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 124 | Will MTL vs WSH have more than 1.5 goals in the first period | 1.5 | tsc-nhl-mon-was-2026-10-14-p1-1pt5 @0.58; tsc-nhl-mon-was-2026-10-14-p1-1pt5 @0.59 |
 | nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 186 | Will the MTL Canadiens cover 1.5 vs the WSH Capitals in MTL  | 1.5 | asc-nhl-mon-was-2026-10-14-pos-1pt5 (team 1487) @0.68; asc-nhl-mon-was-2026-10-14-pos-1pt5 |
@@ -68,7 +68,7 @@
 | cs2 | ESPORTS_MAP_ROUNDS_HANDICAP_2 | SPREAD/MAP_2 | 1 | Will the Rune Eaters cover -2.5 vs the WRAITH PCIFIC in Rune | -2.5 | asc-cs2-re-pcific-2026-10-14-m2rh-neg-2pt5 (team 11738); asc-cs2-re-pcific-2026-10-14-m2rh |
 | cs2 | ESPORTS_MAP_TOTAL_ROUNDS_1 | TOTAL/MAP_1 | 1 | Will the total in Rune Eaters vs. WRAITH PCIFIC - Map 1 be m | 21.5 | tsc-cs2-re-pcific-2026-10-14-m1tr-21pt5 @0.00; tsc-cs2-re-pcific-2026-10-14-m1tr-21pt5 @1. |
 | cs2 | ESPORTS_MAP_TOTAL_ROUNDS_2 | TOTAL/MAP_2 | 1 | Will the total in Rune Eaters vs. WRAITH PCIFIC - Map 2 be m | 21.5 | tsc-cs2-re-pcific-2026-10-14-m2tr-21pt5 @0.01; tsc-cs2-re-pcific-2026-10-14-m2tr-21pt5 @0. |
-| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 60 | Who will win in the upcoming esports event Rune Eaters vs WR |  | aec-cs2-re-pcific-2026-10-14 (team 11738) @0.81; aec-cs2-re-pcific-2026-10-14 (team 11870) |
+| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 60 | Who will win in the upcoming esports event Rune Eaters vs WR |  | aec-cs2-re-pcific-2026-10-14 (team 11738) @0.76; aec-cs2-re-pcific-2026-10-14 (team 11870) |
 | cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 1 | Will the Rune Eaters cover -1.5 vs the WRAITH PCIFIC in Rune | -1.5 | asc-cs2-re-pcific-2026-10-14-hcap-neg-1pt5 (team 11738); asc-cs2-re-pcific-2026-10-14-hcap |
 | cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 2 | Will the total in Rune Eaters vs. WRAITH PCIFIC be more than | 2.5 | tsc-cs2-re-pcific-2026-10-14-tot-2pt5 @0.01; tsc-cs2-re-pcific-2026-10-14-tot-2pt5 @0.92 |
 | lol | ESPORTS_MATCH_WINNER | WINNER/MATCH | 3 | Who will win in the upcoming esports event Team WE vs HANJIN |  | aec-lol-we-bro-2026-10-15 (team 5199) @0.45; aec-lol-we-bro-2026-10-15 (team 5211) @0.46 |
@@ -77,7 +77,7 @@
 | epl | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 42 | Will the Everton FC cover 1.5 vs the Chelsea FC in EVE vs CF | 1.5 | asc-epl-eve-cfc-2026-10-17-pos-1pt5 (team 2690) @0.77; asc-epl-eve-cfc-2026-10-17-pos-1pt5 |
 | epl | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 40 | Will the total in EVE vs CFC be more than 2.5? | 2.5 | tsc-epl-eve-cfc-2026-10-17-2pt5 @0.56; tsc-epl-eve-cfc-2026-10-17-2pt5 @0.58 |
 | epl | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 30 | Will Everton FC win against Chelsea FC in the Premier League |  | atc-epl-eve-cfc-2026-10-17-eve (team 2690) @0.29; atc-epl-eve-cfc-2026-10-17-eve (team 269 |
-| epl | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 40 | Will the Everton FC cover 1.5 vs the Chelsea FC in EVE vs CF | 1.5 | asc-epl-eve-cfc-2026-10-17-sh-pos-1pt5 (team 2690) @0.01; asc-epl-eve-cfc-2026-10-17-sh-po |
+| epl | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 40 | Will the Everton FC cover 1.5 vs the Chelsea FC in EVE vs CF | 1.5 | asc-epl-eve-cfc-2026-10-17-sh-pos-1pt5 (team 2690) @0.06; asc-epl-eve-cfc-2026-10-17-sh-po |
 | epl | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 50 | Will the total in EVE vs CFC be more than 2.5? | 2.5 | tsc-epl-eve-cfc-2026-10-17-sh-2pt5 @0.01; tsc-epl-eve-cfc-2026-10-17-sh-2pt5 @0.99 |
 | laliga | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 40 | Will the RC Deportivo A Coruna cover -1.5 vs the Levante UD  | -1.5 | asc-lal-dep-lev-2026-10-16-fh-neg-1pt5 (team 7149) @0.07; asc-lal-dep-lev-2026-10-16-fh-ne |
 | laliga | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 50 | Will the total in DEP vs LEV be more than 1.5? | 1.5 | tsc-lal-dep-lev-2026-10-16-fh-1pt5 @0.31; tsc-lal-dep-lev-2026-10-16-fh-1pt5 @0.34 |
@@ -89,7 +89,7 @@
 | bundesliga | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 36 | Will the Eintracht Frankfurt cover -1.5 vs the 1. FC Koln in | -1.5 | asc-bun-fra-koe-2026-10-16-fh-neg-1pt5 (team 3407) @0.12; asc-bun-fra-koe-2026-10-16-fh-ne |
 | bundesliga | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 45 | Will the total in FRA vs KOE be more than 1.5? | 1.5 | tsc-bun-fra-koe-2026-10-16-fh-1pt5 @0.50; tsc-bun-fra-koe-2026-10-16-fh-1pt5 @0.51 |
 | bundesliga | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 36 | Will the Eintracht Frankfurt cover -1.5 vs the 1. FC Koln in | -1.5 | asc-bun-fra-koe-2026-10-16-neg-1pt5 (team 3407) @0.28; asc-bun-fra-koe-2026-10-16-neg-1pt5 |
-| bundesliga | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 36 | Will the total in FRA vs KOE be more than 3.5? | 3.5 | tsc-bun-fra-koe-2026-10-16-3pt5 @0.49; tsc-bun-fra-koe-2026-10-16-3pt5 @0.50 |
+| bundesliga | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 36 | Will the total in FRA vs KOE be more than 3.5? | 3.5 | tsc-bun-fra-koe-2026-10-16-3pt5 @0.50; tsc-bun-fra-koe-2026-10-16-3pt5 @0.51 |
 | bundesliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 27 | Will Eintracht Frankfurt win against 1. FC Koln in the Bunde |  | atc-bun-fra-koe-2026-10-16-fra (team 3407) @0.49; atc-bun-fra-koe-2026-10-16-fra (team 340 |
 | bundesliga | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 36 | Will the Eintracht Frankfurt cover 1.5 vs the 1. FC Koln in  | 1.5 | asc-bun-fra-koe-2026-10-16-sh-pos-1pt5 (team 3407) @0.14; asc-bun-fra-koe-2026-10-16-sh-po |
 | bundesliga | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 45 | Will the total in FRA vs KOE be more than 2.5? | 2.5 | tsc-bun-fra-koe-2026-10-16-sh-2pt5 @0.01; tsc-bun-fra-koe-2026-10-16-sh-2pt5 @0.99 |
@@ -98,7 +98,7 @@
 | seriea | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 40 | Will the Frosinone Calcio cover -1.5 vs the US Sassuolo Calc | -1.5 | asc-sea-fro-sas-2026-10-16-neg-1pt5 (team 7140) @0.18; asc-sea-fro-sas-2026-10-16-neg-1pt5 |
 | seriea | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 40 | Will the total in FRO vs SAS be more than 3.5? | 3.5 | tsc-sea-fro-sas-2026-10-16-3pt5 @0.43; tsc-sea-fro-sas-2026-10-16-3pt5 @0.45 |
 | seriea | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 30 | Will Frosinone Calcio win against US Sassuolo Calcio in the  |  | atc-sea-fro-sas-2026-10-16-fro (team 7140) @0.37; atc-sea-fro-sas-2026-10-16-fro (team 714 |
-| seriea | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 40 | Will the Frosinone Calcio cover 1.5 vs the US Sassuolo Calci | 1.5 | asc-sea-fro-sas-2026-10-16-sh-pos-1pt5 (team 7140) @0.01; asc-sea-fro-sas-2026-10-16-sh-po |
+| seriea | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 40 | Will the Frosinone Calcio cover 1.5 vs the US Sassuolo Calci | 1.5 | asc-sea-fro-sas-2026-10-16-sh-pos-1pt5 (team 7140) @0.10; asc-sea-fro-sas-2026-10-16-sh-po |
 | seriea | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 50 | Will the total in FRO vs SAS be more than 0.5? | 0.5 | tsc-sea-fro-sas-2026-10-16-sh-0pt5 @0.77; tsc-sea-fro-sas-2026-10-16-sh-0pt5 @0.99 |
 | ligue1 | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 36 | Will the Le Mans FC cover -2.5 vs the Toulouse FC in LMF vs  | -2.5 | asc-lg1-lmf-tou-2026-10-16-fh-neg-2pt5 (team 25618) @0.01; asc-lg1-lmf-tou-2026-10-16-fh-n |
 | ligue1 | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 45 | Will the total in LMF vs TOU be more than 1.5? | 1.5 | tsc-lg1-lmf-tou-2026-10-16-fh-1pt5 @0.35; tsc-lg1-lmf-tou-2026-10-16-fh-1pt5 @0.39 |

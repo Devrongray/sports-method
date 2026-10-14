@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-14T21:36:04+00:00",
+  "ts": "2026-10-14T21:41:13+00:00",
   "n_leagues": 381,
   "leagues": [
     {
@@ -2654,7 +2654,7 @@
             {
               "identifier": "asc-nba-bkn-mia-2026-10-14-pos-5pt5",
               "teamId": 14,
-              "price": 0.49
+              "price": 0.5
             }
           ]
         },
@@ -2662,19 +2662,19 @@
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in BKN Nets vs. MIA Heat be more than 234.5?",
-          "line": 234.5,
-          "slug": "tsc-nba-bkn-mia-2026-10-14-234pt5",
+          "question": "Will the total in BKN Nets vs. MIA Heat be more than 233.5?",
+          "line": 233.5,
+          "slug": "tsc-nba-bkn-mia-2026-10-14-233pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-bkn-mia-2026-10-14-234pt5",
+              "identifier": "tsc-nba-bkn-mia-2026-10-14-233pt5",
               "teamId": null,
-              "price": 0.44
+              "price": 0.51
             },
             {
-              "identifier": "tsc-nba-bkn-mia-2026-10-14-234pt5",
+              "identifier": "tsc-nba-bkn-mia-2026-10-14-233pt5",
               "teamId": null,
-              "price": 0.55
+              "price": 0.52
             }
           ]
         },
@@ -2694,7 +2694,7 @@
             {
               "identifier": "aec-nba-bkn-mia-2026-10-14",
               "teamId": 14,
-              "price": 0.35
+              "price": 0.34
             }
           ]
         }
@@ -3398,12 +3398,12 @@
             {
               "identifier": "aec-cs2-re-pcific-2026-10-14",
               "teamId": 11738,
-              "price": 0.81
+              "price": 0.76
             },
             {
               "identifier": "aec-cs2-re-pcific-2026-10-14",
               "teamId": 11870,
-              "price": 0.88
+              "price": 0.83
             }
           ]
         },
@@ -3636,7 +3636,7 @@
             {
               "identifier": "asc-epl-eve-cfc-2026-10-17-sh-pos-1pt5",
               "teamId": 2690,
-              "price": 0.01
+              "price": 0.06
             },
             {
               "identifier": "asc-epl-eve-cfc-2026-10-17-sh-pos-1pt5",
@@ -4038,12 +4038,12 @@
             {
               "identifier": "tsc-bun-fra-koe-2026-10-16-3pt5",
               "teamId": null,
-              "price": 0.49
+              "price": 0.5
             },
             {
               "identifier": "tsc-bun-fra-koe-2026-10-16-3pt5",
               "teamId": null,
-              "price": 0.5
+              "price": 0.51
             }
           ]
         },
@@ -4169,7 +4169,7 @@
             {
               "identifier": "asc-sea-fro-sas-2026-10-16-sh-pos-1pt5",
               "teamId": 7140,
-              "price": 0.01
+              "price": 0.1
             },
             {
               "identifier": "asc-sea-fro-sas-2026-10-16-sh-pos-1pt5",
