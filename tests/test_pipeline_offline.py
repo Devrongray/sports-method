@@ -236,3 +236,24 @@ def test_main_line_on_real_nhl_ladder():
     parsed = pm.classify_event_markets(markets)
     mains = pm.mark_main_lines(markets, parsed)
     assert [l for (l, _, _), m in zip(ladder, mains) if m] == [6.5]
+
+
+def test_unquoted_lines_never_beat_quoted_ones_and_soccer_winners_are_main():
+    mk = lambda t, line, bid, ask: {"sportsMarketType": t, "line": line,
+                                    "marketSides": [{"identifier": f"x-{line}", "price": str(bid), "long": True},
+                                                    {"identifier": f"x-{line}", "price": str(ask), "long": False}]}
+    # CS2 map totals far from start: empty books show 0.01/0.99 (mid 0.50) on every line but one.
+    markets = [mk("ESPORTS_MAP_TOTAL_ROUNDS_1", 18.5, 0.01, 0.99), mk("ESPORTS_MAP_TOTAL_ROUNDS_1", 20.5, 0.01, 0.99),
+               mk("ESPORTS_MAP_TOTAL_ROUNDS_1", 21.5, 0.44, 0.46), mk("ESPORTS_MAP_TOTAL_ROUNDS_1", 22.5, 0.01, 0.99)]
+    parsed = pm.classify_event_markets(markets)
+    assert pm.mark_main_lines(markets, parsed) == [False, False, True, False]
+    # Nothing quoted at all: the middle line of the ladder is taken.
+    markets = [mk("ESPORTS_MAP_TOTAL_ROUNDS_2", l, 0.01, 0.99) for l in (18.5, 19.5, 20.5, 21.5, 22.5)]
+    parsed = pm.classify_event_markets(markets)
+    assert pm.mark_main_lines(markets, parsed) == [False, False, True, False, False]
+    # Soccer: three FULL_TIME winner contracts (home, draw, away), all main.
+    soc = [{"sportsMarketType": "SOCCER_TEAM_FULL_TIME_WINNER", "marketSides": [{"identifier": f"atc-eve-{k}", "price": "0.3"}]} for k in range(3)]
+    parsed = pm.classify_event_markets(soc)
+    assert [p[1:3] for p in parsed] == [("WINNER", "FULL_TIME")] * 3
+    assert pm.mark_main_lines(soc, parsed) == [True, True, True]
+    assert "FULL_TIME" in pm.MAIN_SEGMENTS

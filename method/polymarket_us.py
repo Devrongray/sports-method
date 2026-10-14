@@ -173,7 +173,7 @@ _ESP = [
     (re.compile(r"^ESPORTS_SERIES_MAP_HANDICAP$"), lambda m: ("SPREAD", "SERIES")),
     (re.compile(r"^ESPORTS_SERIES_TOTAL_MAPS$"), lambda m: ("TOTAL", "SERIES")),
 ]
-MAIN_SEGMENTS = {"FULL_GAME", "MATCH"}
+MAIN_SEGMENTS = {"FULL_GAME", "FULL_TIME", "MATCH"}   # soccer winners are SOCCER_TEAM_FULL_TIME_WINNER
 
 
 def classify(raw: str) -> tuple[str, str, str]:
@@ -242,10 +242,28 @@ def market_mid(m: dict) -> float | None:
     return None
 
 
+UNQUOTED_SPREAD = 0.30   # a bid/ask gap this wide means nobody is really quoting the line
+
+
+def market_spread(m: dict) -> float | None:
+    bid, ask = _amount(m.get("bestBidQuote")), _amount(m.get("bestAskQuote"))
+    if bid is None or ask is None:
+        ps = _side_prices(m)
+        if len(ps) >= 2:
+            bid, ask = min(ps), max(ps)
+        else:
+            return None
+    return ask - bid
+
+
 def _evenness(m: dict) -> float:
-    """Distance of a market's mid from 0.50; smaller = closer to the main line."""
+    """Distance of a market's mid from 0.50; smaller = closer to the main line.
+    Unquoted lines (empty books show as 0.01/0.99, mid 0.50) are pushed to the back."""
     mid = market_mid(m)
-    return 9.0 if mid is None else abs(mid - 0.5)
+    sp = market_spread(m)
+    if mid is None or sp is None or sp > UNQUOTED_SPREAD:
+        return 9.0
+    return abs(mid - 0.5)
 
 
 def mark_main_lines(markets: list[dict], parsed: list[tuple[str, str, str, str]]) -> list[bool]:
@@ -262,7 +280,15 @@ def mark_main_lines(markets: list[dict], parsed: list[tuple[str, str, str, str]]
             for i in idxs:
                 is_main[i] = True
             continue
-        best = min(idxs, key=lambda i: (_evenness(markets[i]), i))
+        scored = [(_evenness(markets[i]), i) for i in idxs]
+        quoted = [t for t in scored if t[0] < 9.0]
+        if quoted:
+            best = min(quoted)[1]
+        else:
+            # Nothing quoted yet: take the middle line of the ladder, which is where the
+            # main line usually sits once quotes arrive.
+            ordered = sorted(idxs, key=lambda i: (_num(markets[i].get("line")) if _num(markets[i].get("line")) is not None else 0.0, i))
+            best = ordered[len(ordered) // 2]
         is_main[best] = True
     return is_main
 
