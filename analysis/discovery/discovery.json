@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-14T21:53:40+00:00",
+  "ts": "2026-10-14T22:03:02+00:00",
   "n_leagues": 381,
   "leagues": [
     {
@@ -2342,12 +2342,12 @@
             {
               "identifier": "asc-mlb-mil-lad-2026-10-14-pos-1pt5",
               "teamId": 3016,
-              "price": 0.57
+              "price": 0.565
             },
             {
               "identifier": "asc-mlb-mil-lad-2026-10-14-pos-1pt5",
               "teamId": 3014,
-              "price": 0.575
+              "price": 0.57
             }
           ]
         },
@@ -2362,12 +2362,12 @@
             {
               "identifier": "tsc-mlb-mil-lad-2026-10-14-7pt5",
               "teamId": null,
-              "price": 0.475
+              "price": 0.47
             },
             {
               "identifier": "tsc-mlb-mil-lad-2026-10-14-7pt5",
               "teamId": null,
-              "price": 0.48
+              "price": 0.475
             }
           ]
         },
@@ -3384,7 +3384,7 @@
         "TOTAL/MAP_2": 1,
         "TOTAL/SERIES": 2
       },
-      "main_lines_in_horizon": 43,
+      "main_lines_in_horizon": 42,
       "unclassified": [],
       "examples": {
         "ESPORTS_MATCH_WINNER": {
@@ -3398,12 +3398,12 @@
             {
               "identifier": "aec-cs2-re-pcific-2026-10-14",
               "teamId": 11738,
-              "price": 0.64
+              "price": 0.65
             },
             {
               "identifier": "aec-cs2-re-pcific-2026-10-14",
               "teamId": 11870,
-              "price": 0.68
+              "price": 0.66
             }
           ]
         },
@@ -3418,12 +3418,12 @@
             {
               "identifier": "asc-cs2-re-pcific-2026-10-14-hcap-neg-1pt5",
               "teamId": 11738,
-              "price": null
+              "price": 0.01
             },
             {
               "identifier": "asc-cs2-re-pcific-2026-10-14-hcap-neg-1pt5",
               "teamId": 11870,
-              "price": 0.01
+              "price": null
             }
           ]
         },
@@ -3438,12 +3438,12 @@
             {
               "identifier": "asc-cs2-re-pcific-2026-10-14-m2rh-neg-2pt5",
               "teamId": 11738,
-              "price": null
+              "price": 0.01
             },
             {
               "identifier": "asc-cs2-re-pcific-2026-10-14-m2rh-neg-2pt5",
               "teamId": 11870,
-              "price": 0.01
+              "price": null
             }
           ]
         },
@@ -3478,7 +3478,7 @@
             {
               "identifier": "tsc-cs2-re-pcific-2026-10-14-m2tr-21pt5",
               "teamId": null,
-              "price": 0.01
+              "price": null
             },
             {
               "identifier": "tsc-cs2-re-pcific-2026-10-14-m2tr-21pt5",
@@ -3498,21 +3498,21 @@
             {
               "identifier": "tsc-cs2-re-pcific-2026-10-14-tot-2pt5",
               "teamId": null,
-              "price": 0.15
+              "price": null
             },
             {
               "identifier": "tsc-cs2-re-pcific-2026-10-14-tot-2pt5",
               "teamId": null,
-              "price": 0.94
+              "price": 0.99
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "cs2-jdt-ana-2026-10-14",
-        "title": "Joga de terno vs. A NATA",
-        "start": "2026-10-14T22:00:00Z"
+        "slug": "cs2-nexv-mf-2026-10-15",
+        "title": "NEXVOID vs. Mindfreak",
+        "start": "2026-10-15T00:00:00Z"
       }
     },
     {
@@ -3787,7 +3787,7 @@
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-neg-1pt5",
               "teamId": 7149,
-              "price": 0.21
+              "price": 0.22
             },
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-neg-1pt5",
@@ -3827,7 +3827,7 @@
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-sh-pos-1pt5",
               "teamId": 7149,
-              "price": 0.12
+              "price": 0.14
             },
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-sh-pos-1pt5",
@@ -4194,7 +4194,7 @@
             {
               "identifier": "tsc-sea-fro-sas-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.44
+              "price": 0.45
             }
           ]
         },
@@ -4320,7 +4320,7 @@
             {
               "identifier": "asc-lg1-lmf-tou-2026-10-16-sh-pos-1pt5",
               "teamId": 25618,
-              "price": 0.09
+              "price": 0.08
             },
             {
               "identifier": "asc-lg1-lmf-tou-2026-10-16-sh-pos-1pt5",
@@ -4360,7 +4360,7 @@
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-2pt5",
               "teamId": null,
-              "price": 0.55
+              "price": 0.56
             },
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-2pt5",
@@ -4400,12 +4400,12 @@
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.36
+              "price": 0.35
             },
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.38
+              "price": 0.39
             }
           ]
         }
