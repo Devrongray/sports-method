@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: main-writes
+  group: test-c
   cancel-in-progress: false
 
 jobs:

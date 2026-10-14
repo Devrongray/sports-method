@@ -87,7 +87,7 @@ def prepare(df: pd.DataFrame, prefix: str = "PSC") -> pd.DataFrame:
     # drop matches whose implied overround is outside a sane band.
     q = 1.0 / d[cols].to_numpy(float)
     over = q.sum(axis=1) - 1.0
-    d = d[(over > -0.02) & (over < 0.15)]
+    d = d[(over > -0.05) & (over < 0.15)]
     d = d.rename(columns={cols[0]: "oH", cols[1]: "oD", cols[2]: "oA"})
     return d.reset_index(drop=True)
 
@@ -132,6 +132,7 @@ def run(frames: list[tuple[str, str, pd.DataFrame]], out: Path,
     rows = []
     coverage = []
     by_season: dict[str, list[pd.DataFrame]] = {}
+    by_alt: dict[tuple[str, str], list[pd.DataFrame]] = {}
     for season, league, df in frames:
         d = prepare(df, "PSC")
         played = int(df["FTR"].isin(OUTCOMES).sum()) if "FTR" in df.columns else 0
@@ -164,6 +165,13 @@ def run(frames: list[tuple[str, str, pd.DataFrame]], out: Path,
         by_season.setdefault(season, []).append(d)
         for m in METHODS:
             rows.append({"season": season_label(season), "league": league, **evaluate(d, m)})
+        # Secondary closing series that football-data still carries after the
+        # Pinnacle columns stop (Jan 2026): market average (AvgC) and best (MaxC).
+        for name, pref in (("avg_close", "AvgC"), ("max_close", "MaxC")):
+            a = prepare(df, pref)
+            if not a.empty:
+                by_alt.setdefault((name, season), []).append(a)
+                rows.append({"season": season_label(season), "league": league, **evaluate(a, "additive"), "method": name})
         # Opening-vs-closing comparison when the pre-close columns exist
         o = prepare(df, "PS")
         if not o.empty:
@@ -171,13 +179,17 @@ def run(frames: list[tuple[str, str, pd.DataFrame]], out: Path,
             rows.append({"season": season_label(season), "league": league, **e, "method": "shin_preclose"})
 
     pooled = []
+    lo, hi = slope_band
     for season, parts in by_season.items():
         d = pd.concat(parts, ignore_index=True)
         for m in METHODS:
             e = evaluate(d, m)
-            lo, hi = slope_band
             pooled.append({"season": season_label(season), "league": "ALL", **e,
                            "slope_in_band": bool(lo <= e["cal_slope"] <= hi)})
+    for (name, season), parts in by_alt.items():
+        e = evaluate(pd.concat(parts, ignore_index=True), "additive")
+        pooled.append({"season": season_label(season), "league": "ALL", **e, "method": name,
+                       "slope_in_band": bool(lo <= e["cal_slope"] <= hi)})
 
     res = pd.DataFrame(rows)
     pool = pd.DataFrame(pooled)
@@ -188,7 +200,7 @@ def run(frames: list[tuple[str, str, pd.DataFrame]], out: Path,
 
     verdict = {}
     if not pool.empty:
-        best = (pool.groupby("method")["log_loss_multinomial"].mean().sort_values())
+        best = (pool[pool["method"].isin(METHODS)].groupby("method")["log_loss_multinomial"].mean().sort_values())
         verdict["best_devig_method"] = str(best.index[0])
         verdict["mean_log_loss_by_method"] = {k: float(v) for k, v in best.items()}
         shin_rows = pool[pool["method"] == "shin"]

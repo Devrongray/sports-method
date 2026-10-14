@@ -17,7 +17,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: main-writes
+  group: discover
   cancel-in-progress: false
 
 jobs:
