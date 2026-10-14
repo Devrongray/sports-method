@@ -286,7 +286,8 @@ def cmd_pass(args) -> dict:
         by_sport[m["sport"]] = by_sport.get(m["sport"], 0) + 1
     summary = {"ts": ts, "scope": scope, "markets_main": n_m, "ladder_rows": n_l, "bbo": n_b, "books": n_k,
                "pinnacle_rows": n_p, "by_sport": by_sport,
-               "min_mts": sorted({round(m["minutes_to_start"], 1) for m in markets})[:3]}
+               "min_mts": sorted({round(m["minutes_to_start"], 1) for m in markets})[:3],
+               "near_sports": sorted({m["sport"] for m in markets if 0 <= m["minutes_to_start"] <= window})}
     print(json.dumps(summary))
     return summary
 
@@ -295,14 +296,16 @@ def pinnacle_pass(cfg: dict, out: Path, now: datetime, ts: str, sports: list[str
     api = OddsAPI()
     oc = cfg["odds_api"]
     rows: list[dict] = []
+    polled: list[str] = []
     for sp in cfg["sports"]:
         key = sp.get("odds_api_sport")
-        if not key or (sports and sp["key"] not in sports):
+        if not key or (sports is not None and sp["key"] not in sports):
             continue
         if sp.get("role") == "benchmark" and not oc.get("include_benchmark", False):
             continue
         try:
             events = api.odds(key, tuple(oc["markets"]), oc["regions"], tuple(oc["bookmakers"]))
+            polled.append(sp["key"])
         except Exception as e:
             print(f"[warn] odds api {key}: {e}")
             continue
@@ -311,7 +314,9 @@ def pinnacle_pass(cfg: dict, out: Path, now: datetime, ts: str, sports: list[str
             rows.append(r)
     day = now.strftime("%Y-%m-%d")
     n = _write_ndjson(out / "pinnacle" / day / f"odds_{_stamp(now)}.ndjson.gz", rows)
-    print(json.dumps({"ts": ts, "pinnacle_rows": n, "quota": api.quota}))
+    meta = {"ts": ts, "pinnacle_rows": n, "sports": polled, "quota": api.quota}
+    _write_json(out / "pinnacle" / day / f"quota_{_stamp(now)}.json.gz", meta)
+    print(json.dumps(meta))
     return n
 
 
@@ -381,8 +386,8 @@ def cmd_loop(args) -> None:
     cfg = load_config(args.config)
     cad = cfg["cadence"]
     end = time.monotonic() + args.minutes * 60
-    last_full = last_window = last_odds = -1e9
-    near = False
+    last_full = last_window = last_odds_all = last_odds_near = -1e9
+    near_sports: list[str] = []
     while time.monotonic() < end:
         now = _utcnow()
         t = time.monotonic()
@@ -391,16 +396,20 @@ def cmd_loop(args) -> None:
             args.scope = "full"
             summary = cmd_pass(args)
             last_full = last_window = time.monotonic()
-            near = any(0 <= m <= cad["pre_start_window_minutes"] for m in summary.get("min_mts", []))
-        elif near and t - last_window >= cad["polymarket_window_minutes"] * 60:
+            near_sports = summary.get("near_sports", [])
+        elif near_sports and t - last_window >= cad["polymarket_window_minutes"] * 60:
             args.scope = "window"
             summary = cmd_pass(args)
             last_window = time.monotonic()
-            near = any(0 <= m <= cad["pre_start_window_minutes"] for m in summary.get("min_mts", []))
-        odds_every = cad["odds_api_window_minutes"] if near else cad["odds_api_minutes"]
-        if os.environ.get("ODDS_API_KEY") and t - last_odds >= odds_every * 60:
-            pinnacle_pass(cfg, Path(args.out), now, now.isoformat(timespec="seconds"))
-            last_odds = time.monotonic()
+            near_sports = summary.get("near_sports", [])
+        if os.environ.get("ODDS_API_KEY"):
+            ts = now.isoformat(timespec="seconds")
+            if t - last_odds_all >= cad["odds_api_minutes"] * 60:
+                pinnacle_pass(cfg, Path(args.out), now, ts)          # every sport
+                last_odds_all = last_odds_near = time.monotonic()
+            elif near_sports and t - last_odds_near >= cad["odds_api_window_minutes"] * 60:
+                pinnacle_pass(cfg, Path(args.out), now, ts, sports=near_sports)   # only sports with a game near
+                last_odds_near = time.monotonic()
         time.sleep(15)
 
 
