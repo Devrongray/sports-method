@@ -92,10 +92,25 @@ timestamp where the API gives one (`transactTime`, `last_update`,
 `lastPriceSample.ts`). Timestamp alignment is the main data-quality risk in
 the lag test, so both are kept.
 
+## News timestamps (test (a))
+
+`method/news/` records when information arrived, in `data/news/YYYY-MM-DD/`
+on the data branch, via the **News timestamps** workflow (every 30 minutes,
+27-minute loop):
+
+- `mlb_lineups_<ts>.json.gz`: MLB StatsAPI schedule with probable pitchers
+  and posted lineups, written whenever any game's state changes (2-minute poll).
+- `nba_injury_<report>_<ts>.json.gz`: each new official NBA injury report PDF,
+  with parsed rows and the raw text (5-minute poll of the index page).
+- `nhl_dailyfaceoff_<ts>.html.gz`: the DailyFaceoff starting-goalies page,
+  raw, when its content changes and only if robots.txt allows; plus the NHL
+  API schedule with game states. The goalie parser is written later from the
+  stored pages.
+
 ## Not yet built
 
-- News timestamps for the lag test (NBA official injury reports, MLB lineups
-  via MLB StatsAPI, NHL goalie confirmations). Next addition.
+- Esports roster/veto timestamps; a Pinnacle esports feed (OddsPapi).
+- The daily analysis job that joins news times to the price paths.
 - Pinnacle esports feed.
 - The order-placement layer (Phase 2, needs your go and an API key).
 
