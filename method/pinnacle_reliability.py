@@ -135,10 +135,28 @@ def run(frames: list[tuple[str, str, pd.DataFrame]], out: Path,
     for season, league, df in frames:
         d = prepare(df, "PSC")
         played = int(df["FTR"].isin(OUTCOMES).sum()) if "FTR" in df.columns else 0
+        # Which closing-odds columns the file carries, and how complete each is:
+        # Pinnacle (PSC), bet365 (B365C), market best (MaxC) and average (AvgC).
+        closing_sets = {}
+        for name, pref in (("pinnacle", "PSC"), ("bet365", "B365C"), ("max", "MaxC"), ("avg", "AvgC")):
+            cols = [f"{pref}H", f"{pref}D", f"{pref}A"]
+            if all(c in df.columns for c in cols) and played:
+                ok = df[cols].apply(pd.to_numeric, errors="coerce").notna().all(axis=1)
+                closing_sets[name] = round(float(ok.sum()) / played, 3)
+            else:
+                closing_sets[name] = None
+        psc_dates = None
+        if all(c in df.columns for c in ("PSCH", "Date")):
+            has = pd.to_numeric(df["PSCH"], errors="coerce").notna()
+            if has.any():
+                psc_dates = f"{df.loc[has, 'Date'].iloc[0]} to {df.loc[has, 'Date'].iloc[-1]}"
         coverage.append({"season": season_label(season), "league": league, "rows_in_file": int(len(df)),
                          "matches_with_result": played, "matches_with_pinnacle_close": int(len(d)),
                          "share_with_close": (len(d) / played) if played else None,
                          "has_PSC_columns": all(c in df.columns for c in ("PSCH", "PSCD", "PSCA")),
+                         "share_pinnacle": closing_sets["pinnacle"], "share_bet365": closing_sets["bet365"],
+                         "share_max": closing_sets["max"], "share_avg": closing_sets["avg"],
+                         "pinnacle_close_dates": psc_dates,
                          "last_date_in_file": str(df["Date"].iloc[-1]) if "Date" in df.columns and len(df) else None})
         if d.empty:
             print(f"[skip] {season} {league}: no Pinnacle closing columns or no rows")
@@ -255,11 +273,15 @@ def write_summary(out: Path, pool: pd.DataFrame, verdict: dict) -> None:
     cov_path = out / "coverage.csv"
     if cov_path.exists():
         cov = pd.read_csv(cov_path)
-        lines += ["", "## Data coverage", "", "| Season | League | Matches with result | With Pinnacle close | Share | Last date in file |",
-                  "|---|---|---|---|---|---|"]
+        lines += ["", "## Data coverage", "",
+                  "Share of played matches carrying each closing-odds set (Pinnacle = PSC columns, used by this test).", "",
+                  "| Season | League | Played | Pinnacle | bet365 | Max | Avg | Pinnacle close dates | Last date in file |",
+                  "|---|---|---|---|---|---|---|---|---|"]
+        pct = lambda v: "" if pd.isna(v) else f"{v:.0%}"
         for _, r in cov.iterrows():
-            share = "" if pd.isna(r["share_with_close"]) else f"{r['share_with_close']:.0%}"
-            lines.append(f"| {r['season']} | {r['league']} | {r['matches_with_result']} | {r['matches_with_pinnacle_close']} | {share} | {r['last_date_in_file']} |")
+            lines.append(f"| {r['season']} | {r['league']} | {r['matches_with_result']} | {pct(r['share_pinnacle'])} | "
+                         f"{pct(r['share_bet365'])} | {pct(r['share_max'])} | {pct(r['share_avg'])} | "
+                         f"{'' if pd.isna(r['pinnacle_close_dates']) else r['pinnacle_close_dates']} | {r['last_date_in_file']} |")
     (out / "summary.md").write_text("\n".join(lines) + "\n")
 
 
