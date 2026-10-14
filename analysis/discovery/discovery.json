@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-14T20:29:48+00:00",
+  "ts": "2026-10-14T21:24:31+00:00",
   "n_leagues": 381,
   "leagues": [
     {
@@ -2626,12 +2626,12 @@
       "events": 89,
       "upcoming_in_horizon": 9,
       "market_types": {
-        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 117,
+        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 118,
         "BASKETBALL_TEAM_FULL_GAME_TOTAL": 134,
         "BASKETBALL_TEAM_FULL_GAME_WINNER": 89
       },
       "market_classes": {
-        "SPREAD/FULL_GAME": 117,
+        "SPREAD/FULL_GAME": 118,
         "TOTAL/FULL_GAME": 134,
         "WINNER/FULL_GAME": 89
       },
@@ -2642,19 +2642,19 @@
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the BKN Nets cover 6.5 vs the MIA Heat in BKN Nets vs. MIA Heat?",
-          "line": 6.5,
-          "slug": "asc-nba-bkn-mia-2026-10-14-pos-6pt5",
+          "question": "Will the BKN Nets cover 5.5 vs the MIA Heat in BKN Nets vs. MIA Heat?",
+          "line": 5.5,
+          "slug": "asc-nba-bkn-mia-2026-10-14-pos-5pt5",
           "sides": [
             {
-              "identifier": "asc-nba-bkn-mia-2026-10-14-pos-6pt5",
+              "identifier": "asc-nba-bkn-mia-2026-10-14-pos-5pt5",
               "teamId": 22,
-              "price": 0.5
+              "price": 0.48
             },
             {
-              "identifier": "asc-nba-bkn-mia-2026-10-14-pos-6pt5",
+              "identifier": "asc-nba-bkn-mia-2026-10-14-pos-5pt5",
               "teamId": 14,
-              "price": 0.51
+              "price": 0.5
             }
           ]
         },
@@ -2662,19 +2662,19 @@
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in BKN Nets vs. MIA Heat be more than 233.5?",
-          "line": 233.5,
-          "slug": "tsc-nba-bkn-mia-2026-10-14-233pt5",
+          "question": "Will the total in BKN Nets vs. MIA Heat be more than 235.5?",
+          "line": 235.5,
+          "slug": "tsc-nba-bkn-mia-2026-10-14-235pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-bkn-mia-2026-10-14-233pt5",
+              "identifier": "tsc-nba-bkn-mia-2026-10-14-235pt5",
               "teamId": null,
               "price": 0.48
             },
             {
-              "identifier": "tsc-nba-bkn-mia-2026-10-14-233pt5",
+              "identifier": "tsc-nba-bkn-mia-2026-10-14-235pt5",
               "teamId": null,
-              "price": 0.5
+              "price": 0.49
             }
           ]
         },
@@ -2689,12 +2689,12 @@
             {
               "identifier": "aec-nba-bkn-mia-2026-10-14",
               "teamId": 22,
-              "price": 0.31
+              "price": 0.34
             },
             {
               "identifier": "aec-nba-bkn-mia-2026-10-14",
               "teamId": 14,
-              "price": 0.32
+              "price": 0.35
             }
           ]
         }
@@ -2848,7 +2848,7 @@
             {
               "identifier": "asc-nhl-mon-was-2026-10-14-p1-pos-0pt5",
               "teamId": 1487,
-              "price": 0.63
+              "price": 0.64
             },
             {
               "identifier": "asc-nhl-mon-was-2026-10-14-p1-pos-0pt5",
@@ -2965,9 +2965,9 @@
         "FOOTBALL_GAME_FIRST_HALF_TOTAL": 308,
         "FOOTBALL_GAME_SECOND_HALF_TOTAL": 308,
         "FOOTBALL_TEAM_THIRD_QUARTER_SPREAD": 140,
+        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": 140,
         "FOOTBALL_TEAM_SECOND_QUARTER_SPREAD": 140,
         "FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD": 140,
-        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": 140,
         "FOOTBALL_TEAM_FULL_GAME_WINNER": 28,
         "FOOTBALL_TEAM_SECOND_HALF_TOTAL": 448
       },
@@ -2985,9 +2985,9 @@
         "TOTAL/FIRST_HALF": 308,
         "TOTAL/SECOND_HALF": 308,
         "SPREAD/THIRD_QUARTER": 140,
+        "SPREAD/FIRST_QUARTER": 140,
         "SPREAD/SECOND_QUARTER": 140,
         "SPREAD/FOURTH_QUARTER": 140,
-        "SPREAD/FIRST_QUARTER": 140,
         "WINNER/FULL_GAME": 28,
         "TEAM_TOTAL/SECOND_HALF": 448
       },
@@ -3005,7 +3005,7 @@
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-1h-neg-1pt5",
               "teamId": 75,
-              "price": 0.46
+              "price": 0.47
             },
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-1h-neg-1pt5",
@@ -3065,12 +3065,12 @@
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-1q-7pt5",
               "teamId": null,
-              "price": 0.44
+              "price": 0.43
             },
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-1q-7pt5",
               "teamId": null,
-              "price": 0.46
+              "price": 0.47
             }
           ]
         },
@@ -3085,7 +3085,7 @@
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-2q-12pt5",
               "teamId": null,
-              "price": 0.51
+              "price": 0.52
             },
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-2q-12pt5",
@@ -3110,7 +3110,7 @@
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-3q-7pt5",
               "teamId": null,
-              "price": 0.48
+              "price": 0.49
             }
           ]
         },
@@ -3125,7 +3125,7 @@
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-4q-10pt5",
               "teamId": null,
-              "price": 0.48
+              "price": 0.49
             },
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-4q-10pt5",
@@ -3165,12 +3165,12 @@
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-tt1h-den-9pt5",
               "teamId": 57,
-              "price": 0.52
+              "price": 0.53
             },
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-tt1h-den-9pt5",
               "teamId": 57,
-              "price": 0.54
+              "price": 0.55
             }
           ]
         },
@@ -3218,19 +3218,19 @@
           "class": "TOTAL",
           "segment": "SECOND_HALF",
           "is_main": true,
-          "question": "Will the total in SEA Seahawks vs. DEN Broncos be more than 20.5?",
-          "line": 20.5,
-          "slug": "tsc-nfl-sea-den-2026-10-15-2h-20pt5",
+          "question": "Will the total in SEA Seahawks vs. DEN Broncos be more than 19.5?",
+          "line": 19.5,
+          "slug": "tsc-nfl-sea-den-2026-10-15-2h-19pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-sea-den-2026-10-15-2h-20pt5",
+              "identifier": "tsc-nfl-sea-den-2026-10-15-2h-19pt5",
               "teamId": null,
-              "price": 0.46
+              "price": 0.52
             },
             {
-              "identifier": "tsc-nfl-sea-den-2026-10-15-2h-20pt5",
+              "identifier": "tsc-nfl-sea-den-2026-10-15-2h-19pt5",
               "teamId": null,
-              "price": 0.48
+              "price": 0.55
             }
           ]
         },
@@ -3249,6 +3249,26 @@
             },
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-3q-neg-0pt5",
+              "teamId": 57,
+              "price": 0.52
+            }
+          ]
+        },
+        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": {
+          "class": "SPREAD",
+          "segment": "FIRST_QUARTER",
+          "is_main": true,
+          "question": "Will the Seattle Seahawks cover -0.5 vs the Denver Broncos in SEA Seahawks vs. DEN Broncos?",
+          "line": -0.5,
+          "slug": "asc-nfl-sea-den-2026-10-15-1q-neg-0pt5",
+          "sides": [
+            {
+              "identifier": "asc-nfl-sea-den-2026-10-15-1q-neg-0pt5",
+              "teamId": 75,
+              "price": 0.38
+            },
+            {
+              "identifier": "asc-nfl-sea-den-2026-10-15-1q-neg-0pt5",
               "teamId": 57,
               "price": 0.47
             }
@@ -3270,7 +3290,7 @@
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-2q-neg-0pt5",
               "teamId": 57,
-              "price": 0.51
+              "price": 0.55
             }
           ]
         },
@@ -3291,26 +3311,6 @@
               "identifier": "asc-nfl-sea-den-2026-10-15-4q-neg-0pt5",
               "teamId": 57,
               "price": 0.44
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_QUARTER",
-          "is_main": true,
-          "question": "Will the Seattle Seahawks cover -0.5 vs the Denver Broncos in SEA Seahawks vs. DEN Broncos?",
-          "line": -0.5,
-          "slug": "asc-nfl-sea-den-2026-10-15-1q-neg-0pt5",
-          "sides": [
-            {
-              "identifier": "asc-nfl-sea-den-2026-10-15-1q-neg-0pt5",
-              "teamId": 75,
-              "price": 0.39
-            },
-            {
-              "identifier": "asc-nfl-sea-den-2026-10-15-1q-neg-0pt5",
-              "teamId": 57,
-              "price": 0.46
             }
           ]
         },
@@ -3366,66 +3366,46 @@
       "sport": "cs2",
       "slug": "cs2",
       "slug_listed": true,
-      "events": 51,
-      "upcoming_in_horizon": 36,
+      "events": 60,
+      "upcoming_in_horizon": 42,
       "market_types": {
-        "ESPORTS_MATCH_WINNER": 51,
-        "ESPORTS_SERIES_TOTAL_MAPS": 4,
-        "ESPORTS_SERIES_MAP_HANDICAP": 2,
-        "ESPORTS_MAP_ROUNDS_HANDICAP_1": 3,
-        "ESPORTS_MAP_ROUNDS_HANDICAP_2": 4,
-        "ESPORTS_MAP_TOTAL_ROUNDS_1": 4,
-        "ESPORTS_MAP_TOTAL_ROUNDS_2": 4
+        "ESPORTS_MATCH_WINNER": 60,
+        "ESPORTS_SERIES_MAP_HANDICAP": 1,
+        "ESPORTS_MAP_ROUNDS_HANDICAP_1": 1,
+        "ESPORTS_MAP_ROUNDS_HANDICAP_2": 1,
+        "ESPORTS_MAP_TOTAL_ROUNDS_1": 1,
+        "ESPORTS_MAP_TOTAL_ROUNDS_2": 1,
+        "ESPORTS_SERIES_TOTAL_MAPS": 2
       },
       "market_classes": {
-        "WINNER/MATCH": 51,
-        "TOTAL/SERIES": 4,
-        "SPREAD/SERIES": 2,
-        "SPREAD/MAP_1": 3,
-        "SPREAD/MAP_2": 4,
-        "TOTAL/MAP_1": 4,
-        "TOTAL/MAP_2": 4
+        "WINNER/MATCH": 60,
+        "SPREAD/SERIES": 1,
+        "SPREAD/MAP_1": 1,
+        "SPREAD/MAP_2": 1,
+        "TOTAL/MAP_1": 1,
+        "TOTAL/MAP_2": 1,
+        "TOTAL/SERIES": 2
       },
-      "main_lines_in_horizon": 37,
+      "main_lines_in_horizon": 43,
       "unclassified": [],
       "examples": {
         "ESPORTS_MATCH_WINNER": {
           "class": "WINNER",
           "segment": "MATCH",
           "is_main": true,
-          "question": "Who will win in the upcoming esports event FURIA vs BetBoom Team scheduled for October 14, 2026 at 4:00 PM UTC?",
+          "question": "Who will win in the upcoming esports event Rune Eaters vs WRAITH PCIFIC scheduled for October 14, 2026 at 4:00 PM UTC?",
           "line": null,
-          "slug": "aec-cs2-furia-bb-2026-10-14",
+          "slug": "aec-cs2-re-pcific-2026-10-14",
           "sides": [
             {
-              "identifier": "aec-cs2-furia-bb-2026-10-14",
-              "teamId": 5157,
-              "price": 0.78
-            },
-            {
-              "identifier": "aec-cs2-furia-bb-2026-10-14",
-              "teamId": 5423,
+              "identifier": "aec-cs2-re-pcific-2026-10-14",
+              "teamId": 11738,
               "price": 0.79
-            }
-          ]
-        },
-        "ESPORTS_SERIES_TOTAL_MAPS": {
-          "class": "TOTAL",
-          "segment": "SERIES",
-          "is_main": true,
-          "question": "Will the total in FURIA vs. BetBoom Team be more than 2.5?",
-          "line": 2.5,
-          "slug": "tsc-cs2-furia-bb-2026-10-14-tot-2pt5",
-          "sides": [
-            {
-              "identifier": "tsc-cs2-furia-bb-2026-10-14-tot-2pt5",
-              "teamId": null,
-              "price": 0.54
             },
             {
-              "identifier": "tsc-cs2-furia-bb-2026-10-14-tot-2pt5",
-              "teamId": null,
-              "price": 0.65
+              "identifier": "aec-cs2-re-pcific-2026-10-14",
+              "teamId": 11870,
+              "price": 0.87
             }
           ]
         },
@@ -3433,19 +3413,19 @@
           "class": "SPREAD",
           "segment": "SERIES",
           "is_main": true,
-          "question": "Will the FURIA cover -1.5 vs the BetBoom Team in FURIA vs. BetBoom Team?",
+          "question": "Will the Rune Eaters cover -1.5 vs the WRAITH PCIFIC in Rune Eaters vs. WRAITH PCIFIC?",
           "line": -1.5,
-          "slug": "asc-cs2-furia-bb-2026-10-14-hcap-neg-1pt5",
+          "slug": "asc-cs2-re-pcific-2026-10-14-hcap-neg-1pt5",
           "sides": [
             {
-              "identifier": "asc-cs2-furia-bb-2026-10-14-hcap-neg-1pt5",
-              "teamId": 5157,
-              "price": 0.36
+              "identifier": "asc-cs2-re-pcific-2026-10-14-hcap-neg-1pt5",
+              "teamId": 11738,
+              "price": null
             },
             {
-              "identifier": "asc-cs2-furia-bb-2026-10-14-hcap-neg-1pt5",
-              "teamId": 5423,
-              "price": 0.46
+              "identifier": "asc-cs2-re-pcific-2026-10-14-hcap-neg-1pt5",
+              "teamId": 11870,
+              "price": 0.01
             }
           ]
         },
@@ -3453,19 +3433,19 @@
           "class": "SPREAD",
           "segment": "MAP_1",
           "is_main": true,
-          "question": "Will the FURIA cover -3.5 vs the BetBoom Team in FURIA vs. BetBoom Team - Map 1?",
-          "line": -3.5,
-          "slug": "asc-cs2-furia-bb-2026-10-14-m1rh-neg-3pt5",
+          "question": "Will the Rune Eaters cover -2.5 vs the WRAITH PCIFIC in Rune Eaters vs. WRAITH PCIFIC - Map 1?",
+          "line": -2.5,
+          "slug": "asc-cs2-re-pcific-2026-10-14-m1rh-neg-2pt5",
           "sides": [
             {
-              "identifier": "asc-cs2-furia-bb-2026-10-14-m1rh-neg-3pt5",
-              "teamId": 5157,
-              "price": 0.0
+              "identifier": "asc-cs2-re-pcific-2026-10-14-m1rh-neg-2pt5",
+              "teamId": 11738,
+              "price": 1.0
             },
             {
-              "identifier": "asc-cs2-furia-bb-2026-10-14-m1rh-neg-3pt5",
-              "teamId": 5423,
-              "price": 1.0
+              "identifier": "asc-cs2-re-pcific-2026-10-14-m1rh-neg-2pt5",
+              "teamId": 11870,
+              "price": 0.0
             }
           ]
         },
@@ -3473,19 +3453,19 @@
           "class": "SPREAD",
           "segment": "MAP_2",
           "is_main": true,
-          "question": "Will the FURIA cover -3.5 vs the BetBoom Team in FURIA vs. BetBoom Team - Map 2?",
-          "line": -3.5,
-          "slug": "asc-cs2-furia-bb-2026-10-14-m2rh-neg-3pt5",
+          "question": "Will the Rune Eaters cover -2.5 vs the WRAITH PCIFIC in Rune Eaters vs. WRAITH PCIFIC - Map 2?",
+          "line": -2.5,
+          "slug": "asc-cs2-re-pcific-2026-10-14-m2rh-neg-2pt5",
           "sides": [
             {
-              "identifier": "asc-cs2-furia-bb-2026-10-14-m2rh-neg-3pt5",
-              "teamId": 5157,
-              "price": 0.01
+              "identifier": "asc-cs2-re-pcific-2026-10-14-m2rh-neg-2pt5",
+              "teamId": 11738,
+              "price": null
             },
             {
-              "identifier": "asc-cs2-furia-bb-2026-10-14-m2rh-neg-3pt5",
-              "teamId": 5423,
-              "price": 0.69
+              "identifier": "asc-cs2-re-pcific-2026-10-14-m2rh-neg-2pt5",
+              "teamId": 11870,
+              "price": 0.01
             }
           ]
         },
@@ -3493,19 +3473,19 @@
           "class": "TOTAL",
           "segment": "MAP_1",
           "is_main": true,
-          "question": "Will the total in FURIA vs. BetBoom Team - Map 1 be more than 21.5?",
+          "question": "Will the total in Rune Eaters vs. WRAITH PCIFIC - Map 1 be more than 21.5?",
           "line": 21.5,
-          "slug": "tsc-cs2-furia-bb-2026-10-14-m1tr-21pt5",
+          "slug": "tsc-cs2-re-pcific-2026-10-14-m1tr-21pt5",
           "sides": [
             {
-              "identifier": "tsc-cs2-furia-bb-2026-10-14-m1tr-21pt5",
-              "teamId": null,
-              "price": 1.0
-            },
-            {
-              "identifier": "tsc-cs2-furia-bb-2026-10-14-m1tr-21pt5",
+              "identifier": "tsc-cs2-re-pcific-2026-10-14-m1tr-21pt5",
               "teamId": null,
               "price": 0.0
+            },
+            {
+              "identifier": "tsc-cs2-re-pcific-2026-10-14-m1tr-21pt5",
+              "teamId": null,
+              "price": 1.0
             }
           ]
         },
@@ -3513,28 +3493,48 @@
           "class": "TOTAL",
           "segment": "MAP_2",
           "is_main": true,
-          "question": "Will the total in FURIA vs. BetBoom Team - Map 2 be more than 21.5?",
+          "question": "Will the total in Rune Eaters vs. WRAITH PCIFIC - Map 2 be more than 21.5?",
           "line": 21.5,
-          "slug": "tsc-cs2-furia-bb-2026-10-14-m2tr-21pt5",
+          "slug": "tsc-cs2-re-pcific-2026-10-14-m2tr-21pt5",
           "sides": [
             {
-              "identifier": "tsc-cs2-furia-bb-2026-10-14-m2tr-21pt5",
+              "identifier": "tsc-cs2-re-pcific-2026-10-14-m2tr-21pt5",
               "teamId": null,
               "price": 0.01
             },
             {
-              "identifier": "tsc-cs2-furia-bb-2026-10-14-m2tr-21pt5",
+              "identifier": "tsc-cs2-re-pcific-2026-10-14-m2tr-21pt5",
               "teamId": null,
               "price": 0.99
+            }
+          ]
+        },
+        "ESPORTS_SERIES_TOTAL_MAPS": {
+          "class": "TOTAL",
+          "segment": "SERIES",
+          "is_main": true,
+          "question": "Will the total in Rune Eaters vs. WRAITH PCIFIC be more than 2.5?",
+          "line": 2.5,
+          "slug": "tsc-cs2-re-pcific-2026-10-14-tot-2pt5",
+          "sides": [
+            {
+              "identifier": "tsc-cs2-re-pcific-2026-10-14-tot-2pt5",
+              "teamId": null,
+              "price": 0.01
+            },
+            {
+              "identifier": "tsc-cs2-re-pcific-2026-10-14-tot-2pt5",
+              "teamId": null,
+              "price": 0.92
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "cs2-ldp-gls-2026-10-14",
-        "title": "largadosypelados vs. Galorys",
-        "start": "2026-10-14T21:00:00Z"
+        "slug": "cs2-jdt-ana-2026-10-14",
+        "title": "Joga de terno vs. A NATA",
+        "start": "2026-10-14T22:00:00Z"
       }
     },
     {
@@ -3643,7 +3643,7 @@
             {
               "identifier": "asc-epl-eve-cfc-2026-10-17-fh-neg-2pt5",
               "teamId": 2688,
-              "price": 0.27
+              "price": 0.22
             }
           ]
         },
@@ -3718,7 +3718,7 @@
             {
               "identifier": "tsc-epl-eve-cfc-2026-10-17-sh-2pt5",
               "teamId": null,
-              "price": 0.01
+              "price": 0.02
             },
             {
               "identifier": "tsc-epl-eve-cfc-2026-10-17-sh-2pt5",
@@ -3743,7 +3743,7 @@
             {
               "identifier": "tsc-epl-eve-cfc-2026-10-17-fh-1pt5",
               "teamId": null,
-              "price": 0.4
+              "price": 0.39
             }
           ]
         }
@@ -3789,12 +3789,12 @@
             {
               "identifier": "atc-lal-dep-lev-2026-10-16-dep",
               "teamId": 7149,
-              "price": 0.46
+              "price": 0.45
             },
             {
               "identifier": "atc-lal-dep-lev-2026-10-16-dep",
               "teamId": 7149,
-              "price": 0.47
+              "price": 0.46
             }
           ]
         },
@@ -3834,7 +3834,7 @@
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-fh-neg-1pt5",
               "teamId": 3447,
-              "price": 0.11
+              "price": 0.1
             }
           ]
         },
@@ -3849,7 +3849,7 @@
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-sh-pos-1pt5",
               "teamId": 7149,
-              "price": 0.01
+              "price": 0.04
             },
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-sh-pos-1pt5",
@@ -3889,12 +3889,12 @@
             {
               "identifier": "tsc-lal-dep-lev-2026-10-16-2pt5",
               "teamId": null,
-              "price": 0.48
+              "price": 0.49
             },
             {
               "identifier": "tsc-lal-dep-lev-2026-10-16-2pt5",
               "teamId": null,
-              "price": 0.49
+              "price": 0.5
             }
           ]
         },
@@ -4000,12 +4000,12 @@
             {
               "identifier": "asc-bun-fra-koe-2026-10-16-fh-neg-1pt5",
               "teamId": 3407,
-              "price": 0.11
+              "price": 0.12
             },
             {
               "identifier": "asc-bun-fra-koe-2026-10-16-fh-neg-1pt5",
               "teamId": 3403,
-              "price": 0.17
+              "price": 0.16
             }
           ]
         },
@@ -4020,7 +4020,7 @@
             {
               "identifier": "asc-bun-fra-koe-2026-10-16-sh-pos-1pt5",
               "teamId": 3407,
-              "price": 0.01
+              "price": 0.02
             },
             {
               "identifier": "asc-bun-fra-koe-2026-10-16-sh-pos-1pt5",
@@ -4040,7 +4040,7 @@
             {
               "identifier": "tsc-bun-fra-koe-2026-10-16-sh-2pt5",
               "teamId": null,
-              "price": 0.02
+              "price": 0.01
             },
             {
               "identifier": "tsc-bun-fra-koe-2026-10-16-sh-2pt5",
@@ -4085,7 +4085,7 @@
             {
               "identifier": "tsc-bun-fra-koe-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.52
+              "price": 0.51
             }
           ]
         }
@@ -4171,7 +4171,7 @@
             {
               "identifier": "asc-sea-fro-sas-2026-10-16-neg-1pt5",
               "teamId": 7140,
-              "price": 0.17
+              "price": 0.18
             },
             {
               "identifier": "asc-sea-fro-sas-2026-10-16-neg-1pt5",
@@ -4191,7 +4191,7 @@
             {
               "identifier": "asc-sea-fro-sas-2026-10-16-sh-pos-1pt5",
               "teamId": 7140,
-              "price": 0.01
+              "price": 0.02
             },
             {
               "identifier": "asc-sea-fro-sas-2026-10-16-sh-pos-1pt5",
@@ -4211,7 +4211,7 @@
             {
               "identifier": "tsc-sea-fro-sas-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.4
+              "price": 0.41
             },
             {
               "identifier": "tsc-sea-fro-sas-2026-10-16-fh-1pt5",
@@ -4251,7 +4251,7 @@
             {
               "identifier": "tsc-sea-fro-sas-2026-10-16-sh-2pt5",
               "teamId": null,
-              "price": 0.02
+              "price": 0.01
             },
             {
               "identifier": "tsc-sea-fro-sas-2026-10-16-sh-2pt5",
@@ -4367,7 +4367,7 @@
             {
               "identifier": "asc-lg1-lmf-tou-2026-10-16-fh-neg-2pt5",
               "teamId": 25611,
-              "price": 0.3
+              "price": 0.26
             }
           ]
         },
@@ -4422,12 +4422,12 @@
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.35
+              "price": 0.36
             },
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.39
+              "price": 0.38
             }
           ]
         }
