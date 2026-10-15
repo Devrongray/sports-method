@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-15T03:56:21+00:00",
+  "ts": "2026-10-15T08:38:03+00:00",
   "n_leagues": 382,
   "leagues": [
     {
@@ -1479,20 +1479,8 @@
       "sportId": 4
     },
     {
-      "slug": "indicham",
-      "name": "India Championship",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "buiclpga",
-      "name": "Buick LPGA Shanghai",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "sascham",
-      "name": "SAS Championship",
+      "slug": "buttberm",
+      "name": "Butterfield Bermuda Championship",
       "isOperational": true,
       "sportId": 7
     },
@@ -1641,6 +1629,24 @@
       "sportId": 1
     },
     {
+      "slug": "sascham",
+      "name": "SAS Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "buiclpga",
+      "name": "Buick LPGA Shanghai",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "indicham",
+      "name": "India Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
       "slug": "lottcham",
       "name": "LOTTE Championship",
       "isOperational": true,
@@ -1657,12 +1663,6 @@
       "name": "CONCACAF Nations League",
       "isOperational": true,
       "sportId": 2
-    },
-    {
-      "slug": "buttberm",
-      "name": "Butterfield Bermuda Championship",
-      "isOperational": true,
-      "sportId": 7
     },
     {
       "slug": "shl",
@@ -1929,6 +1929,12 @@
       "sportId": 7
     },
     {
+      "slug": "bmwladic",
+      "name": "BMW Ladies Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
       "slug": "svk2",
       "name": "Slovak 2. Liga",
       "isOperational": true,
@@ -1971,10 +1977,16 @@
       "sportId": 2
     },
     {
-      "slug": "bmwladic",
-      "name": "BMW Ladies Championship",
+      "slug": "asgames",
+      "name": "Asian Games Men's Football",
       "isOperational": true,
-      "sportId": 7
+      "sportId": 2
+    },
+    {
+      "slug": "aseanc",
+      "name": "ASEAN Cup Challenge Division",
+      "isOperational": true,
+      "sportId": 2
     },
     {
       "slug": "genecham",
@@ -1987,18 +1999,6 @@
       "name": "Stifel Charity Classic",
       "isOperational": true,
       "sportId": 7
-    },
-    {
-      "slug": "asgames",
-      "name": "Asian Games Men's Football",
-      "isOperational": true,
-      "sportId": 2
-    },
-    {
-      "slug": "aseanc",
-      "name": "ASEAN Cup Challenge Division",
-      "isOperational": true,
-      "sportId": 2
     },
     {
       "slug": "maybcham",
@@ -2223,14 +2223,14 @@
       "sportId": 1
     },
     {
-      "slug": "abudhabc",
-      "name": "Abu Dhabi Championship",
+      "slug": "totojapa",
+      "name": "Toto Japan Classic",
       "isOperational": true,
       "sportId": 7
     },
     {
-      "slug": "totojapa",
-      "name": "Toto Japan Classic",
+      "slug": "dpworlch",
+      "name": "DP World Tour Championship",
       "isOperational": true,
       "sportId": 7
     },
@@ -2247,22 +2247,16 @@
       "sportId": 1
     },
     {
-      "slug": "dpworlch",
-      "name": "DP World Tour Championship",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "anni",
-      "name": "ANNIKA",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
       "slug": "rlwc",
       "name": "RLWC",
       "isOperational": true,
       "sportId": 24
+    },
+    {
+      "slug": "austcham",
+      "name": "Austin Championship",
+      "isOperational": true,
+      "sportId": 7
     },
     {
       "slug": "bskt3x3",
@@ -2271,16 +2265,16 @@
       "sportId": 1
     },
     {
+      "slug": "anni",
+      "name": "ANNIKA",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
       "slug": "acw",
       "name": "Astra Cup Women",
       "isOperational": true,
       "sportId": 26
-    },
-    {
-      "slug": "austcham",
-      "name": "Austin Championship",
-      "isOperational": true,
-      "sportId": 7
     },
     {
       "slug": "worlwide",
@@ -2291,6 +2285,12 @@
     {
       "slug": "simmbank",
       "name": "Simmons Bank Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "abudhabc",
+      "name": "Abu Dhabi Championship",
       "isOperational": true,
       "sportId": 7
     }
@@ -2305,34 +2305,34 @@
       "market_types": {
         "BASEBALL_TEAM_FULL_GAME_SPREAD": 32,
         "BASEBALL_TEAM_FULL_GAME_TOTAL": 14,
-        "BASEBALL_TEAM_FIRST_FIVE_SPREAD": 4,
-        "BASEBALL_TEAM_FIRST_FIVE_TOTAL": 10,
+        "BASEBALL_TEAM_FIRST_FIVE_SPREAD": 6,
+        "BASEBALL_TEAM_FIRST_FIVE_TOTAL": 15,
+        "BASEBALL_TEAM_INNING4_TOTAL": 6,
+        "BASEBALL_TEAM_INNING5_TOTAL": 6,
+        "BASEBALL_TEAM_INNING3_TOTAL": 6,
+        "BASEBALL_TEAM_INNING6_TOTAL": 6,
+        "BASEBALL_TEAM_INNING8_TOTAL": 6,
+        "BASEBALL_TEAM_INNING7_TOTAL": 6,
         "BASEBALL_TEAM_FULL_GAME_WINNER": 4,
-        "BASEBALL_TEAM_INNING2_TOTAL": 4,
-        "BASEBALL_TEAM_INNING3_TOTAL": 4,
-        "BASEBALL_TEAM_INNING4_TOTAL": 4,
-        "BASEBALL_TEAM_INNING5_TOTAL": 4,
-        "BASEBALL_TEAM_INNING8_TOTAL": 4,
-        "BASEBALL_TEAM_INNING9_TOTAL": 4,
-        "BASEBALL_TEAM_INNING6_TOTAL": 4,
-        "BASEBALL_TEAM_INNING7_TOTAL": 4,
-        "BASEBALL_TEAM_INNING1_TOTAL": 2
+        "BASEBALL_TEAM_INNING2_TOTAL": 6,
+        "BASEBALL_TEAM_INNING9_TOTAL": 6,
+        "BASEBALL_TEAM_INNING1_TOTAL": 3
       },
       "market_classes": {
         "SPREAD/FULL_GAME": 32,
         "TOTAL/FULL_GAME": 14,
-        "SPREAD/FIRST_FIVE": 4,
-        "TOTAL/FIRST_FIVE": 10,
+        "SPREAD/FIRST_FIVE": 6,
+        "TOTAL/FIRST_FIVE": 15,
+        "TOTAL/INNING4": 6,
+        "TOTAL/INNING5": 6,
+        "TOTAL/INNING3": 6,
+        "TOTAL/INNING6": 6,
+        "TOTAL/INNING8": 6,
+        "TOTAL/INNING7": 6,
         "WINNER/FULL_GAME": 4,
-        "TOTAL/INNING2": 4,
-        "TOTAL/INNING3": 4,
-        "TOTAL/INNING4": 4,
-        "TOTAL/INNING5": 4,
-        "TOTAL/INNING8": 4,
-        "TOTAL/INNING9": 4,
-        "TOTAL/INNING6": 4,
-        "TOTAL/INNING7": 4,
-        "TOTAL/INNING1": 2
+        "TOTAL/INNING2": 6,
+        "TOTAL/INNING9": 6,
+        "TOTAL/INNING1": 3
       },
       "main_lines_in_horizon": 28,
       "unclassified": [],
@@ -2348,12 +2348,12 @@
             {
               "identifier": "asc-mlb-tb-cle-2026-10-15-pos-1pt5",
               "teamId": 3026,
-              "price": 0.645
+              "price": 0.65
             },
             {
               "identifier": "asc-mlb-tb-cle-2026-10-15-pos-1pt5",
               "teamId": 3007,
-              "price": 0.65
+              "price": 0.655
             }
           ]
         },
@@ -2408,12 +2408,132 @@
             {
               "identifier": "tsc-mlb-tb-cle-2026-10-15-f5-3pt5",
               "teamId": null,
-              "price": 0.48
+              "price": 0.46
             },
             {
               "identifier": "tsc-mlb-tb-cle-2026-10-15-f5-3pt5",
               "teamId": null,
+              "price": 0.47
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING4_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING4",
+          "is_main": true,
+          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 4th inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-tb-cle-2026-10-15-i4-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i4-0pt5",
+              "teamId": null,
+              "price": 0.32
+            },
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i4-0pt5",
+              "teamId": null,
+              "price": 0.52
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING5_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING5",
+          "is_main": true,
+          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 5th inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-tb-cle-2026-10-15-i5-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i5-0pt5",
+              "teamId": null,
+              "price": 0.3
+            },
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i5-0pt5",
+              "teamId": null,
+              "price": 0.52
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING3_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING3",
+          "is_main": true,
+          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 3rd inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-tb-cle-2026-10-15-i3-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i3-0pt5",
+              "teamId": null,
+              "price": 0.32
+            },
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i3-0pt5",
+              "teamId": null,
+              "price": 0.5
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING6_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING6",
+          "is_main": true,
+          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 6th inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-tb-cle-2026-10-15-i6-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i6-0pt5",
+              "teamId": null,
+              "price": 0.29
+            },
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i6-0pt5",
+              "teamId": null,
               "price": 0.49
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING8_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING8",
+          "is_main": true,
+          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 8th inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-tb-cle-2026-10-15-i8-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i8-0pt5",
+              "teamId": null,
+              "price": 0.31
+            },
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i8-0pt5",
+              "teamId": null,
+              "price": 0.48
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING7_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING7",
+          "is_main": true,
+          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 7th inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-tb-cle-2026-10-15-i7-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i7-0pt5",
+              "teamId": null,
+              "price": 0.28
+            },
+            {
+              "identifier": "tsc-mlb-tb-cle-2026-10-15-i7-0pt5",
+              "teamId": null,
+              "price": 0.47
             }
           ]
         },
@@ -2457,86 +2577,6 @@
             }
           ]
         },
-        "BASEBALL_TEAM_INNING3_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING3",
-          "is_main": true,
-          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 3rd inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-tb-cle-2026-10-15-i3-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i3-0pt5",
-              "teamId": null,
-              "price": 0.3
-            },
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i3-0pt5",
-              "teamId": null,
-              "price": 0.31
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING4_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING4",
-          "is_main": true,
-          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 4th inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-tb-cle-2026-10-15-i4-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i4-0pt5",
-              "teamId": null,
-              "price": 0.3
-            },
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i4-0pt5",
-              "teamId": null,
-              "price": 0.31
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING5_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING5",
-          "is_main": true,
-          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 5th inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-tb-cle-2026-10-15-i5-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i5-0pt5",
-              "teamId": null,
-              "price": 0.3
-            },
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i5-0pt5",
-              "teamId": null,
-              "price": 0.31
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING8_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING8",
-          "is_main": true,
-          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 8th inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-tb-cle-2026-10-15-i8-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i8-0pt5",
-              "teamId": null,
-              "price": 0.3
-            },
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i8-0pt5",
-              "teamId": null,
-              "price": 0.31
-            }
-          ]
-        },
         "BASEBALL_TEAM_INNING9_TOTAL": {
           "class": "TOTAL",
           "segment": "INNING9",
@@ -2554,46 +2594,6 @@
               "identifier": "tsc-mlb-tb-cle-2026-10-15-i9-0pt5",
               "teamId": null,
               "price": 0.31
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING6_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING6",
-          "is_main": true,
-          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 6th inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-tb-cle-2026-10-15-i6-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i6-0pt5",
-              "teamId": null,
-              "price": 0.29
-            },
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i6-0pt5",
-              "teamId": null,
-              "price": 0.3
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING7_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING7",
-          "is_main": true,
-          "question": "Will the Tampa Bay Rays and Cleveland Guardians combine for more than 0.5 runs in the 7th inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-tb-cle-2026-10-15-i7-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i7-0pt5",
-              "teamId": null,
-              "price": 0.28
-            },
-            {
-              "identifier": "tsc-mlb-tb-cle-2026-10-15-i7-0pt5",
-              "teamId": null,
-              "price": 0.29
             }
           ]
         },
@@ -2629,57 +2629,57 @@
       "sport": "nba",
       "slug": "nba",
       "slug_listed": true,
-      "events": 83,
+      "events": 85,
       "upcoming_in_horizon": 2,
       "market_types": {
-        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 97,
-        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 85,
-        "BASKETBALL_TEAM_FULL_GAME_WINNER": 83
+        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 72,
+        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 83,
+        "BASKETBALL_TEAM_FULL_GAME_WINNER": 85
       },
       "market_classes": {
-        "TOTAL/FULL_GAME": 97,
-        "SPREAD/FULL_GAME": 85,
-        "WINNER/FULL_GAME": 83
+        "SPREAD/FULL_GAME": 72,
+        "TOTAL/FULL_GAME": 83,
+        "WINNER/FULL_GAME": 85
       },
       "main_lines_in_horizon": 6,
       "unclassified": [],
       "examples": {
-        "BASKETBALL_TEAM_FULL_GAME_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Will the total in DEN Nuggets vs. LA Clippers be more than 227.5?",
-          "line": 227.5,
-          "slug": "tsc-nba-den-lac-2026-10-14-227pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nba-den-lac-2026-10-14-227pt5",
-              "teamId": null,
-              "price": 0.5
-            },
-            {
-              "identifier": "tsc-nba-den-lac-2026-10-14-227pt5",
-              "teamId": null,
-              "price": 0.51
-            }
-          ]
-        },
         "BASKETBALL_TEAM_FULL_GAME_SPREAD": {
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the DEN Nuggets cover -1.5 vs the LA Clippers in DEN Nuggets vs. LA Clippers?",
-          "line": -1.5,
-          "slug": "asc-nba-den-lac-2026-10-14-neg-1pt5",
+          "question": "Will the TOR Raptors cover 5.5 vs the NY Knicks in TOR Raptors vs. NY Knicks?",
+          "line": 5.5,
+          "slug": "asc-nba-tor-ny-2026-10-15-pos-5pt5",
           "sides": [
             {
-              "identifier": "asc-nba-den-lac-2026-10-14-neg-1pt5",
-              "teamId": 40,
-              "price": 0.5
+              "identifier": "asc-nba-tor-ny-2026-10-15-pos-5pt5",
+              "teamId": 34,
+              "price": 0.51
             },
             {
-              "identifier": "asc-nba-den-lac-2026-10-14-neg-1pt5",
-              "teamId": 20,
+              "identifier": "asc-nba-tor-ny-2026-10-15-pos-5pt5",
+              "teamId": 43,
+              "price": 0.52
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_FULL_GAME_TOTAL": {
+          "class": "TOTAL",
+          "segment": "FULL_GAME",
+          "is_main": true,
+          "question": "Will the total in TOR Raptors vs. NY Knicks be more than 225.5?",
+          "line": 225.5,
+          "slug": "tsc-nba-tor-ny-2026-10-15-225pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nba-tor-ny-2026-10-15-225pt5",
+              "teamId": null,
+              "price": 0.49
+            },
+            {
+              "identifier": "tsc-nba-tor-ny-2026-10-15-225pt5",
+              "teamId": null,
               "price": 0.51
             }
           ]
@@ -2688,19 +2688,19 @@
           "class": "WINNER",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Who will win in the upcoming basketball event DEN Nuggets vs LA Clippers scheduled for October 15, 2026 at 2:30 AM UTC?",
+          "question": "Who will win in the upcoming basketball event TOR Raptors vs NY Knicks scheduled for October 15, 2026 at 11:30 PM UTC?",
           "line": null,
-          "slug": "aec-nba-den-lac-2026-10-14",
+          "slug": "aec-nba-tor-ny-2026-10-15",
           "sides": [
             {
-              "identifier": "aec-nba-den-lac-2026-10-14",
-              "teamId": 40,
-              "price": 0.52
+              "identifier": "aec-nba-tor-ny-2026-10-15",
+              "teamId": 34,
+              "price": 0.34
             },
             {
-              "identifier": "aec-nba-den-lac-2026-10-14",
-              "teamId": 20,
-              "price": 0.53
+              "identifier": "aec-nba-tor-ny-2026-10-15",
+              "teamId": 43,
+              "price": 0.35
             }
           ]
         }
@@ -2736,29 +2736,29 @@
       "sport": "nhl",
       "slug": "nhl",
       "slug_listed": true,
-      "events": 29,
+      "events": 33,
       "upcoming_in_horizon": 11,
       "market_types": {
-        "HOCKEY_TEAM_FULL_GAME_TOTAL": 232,
-        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": 116,
-        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": 116,
-        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": 116,
-        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": 116,
-        "HOCKEY_TEAM_FULL_GAME_SPREAD": 174,
-        "HOCKEY_TEAM_FIRST_PERIOD_TOTAL": 116,
-        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": 116,
-        "HOCKEY_TEAM_FULL_GAME_WINNER": 29
+        "HOCKEY_TEAM_FULL_GAME_TOTAL": 264,
+        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": 132,
+        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": 132,
+        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": 132,
+        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": 132,
+        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": 132,
+        "HOCKEY_TEAM_FULL_GAME_SPREAD": 198,
+        "HOCKEY_TEAM_FIRST_PERIOD_TOTAL": 132,
+        "HOCKEY_TEAM_FULL_GAME_WINNER": 33
       },
       "market_classes": {
-        "TOTAL/FULL_GAME": 232,
-        "TOTAL/SECOND_PERIOD": 116,
-        "TOTAL/THIRD_PERIOD": 116,
-        "SPREAD/FIRST_PERIOD": 116,
-        "SPREAD/SECOND_PERIOD": 116,
-        "SPREAD/FULL_GAME": 174,
-        "TOTAL/FIRST_PERIOD": 116,
-        "SPREAD/THIRD_PERIOD": 116,
-        "WINNER/FULL_GAME": 29
+        "TOTAL/FULL_GAME": 264,
+        "TOTAL/THIRD_PERIOD": 132,
+        "TOTAL/SECOND_PERIOD": 132,
+        "SPREAD/FIRST_PERIOD": 132,
+        "SPREAD/SECOND_PERIOD": 132,
+        "SPREAD/THIRD_PERIOD": 132,
+        "SPREAD/FULL_GAME": 198,
+        "TOTAL/FIRST_PERIOD": 132,
+        "WINNER/FULL_GAME": 33
       },
       "main_lines_in_horizon": 99,
       "unclassified": [],
@@ -2779,27 +2779,7 @@
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-6pt5",
               "teamId": null,
-              "price": 0.54
-            }
-          ]
-        },
-        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": {
-          "class": "TOTAL",
-          "segment": "SECOND_PERIOD",
-          "is_main": true,
-          "question": "Will BUF vs TOR have more than 2.5 goals in the second period?",
-          "line": 2.5,
-          "slug": "tsc-nhl-buf-tor-2026-10-15-p2-2pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nhl-buf-tor-2026-10-15-p2-2pt5",
-              "teamId": null,
-              "price": 0.29
-            },
-            {
-              "identifier": "tsc-nhl-buf-tor-2026-10-15-p2-2pt5",
-              "teamId": null,
-              "price": 0.46
+              "price": 0.53
             }
           ]
         },
@@ -2814,12 +2794,32 @@
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-p3-2pt5",
               "teamId": null,
-              "price": 0.33
+              "price": 0.35
             },
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-p3-2pt5",
               "teamId": null,
-              "price": 0.51
+              "price": 0.49
+            }
+          ]
+        },
+        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": {
+          "class": "TOTAL",
+          "segment": "SECOND_PERIOD",
+          "is_main": true,
+          "question": "Will BUF vs TOR have more than 2.5 goals in the second period?",
+          "line": 2.5,
+          "slug": "tsc-nhl-buf-tor-2026-10-15-p2-2pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nhl-buf-tor-2026-10-15-p2-2pt5",
+              "teamId": null,
+              "price": 0.31
+            },
+            {
+              "identifier": "tsc-nhl-buf-tor-2026-10-15-p2-2pt5",
+              "teamId": null,
+              "price": 0.45
             }
           ]
         },
@@ -2854,12 +2854,32 @@
             {
               "identifier": "asc-nhl-buf-tor-2026-10-15-p2-pos-0pt5",
               "teamId": 1485,
-              "price": 0.54
+              "price": 0.57
             },
             {
               "identifier": "asc-nhl-buf-tor-2026-10-15-p2-pos-0pt5",
               "teamId": 1490,
-              "price": 0.75
+              "price": 0.7
+            }
+          ]
+        },
+        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": {
+          "class": "SPREAD",
+          "segment": "THIRD_PERIOD",
+          "is_main": true,
+          "question": "Will BUF Sabres cover +0.5 vs TOR Maple Leafs in the third period of BUF vs TOR?",
+          "line": 0.5,
+          "slug": "asc-nhl-buf-tor-2026-10-15-p3-pos-0pt5",
+          "sides": [
+            {
+              "identifier": "asc-nhl-buf-tor-2026-10-15-p3-pos-0pt5",
+              "teamId": 1485,
+              "price": 0.55
+            },
+            {
+              "identifier": "asc-nhl-buf-tor-2026-10-15-p3-pos-0pt5",
+              "teamId": 1490,
+              "price": 0.69
             }
           ]
         },
@@ -2894,32 +2914,12 @@
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-p1-1pt5",
               "teamId": null,
-              "price": 0.54
+              "price": 0.5
             },
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-p1-1pt5",
               "teamId": null,
               "price": 0.61
-            }
-          ]
-        },
-        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": {
-          "class": "SPREAD",
-          "segment": "THIRD_PERIOD",
-          "is_main": true,
-          "question": "Will BUF Sabres cover +0.5 vs TOR Maple Leafs in the third period of BUF vs TOR?",
-          "line": 0.5,
-          "slug": "asc-nhl-buf-tor-2026-10-15-p3-pos-0pt5",
-          "sides": [
-            {
-              "identifier": "asc-nhl-buf-tor-2026-10-15-p3-pos-0pt5",
-              "teamId": 1485,
-              "price": 0.51
-            },
-            {
-              "identifier": "asc-nhl-buf-tor-2026-10-15-p3-pos-0pt5",
-              "teamId": 1490,
-              "price": 0.7
             }
           ]
         },
@@ -2955,47 +2955,47 @@
       "sport": "nfl",
       "slug": "nfl",
       "slug_listed": true,
-      "events": 28,
+      "events": 29,
       "upcoming_in_horizon": 1,
       "market_types": {
         "FOOTBALL_TEAM_FIRST_HALF_SPREAD": 868,
         "FOOTBALL_TEAM_SECOND_HALF_SPREAD": 868,
         "FOOTBALL_TEAM_FULL_GAME_SPREAD": 1148,
+        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": 400,
         "FOOTBALL_GAME_FOURTH_QUARTER_TOTAL": 400,
         "FOOTBALL_TEAM_FULL_GAME_TOTAL": 812,
-        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": 400,
         "FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL": 952,
         "FOOTBALL_GAME_THIRD_QUARTER_TOTAL": 400,
         "FOOTBALL_GAME_FIRST_QUARTER_TOTAL": 400,
         "FOOTBALL_GAME_FIRST_HALF_TOTAL": 308,
-        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": 448,
         "FOOTBALL_TEAM_FIRST_HALF_TOTAL": 448,
+        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": 448,
         "FOOTBALL_GAME_SECOND_HALF_TOTAL": 308,
         "FOOTBALL_TEAM_THIRD_QUARTER_SPREAD": 140,
         "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": 140,
         "FOOTBALL_TEAM_SECOND_QUARTER_SPREAD": 140,
         "FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD": 140,
-        "FOOTBALL_TEAM_FULL_GAME_WINNER": 28
+        "FOOTBALL_TEAM_FULL_GAME_WINNER": 29
       },
       "market_classes": {
         "SPREAD/FIRST_HALF": 868,
         "SPREAD/SECOND_HALF": 868,
         "SPREAD/FULL_GAME": 1148,
+        "TOTAL/SECOND_QUARTER": 400,
         "TOTAL/FOURTH_QUARTER": 400,
         "TOTAL/FULL_GAME": 812,
-        "TOTAL/SECOND_QUARTER": 400,
         "TEAM_TOTAL/FULL_GAME": 952,
         "TOTAL/THIRD_QUARTER": 400,
         "TOTAL/FIRST_QUARTER": 400,
         "TOTAL/FIRST_HALF": 308,
-        "TEAM_TOTAL/SECOND_HALF": 448,
         "TEAM_TOTAL/FIRST_HALF": 448,
+        "TEAM_TOTAL/SECOND_HALF": 448,
         "TOTAL/SECOND_HALF": 308,
         "SPREAD/THIRD_QUARTER": 140,
         "SPREAD/FIRST_QUARTER": 140,
         "SPREAD/SECOND_QUARTER": 140,
         "SPREAD/FOURTH_QUARTER": 140,
-        "WINNER/FULL_GAME": 28
+        "WINNER/FULL_GAME": 29
       },
       "main_lines_in_horizon": 7,
       "unclassified": [],
@@ -3031,12 +3031,12 @@
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-2h-neg-1pt5",
               "teamId": 75,
-              "price": 0.46
+              "price": 0.45
             },
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-2h-neg-1pt5",
               "teamId": 57,
-              "price": 0.48
+              "price": 0.47
             }
           ]
         },
@@ -3060,6 +3060,26 @@
             }
           ]
         },
+        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": {
+          "class": "TOTAL",
+          "segment": "SECOND_QUARTER",
+          "is_main": true,
+          "question": "Will the total in SEA Seahawks vs. DEN Broncos be more than 12.5?",
+          "line": 12.5,
+          "slug": "tsc-nfl-sea-den-2026-10-15-2q-12pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nfl-sea-den-2026-10-15-2q-12pt5",
+              "teamId": null,
+              "price": 0.51
+            },
+            {
+              "identifier": "tsc-nfl-sea-den-2026-10-15-2q-12pt5",
+              "teamId": null,
+              "price": 0.55
+            }
+          ]
+        },
         "FOOTBALL_GAME_FOURTH_QUARTER_TOTAL": {
           "class": "TOTAL",
           "segment": "FOURTH_QUARTER",
@@ -3071,7 +3091,7 @@
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-4q-10pt5",
               "teamId": null,
-              "price": 0.5
+              "price": 0.49
             },
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-4q-10pt5",
@@ -3097,26 +3117,6 @@
               "identifier": "tsc-nfl-sea-den-2026-10-15-total-40pt5",
               "teamId": null,
               "price": 0.51
-            }
-          ]
-        },
-        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": {
-          "class": "TOTAL",
-          "segment": "SECOND_QUARTER",
-          "is_main": true,
-          "question": "Will the total in SEA Seahawks vs. DEN Broncos be more than 12.5?",
-          "line": 12.5,
-          "slug": "tsc-nfl-sea-den-2026-10-15-2q-12pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-sea-den-2026-10-15-2q-12pt5",
-              "teamId": null,
-              "price": 0.52
-            },
-            {
-              "identifier": "tsc-nfl-sea-den-2026-10-15-2q-12pt5",
-              "teamId": null,
-              "price": 0.55
             }
           ]
         },
@@ -3151,7 +3151,7 @@
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-3q-7pt5",
               "teamId": null,
-              "price": 0.45
+              "price": 0.44
             },
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-3q-7pt5",
@@ -3200,26 +3200,6 @@
             }
           ]
         },
-        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": {
-          "class": "TEAM_TOTAL",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the total in SEA Seahawks vs. DEN Broncos be more than 9.5?",
-          "line": 9.5,
-          "slug": "tsc-nfl-sea-den-2026-10-15-tt2h-den-9pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-sea-den-2026-10-15-tt2h-den-9pt5",
-              "teamId": 57,
-              "price": 0.47
-            },
-            {
-              "identifier": "tsc-nfl-sea-den-2026-10-15-tt2h-den-9pt5",
-              "teamId": 57,
-              "price": 0.52
-            }
-          ]
-        },
         "FOOTBALL_TEAM_FIRST_HALF_TOTAL": {
           "class": "TEAM_TOTAL",
           "segment": "FIRST_HALF",
@@ -3231,12 +3211,32 @@
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-tt1h-den-9pt5",
               "teamId": 57,
-              "price": 0.53
+              "price": 0.52
             },
             {
               "identifier": "tsc-nfl-sea-den-2026-10-15-tt1h-den-9pt5",
               "teamId": 57,
-              "price": 0.55
+              "price": 0.54
+            }
+          ]
+        },
+        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": {
+          "class": "TEAM_TOTAL",
+          "segment": "SECOND_HALF",
+          "is_main": true,
+          "question": "Will the total in SEA Seahawks vs. DEN Broncos be more than 9.5?",
+          "line": 9.5,
+          "slug": "tsc-nfl-sea-den-2026-10-15-tt2h-sea-9pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nfl-sea-den-2026-10-15-tt2h-sea-9pt5",
+              "teamId": 75,
+              "price": 0.41
+            },
+            {
+              "identifier": "tsc-nfl-sea-den-2026-10-15-tt2h-sea-9pt5",
+              "teamId": 75,
+              "price": 0.62
             }
           ]
         },
@@ -3271,12 +3271,12 @@
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-3q-neg-0pt5",
               "teamId": 75,
-              "price": 0.41
+              "price": 0.38
             },
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-3q-neg-0pt5",
               "teamId": 57,
-              "price": 0.46
+              "price": 0.47
             }
           ]
         },
@@ -3291,12 +3291,12 @@
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-1q-neg-0pt5",
               "teamId": 75,
-              "price": 0.42
+              "price": 0.39
             },
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-1q-neg-0pt5",
               "teamId": 57,
-              "price": 0.43
+              "price": 0.44
             }
           ]
         },
@@ -3311,7 +3311,7 @@
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-2q-neg-0pt5",
               "teamId": 75,
-              "price": 0.44
+              "price": 0.4
             },
             {
               "identifier": "asc-nfl-sea-den-2026-10-15-2q-neg-0pt5",
@@ -3324,19 +3324,19 @@
           "class": "SPREAD",
           "segment": "FOURTH_QUARTER",
           "is_main": true,
-          "question": "Will the Seattle Seahawks cover -0.5 vs the Denver Broncos in SEA Seahawks vs. DEN Broncos?",
-          "line": -0.5,
-          "slug": "asc-nfl-sea-den-2026-10-15-4q-neg-0pt5",
+          "question": "Will the Seattle Seahawks cover -1.5 vs the Denver Broncos in SEA Seahawks vs. DEN Broncos?",
+          "line": -1.5,
+          "slug": "asc-nfl-sea-den-2026-10-15-4q-neg-1pt5",
           "sides": [
             {
-              "identifier": "asc-nfl-sea-den-2026-10-15-4q-neg-0pt5",
+              "identifier": "asc-nfl-sea-den-2026-10-15-4q-neg-1pt5",
               "teamId": 75,
-              "price": 0.43
+              "price": 0.41
             },
             {
-              "identifier": "asc-nfl-sea-den-2026-10-15-4q-neg-0pt5",
+              "identifier": "asc-nfl-sea-den-2026-10-15-4q-neg-1pt5",
               "teamId": 57,
-              "price": 0.44
+              "price": 0.43
             }
           ]
         },
@@ -3372,43 +3372,43 @@
       "sport": "cs2",
       "slug": "cs2",
       "slug_listed": true,
-      "events": 75,
-      "upcoming_in_horizon": 67,
+      "events": 83,
+      "upcoming_in_horizon": 72,
       "market_types": {
-        "ESPORTS_MATCH_WINNER": 75
+        "ESPORTS_MATCH_WINNER": 83
       },
       "market_classes": {
-        "WINNER/MATCH": 75
+        "WINNER/MATCH": 83
       },
-      "main_lines_in_horizon": 67,
+      "main_lines_in_horizon": 72,
       "unclassified": [],
       "examples": {
         "ESPORTS_MATCH_WINNER": {
           "class": "WINNER",
           "segment": "MATCH",
           "is_main": true,
-          "question": "Who will win in the upcoming esports event Chicken Coop Esports vs Overtake scheduled for October 15, 2026 at 1:00 AM UTC?",
+          "question": "Who will win in the upcoming esports event Brute vs mellren scheduled for October 15, 2026 at 8:00 AM UTC?",
           "line": null,
-          "slug": "aec-cs2-cce-ot-2026-10-15",
+          "slug": "aec-cs2-brute-mel-2026-10-15",
           "sides": [
             {
-              "identifier": "aec-cs2-cce-ot-2026-10-15",
-              "teamId": 11804,
-              "price": 0.42
+              "identifier": "aec-cs2-brute-mel-2026-10-15",
+              "teamId": 11739,
+              "price": 0.54
             },
             {
-              "identifier": "aec-cs2-cce-ot-2026-10-15",
-              "teamId": 11891,
-              "price": 0.45
+              "identifier": "aec-cs2-brute-mel-2026-10-15",
+              "teamId": 14395,
+              "price": 0.81
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "cs2-wba-eac-2026-10-15",
-        "title": "WBT vs. Esport Academy Copenhagen",
-        "start": "2026-10-15T08:00:00Z"
+        "slug": "cs2-mf-rstr-2026-10-15",
+        "title": "Mindfreak vs. Rooster",
+        "start": "2026-10-15T08:45:00Z"
       }
     },
     {
@@ -3437,12 +3437,12 @@
             {
               "identifier": "aec-lol-we-bro-2026-10-15",
               "teamId": 5199,
-              "price": 0.44
+              "price": 0.43
             },
             {
               "identifier": "aec-lol-we-bro-2026-10-15",
               "teamId": 5211,
-              "price": 0.45
+              "price": 0.44
             }
           ]
         }
@@ -3557,7 +3557,7 @@
             {
               "identifier": "asc-epl-eve-cfc-2026-10-17-pos-1pt5",
               "teamId": 2688,
-              "price": 0.78
+              "price": 0.77
             }
           ]
         },
@@ -3617,7 +3617,7 @@
             {
               "identifier": "tsc-epl-eve-cfc-2026-10-17-fh-1pt5",
               "teamId": null,
-              "price": 0.39
+              "price": 0.4
             }
           ]
         }
@@ -3630,7 +3630,7 @@
       "slug": "lal",
       "slug_listed": true,
       "events": 10,
-      "upcoming_in_horizon": 0,
+      "upcoming_in_horizon": 1,
       "market_types": {
         "SOCCER_TEAM_FULL_TIME_WINNER": 30,
         "SOCCER_TEAM_FULL_GAME_SPREAD": 42,
@@ -3649,7 +3649,7 @@
         "TOTAL/FULL_GAME": 40,
         "TOTAL/FIRST_HALF": 50
       },
-      "main_lines_in_horizon": 0,
+      "main_lines_in_horizon": 6,
       "unclassified": [],
       "examples": {
         "SOCCER_TEAM_FULL_TIME_WINNER": {
@@ -3703,12 +3703,12 @@
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-fh-neg-1pt5",
               "teamId": 7149,
-              "price": 0.09
+              "price": 0.08
             },
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-fh-neg-1pt5",
               "teamId": 3447,
-              "price": 0.11
+              "price": 0.1
             }
           ]
         },
@@ -3723,7 +3723,7 @@
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-sh-pos-1pt5",
               "teamId": 7149,
-              "price": 0.03
+              "price": 0.04
             },
             {
               "identifier": "asc-lal-dep-lev-2026-10-16-sh-pos-1pt5",
@@ -3763,7 +3763,7 @@
             {
               "identifier": "tsc-lal-dep-lev-2026-10-16-2pt5",
               "teamId": null,
-              "price": 0.49
+              "price": 0.48
             },
             {
               "identifier": "tsc-lal-dep-lev-2026-10-16-2pt5",
@@ -3794,14 +3794,18 @@
         }
       },
       "error": null,
-      "example_event": null
+      "example_event": {
+        "slug": "lal-dep-lev-2026-10-16",
+        "title": "RC Deportivo A Coruna vs. Levante UD",
+        "start": "2026-10-16T19:00:00Z"
+      }
     },
     {
       "sport": "bundesliga",
       "slug": "bun",
       "slug_listed": true,
       "events": 9,
-      "upcoming_in_horizon": 0,
+      "upcoming_in_horizon": 1,
       "market_types": {
         "SOCCER_TEAM_FULL_TIME_WINNER": 27,
         "SOCCER_TEAM_FULL_GAME_SPREAD": 36,
@@ -3820,7 +3824,7 @@
         "TOTAL/FULL_GAME": 36,
         "TOTAL/FIRST_HALF": 45
       },
-      "main_lines_in_horizon": 0,
+      "main_lines_in_horizon": 6,
       "unclassified": [],
       "examples": {
         "SOCCER_TEAM_FULL_TIME_WINNER": {
@@ -3965,14 +3969,18 @@
         }
       },
       "error": null,
-      "example_event": null
+      "example_event": {
+        "slug": "bun-fra-koe-2026-10-16",
+        "title": "Eintracht Frankfurt vs. 1. FC Koln",
+        "start": "2026-10-16T18:30:00Z"
+      }
     },
     {
       "sport": "seriea",
       "slug": "sea",
       "slug_listed": true,
       "events": 10,
-      "upcoming_in_horizon": 0,
+      "upcoming_in_horizon": 1,
       "market_types": {
         "SOCCER_TEAM_FULL_TIME_WINNER": 30,
         "SOCCER_TEAM_FIRST_HALF_SPREAD": 40,
@@ -3991,7 +3999,7 @@
         "TOTAL/FULL_GAME": 40,
         "TOTAL/SECOND_HALF": 50
       },
-      "main_lines_in_horizon": 0,
+      "main_lines_in_horizon": 6,
       "unclassified": [],
       "examples": {
         "SOCCER_TEAM_FULL_TIME_WINNER": {
@@ -4085,12 +4093,12 @@
             {
               "identifier": "tsc-sea-fro-sas-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.42
+              "price": 0.43
             },
             {
               "identifier": "tsc-sea-fro-sas-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.43
+              "price": 0.45
             }
           ]
         },
@@ -4136,14 +4144,18 @@
         }
       },
       "error": null,
-      "example_event": null
+      "example_event": {
+        "slug": "sea-fro-sas-2026-10-16",
+        "title": "Frosinone Calcio vs. US Sassuolo Calcio",
+        "start": "2026-10-16T18:45:00Z"
+      }
     },
     {
       "sport": "ligue1",
       "slug": "lg1",
       "slug_listed": true,
       "events": 9,
-      "upcoming_in_horizon": 0,
+      "upcoming_in_horizon": 1,
       "market_types": {
         "SOCCER_TEAM_FULL_TIME_WINNER": 27,
         "SOCCER_TEAM_FULL_GAME_SPREAD": 36,
@@ -4162,7 +4174,7 @@
         "TOTAL/SECOND_HALF": 45,
         "TOTAL/FIRST_HALF": 45
       },
-      "main_lines_in_horizon": 0,
+      "main_lines_in_horizon": 6,
       "unclassified": [],
       "examples": {
         "SOCCER_TEAM_FULL_TIME_WINNER": {
@@ -4176,12 +4188,12 @@
             {
               "identifier": "atc-lg1-lmf-tou-2026-10-16-lmf",
               "teamId": 25618,
-              "price": 0.31
+              "price": 0.32
             },
             {
               "identifier": "atc-lg1-lmf-tou-2026-10-16-lmf",
               "teamId": 25618,
-              "price": 0.32
+              "price": 0.33
             }
           ]
         },
@@ -4196,12 +4208,12 @@
             {
               "identifier": "asc-lg1-lmf-tou-2026-10-16-pos-1pt5",
               "teamId": 25618,
-              "price": 0.78
+              "price": 0.79
             },
             {
               "identifier": "asc-lg1-lmf-tou-2026-10-16-pos-1pt5",
               "teamId": 25611,
-              "price": 0.8
+              "price": 0.81
             }
           ]
         },
@@ -4241,7 +4253,7 @@
             {
               "identifier": "asc-lg1-lmf-tou-2026-10-16-fh-neg-2pt5",
               "teamId": 25611,
-              "price": 0.25
+              "price": 0.26
             }
           ]
         },
@@ -4261,7 +4273,7 @@
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-2pt5",
               "teamId": null,
-              "price": 0.57
+              "price": 0.56
             }
           ]
         },
@@ -4276,7 +4288,7 @@
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-sh-2pt5",
               "teamId": null,
-              "price": 0.02
+              "price": 0.01
             },
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-sh-2pt5",
@@ -4301,13 +4313,17 @@
             {
               "identifier": "tsc-lg1-lmf-tou-2026-10-16-fh-1pt5",
               "teamId": null,
-              "price": 0.38
+              "price": 0.37
             }
           ]
         }
       },
       "error": null,
-      "example_event": null
+      "example_event": {
+        "slug": "lg1-lmf-tou-2026-10-16",
+        "title": "Le Mans FC vs. Toulouse FC",
+        "start": "2026-10-16T18:45:00Z"
+      }
     }
   ]
 }
