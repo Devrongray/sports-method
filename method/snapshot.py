@@ -408,7 +408,10 @@ def cmd_loop(args) -> None:
                 pinnacle_pass(cfg, Path(args.out), now, ts)          # every sport
                 last_odds_all = last_odds_near = time.monotonic()
             elif near_sports and t - last_odds_near >= cad["odds_api_window_minutes"] * 60:
-                pinnacle_pass(cfg, Path(args.out), now, ts, sports=near_sports)   # only sports with a game near
+                pollable = [s["key"] for s in cfg["sports"] if s.get("odds_api_sport") and s["key"] in near_sports
+                            and (s.get("role") != "benchmark" or cfg["odds_api"].get("include_benchmark"))]
+                if pollable:
+                    pinnacle_pass(cfg, Path(args.out), now, ts, sports=pollable)   # only sports with a game near
                 last_odds_near = time.monotonic()
         time.sleep(15)
 

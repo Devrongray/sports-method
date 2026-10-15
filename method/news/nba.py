@@ -96,13 +96,23 @@ class NBAInjuryReports:
 
     def list_pdfs(self, now: datetime) -> list[str]:
         url = INDEX.format(season=season_slug(now))
+        status, text, err = None, "", None
         try:
             r = self.sess.get(url, timeout=20)
+            status, text = r.status_code, r.text
             r.raise_for_status()
         except Exception as e:
+            err = str(e)[:200]
             print(f"[warn] nba index: {e}")
-            return []
-        return sorted(set(PDF_RE.findall(r.text)))
+        urls = sorted(set(PDF_RE.findall(text)))
+        if not getattr(self, "_index_logged", False):
+            # diagnostic once per run: what the index page looked like
+            write_gz_json(self.out / "news" / now.strftime("%Y-%m-%d") / f"nba_index_{stamp(now)}.json.gz",
+                          {"ts": now.isoformat(timespec="seconds"), "url": url, "status": status, "error": err,
+                           "n_pdf_links": len(urls), "sample_links": urls[:5], "page_bytes": len(text),
+                           "page_head": text[:3000]})
+            self._index_logged = True
+        return urls
 
     def poll(self, now: datetime | None = None) -> dict:
         now = now or utcnow()

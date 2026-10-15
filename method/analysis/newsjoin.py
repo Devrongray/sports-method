@@ -42,10 +42,20 @@ def news_events(news: dict[str, list[dict]]) -> pd.DataFrame:
                              "team": g.get(f"{side}TeamName"), "detail": g.get(f"{side}GoalieName"),
                              "news_ts": created, "seen_ts": seen, "game_start": _parse_ts(g.get("dateGmt")),
                              "source": g.get(f"{side}NewsSourceName")})
-    for d in news.get("mlb", []):
+    from ..news.mlb import diff as mlb_diff
+    prev_state: dict = {}
+    for d in sorted(news.get("mlb", []), key=lambda x: x.get("ts") or ""):
         seen = _parse_ts(d.get("ts"))
         state = d.get("state") or {}
-        for ch in d.get("changes") or []:
+        # Changes inside a run are listed by the recorder; changes between runs
+        # (each run starts fresh) are recovered by diffing consecutive files.
+        changes = list(d.get("changes") or [])
+        if prev_state:
+            for ch in mlb_diff(prev_state, state):
+                if ch["field"] != "*" and ch not in changes:
+                    changes.append(ch)
+        prev_state = state
+        for ch in changes:
             g = state.get(str(ch.get("gamePk"))) or {}
             field = ch.get("field")
             if field in ("lineup_home", "probable_home"):

@@ -105,3 +105,16 @@ def test_dailyfaceoff_parser_reads_embedded_json():
     assert g["homeNewsCreatedAt"] == "2026-10-14T21:01:39.432Z" and g["awayNewsStrengthName"] == "Likely"
     assert g["dateGmt"] == "2026-10-14T23:30:00.000Z"
     assert parse_dailyfaceoff("<html>no data</html>") == []
+
+
+def test_news_events_recover_mlb_changes_between_runs():
+    from method.analysis.newsjoin import news_events
+    base = {"777": {"gamePk": 777, "gameDate": "2026-10-15T00:00:00Z", "status": "Scheduled", "home": "Los Angeles Dodgers",
+                    "away": "Milwaukee Brewers", "probable_home": "Blake Snell", "probable_away": "Robert Gasser",
+                    "lineup_home": [], "lineup_away": []}}
+    posted = {"777": {**base["777"], "lineup_home": [{"id": 1, "name": "Mookie Betts", "pos": "SS", "order": None}]}}
+    docs = [{"ts": "2026-10-14T20:00:00+00:00", "first_poll_of_run": True, "changes": [], "state": base},
+            {"ts": "2026-10-14T20:30:00+00:00", "first_poll_of_run": True, "changes": [], "state": posted}]
+    ev = news_events({"mlb": docs, "nba": [], "nhl": [], "nhl_schedule": []})
+    assert len(ev) == 1 and ev.iloc[0]["kind"] == "lineup_home" and ev.iloc[0]["team"] == "Los Angeles Dodgers"
+    assert str(ev.iloc[0]["news_ts"]).startswith("2026-10-14 20:30")
