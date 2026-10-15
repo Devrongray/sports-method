@@ -1,0 +1,7 @@
+sport,kind,team,detail,news_ts,seen_ts,game_start,source
+nhl,goalie_confirmed,Montreal Canadiens,Jakub Dobes,2026-10-13 14:08:54.208000+00:00,2026-10-15 03:58:34+00:00,2026-10-14 23:30:00+00:00,Marco D'Amico
+nhl,goalie_likely,Colorado Avalanche,Scott Wedgewood,2026-10-14 11:43:26.903000+00:00,2026-10-14 23:20:56+00:00,2026-10-15 00:30:00+00:00,Aarif Deen
+nhl,goalie_confirmed,Dallas Stars,Casey DeSmith,2026-10-14 11:46:13.929000+00:00,2026-10-15 01:56:05+00:00,2026-10-15 00:30:00+00:00,Sam Nestler
+nhl,goalie_confirmed,Detroit Red Wings,Daniil Tarasov,2026-10-14 16:35:37.292000+00:00,2026-10-15 09:59:14+00:00,2026-10-15 23:30:00+00:00,Ansar Khan
+nhl,goalie_confirmed,Washington Capitals,Charlie Lindgren,2026-10-14 21:01:39.432000+00:00,2026-10-15 05:25:10+00:00,2026-10-14 23:30:00+00:00,Tom Gulitti
+nhl,goalie_confirmed,Colorado Avalanche,Scott Wedgewood,2026-10-15 00:07:22.576000+00:00,2026-10-15 00:13:25+00:00,2026-10-15 00:30:00+00:00,Evan Rawal

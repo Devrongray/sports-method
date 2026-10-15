@@ -1,0 +1,18 @@
+sport,pm_event_id,pin_event_id,how,minutes_apart,pm_teams
+mlb,154373,622fd31d2c8178b025455656e0d2fb89,full,10.0,Milwaukee Brewers / Los Angeles Dodgers
+mlb,156064,a681025734060bef9fcce7ea7175674c,full,0.0,Tampa Bay Rays / Cleveland Guardians
+mlb,156065,ab3e5655be6b32e0853d683e51a60baa,full,0.0,Milwaukee Brewers / Los Angeles Dodgers
+nfl,136265,855f58fad5f0f14b239f4f63df27998b,full,0.0,Seattle Seahawks / Denver Broncos
+nhl,152366,11b474310b2b60cbae546d9c517444c6,nick,15.4,Canadiens / Capitals
+nhl,152368,9604eeafec33b8980e6565c617f04fc6,nick,8.7,Stars / Avalanche
+nhl,154383,30482712c8704ae61ad9ea6b033efccf,nick,10.0,Sabres / Maple Leafs
+nhl,154384,6bc27423a73c4cf1b34cd3c5dc19c8bc,nick,10.0,Kraken / Lightning
+nhl,154391,3fa8e135779ec383bce2be440d4ae030,nick,10.0,Islanders / Senators
+nhl,154392,12e8c7a75c196426888d2e9b0fcd946f,nick,10.0,Rangers / Devils
+nhl,154393,6c6bbf8c46c5896d1498ab1cdc5b8be9,nick,10.0,Canucks / Panthers
+nhl,154394,beffe22ff3d46b84b1b4e36b0970ccba,nick,10.0,Flyers / Red Wings
+nhl,154395,9f4363f363411cc75eafb6124bef94a7,nick,10.0,Jets / Blackhawks
+nhl,154396,30fa3646c2d75c2eb8c2746d50f7c14e,nick,10.0,Blues / Wild
+nhl,154397,26e6afd471708bd7858f66f49d1f49f6,nick,10.0,Sharks / Predators
+nhl,154398,11a7ac0ec88aba6f80c96ce654c805b7,nick,10.0,Mammoth / Oilers
+nhl,154399,31352e6ab98e96d7f2505fa0432b96e2,nick,10.0,Flames / Golden Knights
