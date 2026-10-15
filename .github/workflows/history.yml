@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: snapshots
+  group: history
   cancel-in-progress: false
 
 jobs:
