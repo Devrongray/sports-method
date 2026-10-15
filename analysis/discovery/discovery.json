@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-15T03:54:08+00:00",
+  "ts": "2026-10-15T03:56:21+00:00",
   "n_leagues": 382,
   "leagues": [
     {
@@ -2660,7 +2660,7 @@
             {
               "identifier": "tsc-nba-den-lac-2026-10-14-227pt5",
               "teamId": null,
-              "price": 0.52
+              "price": 0.51
             }
           ]
         },
@@ -2675,12 +2675,12 @@
             {
               "identifier": "asc-nba-den-lac-2026-10-14-neg-1pt5",
               "teamId": 40,
-              "price": 0.47
+              "price": 0.5
             },
             {
               "identifier": "asc-nba-den-lac-2026-10-14-neg-1pt5",
               "teamId": 20,
-              "price": 0.5
+              "price": 0.51
             }
           ]
         },
@@ -2794,12 +2794,12 @@
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-p2-2pt5",
               "teamId": null,
-              "price": 0.31
+              "price": 0.29
             },
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-p2-2pt5",
               "teamId": null,
-              "price": 0.44
+              "price": 0.46
             }
           ]
         },
@@ -2814,12 +2814,12 @@
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-p3-2pt5",
               "teamId": null,
-              "price": 0.36
+              "price": 0.33
             },
             {
               "identifier": "tsc-nhl-buf-tor-2026-10-15-p3-2pt5",
               "teamId": null,
-              "price": 0.49
+              "price": 0.51
             }
           ]
         },
@@ -2854,12 +2854,12 @@
             {
               "identifier": "asc-nhl-buf-tor-2026-10-15-p2-pos-0pt5",
               "teamId": 1485,
-              "price": 0.56
+              "price": 0.54
             },
             {
               "identifier": "asc-nhl-buf-tor-2026-10-15-p2-pos-0pt5",
               "teamId": 1490,
-              "price": 0.7
+              "price": 0.75
             }
           ]
         },
@@ -2914,12 +2914,12 @@
             {
               "identifier": "asc-nhl-buf-tor-2026-10-15-p3-pos-0pt5",
               "teamId": 1485,
-              "price": 0.55
+              "price": 0.51
             },
             {
               "identifier": "asc-nhl-buf-tor-2026-10-15-p3-pos-0pt5",
               "teamId": 1490,
-              "price": 0.68
+              "price": 0.7
             }
           ]
         },
@@ -3394,12 +3394,12 @@
             {
               "identifier": "aec-cs2-cce-ot-2026-10-15",
               "teamId": 11804,
-              "price": 0.33
+              "price": 0.42
             },
             {
               "identifier": "aec-cs2-cce-ot-2026-10-15",
               "teamId": 11891,
-              "price": 0.34
+              "price": 0.45
             }
           ]
         }
