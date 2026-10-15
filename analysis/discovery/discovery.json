@@ -1,5 +1,5 @@
 {
-  "ts": "2026-10-15T03:46:21+00:00",
+  "ts": "2026-10-15T03:54:08+00:00",
   "n_leagues": 382,
   "leagues": [
     {
@@ -2388,12 +2388,12 @@
             {
               "identifier": "asc-mlb-tb-cle-2026-10-15-f5-pos-1pt5",
               "teamId": 3026,
-              "price": 0.68
+              "price": 0.69
             },
             {
               "identifier": "asc-mlb-tb-cle-2026-10-15-f5-pos-1pt5",
               "teamId": 3007,
-              "price": 0.69
+              "price": 0.7
             }
           ]
         },
@@ -2648,19 +2648,19 @@
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in DEN Nuggets vs. LA Clippers be more than 228.5?",
-          "line": 228.5,
-          "slug": "tsc-nba-den-lac-2026-10-14-228pt5",
+          "question": "Will the total in DEN Nuggets vs. LA Clippers be more than 227.5?",
+          "line": 227.5,
+          "slug": "tsc-nba-den-lac-2026-10-14-227pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-den-lac-2026-10-14-228pt5",
+              "identifier": "tsc-nba-den-lac-2026-10-14-227pt5",
               "teamId": null,
-              "price": 0.51
+              "price": 0.5
             },
             {
-              "identifier": "tsc-nba-den-lac-2026-10-14-228pt5",
+              "identifier": "tsc-nba-den-lac-2026-10-14-227pt5",
               "teamId": null,
-              "price": 0.57
+              "price": 0.52
             }
           ]
         },
@@ -2675,12 +2675,12 @@
             {
               "identifier": "asc-nba-den-lac-2026-10-14-neg-1pt5",
               "teamId": 40,
-              "price": 0.49
+              "price": 0.47
             },
             {
               "identifier": "asc-nba-den-lac-2026-10-14-neg-1pt5",
               "teamId": 20,
-              "price": 0.51
+              "price": 0.5
             }
           ]
         },
@@ -3394,12 +3394,12 @@
             {
               "identifier": "aec-cs2-cce-ot-2026-10-15",
               "teamId": 11804,
-              "price": 0.12
+              "price": 0.33
             },
             {
               "identifier": "aec-cs2-cce-ot-2026-10-15",
               "teamId": 11891,
-              "price": 0.14
+              "price": 0.34
             }
           ]
         }
