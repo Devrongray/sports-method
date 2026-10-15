@@ -27,5 +27,10 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python -m method.snapshot history --out data --hours ${{ github.event.inputs.hours || '30' }}
+      - name: Fetch the data branch (recorded market slugs)
+        run: |
+          git fetch --depth 1 origin "+refs/heads/data:refs/remotes/origin/data" || true
+          git worktree add --detach data-wt refs/remotes/origin/data 2>/dev/null || mkdir -p data-wt/data
+      - run: python -m method.snapshot history --out data --hours ${{ github.event.inputs.hours || '30' }} --recorded data-wt/data
+      - run: git worktree remove --force data-wt 2>/dev/null || true
       - run: bash scripts/commit_data.sh data

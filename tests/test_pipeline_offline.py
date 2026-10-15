@@ -257,3 +257,21 @@ def test_unquoted_lines_never_beat_quoted_ones_and_soccer_winners_are_main():
     assert [p[1:3] for p in parsed] == [("WINNER", "FULL_TIME")] * 3
     assert pm.mark_main_lines(soc, parsed) == [True, True, True]
     assert "FULL_TIME" in pm.MAIN_SEGMENTS
+
+
+def test_recorded_main_markets_reads_markets_files(tmp_path: Path):
+    import gzip, json
+    from method.snapshot import recorded_main_markets
+    day = tmp_path / "polymarket" / "2026-10-14"; day.mkdir(parents=True)
+    rows = [{"market_slug": "a", "start": "2026-10-14T23:30:00Z", "is_main": True, "sport": "nhl", "market_class": "WINNER", "segment": "FULL_GAME", "mid": 0.48},
+            {"market_slug": "a", "start": "2026-10-14T23:30:00Z", "is_main": True, "sport": "nhl", "market_class": "WINNER", "segment": "FULL_GAME", "mid": 0.50},
+            {"market_slug": "b", "start": "2026-10-20T23:30:00Z", "is_main": True, "sport": "nba", "market_class": "WINNER", "segment": "FULL_GAME"},
+            {"market_slug": "c", "start": "2026-10-14T23:30:00Z", "is_main": False, "sport": "nhl", "market_class": "TOTAL", "segment": "FULL_GAME"}]
+    with gzip.open(day / "markets_20261014T210000Z.ndjson.gz", "wt") as f:
+        for r in rows[:1] + rows[2:]:
+            f.write(json.dumps(r) + "\n")
+    with gzip.open(day / "markets_20261014T220000Z.ndjson.gz", "wt") as f:
+        f.write(json.dumps(rows[1]) + "\n")
+    since = datetime(2026, 10, 14, 12, tzinfo=timezone.utc); until = datetime(2026, 10, 15, 9, tzinfo=timezone.utc)
+    got = recorded_main_markets(tmp_path, since, until)
+    assert [r["market_slug"] for r in got] == ["a"] and got[0]["mid"] == 0.50   # latest row wins; b outside window; c not main

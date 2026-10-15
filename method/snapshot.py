@@ -335,7 +335,18 @@ def cmd_history(args) -> None:
     client = pm.PolymarketUS()
     since = now - timedelta(hours=args.hours)
     segments = _segments_for(cfg)
-    done = 0
+    by_sport = {sp["key"]: sp for sp in cfg["sports"]}
+
+    # 1. Markets we recorded ourselves (the event list drops games once they end,
+    #    so finished games are only reachable this way).
+    targets: dict[str, dict] = {}
+    if args.recorded:
+        for row in recorded_main_markets(Path(args.recorded), since, now):
+            sp = by_sport.get(row["sport"])
+            if sp and row["market_class"] in set(sp["markets"]) and (segments is None or row["segment"] in segments):
+                targets[row["market_slug"]] = row
+    n_recorded = len(targets)
+    # 2. Whatever Polymarket still lists (catches anything the recorder missed).
     for sp in cfg["sports"]:
         slug = sp["polymarket_league"]
         keep = set(sp["markets"])
@@ -349,34 +360,57 @@ def cmd_history(args) -> None:
             if start is None or not (since <= start <= now):
                 continue
             for row in pm.normalize_event_markets(ev, slug, keep, segments, main_only=True):
-                mslug = row.get("market_slug")
-                if not mslug:
-                    continue
-                s = int((start - timedelta(hours=args.before)).timestamp())
-                e = int(min(start + timedelta(hours=args.after), now).timestamp())
-                try:
-                    hist = pm.normalize_history(client.price_history(mslug, s, e, 1))
-                    settle = client.settlement(mslug)
-                except Exception as ex:
-                    print(f"[warn] history {mslug}: {ex}")
-                    continue
-                close = pm.last_pregame_mid(hist, start)
-                doc = {
-                    "ts": now.isoformat(timespec="seconds"),
-                    "sport": sp["key"], "league": slug,
-                    "event_id": row["event_id"], "event_slug": row["event_slug"],
-                    "event_title": row["event_title"], "start": row["start"], "teams": row["teams"],
-                    "market_slug": mslug, "market_type": row["market_type"],
-                    "market_class": row["market_class"], "segment": row["segment"], "line": row["line"],
-                    "sides": row["sides"], "fee_coefficient": row["fee_coefficient"],
-                    "window_start_ts": s, "window_end_ts": e,
-                    "last_pregame": close, "settlement": settle, "n_points": len(hist),
-                    "history": hist,
-                }
-                day = start.strftime("%Y-%m-%d")
-                _write_json(out / "polymarket_history" / day / f"{mslug}.json.gz", doc)
-                done += 1
-    print(json.dumps({"ts": now.isoformat(timespec="seconds"), "histories_written": done}))
+                if row.get("market_slug") and row["market_slug"] not in targets:
+                    row["sport"] = sp["key"]
+                    targets[row["market_slug"]] = row
+
+    done = 0
+    for mslug, row in targets.items():
+        start = pm.parse_iso(row["start"])
+        if start is None:
+            continue
+        s = int((start - timedelta(hours=args.before)).timestamp())
+        e = int(min(start + timedelta(hours=args.after), now).timestamp())
+        try:
+            hist = pm.normalize_history(client.price_history(mslug, s, e, 1))
+            settle = client.settlement(mslug)
+        except Exception as ex:
+            print(f"[warn] history {mslug}: {ex}")
+            continue
+        close = pm.last_pregame_mid(hist, start)
+        doc = {
+            "ts": now.isoformat(timespec="seconds"),
+            "sport": row["sport"], "league": row.get("league"),
+            "event_id": row["event_id"], "event_slug": row.get("event_slug"),
+            "event_title": row.get("event_title"), "start": row["start"], "teams": row.get("teams"),
+            "market_slug": mslug, "market_type": row["market_type"],
+            "market_class": row["market_class"], "segment": row["segment"], "line": row.get("line"),
+            "sides": row.get("sides"), "fee_coefficient": row.get("fee_coefficient"),
+            "window_start_ts": s, "window_end_ts": e,
+            "last_pregame": close, "settlement": settle, "n_points": len(hist),
+            "history": hist,
+        }
+        day = start.strftime("%Y-%m-%d")
+        _write_json(out / "polymarket_history" / day / f"{mslug}.json.gz", doc)
+        done += 1
+    print(json.dumps({"ts": now.isoformat(timespec="seconds"), "targets": len(targets),
+                      "from_recorded": n_recorded, "histories_written": done}))
+
+
+def recorded_main_markets(data: Path, since: datetime, until: datetime) -> list[dict]:
+    """Latest recorded row of every main market whose game started in [since, until],
+    read from the markets_* files on the data branch."""
+    latest: dict[str, dict] = {}
+    for day in sorted((data / "polymarket").glob("*")) if (data / "polymarket").exists() else []:
+        for f in sorted(day.glob("markets_*.ndjson.gz")):
+            with gzip.open(f, "rt", encoding="utf-8") as fh:
+                for line in fh:
+                    r = json.loads(line)
+                    start = pm.parse_iso(r.get("start"))
+                    if start is None or not (since <= start <= until) or not r.get("is_main"):
+                        continue
+                    latest[r["market_slug"]] = r
+    return list(latest.values())
 
 
 # --- loop --------------------------------------------------------------------
@@ -434,6 +468,7 @@ def main(argv: list[str] | None = None) -> None:
     sh.add_argument("--hours", type=float, default=24, help="games that started within the last N hours")
     sh.add_argument("--before", type=float, default=12, help="hours of history before start")
     sh.add_argument("--after", type=float, default=6, help="hours after start")
+    sh.add_argument("--recorded", default=None, help="data dir (data branch checkout) to take recorded market slugs from")
     sh.set_defaults(fn=cmd_history)
     sl = sub.add_parser("loop")
     sl.add_argument("--out", default="data")
