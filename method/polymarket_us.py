@@ -96,6 +96,18 @@ class PolymarketUS:
                 return out
             offset += 50
 
+    def event_full(self, event_slug: str) -> dict | None:
+        """GET /v1/events/slug/{slug}: one event with its complete market list.
+
+        Since 2026-10-15 ~20:34 UTC the league events feed (/v2/leagues/{slug}/events)
+        embeds only the headline full-game winner in each event's `markets` while
+        `marketCounts.numMarkets` still reports 150-190. This endpoint returns the
+        whole list, under `event.markets`."""
+        data = self._get(f"/v1/events/slug/{event_slug}", {"groups": "false"})
+        if not data:
+            return None
+        return data.get("event") or data
+
     def league_events(self, league_slug: str, type_: str = "sport", page: int = 50) -> list[dict]:
         out: list[dict] = []
         offset = 0
@@ -291,6 +303,42 @@ def mark_main_lines(markets: list[dict], parsed: list[tuple[str, str, str, str]]
             best = ordered[len(ordered) // 2]
         is_main[best] = True
     return is_main
+
+
+def markets_truncated(ev: dict) -> bool:
+    """True when the league feed embedded fewer markets than the event has.
+
+    `marketCounts.numMarkets` is the feed's own count; when it is present the
+    nested list is truncated iff it is shorter than that. When the count is
+    missing, a list of one market (or none) is treated as truncated, since
+    every game event carries at least a winner plus totals and spreads."""
+    nested = ev.get("markets") or []
+    counts = ev.get("marketCounts") or {}
+    try:
+        n = int(counts.get("numMarkets") or 0)
+    except (TypeError, ValueError):
+        n = 0
+    return n > len(nested) if n else len(nested) <= 1
+
+
+def with_full_markets(client: "PolymarketUS", ev: dict) -> dict:
+    """Return the event with its full market list when the nested one is truncated.
+
+    One extra GET per truncated event (see PolymarketUS.event_full). The full
+    document's fields win; the league feed's own fields are kept where the full
+    document lacks them. Any failure keeps the pass alive and returns the event
+    as served, so the worst case is the pre-fix behaviour (winner only)."""
+    fetch = getattr(client, "event_full", None)
+    if fetch is None or not markets_truncated(ev) or not ev.get("slug"):
+        return ev
+    try:
+        full = fetch(ev["slug"])
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] event_full {ev.get('slug')}: {e}")
+        return ev
+    if not full or not (full.get("markets") or []):
+        return ev
+    return {**ev, **{k: v for k, v in full.items() if v is not None}}
 
 
 def event_start(ev: dict) -> str | None:

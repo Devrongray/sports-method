@@ -65,6 +65,11 @@ python -m method.pinnacle_reliability --out analysis/test_c
 ## Costs and limits
 
 - Polymarket US public API: no key; 20 requests/second/IP on price history.
+  Since 2026-10-15 the league feed embeds only each event's winner, so every
+  pass adds one `/v1/events/slug/{slug}` request per event it expands: all
+  events inside the 36 h horizon on a full pass (every 10 min, ~80 requests),
+  only events inside the 90-minute window on a window pass (every minute,
+  usually under 10). The client paces itself at ~16 requests/second.
 - The Odds API: each call to `/v4/sports/{sport}/odds` costs 1 credit per
   market per region. With `h2h,totals` in region `eu` that is 2 credits per
   sport per poll. Default cadence (30 min, 5 min inside the last 90 minutes
@@ -132,3 +137,16 @@ and after, minutes until the mid is within 1¢ of the new fair).
   compared the two side prices, which are the bid and ask of one contract,
   rather than the contract mid). All lines are in the markets file, so the
   main line can be recomputed; BBO rows exist only for the lines it picked.
+- **Winner-only gap, 2026-10-15 ~20:34 UTC → 2026-10-16 (first pass after
+  commit "recorder: fetch each event's full market list")**: Polymarket US
+  changed `/v2/leagues/{slug}/events` to embed only the headline full-game
+  winner per event (while `marketCounts.numMarkets` still reports 150–190).
+  In that interval `markets_*`, `ladder_*`, `bbo*_*` and `book_*` files hold
+  full-game WINNER rows only: no totals, spreads, or period/half/quarter/
+  inning/map lines, so test (d) and the derivative-segment rows of tests (a)
+  and (b) have no data for those hours. Nothing was mis-recorded, just
+  missing. The daily discovery report of 2026-10-16 08:37 UTC under-counts
+  for the same reason. From the fix onward the recorder fetches each event's
+  full list from `/v1/events/slug/{slug}` (`method.polymarket_us.with_full_markets`).
+  Price histories (`history_*`) for the 15 Oct evening slate are largely
+  intact because their main lines were recorded earlier that day.

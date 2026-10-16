@@ -86,6 +86,7 @@ def discover(client, cfg: dict, now: datetime) -> dict:
             start = pm.parse_iso(pm.event_start(ev))
             upcoming = bool(start and now <= start <= now + horizon and not (ev.get("ended") or ev.get("closed")))
             if upcoming:
+                ev = pm.with_full_markets(client, ev)   # league feed embeds only the winner since 2026-10-15
                 c["upcoming_in_horizon"] += 1
                 if c["example_event"] is None:
                     c["example_event"] = {"slug": ev.get("slug"), "title": ev.get("title"), "start": pm.event_start(ev)}
@@ -161,7 +162,8 @@ def _segments_for(cfg: dict) -> set[str] | None:
     return None if cfg["cadence"].get("record_derivatives", True) else set(pm.MAIN_SEGMENTS)
 
 
-def collect_markets_full(client: pm.PolymarketUS, cfg: dict, now: datetime) -> tuple[list[dict], list[dict]]:
+def collect_markets_full(client: pm.PolymarketUS, cfg: dict, now: datetime,
+                         expand_within_minutes: float | None = None) -> tuple[list[dict], list[dict]]:
     """Returns (kept, everything).
 
     kept:       main lines of the configured market classes, the rows that get
@@ -169,6 +171,13 @@ def collect_markets_full(client: pm.PolymarketUS, cfg: dict, now: datetime) -> t
     everything: every market of every upcoming event (all classes, all
                 alternate lines, with is_main flags), written once per pass
                 because it costs nothing extra.
+
+    Since 2026-10-15 ~20:34 UTC the league feed embeds only the full-game winner
+    per event, so each event's full market list is fetched separately
+    (pm.with_full_markets, one GET per event). expand_within_minutes limits
+    that to events starting within N minutes: None (full pass) expands every
+    event in the horizon; the window pass passes its own window so it does not
+    re-fetch ~80 far-off events every minute.
     """
     horizon = timedelta(hours=cfg["cadence"]["horizon_hours"])
     segments = _segments_for(cfg)
@@ -191,6 +200,8 @@ def collect_markets_full(client: pm.PolymarketUS, cfg: dict, now: datetime) -> t
             if ev.get("ended") or ev.get("closed"):
                 continue
             mts = (start - now).total_seconds() / 60.0
+            if expand_within_minutes is None or mts <= expand_within_minutes:
+                ev = pm.with_full_markets(client, ev)
             for row in pm.normalize_event_markets(ev, slug):
                 row["sport"] = sp["key"]
                 row["role"] = sp["role"]
@@ -238,7 +249,8 @@ def cmd_pass(args) -> dict:
 
     window = cfg["cadence"]["pre_start_window_minutes"]
     checkpoints = cfg["cadence"]["book_checkpoints_minutes"]
-    markets, everything = collect_markets_full(client, cfg, now)
+    markets, everything = collect_markets_full(client, cfg, now,
+                                               expand_within_minutes=None if scope == "full" else window)
     n_m = n_l = 0
     if scope == "full":
         for m in markets:
@@ -359,6 +371,7 @@ def cmd_history(args) -> None:
             start = pm.parse_iso(pm.event_start(ev))
             if start is None or not (since <= start <= now):
                 continue
+            ev = pm.with_full_markets(client, ev)   # league feed embeds only the winner since 2026-10-15
             for row in pm.normalize_event_markets(ev, slug, keep, segments, main_only=True):
                 if row.get("market_slug") and row["market_slug"] not in targets:
                     row["sport"] = sp["key"]
