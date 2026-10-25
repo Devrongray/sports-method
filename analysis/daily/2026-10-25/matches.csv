@@ -1,0 +1,157 @@
+sport,pm_event_id,pin_event_id,how,minutes_apart,pm_teams
+mlb,154373,622fd31d2c8178b025455656e0d2fb89,full,10.0,Milwaukee Brewers / Los Angeles Dodgers
+mlb,156064,a681025734060bef9fcce7ea7175674c,full,10.0,Tampa Bay Rays / Cleveland Guardians
+mlb,156065,ab3e5655be6b32e0853d683e51a60baa,full,8.4,Milwaukee Brewers / Los Angeles Dodgers
+mlb,157900,bf41baaebfa23a202d2f3a6811425ff9,full,8.0,Tampa Bay Rays / Cleveland Guardians
+mlb,159674,f4ca2d8a09898a94722dde0633e0a7e1,full,0.3,Tampa Bay Rays / Cleveland Guardians
+mlb,168020,be50f6c59c20efa430eec6f146a0fcb1,full,2.0,Cleveland Guardians / Tampa Bay Rays
+mlb,172948,e4c03eec29795f56b6b06c313d3af271,full,16.5,Tampa Bay Rays / Milwaukee Brewers
+mlb,174043,238f598685f7210fbfbbe3de39289264,full,9.5,Tampa Bay Rays / Milwaukee Brewers
+nba,135241,26b036ff107f3c658258eaf4a6f26228,nick,7.7,Celtics / Pistons
+nba,135242,2b042ddad3d3c6c6fe5b7005dc26c775,nick,18.0,76ers / Knicks
+nba,135243,bccd283de56915e29af1788beb0abfc9,nick,22.2,Thunder / Spurs
+nba,147253,164cc0396837d5ff433215ffd3279283,nick,15.0,Bucks / Wizards
+nba,147254,85e6e4e2404ef7268659739997758da1,nick,14.1,Hawks / Magic
+nba,147255,47cc511bb5ce50f715e3625ce5ef77ee,nick,14.0,Hornets / Nets
+nba,147256,60431a347feac3f1c7ed925b8b769ec5,nick,15.2,Bulls / Raptors
+nba,147257,93cdd8e4ade5697cfccf42ee42c4d207,nick,13.1,Timberwolves / Heat
+nba,147258,fd33c09c84ab4c2fe6955d59f8dc5dd2,nick,11.0,Pacers / Pelicans
+nba,147259,e6769c813dd625b622df94c14a562ce2,nick,14.7,Jazz / Grizzlies
+nba,147260,af2f084075391e55ba2a596e7846bb40,nick,12.2,Mavericks / Rockets
+nba,147261,71e24359951927c356bd8c852fb867dd,nick,14.9,Suns / Trail Blazers
+nba,147262,6fff70f4bf196dba25060a5775a03b54,nick,17.0,Warriors / Lakers
+nba,147263,f6be3e587d43c3821d8f059c3a1f1967,nick,13.7,Kings / Clippers
+nba,149110,110e33c79c5ec8c0377702aff685f83b,nick,13.9,Cavaliers / 76ers
+nba,149111,223b2883b9b05a67329ef246384b85f1,nick,20.2,Nuggets / Thunder
+nba,150366,d36eac2ef6bf2d6c0af0073612f6193d,nick,13.0,Mavericks / Pacers
+nba,150367,7763ba1c6e1e163be38cbe1b880d4cd9,nick,10.0,Timberwolves / Magic
+nba,150368,8540b2b24fe0b2042a07c8c20452aead,nick,13.0,Raptors / Wizards
+nba,150369,0d34c898f6cbb990077ae9f0a2773513,nick,13.1,Knicks / Celtics
+nba,150370,fd0625e5807950edc0d2d31772639859,nick,13.0,Hawks / Hornets
+nba,150371,db951d9ee1d6777d7ced41eba05aac44,nick,12.0,Pistons / Heat
+nba,150372,0cdc865f5b785c0be6bc409117fe38aa,nick,16.0,Bulls / Bucks
+nba,150373,7469a7f48dbb77001b3148829f80c97b,nick,13.0,Pelicans / Jazz
+nba,150374,49fc89a9696a9a20b658732b34ce61c4,nick,17.0,Rockets / Spurs
+nba,150375,93ae924d3fc473aadfa50b26a9a2115b,nick,11.0,Trail Blazers / Kings
+nba,150376,d7525d3e92349ef234ca0c1ac699b365,nick,14.0,Grizzlies / Warriors
+nba,150377,946d3484688886fd8d3662aee224fb5f,nick,11.0,Clippers / Lakers
+nba,152357,0abd50d04d02296b33809f9458fd47e4,nick,10.0,Heat / Hornets
+nba,152359,f187c8a86c1d1676bb45b9b3a6707872,nick,12.0,Nets / Cavaliers
+nba,152361,a66da208d3609b028970dfe2b5d7973f,nick,11.0,Bucks / 76ers
+nba,152362,cce3cd5869541979d68f7bde648f7c20,nick,14.0,Wizards / Bulls
+nba,152363,66849d2333774f4256873260f8e48c6c,nick,15.0,Rockets / Hawks
+nba,152364,efb2248ad964f84921b3e700125e404b,nick,13.0,Spurs / Mavericks
+nba,152365,0c95f2515a34d871cd4946cbf38dd670,nick,14.0,Pelicans / Nuggets
+nba,152367,a71197130d9b661f5b29c812583fe652,nick,14.0,Warriors / Suns
+nba,154376,9c460fd677a660d1bc7cfea0aa1826c1,nick,10.0,Lakers / Jazz
+nba,154377,3f57b691d91174cd878320071f585c11,nick,10.0,Pacers / Nets
+nba,154378,b9f6f078c66480af12ca8bcc44969097,nick,10.0,Raptors / Timberwolves
+nba,154379,4bdaabae0c074d48156aaa3e315a5c4d,nick,0.0,Magic / Knicks
+nba,154380,e6834225d7e218a59333dbbc01fe67ab,nick,10.0,Clippers / Thunder
+nba,154381,252f3af49fb5271bb040e95e0119f207,nick,10.0,Pistons / 76ers
+nba,154382,dcc4a1c7f0427d8e1b2ee7d3f1d48e8a,nick,0.0,Grizzlies / Kings
+nfl,136265,855f58fad5f0f14b239f4f63df27998b,full,0.8,Seattle Seahawks / Denver Broncos
+nfl,141502,57418b2cf5aca558b3c98eafac1e264a,full,2.6,Houston Texans / Jacksonville Jaguars
+nfl,141503,84aa9e190e625d7e9cd67e1f157a45b4,full,3.7,Tennessee Titans / Indianapolis Colts
+nfl,141504,caca2d752fe1a1779029082e95332fcc,full,2.8,Carolina Panthers / Philadelphia Eagles
+nfl,141505,27f3994841ce8081c0b7349cf3d1e3d7,full,2.9,Pittsburgh Steelers / Tampa Bay Buccaneers
+nfl,141506,e86227938fd3cf008fc5648fb5128344,full,2.9,Baltimore Ravens / Cleveland Browns
+nfl,141507,1cf74afd313e9fd300e1462012b174cb,full,3.0,New Orleans Saints / New York Giants
+nfl,141508,7c312fdf24fb35f58b0e07c2932cc997,full,2.7,Chicago Bears / Atlanta Falcons
+nfl,141511,0b0b582b32b09ab6ff6664ffae0c9653,full,2.7,New York Jets / New England Patriots
+nfl,141513,3729ac6d2a66b642850caf2044cdc658,full,0.3,Arizona Cardinals / Los Angeles Rams
+nfl,141515,20fefae8c296247460ba5773caa42218,full,0.4,Los Angeles Chargers / Kansas City Chiefs
+nfl,141516,45b2690b350ed45145c7a716b18e8e66,full,0.2,Buffalo Bills / Las Vegas Raiders
+nfl,141517,82fd5a159fa130e67abab93a9537f70b,full,2.5,Dallas Cowboys / Green Bay Packers
+nfl,143238,f122527f003276d3bca19efa48c902c1,full,1.3,Washington Commanders / San Francisco 49ers
+nfl,148649,ffebea881c1d7b2dfb85b3e590c35985,full,0.8,New England Patriots / Chicago Bears
+nfl,154442,2e710ea5a306b614f0f966e3d78732f8,full,0.0,Pittsburgh Steelers / New Orleans Saints
+nfl,154443,f3992ad4496724baf7dcd1ef58245d6b,full,0.0,Indianapolis Colts / Minnesota Vikings
+nfl,154444,be5dd120ca08b43d647b6caa8953500a,full,0.0,Miami Dolphins / New York Jets
+nfl,154445,550ec5290f935d311995affbcb0b5c79,full,0.0,Cincinnati Bengals / Baltimore Ravens
+nfl,154446,5dce18baccec5d3ad5fb3a3ce52f7619,full,0.0,Cleveland Browns / Tennessee Titans
+nfl,154447,2823e986597c449ab94126cd5ed3fae9,full,0.0,Tampa Bay Buccaneers / Carolina Panthers
+nfl,154448,b1be064fb52a198a62109c279e7ab24c,full,0.0,San Francisco 49ers / Atlanta Falcons
+nfl,154449,2bba7fde6f97d0e54403d53676e4ab63,full,0.0,New York Giants / Houston Texans
+nfl,154450,436119bb3ccdaa6ed7808aa3ebd82b76,full,0.0,Denver Broncos / Arizona Cardinals
+nfl,154452,f7679cf18454e4d88a8f2b990c3f08ac,full,0.0,Los Angeles Rams / Las Vegas Raiders
+nfl,154454,e8e5715eefb6a9ce64765e9ddf49c0cc,full,0.0,Green Bay Packers / Detroit Lions
+nfl,154456,176d474ed8b2bbf1eb4d7e9c56b4bf22,full,0.0,Kansas City Chiefs / Seattle Seahawks
+nhl,152366,11b474310b2b60cbae546d9c517444c6,nick,15.4,Canadiens / Capitals
+nhl,152368,9604eeafec33b8980e6565c617f04fc6,nick,8.7,Stars / Avalanche
+nhl,154383,30482712c8704ae61ad9ea6b033efccf,nick,11.9,Sabres / Maple Leafs
+nhl,154384,6bc27423a73c4cf1b34cd3c5dc19c8bc,nick,11.1,Kraken / Lightning
+nhl,154391,3fa8e135779ec383bce2be440d4ae030,nick,8.4,Islanders / Senators
+nhl,154392,12e8c7a75c196426888d2e9b0fcd946f,nick,8.7,Rangers / Devils
+nhl,154393,6c6bbf8c46c5896d1498ab1cdc5b8be9,nick,8.3,Canucks / Panthers
+nhl,154394,beffe22ff3d46b84b1b4e36b0970ccba,nick,8.7,Flyers / Red Wings
+nhl,154395,9f4363f363411cc75eafb6124bef94a7,nick,9.1,Jets / Blackhawks
+nhl,154396,30fa3646c2d75c2eb8c2746d50f7c14e,nick,8.9,Blues / Wild
+nhl,154397,26e6afd471708bd7858f66f49d1f49f6,nick,9.2,Sharks / Predators
+nhl,154398,11a7ac0ec88aba6f80c96ce654c805b7,nick,8.1,Mammoth / Oilers
+nhl,154399,31352e6ab98e96d7f2505fa0432b96e2,nick,8.5,Flames / Golden Knights
+nhl,156066,343be4cf732ddd9fd0a058953456d811,nick,8.8,Penguins / Avalanche
+nhl,156076,7c44228f4c2e89133b34a3c70bfb30c5,nick,8.4,Bruins / Ducks
+nhl,157916,841c71c033cf05ad1313e3d5ecd2d9ab,nick,8.4,Devils / Capitals
+nhl,157917,c9ba2e7837386a5948a9c2233c36314c,nick,19.9,Hurricanes / Jets
+nhl,157918,a803d2ced256aea33428fbca55aba33e,nick,9.7,Canucks / Lightning
+nhl,157919,397fc11daab60801858ad82037395ae3,nick,9.9,Kraken / Panthers
+nhl,157920,e39eef5e74111ce110e9036298b318df,nick,8.7,Stars / Blackhawks
+nhl,157921,95168b13c92e52aca0ad08f18b66ccd4,nick,17.0,Senators / Flyers
+nhl,157922,984292d22f1502fb5ec22d5619c3d12c,nick,15.6,Sabres / Canadiens
+nhl,157923,72d1180c19caf72334666cf7ccf93c48,nick,15.1,Islanders / Maple Leafs
+nhl,157924,8c3a146ab31ea5b382be8f36a0637798,nick,8.9,Rangers / Blue Jackets
+nhl,157925,826b87745ff513a2f7ba27643fc47bce,nick,8.2,Sharks / Red Wings
+nhl,157926,0fc72a0b9fd45e4ea478959e642a54f4,nick,9.3,Blues / Predators
+nhl,157927,ad530128f8a287b794e713643ee46757,nick,9.3,Bruins / Kings
+nhl,157928,b8769f5cc81325b0693ee4b3e3f41407,nick,8.5,Penguins / Golden Knights
+nhl,157929,b5419971529fadc0610c47b095627156,nick,10.8,Oilers / Mammoth
+nhl,159680,3af4496cf626dc3538fb93001aa2fba0,nick,8.8,Blue Jackets / Wild
+nhl,159688,0922c474e6588f94af491684dbae6cdb,nick,9.2,Hurricanes / Flames
+nhl,161581,c8d71abe9d49ca6ea219b84923b9a48c,nick,10.0,Avalanche / Flyers
+nhl,161583,ea54f93ba7f80a041cb134ca262d7bc0,nick,10.0,Ducks / Rangers
+nhl,161584,7ac756ef7eb5d5b1042e68d86d561147,nick,10.0,Sharks / Maple Leafs
+nhl,161585,0e2b3099b25e9827dc4a6abd7fabfa51,nick,10.0,Penguins / Mammoth
+nhl,163594,1ee9e671dfe8ad2d9c73f910baa56e1b,nick,12.2,Avalanche / Devils
+nhl,163602,99c9d6d714b90f72a5fd2a1c5011170d,nick,8.4,Kings / Capitals
+nhl,163603,84e20520cdbf52c71dfe697e7f789b86,nick,8.6,Ducks / Islanders
+nhl,163604,60f76779653fc9a6106c6af48f51490f,nick,8.8,Sharks / Canadiens
+nhl,163605,fd470e8ca75f778cf8dfdfcb340e2fa7,nick,8.8,Maple Leafs / Blue Jackets
+nhl,163606,db38d272a56e929eac7005ab619af117,nick,8.6,Bruins / Stars
+nhl,163607,50c81d9967c2341f2117c57685000dee,nick,8.5,Jets / Blues
+nhl,163608,c3e7d800670fc3945c5b89ec09709eae,nick,9.2,Wild / Oilers
+nhl,163609,b1c2bb946e4f5824800dab22ae585454,nick,8.9,Red Wings / Kraken
+nhl,163610,adae998098aa843c9bb607b62ff47d5f,nick,10.1,Hurricanes / Canucks
+nhl,163611,9839724bdc94a54158c53865e379c682,nick,15.6,Lightning / Golden Knights
+nhl,168914,0b4bab4d663e04a571655ec7477eb10a,nick,8.2,Flyers / Sabres
+nhl,168915,5736c2282f978bfdf849f4b10876080e,nick,16.8,Panthers / Senators
+nhl,168916,921ae4814ca448a3040aa6de5b0fb9e9,nick,8.6,Ducks / Devils
+nhl,168917,c8d6c1c9324cfd008466f555073828d2,nick,8.3,Sharks / Senators
+nhl,168918,d57c3873ab3f113b8b77614edff4cf8f,nick,8.3,Panthers / Penguins
+nhl,168919,62fca8dce49c8fa3988f75322311b896,nick,8.9,Predators / Bruins
+nhl,168920,5ae32c2722f3ff4fa178c253f864b384,nick,8.1,Rangers / Maple Leafs
+nhl,168921,bfe0cd1ca4d32c4946e6ee28e21f0619,nick,8.8,Kings / Islanders
+nhl,168922,64c943b2b0c51d39a312874b925590f7,nick,8.3,Jets / Stars
+nhl,168923,58afd2b5779b2e4f163314436900d379,nick,8.5,Golden Knights / Blues
+nhl,168924,7e4df53f515e77bc6555279eb5d6946a,nick,8.2,Wild / Flames
+nhl,168925,8a951cc95f91e5df49f7aad4219c40e0,nick,10.9,Hurricanes / Oilers
+nhl,168926,ec5f71ec810aef5fc417a879c49750f1,nick,8.7,Mammoth / Kraken
+nhl,168933,2d1a2e330020589eb147fe4736ccfd1e,nick,8.2,Red Wings / Canucks
+nhl,170435,db9d82d62d8f222bfd835100662c6ac6,nick,9.2,Canadiens / Blackhawks
+nhl,170437,b7e4d8193096703065db318c2813168f,nick,9.5,Lightning / Avalanche
+nhl,172957,6f808f8ba28d3f5b26edeb74f752549f,nick,8.0,Ducks / Flyers
+nhl,172974,b2c782b53aa0561575bd82258e047dcd,nick,8.0,Kings / Devils
+nhl,172975,8e704270ddeb2ccdd00196b06cdb3bf6,nick,8.3,Predators / Penguins
+nhl,172976,0b8a03e43524a57bae9c25a6c73c9024,nick,8.4,Sabres / Capitals
+nhl,172977,bd017af43e74a8d506cdcec368a4c2c0,nick,15.2,Maple Leafs / Oilers
+nhl,172978,fbdbed1c7dfbc3b1837fa581ea66b703,nick,8.4,Sharks / Bruins
+nhl,172979,89da13e86e9e40fd4132bb577ca9a665,nick,9.2,Golden Knights / Blue Jackets
+nhl,172980,7973c2a6112dfdfc1e38edb3fa149416,nick,8.8,Hurricanes / Blues
+nhl,172981,ea9c3f2278e277cc562857e11fe0072f,nick,8.0,Rangers / Senators
+nhl,172982,4b444895e9b0169627abc9d6df1baae9,nick,8.7,Lightning / Mammoth
+nhl,172983,40bdb8bb226b82f2cfb6d4518d6fdfbd,nick,14.1,Red Wings / Flames
+nhl,172984,fa693c68730d8d6347e71ff2f92ba2d8,nick,9.0,Wild / Kraken
+nhl,175437,e13d36d055361cb7f59a37b7e5dca489,nick,0.0,Panthers / Blackhawks
+nhl,175438,9c1309e10d95a3f6eb6b6b9105c565eb,nick,0.0,Islanders / Stars
+nhl,175439,cd9f65faa44f221a72638e49afb134fb,nick,0.0,Canadiens / Jets
+nhl,175440,61198113cc96cb987aad067a15911db8,nick,0.0,Avalanche / Predators

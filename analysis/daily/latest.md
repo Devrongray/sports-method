@@ -1,46 +1,46 @@
-# Daily analysis 2026-10-24
+# Daily analysis 2026-10-25
 
 ## Coverage
 
 | source | sport | rows | events | passes | window_rows | first | last |
 |---|---|---|---|---|---|---|---|
-| polymarket_bbo | bundesliga | 32,466 | 18 | 868 | 5,004 | 10-15 06:34 | 10-24 10:22 |
-| polymarket_bbo | cs2 | 194,553 | 618 | 5,150 | 49,301 | 10-14 19:27 | 10-24 10:22 |
-| polymarket_bbo | epl | 35,867 | 20 | 968 | 5,280 | 10-15 23:32 | 10-24 10:22 |
-| polymarket_bbo | laliga | 35,507 | 20 | 1,267 | 5,976 | 10-15 07:34 | 10-24 10:22 |
-| polymarket_bbo | ligue1 | 29,880 | 17 | 947 | 5,592 | 10-15 06:55 | 10-24 10:22 |
-| polymarket_bbo | lol | 3,079 | 25 | 1,337 | 620 | 10-14 19:27 | 10-24 10:22 |
-| polymarket_bbo | mlb | 54,303 | 8 | 1,194 | 12,004 | 10-14 19:27 | 10-24 10:22 |
-| polymarket_bbo | nba | 86,339 | 59 | 1,546 | 29,042 | 10-14 19:27 | 10-24 10:22 |
-| polymarket_bbo | nfl | 28,231 | 26 | 971 | 5,103 | 10-14 19:27 | 10-24 10:22 |
-| polymarket_bbo | nhl | 245,672 | 76 | 2,213 | 42,663 | 10-14 19:27 | 10-24 10:22 |
-| polymarket_bbo | seriea | 36,201 | 20 | 1,231 | 6,132 | 10-15 06:55 | 10-24 10:22 |
-| pinnacle | mlb | 1,854 | 9 | 396 |  | 10-14 21:29 | 10-24 09:56 |
-| pinnacle | nba | 25,988 | 36 | 529 |  | 10-14 21:29 | 10-24 09:56 |
-| pinnacle | nfl | 20,732 | 28 | 413 |  | 10-14 21:29 | 10-24 09:56 |
-| pinnacle | nhl | 25,174 | 73 | 620 |  | 10-14 21:29 | 10-24 09:56 |
-| polymarket_history | bundesliga | 181 | 181 | 195,661 |  | NaT | NaT |
-| polymarket_history | cs2 | 1,715 | 1,647 | 1,417,088 |  | NaT | NaT |
-| polymarket_history | epl | 197 | 197 | 212,957 |  | NaT | NaT |
-| polymarket_history | laliga | 214 | 214 | 231,334 |  | NaT | NaT |
-| polymarket_history | ligue1 | 185 | 185 | 199,985 |  | NaT | NaT |
-| polymarket_history | lol | 17 | 17 | 18,377 |  | NaT | NaT |
-| polymarket_history | mlb | 397 | 337 | 429,157 |  | NaT | NaT |
-| polymarket_history | nba | 2,368 | 2,368 | 2,075,548 |  | NaT | NaT |
+| polymarket_bbo | bundesliga | 39,822 | 18 | 1,067 | 7,740 | 10-15 06:34 | 10-25 10:20 |
+| polymarket_bbo | cs2 | 212,675 | 635 | 5,656 | 54,249 | 10-14 19:27 | 10-25 10:22 |
+| polymarket_bbo | epl | 45,707 | 20 | 1,195 | 6,912 | 10-15 23:32 | 10-25 10:20 |
+| polymarket_bbo | laliga | 44,963 | 21 | 1,556 | 8,064 | 10-15 07:34 | 10-25 10:20 |
+| polymarket_bbo | ligue1 | 39,588 | 18 | 1,112 | 6,192 | 10-15 06:55 | 10-25 10:20 |
+| polymarket_bbo | lol | 4,106 | 33 | 1,710 | 982 | 10-14 19:27 | 10-25 10:20 |
+| polymarket_bbo | mlb | 59,627 | 8 | 1,315 | 13,588 | 10-14 19:27 | 10-25 03:24 |
+| polymarket_bbo | nba | 116,374 | 64 | 1,797 | 38,645 | 10-14 19:27 | 10-25 10:20 |
+| polymarket_bbo | nfl | 37,821 | 27 | 1,086 | 5,103 | 10-14 19:27 | 10-25 10:20 |
+| polymarket_bbo | nhl | 284,711 | 79 | 2,501 | 51,273 | 10-14 19:27 | 10-25 10:20 |
+| polymarket_bbo | seriea | 47,037 | 20 | 1,500 | 8,496 | 10-15 06:55 | 10-25 10:22 |
+| pinnacle | mlb | 2,058 | 10 | 447 |  | 10-14 21:29 | 10-25 09:56 |
+| pinnacle | nba | 28,398 | 43 | 605 |  | 10-14 21:29 | 10-25 09:56 |
+| pinnacle | nfl | 22,892 | 28 | 455 |  | 10-14 21:29 | 10-25 09:56 |
+| pinnacle | nhl | 28,930 | 78 | 706 |  | 10-14 21:29 | 10-25 09:56 |
+| polymarket_history | bundesliga | 300 | 300 | 324,300 |  | NaT | NaT |
+| polymarket_history | cs2 | 1,839 | 1,779 | 1,539,938 |  | NaT | NaT |
+| polymarket_history | epl | 271 | 271 | 292,951 |  | NaT | NaT |
+| polymarket_history | laliga | 287 | 287 | 310,247 |  | NaT | NaT |
+| polymarket_history | ligue1 | 215 | 203 | 232,415 |  | NaT | NaT |
+| polymarket_history | lol | 25 | 25 | 27,025 |  | NaT | NaT |
+| polymarket_history | mlb | 457 | 397 | 494,017 |  | NaT | NaT |
+| polymarket_history | nba | 3,022 | 3,022 | 2,644,590 |  | NaT | NaT |
 | polymarket_history | nfl | 595 | 595 | 643,195 |  | NaT | NaT |
-| polymarket_history | nhl | 2,032 | 2,032 | 2,196,592 |  | NaT | NaT |
-| polymarket_history | seriea | 195 | 195 | 210,795 |  | NaT | NaT |
-| news_mlb | mlb | 420 |  |  |  | NaT | NaT |
-| news_nhl | nhl | 472 |  |  |  | NaT | NaT |
-| news_nhl_schedule | nhl | 523 |  |  |  | NaT | NaT |
+| polymarket_history | nhl | 2,470 | 2,470 | 2,670,070 |  | NaT | NaT |
+| polymarket_history | seriea | 270 | 270 | 291,870 |  | NaT | NaT |
+| news_mlb | mlb | 470 |  |  |  | NaT | NaT |
+| news_nhl | nhl | 542 |  |  |  | NaT | NaT |
+| news_nhl_schedule | nhl | 597 |  |  |  | NaT | NaT |
 
-Odds API quota at last pass: used 5044.0, remaining 14956.0 (741 Pinnacle passes recorded).
+Odds API quota at last pass: used 5880.0, remaining 14120.0 (838 Pinnacle passes recorded).
 
 ## Event matching (Polymarket US vs Pinnacle)
 
-907 Polymarket events, 146 Pinnacle events, 143 matched (34 by full name, 109 by nickname).
+943 Polymarket events, 159 Pinnacle events, 156 matched (35 by full name, 121 by nickname).
 
-Unmatched Polymarket events (764): bundesliga Eintracht Frankfurt vs. 1. FC Koln; bundesliga 1. FC Union Berlin vs. BV Borussia 09 Dortmund; bundesliga Hamburger SV vs. VfB Stuttgart; bundesliga SV Werder Bremen vs. SC Paderborn 07; bundesliga FC Schalke 04 vs. 1. FSV Mainz 05; bundesliga SV 07 Elversberg vs. FC Augsburg; bundesliga FC Bayern Munchen vs. RB Leipzig; bundesliga Bayer 04 Leverkusen vs. SC Freiburg; bundesliga Borussia Monchengladbach vs. TSG 1899 Hoffenheim; bundesliga VfB Stuttgart vs. Borussia Monchengladbach; bundesliga RB Leipzig vs. SV 07 Elversberg; bundesliga FC Augsburg vs. 1. FC Union Berlin; bundesliga 1. FSV Mainz 05 vs. SV Werder Bremen; bundesliga 1. FC Koln vs. FC Schalke 04; bundesliga SC Paderborn 07 vs. Hamburger SV
+Unmatched Polymarket events (787): bundesliga Eintracht Frankfurt vs. 1. FC Koln; bundesliga 1. FC Union Berlin vs. BV Borussia 09 Dortmund; bundesliga Hamburger SV vs. VfB Stuttgart; bundesliga SV Werder Bremen vs. SC Paderborn 07; bundesliga FC Schalke 04 vs. 1. FSV Mainz 05; bundesliga SV 07 Elversberg vs. FC Augsburg; bundesliga FC Bayern Munchen vs. RB Leipzig; bundesliga Bayer 04 Leverkusen vs. SC Freiburg; bundesliga Borussia Monchengladbach vs. TSG 1899 Hoffenheim; bundesliga VfB Stuttgart vs. Borussia Monchengladbach; bundesliga RB Leipzig vs. SV 07 Elversberg; bundesliga FC Augsburg vs. 1. FC Union Berlin; bundesliga 1. FSV Mainz 05 vs. SV Werder Bremen; bundesliga 1. FC Koln vs. FC Schalke 04; bundesliga SC Paderborn 07 vs. Hamburger SV
 
 ## Polymarket mid vs Pinnacle fair, main winner contracts
 
@@ -48,21 +48,21 @@ mid_minus_fair > 0 means Polymarket prices the team higher than Pinnacle's de-vi
 
 | sport | bucket | n | mean_diff | mean_abs_diff | within_1c | within_2c | mean_spread | median_bid_shares | taker_edge_mean | taker_edge_pos_share |
 |---|---|---|---|---|---|---|---|---|---|---|
-| mlb | 0-15 min | 452 | -0.252 | 0.271 | 8% | 9% | 0.024 | 5,900 | 0.229 | 81% |
-| mlb | 15-60 min | 611 | -0.269 | 0.270 | 8% | 8% | 0.010 | 30,000 | 0.253 | 92% |
-| mlb | 1-3 h | 692 | -0.272 | 0.273 | 7% | 8% | 0.010 | 27,000 | 0.256 | 92% |
-| mlb | 3-12 h | 970 | -0.272 | 0.272 | 6% | 7% | 0.049 | 26,000 | 0.235 | 90% |
-| mlb | 12 h+ | 1,184 | -0.245 | 0.247 | 4% | 7% | 0.188 | 24,000 | 0.137 | 75% |
-| nba | 0-15 min | 3,484 | -0.019 | 0.154 | 7% | 12% | 0.372 | 26,000 | -0.178 | 24% |
-| nba | 15-60 min | 1,540 | -0.028 | 0.084 | 17% | 25% | 0.304 | 25,000 | -0.138 | 22% |
-| nba | 1-3 h | 2,807 | -0.040 | 0.097 | 15% | 22% | 0.323 | 25,000 | -0.135 | 20% |
-| nba | 3-12 h | 3,956 | -0.022 | 0.073 | 18% | 27% | 0.138 | 26,000 | -0.063 | 25% |
-| nba | 12 h+ | 1,568 | 0.000 | 0.010 | 79% | 95% | 0.025 | 270,000 | -0.028 | 1% |
-| nhl | 0-15 min | 6,178 | -0.107 | 0.144 | 10% | 14% | 0.089 | 28,000 | 0.049 | 61% |
-| nhl | 15-60 min | 2,861 | -0.115 | 0.115 | 13% | 15% | 0.012 | 32,000 | 0.093 | 84% |
-| nhl | 1-3 h | 5,696 | -0.116 | 0.117 | 12% | 15% | 0.012 | 32,000 | 0.094 | 85% |
-| nhl | 3-12 h | 9,487 | -0.112 | 0.113 | 11% | 14% | 0.045 | 31,000 | 0.073 | 82% |
-| nhl | 12 h+ | 20,335 | -0.124 | 0.125 | 12% | 15% | 0.126 | 29,000 | 0.044 | 71% |
+| mlb | 0-15 min | 557 | -0.253 | 0.272 | 6% | 8% | 0.022 | 5,800 | 0.231 | 83% |
+| mlb | 15-60 min | 779 | -0.270 | 0.271 | 8% | 8% | 0.010 | 29,000 | 0.254 | 92% |
+| mlb | 1-3 h | 818 | -0.272 | 0.273 | 7% | 7% | 0.010 | 28,000 | 0.256 | 93% |
+| mlb | 3-12 h | 1,327 | -0.272 | 0.273 | 6% | 7% | 0.050 | 26,000 | 0.235 | 91% |
+| mlb | 12 h+ | 1,268 | -0.247 | 0.249 | 4% | 7% | 0.180 | 21,000 | 0.143 | 76% |
+| nba | 0-15 min | 4,610 | -0.021 | 0.160 | 7% | 12% | 0.374 | 26,000 | -0.177 | 25% |
+| nba | 15-60 min | 2,242 | -0.035 | 0.116 | 16% | 22% | 0.450 | 25,000 | -0.201 | 16% |
+| nba | 1-3 h | 4,510 | -0.043 | 0.134 | 15% | 23% | 0.503 | 1,500 | -0.219 | 12% |
+| nba | 3-12 h | 6,213 | -0.030 | 0.115 | 17% | 25% | 0.384 | 25,000 | -0.174 | 16% |
+| nba | 12 h+ | 1,719 | -0.000 | 0.013 | 78% | 94% | 0.036 | 290,000 | -0.033 | 1% |
+| nhl | 0-15 min | 7,468 | -0.109 | 0.146 | 9% | 14% | 0.092 | 28,000 | 0.048 | 61% |
+| nhl | 15-60 min | 3,509 | -0.116 | 0.117 | 12% | 15% | 0.012 | 32,000 | 0.094 | 85% |
+| nhl | 1-3 h | 6,668 | -0.117 | 0.118 | 12% | 14% | 0.012 | 32,000 | 0.095 | 86% |
+| nhl | 3-12 h | 13,411 | -0.113 | 0.114 | 11% | 13% | 0.045 | 31,000 | 0.074 | 82% |
+| nhl | 12 h+ | 21,604 | -0.124 | 0.125 | 12% | 14% | 0.127 | 29,000 | 0.044 | 71% |
 
 Largest gaps seen:
 
@@ -74,10 +74,10 @@ Largest gaps seen:
 | nba | Pacers | 10-24 01:18 | -139 | 0.101 | 0.965 | 0.050 | 0.864 | -0.890 |
 | nba | Mavericks | 10-24 01:25 | -151 | 0.899 | 0.045 | 0.050 | -0.854 | 0.825 |
 | nba | Pacers | 10-24 01:25 | -151 | 0.101 | 0.950 | 0.080 | 0.849 | -0.890 |
-| nba | Cavaliers | 10-23 00:36 | -97 | 0.940 | 0.115 | 0.030 | -0.825 | 0.802 |
 | nba | Cavaliers | 10-23 00:31 | -97 | 0.940 | 0.115 | 0.030 | -0.825 | 0.802 |
-| nhl | Kings | 10-23 01:22 | -105 | 0.848 | 0.025 | 0.030 | -0.823 | 0.805 |
+| nba | Cavaliers | 10-23 00:36 | -97 | 0.940 | 0.115 | 0.030 | -0.825 | 0.802 |
 | nhl | Kings | 10-23 01:15 | -105 | 0.848 | 0.025 | 0.030 | -0.823 | 0.805 |
+| nhl | Kings | 10-23 01:22 | -105 | 0.848 | 0.025 | 0.030 | -0.823 | 0.805 |
 | nba | Cavaliers | 10-23 00:31 | -97 | 0.940 | 0.120 | 0.020 | -0.820 | 0.802 |
 | nba | Cavaliers | 10-23 00:36 | -97 | 0.940 | 0.120 | 0.020 | -0.820 | 0.802 |
 
@@ -85,75 +85,75 @@ Largest gaps seen:
 
 | sport | n | mean_mid | win_rate | brier_pm | log_loss_pm | slope | slope_se | intercept | n_with_pinnacle | brier_pm_matched | brier_pinnacle |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| bundesliga | 90 | 0.334 | 0.333 | 0.217 | 0.624 | 0.605 | 0.326 | -0.262 |  |  |  |
-| cs2 | 1,226 | 0.527 | 0.564 | 0.223 | 0.634 | 0.924 | 0.097 | 0.172 |  |  |  |
-| epl | 99 | 0.337 | 0.333 | 0.190 | 0.560 | 1.358 | 0.385 | 0.201 |  |  |  |
-| laliga | 108 | 0.345 | 0.333 | 0.197 | 0.577 | 1.096 | 0.328 | -0.002 |  |  |  |
-| ligue1 | 90 | 0.342 | 0.333 | 0.209 | 0.608 | 1.007 | 0.456 | -0.039 |  |  |  |
-| lol | 17 | 0.620 | 0.529 |  |  |  |  |  |  |  |  |
-| mlb | 127 | 0.346 | 0.346 | 0.206 | 0.599 | 0.727 | 0.205 | -0.155 | 87 | 0.183 | 0.244 |
-| nba | 483 | 0.367 | 0.342 | 0.195 | 0.557 | 0.964 | 0.140 | -0.143 | 312 | 0.248 | 0.240 |
-| nhl | 650 | 0.348 | 0.332 | 0.219 | 0.629 | 0.679 | 0.197 | -0.269 | 454 | 0.226 | 0.246 |
-| seriea | 99 | 0.351 | 0.333 | 0.227 | 0.650 | 0.326 | 0.364 | -0.483 |  |  |  |
+| bundesliga | 144 | 0.336 | 0.333 | 0.216 | 0.619 | 0.664 | 0.268 | -0.229 |  |  |  |
+| cs2 | 1,321 | 0.531 | 0.569 | 0.223 | 0.635 | 0.914 | 0.093 | 0.181 |  |  |  |
+| epl | 135 | 0.337 | 0.333 | 0.196 | 0.573 | 1.170 | 0.310 | 0.083 |  |  |  |
+| laliga | 144 | 0.346 | 0.333 | 0.202 | 0.589 | 0.969 | 0.279 | -0.080 |  |  |  |
+| ligue1 | 99 | 0.346 | 0.333 | 0.212 | 0.613 | 0.939 | 0.440 | -0.097 |  |  |  |
+| lol | 25 | 0.570 | 0.400 |  |  |  |  |  |  |  |  |
+| mlb | 158 | 0.346 | 0.342 | 0.204 | 0.595 | 0.736 | 0.185 | -0.172 | 108 | 0.183 | 0.244 |
+| nba | 567 | 0.345 | 0.321 | 0.184 | 0.531 | 0.994 | 0.121 | -0.134 | 348 | 0.246 | 0.236 |
+| nhl | 806 | 0.348 | 0.333 | 0.220 | 0.631 | 0.638 | 0.179 | -0.294 | 562 | 0.226 | 0.244 |
+| seriea | 135 | 0.358 | 0.333 | 0.218 | 0.628 | 0.609 | 0.305 | -0.330 |  |  |  |
 
-2989 settled main winner contracts so far; calibration is reported from 30 per sport.
+3534 settled main winner contracts so far; calibration is reported from 30 per sport.
 
 ## Test (a): news events and price reaction
 
-215 news events recorded; 2951 joined to a Polymarket contract with a price path.
+252 news events recorded; 3504 joined to a Polymarket contract with a price path.
 
 | sport | kind | n |
 |---|---|---|
-| mlb | lineup_away | 17 |
-| mlb | lineup_home | 9 |
+| mlb | lineup_away | 20 |
+| mlb | lineup_home | 10 |
 | mlb | probable_away | 6 |
 | mlb | probable_home | 4 |
-| nhl | goalie_confirmed | 124 |
-| nhl | goalie_likely | 55 |
+| nhl | goalie_confirmed | 149 |
+| nhl | goalie_likely | 63 |
 
 Most recent joined events:
 
 | sport | kind | team | detail | news_ts | minutes_to_start | contract_is_news_team | mid_before | move_plus5 | move_plus15 | move_plus30 | pin_fair_before | pin_fair_after | minutes_to_within_1c |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.215 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 | 296.983 |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.155 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.372 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 | 0.983 |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.185 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.545 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 | 119.983 |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.285 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 | 114.983 |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.625 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.255 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.155 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.665 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.145 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.635 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.245 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.145 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.625 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.235 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.225 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.635 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.205 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.225 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.065 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.685 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.145 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.175 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.135 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.655 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.625 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.165 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.225 | 0.000 | 0.000 | 0.000 | 0.632 | 0.634 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | False | 0.625 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 22:25 | 95 | True | 0.155 | 0.000 | 0.000 | 0.000 | 0.368 | 0.366 | 187.983 |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | False | 0.665 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | False | 0.645 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | True | 0.145 | 0.000 | 0.000 | 0.000 | 0.365 | 0.365 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | False | 0.245 | 0.000 | 0.000 | 0.000 | 0.635 | 0.635 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | False | 0.635 | 0.000 | 0.000 | 0.000 |  |  |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | True | 0.155 | 0.000 | 0.000 | 0.000 | 0.365 | 0.365 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | False | 0.215 | 0.000 | 0.000 | 0.000 | 0.635 | 0.635 |  |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | True | 0.372 | 0.000 | 0.000 | 0.000 | 0.365 | 0.365 | 0.350 |
-| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-23 21:11 | 168 | True | 0.155 | 0.000 | 0.020 | 0.000 | 0.365 | 0.365 |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | True | 0.335 | -0.030 | -0.030 | -0.145 | 0.376 | 0.367 |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | True | 0.315 | 0.000 | 0.000 | 0.000 | 0.376 | 0.367 |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.635 | 0.000 | 0.000 | 0.145 | 0.624 | 0.633 | 0.836 |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.325 | 0.000 | 0.000 | -0.110 |  |  |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.425 | 0.000 | 0.000 | 0.170 | 0.624 | 0.633 | 24.836 |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.325 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.400 | 0.000 | -0.015 | 0.020 | 0.624 | 0.633 | 85.836 |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | True | 0.295 | 0.000 | 0.000 | -0.240 | 0.376 | 0.367 |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.285 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.435 | 0.000 | 0.000 | 0.000 | 0.624 | 0.633 |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | True | 0.335 | 0.000 | 0.000 | -0.100 | 0.376 | 0.367 |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.205 | -0.005 | -0.005 | -0.005 |  |  |  |
+| nhl | goalie_confirmed | Seattle Kraken | Joey Daccord | 10-25 01:44 | 16 | False | 0.545 | -0.030 | -0.030 | 0.170 | 0.624 | 0.633 | 45.836 |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | False | 0.385 | 0.000 | 0.000 | 0.000 | 0.573 | 0.573 | 106.672 |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | True | 0.425 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 | 0.672 |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | False | 0.315 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | True | 0.315 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | False | 0.360 | 0.000 | 0.005 | 0.000 | 0.573 | 0.573 |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | False | 0.245 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | True | 0.305 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | False | 0.205 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | False | 0.275 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | True | 0.325 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | False | 0.415 | 0.000 | 0.000 | 0.000 | 0.573 | 0.573 |  |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | True | 0.345 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 | 43.672 |
+| nhl | goalie_confirmed | Tampa Bay Lightning | Dennis Hildeby | 10-25 00:33 | 27 | False | 0.480 | 0.000 | 0.000 | 0.005 | 0.573 | 0.573 |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | True | 0.385 | 0.000 | 0.000 | 0.000 | 0.573 | 0.573 | 107.826 |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.425 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 | 0.826 |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.315 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.315 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | True | 0.360 | 0.000 | 0.005 | 0.000 | 0.573 | 0.573 |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.245 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.305 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | True | 0.480 | 0.005 | 0.005 | 0.005 | 0.573 | 0.573 |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.275 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | True | 0.415 | 0.000 | 0.000 | 0.000 | 0.573 | 0.573 |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.205 | 0.000 | 0.000 | 0.000 |  |  |  |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.345 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 | 44.826 |
+| nhl | goalie_confirmed | Utah Mammoth | Karel Vejmelka | 10-25 00:32 | 28 | False | 0.325 | 0.000 | 0.000 | 0.000 | 0.427 | 0.427 |  |
+| mlb | lineup_away | Tampa Bay Rays | 9 players | 10-24 22:56 | 64 | True | 0.205 | 0.000 | 0.000 | 0.000 | 0.478 | 0.478 |  |
 
 Generated by method/analysis/report.py from the data branch.
