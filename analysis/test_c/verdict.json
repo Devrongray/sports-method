@@ -1,10 +1,10 @@
 {
-  "best_devig_method": "power",
+  "best_devig_method": "additive",
   "mean_log_loss_by_method": {
-    "power": 0.9667552993573396,
-    "additive": 0.9667559051012026,
-    "shin": 0.9667919038688062,
-    "multiplicative": 0.9670286308504669
+    "additive": 0.9679821993394321,
+    "power": 0.9680015855915896,
+    "shin": 0.968010704606834,
+    "multiplicative": 0.9682204499164692
   },
   "seasons_slope_in_band": {
     "2019/20": true,
@@ -26,8 +26,8 @@
       0.041
     ],
     "2020/21": [
-      1.0155,
-      0.0463
+      0.9869,
+      0.0407
     ],
     "2021/22": [
       0.9668,
@@ -38,8 +38,8 @@
       0.0423
     ],
     "2023/24": [
-      1.0965,
-      0.0479
+      1.1023,
+      0.0431
     ],
     "2024/25": [
       1.0371,
@@ -50,7 +50,7 @@
       0.0633
     ]
   },
-  "false_fail_probability_if_calibrated": 0.895,
+  "false_fail_probability_if_calibrated": 0.878,
   "seasons_outside_2se_of_1": [
     "2023/24"
   ],
@@ -66,16 +66,16 @@
       "2024/25",
       "2025/26"
     ],
-    "early_slope": 0.994,
-    "early_se": 0.0211,
-    "early_n": 6823,
-    "late_slope": 1.0744,
-    "late_se": 0.0281,
-    "late_n": 4022,
-    "late_minus_early": 0.0804,
-    "z": 2.29,
-    "two_sided_p": 0.022,
-    "early_log_loss": 0.974,
-    "late_log_loss": 0.95692
+    "early_slope": 0.988,
+    "early_se": 0.0205,
+    "early_n": 7203,
+    "late_slope": 1.0784,
+    "late_se": 0.027,
+    "late_n": 4402,
+    "late_minus_early": 0.0904,
+    "z": 2.67,
+    "two_sided_p": 0.0076,
+    "early_log_loss": 0.97526,
+    "late_log_loss": 0.95747
   }
 }
