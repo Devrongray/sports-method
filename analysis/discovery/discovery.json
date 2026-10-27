@@ -1,6 +1,6 @@
 {
-  "ts": "2026-10-26T08:46:59+00:00",
-  "n_leagues": 388,
+  "ts": "2026-10-27T08:44:27+00:00",
+  "n_leagues": 389,
   "leagues": [
     {
       "slug": "uefa",
@@ -1923,12 +1923,6 @@
       "sportId": 7
     },
     {
-      "slug": "vidamexi",
-      "name": "VidantaWorld Mexico Open",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
       "slug": "svk2",
       "name": "Slovak 2. Liga",
       "isOperational": true,
@@ -1969,6 +1963,12 @@
       "name": "North of Scotland Cup",
       "isOperational": false,
       "sportId": 2
+    },
+    {
+      "slug": "vidamexi",
+      "name": "VidantaWorld Mexico Open",
+      "isOperational": true,
+      "sportId": 7
     },
     {
       "slug": "maybcham",
@@ -2217,6 +2217,18 @@
       "sportId": 1
     },
     {
+      "slug": "nba",
+      "name": "NBA",
+      "isOperational": true,
+      "sportId": 1
+    },
+    {
+      "slug": "rsmclas",
+      "name": "The RSM Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
       "slug": "bsktcua",
       "name": "BSKT Cup",
       "isOperational": true,
@@ -2233,12 +2245,6 @@
       "name": "LFA",
       "isOperational": true,
       "sportId": 6
-    },
-    {
-      "slug": "abudhabc",
-      "name": "Abu Dhabi Championship",
-      "isOperational": true,
-      "sportId": 7
     },
     {
       "slug": "rlwc",
@@ -2259,32 +2265,20 @@
       "sportId": 1
     },
     {
+      "slug": "austcham",
+      "name": "Austin Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
       "slug": "acw",
       "name": "Astra Cup Women",
       "isOperational": true,
       "sportId": 26
     },
     {
-      "slug": "totojapa",
-      "name": "Toto Japan Classic",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "rsmclas",
-      "name": "The RSM Classic",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "nba",
-      "name": "NBA",
-      "isOperational": true,
-      "sportId": 1
-    },
-    {
-      "slug": "dpworlch",
-      "name": "DP World Tour Championship",
+      "slug": "simmbank",
+      "name": "Simmons Bank Championship",
       "isOperational": true,
       "sportId": 7
     },
@@ -2295,14 +2289,14 @@
       "sportId": 28
     },
     {
-      "slug": "austcham",
-      "name": "Austin Championship",
+      "slug": "abudhabc",
+      "name": "Abu Dhabi Championship",
       "isOperational": true,
       "sportId": 7
     },
     {
-      "slug": "worlwide",
-      "name": "World Wide Technology Championship",
+      "slug": "totojapa",
+      "name": "Toto Japan Classic",
       "isOperational": true,
       "sportId": 7
     },
@@ -2313,8 +2307,14 @@
       "sportId": 28
     },
     {
-      "slug": "simmbank",
-      "name": "Simmons Bank Championship",
+      "slug": "worlwide",
+      "name": "World Wide Technology Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "dpworlch",
+      "name": "DP World Tour Championship",
       "isOperational": true,
       "sportId": 7
     },
@@ -2329,6 +2329,12 @@
       "name": "CME Group Tour Championship",
       "isOperational": true,
       "sportId": 7
+    },
+    {
+      "slug": "austpgac",
+      "name": "Australian PGA Championship",
+      "isOperational": true,
+      "sportId": 7
     }
   ],
   "checks": [
@@ -2336,130 +2342,108 @@
       "sport": "mlb",
       "slug": "mlb",
       "slug_listed": true,
-      "events": 2,
+      "events": 1,
       "upcoming_in_horizon": 1,
       "market_types": {
-        "BASEBALL_TEAM_FULL_GAME_TOTAL": 10,
-        "BASEBALL_TEAM_TOTAL_RUNS": 16,
+        "BASEBALL_TEAM_FULL_GAME_TOTAL": 11,
         "BASEBALL_TEAM_FIRST_FIVE_TOTAL": 7,
-        "BASEBALL_PLAYER_HITS_ALLOWED": 7,
         "BASEBALL_TEAM_FULL_GAME_SPREAD": 8,
-        "BASEBALL_PLAYER_STRIKEOUTS": 12,
-        "BASEBALL_PLAYER_WALKS_ALLOWED": 4,
-        "BASEBALL_PLAYER_HITS_RUNS_RBIS": 72,
-        "BASEBALL_PLAYER_HITS": 36,
-        "BASEBALL_TEAM_INNING8_WINNER": 3,
-        "BASEBALL_TEAM_INNING7_WINNER": 3,
+        "BASEBALL_PLAYER_STRIKEOUTS": 6,
+        "BASEBALL_TEAM_TOTAL_RUNS": 16,
+        "BASEBALL_PLAYER_HITS_RUNS_RBIS": 66,
         "BASEBALL_TEAM_FIRST_FIVE_SPREAD": 2,
+        "BASEBALL_PLAYER_HITS": 33,
+        "BASEBALL_TEAM_INNING8_WINNER": 3,
         "BASEBALL_TEAM_INNING2_WINNER": 3,
-        "BASEBALL_TEAM_INNING5_WINNER": 3,
+        "BASEBALL_TEAM_INNING4_WINNER": 3,
+        "BASEBALL_TEAM_INNING7_WINNER": 3,
         "BASEBALL_TEAM_INNING6_WINNER": 3,
         "BASEBALL_TEAM_INNING3_WINNER": 3,
-        "BASEBALL_TEAM_INNING4_WINNER": 3,
+        "BASEBALL_TEAM_INNING5_WINNER": 3,
         "BASEBALL_TEAM_INNING1_WINNER": 3,
-        "BASEBALL_PLAYER_OUTS": 7,
-        "BASEBALL_PLAYER_EARNED_RUNS_ALLOWED": 4,
-        "BASEBALL_TEAM_FIRST_FIVE_WINNER": 3,
-        "BASEBALL_TEAM_FULL_GAME_WINNER": 2,
-        "BASEBALL_TEAM_FIRST_INNING_RUN": 1,
-        "BASEBALL_TEAM_INNING3_TOTAL": 2,
+        "BASEBALL_TEAM_FULL_GAME_WINNER": 1,
+        "BASEBALL_PLAYER_TOTAL_BASES": 55,
         "BASEBALL_TEAM_INNING4_TOTAL": 2,
-        "BASEBALL_TEAM_INNING5_TOTAL": 2,
-        "BASEBALL_PLAYER_TOTAL_BASES": 60,
-        "BASEBALL_TEAM_INNING2_TOTAL": 2,
         "BASEBALL_TEAM_INNING6_TOTAL": 2,
+        "BASEBALL_PLAYER_EARNED_RUNS_ALLOWED": 2,
+        "BASEBALL_TEAM_FIRST_INNING_RUN": 1,
+        "BASEBALL_TEAM_FIRST_FIVE_WINNER": 3,
+        "BASEBALL_TEAM_INNING3_TOTAL": 2,
+        "BASEBALL_TEAM_INNING5_TOTAL": 2,
         "BASEBALL_TEAM_INNING7_TOTAL": 2,
         "BASEBALL_TEAM_INNING8_TOTAL": 2,
-        "BASEBALL_PLAYER_RBIS": 36,
+        "BASEBALL_PLAYER_HITS_ALLOWED": 3,
+        "BASEBALL_TEAM_INNING2_TOTAL": 2,
+        "BASEBALL_PLAYER_WALKS_ALLOWED": 2,
+        "BASEBALL_PLAYER_RBIS": 33,
         "BASEBALL_TEAM_INNING9_TOTAL": 2,
-        "BASEBALL_TEAM_INNING1_TOTAL": 1,
-        "BASEBALL_PLAYER_STOLEN_BASES": 11,
         "BASEBALL_TEAM_INNING9_WINNER": 3,
-        "BASEBALL_PLAYER_HOME_RUNS": 24,
-        "BASEBALL_GAME_EXTRA_INNINGS": 1
+        "BASEBALL_TEAM_INNING1_TOTAL": 1,
+        "BASEBALL_PLAYER_HOME_RUNS": 22,
+        "BASEBALL_GAME_EXTRA_INNINGS": 1,
+        "BASEBALL_PLAYER_OUTS": 3
       },
       "market_classes": {
-        "TOTAL/FULL_GAME": 10,
-        "OTHER/UNKNOWN": 291,
+        "TOTAL/FULL_GAME": 11,
         "TOTAL/FIRST_FIVE": 7,
         "SPREAD/FULL_GAME": 8,
-        "WINNER/INNING8": 3,
-        "WINNER/INNING7": 3,
+        "OTHER/UNKNOWN": 243,
         "SPREAD/FIRST_FIVE": 2,
+        "WINNER/INNING8": 3,
         "WINNER/INNING2": 3,
-        "WINNER/INNING5": 3,
+        "WINNER/INNING4": 3,
+        "WINNER/INNING7": 3,
         "WINNER/INNING6": 3,
         "WINNER/INNING3": 3,
-        "WINNER/INNING4": 3,
+        "WINNER/INNING5": 3,
         "WINNER/INNING1": 3,
-        "WINNER/FIRST_FIVE": 3,
-        "WINNER/FULL_GAME": 2,
-        "TOTAL/INNING3": 2,
+        "WINNER/FULL_GAME": 1,
         "TOTAL/INNING4": 2,
-        "TOTAL/INNING5": 2,
-        "TOTAL/INNING2": 2,
         "TOTAL/INNING6": 2,
+        "WINNER/FIRST_FIVE": 3,
+        "TOTAL/INNING3": 2,
+        "TOTAL/INNING5": 2,
         "TOTAL/INNING7": 2,
         "TOTAL/INNING8": 2,
+        "TOTAL/INNING2": 2,
         "TOTAL/INNING9": 2,
-        "TOTAL/INNING1": 1,
-        "WINNER/INNING9": 3
+        "WINNER/INNING9": 3,
+        "TOTAL/INNING1": 1
       },
       "main_lines_in_horizon": 44,
       "unclassified": [
-        "BASEBALL_TEAM_TOTAL_RUNS",
-        "BASEBALL_PLAYER_HITS_ALLOWED",
         "BASEBALL_PLAYER_STRIKEOUTS",
-        "BASEBALL_PLAYER_WALKS_ALLOWED",
+        "BASEBALL_TEAM_TOTAL_RUNS",
         "BASEBALL_PLAYER_HITS_RUNS_RBIS",
         "BASEBALL_PLAYER_HITS",
-        "BASEBALL_PLAYER_OUTS",
+        "BASEBALL_PLAYER_TOTAL_BASES",
         "BASEBALL_PLAYER_EARNED_RUNS_ALLOWED",
         "BASEBALL_TEAM_FIRST_INNING_RUN",
-        "BASEBALL_PLAYER_TOTAL_BASES",
+        "BASEBALL_PLAYER_HITS_ALLOWED",
+        "BASEBALL_PLAYER_WALKS_ALLOWED",
         "BASEBALL_PLAYER_RBIS",
-        "BASEBALL_PLAYER_STOLEN_BASES",
         "BASEBALL_PLAYER_HOME_RUNS",
-        "BASEBALL_GAME_EXTRA_INNINGS"
+        "BASEBALL_GAME_EXTRA_INNINGS",
+        "BASEBALL_PLAYER_OUTS"
       ],
       "examples": {
         "BASEBALL_TEAM_FULL_GAME_TOTAL": {
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in Game 3: MIL Brewers vs. TB Rays be more than 7.5?",
+          "question": "Will the total in Game 4: MIL Brewers vs. TB Rays be more than 7.5?",
           "line": 7.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-7pt5",
+          "slug": "tsc-mlb-mil-tb-2026-10-27-7pt5",
           "sides": [
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-7pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-7pt5",
               "teamId": null,
-              "price": 0.435
+              "price": 0.445
             },
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-7pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-7pt5",
               "teamId": null,
-              "price": 0.44
-            }
-          ]
-        },
-        "BASEBALL_TEAM_TOTAL_RUNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Milwaukee Brewers score more than 0.5 runs in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-tt-mil-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-tt-mil-0pt5",
-              "teamId": 3016,
-              "price": 0.66
-            },
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-tt-mil-0pt5",
-              "teamId": 3016,
-              "price": 0.98
+              "price": 0.45
             }
           ]
         },
@@ -2467,39 +2451,19 @@
           "class": "TOTAL",
           "segment": "FIRST_FIVE",
           "is_main": true,
-          "question": "Will the total in Game 3: MIL Brewers vs. TB Rays be more than 4.5?",
-          "line": 4.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-f5-4pt5",
+          "question": "Will the total in Game 4: MIL Brewers vs. TB Rays be more than 3.5?",
+          "line": 3.5,
+          "slug": "tsc-mlb-mil-tb-2026-10-27-f5-3pt5",
           "sides": [
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-f5-4pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-f5-3pt5",
               "teamId": null,
-              "price": 0.43
+              "price": 0.52
             },
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-f5-4pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-f5-3pt5",
               "teamId": null,
-              "price": 0.45
-            }
-          ]
-        },
-        "BASEBALL_PLAYER_HITS_ALLOWED": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Robert Gasser record at least 2 hits allowed in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 2,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-ha-robgas-gte2",
-          "sides": [
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-ha-robgas-gte2",
-              "teamId": 3016,
-              "price": 0.86
-            },
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-ha-robgas-gte2",
-              "teamId": 3016,
-              "price": 0.91
+              "price": 0.54
             }
           ]
         },
@@ -2507,19 +2471,19 @@
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the Milwaukee Brewers cover -1.5 vs the Tampa Bay Rays in Game 3: MIL Brewers vs. TB Rays?",
+          "question": "Will the Milwaukee Brewers cover -1.5 vs the Tampa Bay Rays in Game 4: MIL Brewers vs. TB Rays?",
           "line": -1.5,
-          "slug": "asc-mlb-mil-tb-2026-10-26-neg-1pt5",
+          "slug": "asc-mlb-mil-tb-2026-10-27-neg-1pt5",
           "sides": [
             {
-              "identifier": "asc-mlb-mil-tb-2026-10-26-neg-1pt5",
+              "identifier": "asc-mlb-mil-tb-2026-10-27-neg-1pt5",
               "teamId": 3016,
-              "price": 0.335
+              "price": 0.415
             },
             {
-              "identifier": "asc-mlb-mil-tb-2026-10-26-neg-1pt5",
+              "identifier": "asc-mlb-mil-tb-2026-10-27-neg-1pt5",
               "teamId": 3026,
-              "price": 0.34
+              "price": 0.42
             }
           ]
         },
@@ -2527,39 +2491,39 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Freddy Peralta record at least 3 pitching strikeouts in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 3,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-k-freper-gte3",
+          "question": "Will Griffin Jax record at least 2 pitching strikeouts in Game 4: MIL Brewers vs. TB Rays?",
+          "line": 2,
+          "slug": "astatc-mlb-mil-tb-2026-10-27-k-grijax-gte2",
           "sides": [
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-k-freper-gte3",
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-k-grijax-gte2",
               "teamId": 3026,
-              "price": 0.82
+              "price": 0.8
             },
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-k-freper-gte3",
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-k-grijax-gte2",
               "teamId": 3026,
-              "price": 0.88
+              "price": 0.87
             }
           ]
         },
-        "BASEBALL_PLAYER_WALKS_ALLOWED": {
+        "BASEBALL_TEAM_TOTAL_RUNS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Freddy Peralta record at least 1 walks allowed in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 1,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-wa-freper-gte1",
+          "question": "Will Milwaukee Brewers score more than 1.5 runs in Game 4: MIL Brewers vs. TB Rays?",
+          "line": 1.5,
+          "slug": "tsc-mlb-mil-tb-2026-10-27-tt-mil-1pt5",
           "sides": [
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-wa-freper-gte1",
-              "teamId": 3026,
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-tt-mil-1pt5",
+              "teamId": 3016,
               "price": 0.78
             },
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-wa-freper-gte1",
-              "teamId": 3026,
-              "price": 0.87
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-tt-mil-1pt5",
+              "teamId": 3016,
+              "price": 0.85
             }
           ]
         },
@@ -2567,19 +2531,39 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will Junior Caminero record at least 2 hits + runs + RBIs in Game 3: MIL Brewers vs. TB Rays?",
+          "question": "Will William Contreras record at least 2 hits + runs + RBIs in Game 4: MIL Brewers vs. TB Rays?",
           "line": 2,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-hrr-juncam-gte2",
+          "slug": "astatc-mlb-mil-tb-2026-10-27-hrr-wilcon2-gte2",
           "sides": [
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-hrr-juncam-gte2",
-              "teamId": 3026,
-              "price": 0.48
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-hrr-wilcon2-gte2",
+              "teamId": 3016,
+              "price": 0.49
             },
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-hrr-juncam-gte2",
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-hrr-wilcon2-gte2",
+              "teamId": 3016,
+              "price": 0.5
+            }
+          ]
+        },
+        "BASEBALL_TEAM_FIRST_FIVE_SPREAD": {
+          "class": "SPREAD",
+          "segment": "FIRST_FIVE",
+          "is_main": true,
+          "question": "Will the Milwaukee Brewers cover -1.5 vs the Tampa Bay Rays in Game 4: MIL Brewers vs. TB Rays in the first 5 innings?",
+          "line": -1.5,
+          "slug": "asc-mlb-mil-tb-2026-10-27-f5-neg-1pt5",
+          "sides": [
+            {
+              "identifier": "asc-mlb-mil-tb-2026-10-27-f5-neg-1pt5",
+              "teamId": 3016,
+              "price": 0.28
+            },
+            {
+              "identifier": "asc-mlb-mil-tb-2026-10-27-f5-neg-1pt5",
               "teamId": 3026,
-              "price": 0.51
+              "price": 0.29
             }
           ]
         },
@@ -2587,19 +2571,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Chandler Simpson record at least 1 hits in Game 3: MIL Brewers vs. TB Rays?",
+          "question": "Will Jackson Chourio record at least 1 hits in Game 4: MIL Brewers vs. TB Rays?",
           "line": 1,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-hits-chasim-gte1",
+          "slug": "astatc-mlb-mil-tb-2026-10-27-hits-jaccho-gte1",
           "sides": [
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-hits-chasim-gte1",
-              "teamId": 3026,
-              "price": 0.7
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-hits-jaccho-gte1",
+              "teamId": 3016,
+              "price": 0.69
             },
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-hits-chasim-gte1",
-              "teamId": 3026,
-              "price": 0.71
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-hits-jaccho-gte1",
+              "teamId": 3016,
+              "price": 0.7
             }
           ]
         },
@@ -2609,56 +2593,16 @@
           "is_main": true,
           "question": "Will the 8th inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
           "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i8-draw",
+          "slug": "atc-mlb-mil-tb-2026-10-27-i8-draw",
           "sides": [
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i8-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i8-draw",
               "teamId": null,
-              "price": 0.62
+              "price": 0.59
             },
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i8-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i8-draw",
               "teamId": null,
-              "price": 0.7
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING7_WINNER": {
-          "class": "WINNER",
-          "segment": "INNING7",
-          "is_main": true,
-          "question": "Will the 7th inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
-          "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i7-draw",
-          "sides": [
-            {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i7-draw",
-              "teamId": null,
-              "price": 0.61
-            },
-            {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i7-draw",
-              "teamId": null,
-              "price": 0.69
-            }
-          ]
-        },
-        "BASEBALL_TEAM_FIRST_FIVE_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_FIVE",
-          "is_main": true,
-          "question": "Will the Milwaukee Brewers cover +1.5 vs the Tampa Bay Rays in Game 3: MIL Brewers vs. TB Rays in the first 5 innings?",
-          "line": 1.5,
-          "slug": "asc-mlb-mil-tb-2026-10-26-f5-pos-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-mlb-mil-tb-2026-10-26-f5-pos-1pt5",
-              "teamId": 3016,
-              "price": 0.66
-            },
-            {
-              "identifier": "asc-mlb-mil-tb-2026-10-26-f5-pos-1pt5",
-              "teamId": 3026,
               "price": 0.67
             }
           ]
@@ -2669,37 +2613,57 @@
           "is_main": true,
           "question": "Will the 2nd inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
           "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i2-draw",
+          "slug": "atc-mlb-mil-tb-2026-10-27-i2-draw",
           "sides": [
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i2-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i2-draw",
+              "teamId": null,
+              "price": 0.59
+            },
+            {
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i2-draw",
+              "teamId": null,
+              "price": 0.66
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING4_WINNER": {
+          "class": "WINNER",
+          "segment": "INNING4",
+          "is_main": true,
+          "question": "Will the 4th inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
+          "line": null,
+          "slug": "atc-mlb-mil-tb-2026-10-27-i4-draw",
+          "sides": [
+            {
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i4-draw",
               "teamId": null,
               "price": 0.57
             },
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i2-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i4-draw",
               "teamId": null,
-              "price": 0.65
+              "price": 0.66
             }
           ]
         },
-        "BASEBALL_TEAM_INNING5_WINNER": {
+        "BASEBALL_TEAM_INNING7_WINNER": {
           "class": "WINNER",
-          "segment": "INNING5",
+          "segment": "INNING7",
           "is_main": true,
-          "question": "Will the 5th inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
+          "question": "Will the 7th inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
           "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i5-draw",
+          "slug": "atc-mlb-mil-tb-2026-10-27-i7-draw",
           "sides": [
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i5-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i7-draw",
               "teamId": null,
-              "price": 0.58
+              "price": 0.59
             },
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i5-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i7-draw",
               "teamId": null,
-              "price": 0.65
+              "price": 0.66
             }
           ]
         },
@@ -2709,15 +2673,15 @@
           "is_main": true,
           "question": "Will the 6th inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
           "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i6-draw",
+          "slug": "atc-mlb-mil-tb-2026-10-27-i6-draw",
           "sides": [
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i6-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i6-draw",
               "teamId": null,
               "price": 0.57
             },
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i6-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i6-draw",
               "teamId": null,
               "price": 0.65
             }
@@ -2729,35 +2693,35 @@
           "is_main": true,
           "question": "Will the 3rd inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
           "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i3-draw",
+          "slug": "atc-mlb-mil-tb-2026-10-27-i3-draw",
           "sides": [
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i3-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i3-draw",
               "teamId": null,
               "price": 0.57
             },
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i3-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i3-draw",
               "teamId": null,
               "price": 0.64
             }
           ]
         },
-        "BASEBALL_TEAM_INNING4_WINNER": {
+        "BASEBALL_TEAM_INNING5_WINNER": {
           "class": "WINNER",
-          "segment": "INNING4",
+          "segment": "INNING5",
           "is_main": true,
-          "question": "Will the 4th inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
+          "question": "Will the 5th inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
           "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i4-draw",
+          "slug": "atc-mlb-mil-tb-2026-10-27-i5-draw",
           "sides": [
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i4-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i5-draw",
               "teamId": null,
-              "price": 0.56
+              "price": 0.57
             },
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i4-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i5-draw",
               "teamId": null,
               "price": 0.64
             }
@@ -2769,77 +2733,17 @@
           "is_main": true,
           "question": "Will the 1st inning of Tampa Bay Rays vs Milwaukee Brewers end in a tie?",
           "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i1-draw",
+          "slug": "atc-mlb-mil-tb-2026-10-27-i1-draw",
           "sides": [
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i1-draw",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i1-draw",
               "teamId": null,
-              "price": 0.54
-            },
-            {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i1-draw",
-              "teamId": null,
-              "price": 0.6
-            }
-          ]
-        },
-        "BASEBALL_PLAYER_OUTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Freddy Peralta record at least 15 outs recorded in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 15,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-outs-freper-gte15",
-          "sides": [
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-outs-freper-gte15",
-              "teamId": 3026,
-              "price": 0.56
-            },
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-outs-freper-gte15",
-              "teamId": 3026,
               "price": 0.57
-            }
-          ]
-        },
-        "BASEBALL_PLAYER_EARNED_RUNS_ALLOWED": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Freddy Peralta record at least 2 earned runs allowed in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 2,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-er-freper-gte2",
-          "sides": [
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-er-freper-gte2",
-              "teamId": 3026,
-              "price": 0.51
             },
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-er-freper-gte2",
-              "teamId": 3026,
-              "price": 0.53
-            }
-          ]
-        },
-        "BASEBALL_TEAM_FIRST_FIVE_WINNER": {
-          "class": "WINNER",
-          "segment": "FIRST_FIVE",
-          "is_main": true,
-          "question": "Will the Tampa Bay Rays win the first 5 innings vs the Milwaukee Brewers?",
-          "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-f5-tb",
-          "sides": [
-            {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-f5-tb",
-              "teamId": 3026,
-              "price": 0.48
-            },
-            {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-f5-tb",
-              "teamId": 3026,
-              "price": 0.49
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i1-draw",
+              "teamId": null,
+              "price": 0.63
             }
           ]
         },
@@ -2847,59 +2751,39 @@
           "class": "WINNER",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Who will win in the upcoming baseball event Milwaukee Brewers vs Tampa Bay Rays scheduled for October 27, 2026 at 12:00 AM UTC?",
+          "question": "Who will win in the upcoming baseball event Milwaukee Brewers vs Tampa Bay Rays scheduled for October 28, 2026 at 12:00 AM UTC?",
           "line": null,
-          "slug": "aec-mlb-mil-tb-2026-10-26",
+          "slug": "aec-mlb-mil-tb-2026-10-27",
           "sides": [
             {
-              "identifier": "aec-mlb-mil-tb-2026-10-26",
+              "identifier": "aec-mlb-mil-tb-2026-10-27",
               "teamId": 3016,
-              "price": 0.475
+              "price": 0.57
             },
             {
-              "identifier": "aec-mlb-mil-tb-2026-10-26",
+              "identifier": "aec-mlb-mil-tb-2026-10-27",
               "teamId": 3026,
-              "price": 0.48
+              "price": 0.575
             }
           ]
         },
-        "BASEBALL_TEAM_FIRST_INNING_RUN": {
+        "BASEBALL_PLAYER_TOTAL_BASES": {
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will any run be scored in the 1st inning of Game 3: MIL Brewers vs. TB Rays?",
-          "line": 1,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-yrfi",
+          "question": "Will Jackson Chourio record at least 2 total bases in Game 4: MIL Brewers vs. TB Rays?",
+          "line": 2,
+          "slug": "astatc-mlb-mil-tb-2026-10-27-tb-jaccho-gte2",
           "sides": [
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-yrfi",
-              "teamId": 3026,
-              "price": 0.44
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-tb-jaccho-gte2",
+              "teamId": 3016,
+              "price": 0.43
             },
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-yrfi",
-              "teamId": 3026,
-              "price": 0.46
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING3_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING3",
-          "is_main": true,
-          "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 3rd inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i3-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i3-0pt5",
-              "teamId": null,
-              "price": 0.42
-            },
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i3-0pt5",
-              "teamId": null,
-              "price": 0.46
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-tb-jaccho-gte2",
+              "teamId": 3016,
+              "price": 0.47
             }
           ]
         },
@@ -2909,77 +2793,17 @@
           "is_main": true,
           "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 4th inning?",
           "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i4-0pt5",
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i4-0pt5",
           "sides": [
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i4-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i4-0pt5",
               "teamId": null,
-              "price": 0.42
+              "price": 0.39
             },
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i4-0pt5",
-              "teamId": null,
-              "price": 0.46
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING5_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING5",
-          "is_main": true,
-          "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 5th inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i5-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i5-0pt5",
-              "teamId": null,
-              "price": 0.41
-            },
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i5-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i4-0pt5",
               "teamId": null,
               "price": 0.45
-            }
-          ]
-        },
-        "BASEBALL_PLAYER_TOTAL_BASES": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Yandy Diaz record at least 2 total bases in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 2,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-tb-yandia-gte2",
-          "sides": [
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-tb-yandia-gte2",
-              "teamId": 3026,
-              "price": 0.43
-            },
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-tb-yandia-gte2",
-              "teamId": 3026,
-              "price": 0.44
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING2_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING2",
-          "is_main": true,
-          "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 2nd inning?",
-          "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i2-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i2-0pt5",
-              "teamId": null,
-              "price": 0.4
-            },
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i2-0pt5",
-              "teamId": null,
-              "price": 0.44
             }
           ]
         },
@@ -2989,15 +2813,115 @@
           "is_main": true,
           "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 6th inning?",
           "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i6-0pt5",
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i6-0pt5",
           "sides": [
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i6-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i6-0pt5",
               "teamId": null,
-              "price": 0.4
+              "price": 0.39
             },
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i6-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i6-0pt5",
+              "teamId": null,
+              "price": 0.45
+            }
+          ]
+        },
+        "BASEBALL_PLAYER_EARNED_RUNS_ALLOWED": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Griffin Jax record at least 2 earned runs allowed in Game 4: MIL Brewers vs. TB Rays?",
+          "line": 2,
+          "slug": "astatc-mlb-mil-tb-2026-10-27-er-grijax-gte2",
+          "sides": [
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-er-grijax-gte2",
+              "teamId": 3026,
+              "price": 0.42
+            },
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-er-grijax-gte2",
+              "teamId": 3026,
+              "price": 0.44
+            }
+          ]
+        },
+        "BASEBALL_TEAM_FIRST_INNING_RUN": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will any run be scored in the 1st inning of Game 4: MIL Brewers vs. TB Rays?",
+          "line": 1,
+          "slug": "astatc-mlb-mil-tb-2026-10-27-yrfi",
+          "sides": [
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-yrfi",
+              "teamId": 3026,
+              "price": 0.43
+            },
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-yrfi",
+              "teamId": 3026,
+              "price": 0.44
+            }
+          ]
+        },
+        "BASEBALL_TEAM_FIRST_FIVE_WINNER": {
+          "class": "WINNER",
+          "segment": "FIRST_FIVE",
+          "is_main": true,
+          "question": "Will the Milwaukee Brewers win the first 5 innings vs the Tampa Bay Rays?",
+          "line": null,
+          "slug": "atc-mlb-mil-tb-2026-10-27-f5-mil",
+          "sides": [
+            {
+              "identifier": "atc-mlb-mil-tb-2026-10-27-f5-mil",
+              "teamId": 3016,
+              "price": 0.43
+            },
+            {
+              "identifier": "atc-mlb-mil-tb-2026-10-27-f5-mil",
+              "teamId": 3016,
+              "price": 0.44
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING3_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING3",
+          "is_main": true,
+          "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 3rd inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i3-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i3-0pt5",
+              "teamId": null,
+              "price": 0.39
+            },
+            {
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i3-0pt5",
+              "teamId": null,
+              "price": 0.44
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING5_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING5",
+          "is_main": true,
+          "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 5th inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i5-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i5-0pt5",
+              "teamId": null,
+              "price": 0.39
+            },
+            {
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i5-0pt5",
               "teamId": null,
               "price": 0.44
             }
@@ -3009,17 +2933,17 @@
           "is_main": true,
           "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 7th inning?",
           "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i7-0pt5",
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i7-0pt5",
           "sides": [
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i7-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i7-0pt5",
               "teamId": null,
-              "price": 0.38
+              "price": 0.39
             },
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i7-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i7-0pt5",
               "teamId": null,
-              "price": 0.41
+              "price": 0.44
             }
           ]
         },
@@ -3029,16 +2953,76 @@
           "is_main": true,
           "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 8th inning?",
           "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i8-0pt5",
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i8-0pt5",
           "sides": [
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i8-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i8-0pt5",
               "teamId": null,
-              "price": 0.35
+              "price": 0.38
             },
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i8-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i8-0pt5",
               "teamId": null,
+              "price": 0.44
+            }
+          ]
+        },
+        "BASEBALL_PLAYER_HITS_ALLOWED": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Griffin Jax record at least 4 hits allowed in Game 4: MIL Brewers vs. TB Rays?",
+          "line": 4,
+          "slug": "astatc-mlb-mil-tb-2026-10-27-ha-grijax-gte4",
+          "sides": [
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-ha-grijax-gte4",
+              "teamId": 3026,
+              "price": 0.42
+            },
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-ha-grijax-gte4",
+              "teamId": 3026,
+              "price": 0.43
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING2_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING2",
+          "is_main": true,
+          "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 2nd inning?",
+          "line": 0.5,
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i2-0pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i2-0pt5",
+              "teamId": null,
+              "price": 0.37
+            },
+            {
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i2-0pt5",
+              "teamId": null,
+              "price": 0.43
+            }
+          ]
+        },
+        "BASEBALL_PLAYER_WALKS_ALLOWED": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Griffin Jax record at least 2 walks allowed in Game 4: MIL Brewers vs. TB Rays?",
+          "line": 2,
+          "slug": "astatc-mlb-mil-tb-2026-10-27-wa-grijax-gte2",
+          "sides": [
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-wa-grijax-gte2",
+              "teamId": 3026,
+              "price": 0.03
+            },
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-wa-grijax-gte2",
+              "teamId": 3026,
               "price": 0.41
             }
           ]
@@ -3047,19 +3031,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Junior Caminero record at least 1 RBIs in Game 3: MIL Brewers vs. TB Rays?",
+          "question": "Will Christian Yelich record at least 1 RBIs in Game 4: MIL Brewers vs. TB Rays?",
           "line": 1,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-rbi-juncam-gte1",
+          "slug": "astatc-mlb-mil-tb-2026-10-27-rbi-chryel-gte1",
           "sides": [
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-rbi-juncam-gte1",
-              "teamId": 3026,
-              "price": 0.27
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-rbi-chryel-gte1",
+              "teamId": 3016,
+              "price": 0.01
             },
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-rbi-juncam-gte1",
-              "teamId": 3026,
-              "price": 0.36
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-rbi-chryel-gte1",
+              "teamId": 3016,
+              "price": 0.38
             }
           ]
         },
@@ -3069,57 +3053,17 @@
           "is_main": true,
           "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 0.5 runs in the 9th inning?",
           "line": 0.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i9-0pt5",
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i9-0pt5",
           "sides": [
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i9-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i9-0pt5",
               "teamId": null,
-              "price": 0.29
+              "price": 0.31
             },
             {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i9-0pt5",
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i9-0pt5",
               "teamId": null,
-              "price": 0.33
-            }
-          ]
-        },
-        "BASEBALL_TEAM_INNING1_TOTAL": {
-          "class": "TOTAL",
-          "segment": "INNING1",
-          "is_main": true,
-          "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 1.5 runs in the 1st inning?",
-          "line": 1.5,
-          "slug": "tsc-mlb-mil-tb-2026-10-26-i1-1pt5",
-          "sides": [
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i1-1pt5",
-              "teamId": null,
-              "price": 0.24
-            },
-            {
-              "identifier": "tsc-mlb-mil-tb-2026-10-26-i1-1pt5",
-              "teamId": null,
-              "price": 0.25
-            }
-          ]
-        },
-        "BASEBALL_PLAYER_STOLEN_BASES": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Jake Bauers record at least 1 stolen bases in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 1,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-sb-jakbau-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-sb-jakbau-gte1",
-              "teamId": 3016,
-              "price": 0.01
-            },
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-sb-jakbau-gte1",
-              "teamId": 3016,
-              "price": 0.2
+              "price": 0.36
             }
           ]
         },
@@ -3129,17 +3073,37 @@
           "is_main": true,
           "question": "Will the Tampa Bay Rays win the 9th inning vs the Milwaukee Brewers?",
           "line": null,
-          "slug": "atc-mlb-mil-tb-2026-10-26-i9-tb",
+          "slug": "atc-mlb-mil-tb-2026-10-27-i9-tb",
           "sides": [
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i9-tb",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i9-tb",
               "teamId": 3026,
               "price": 0.02
             },
             {
-              "identifier": "atc-mlb-mil-tb-2026-10-26-i9-tb",
+              "identifier": "atc-mlb-mil-tb-2026-10-27-i9-tb",
               "teamId": 3026,
-              "price": 0.2
+              "price": 0.24
+            }
+          ]
+        },
+        "BASEBALL_TEAM_INNING1_TOTAL": {
+          "class": "TOTAL",
+          "segment": "INNING1",
+          "is_main": true,
+          "question": "Will the Milwaukee Brewers and Tampa Bay Rays combine for more than 1.5 runs in the 1st inning?",
+          "line": 1.5,
+          "slug": "tsc-mlb-mil-tb-2026-10-27-i1-1pt5",
+          "sides": [
+            {
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i1-1pt5",
+              "teamId": null,
+              "price": 0.21
+            },
+            {
+              "identifier": "tsc-mlb-mil-tb-2026-10-27-i1-1pt5",
+              "teamId": null,
+              "price": 0.23
             }
           ]
         },
@@ -3147,19 +3111,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Junior Caminero record at least 1 home runs in Game 3: MIL Brewers vs. TB Rays?",
-          "line": 1,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-hr-juncam-gte1",
+          "question": "Will Chandler Simpson record at least 2 home runs in Game 4: MIL Brewers vs. TB Rays?",
+          "line": 2,
+          "slug": "astatc-mlb-mil-tb-2026-10-27-hr-chasim-gte2",
           "sides": [
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-hr-juncam-gte1",
-              "teamId": 3026,
-              "price": 0.17
-            },
-            {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-hr-juncam-gte1",
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-hr-chasim-gte2",
               "teamId": 3026,
               "price": 0.18
+            },
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-hr-chasim-gte2",
+              "teamId": 3026,
+              "price": null
             }
           ]
         },
@@ -3167,82 +3131,102 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Game 3: MIL Brewers vs. TB Rays go to extra innings?",
+          "question": "Will Game 4: MIL Brewers vs. TB Rays go to extra innings?",
           "line": 10,
-          "slug": "astatc-mlb-mil-tb-2026-10-26-xi",
+          "slug": "astatc-mlb-mil-tb-2026-10-27-xi",
           "sides": [
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-xi",
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-xi",
               "teamId": 3026,
-              "price": 0.11
+              "price": 0.1
             },
             {
-              "identifier": "astatc-mlb-mil-tb-2026-10-26-xi",
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-xi",
               "teamId": 3026,
-              "price": 0.12
+              "price": 0.11
+            }
+          ]
+        },
+        "BASEBALL_PLAYER_OUTS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Griffin Jax record at least 10 outs recorded in Game 4: MIL Brewers vs. TB Rays?",
+          "line": 10,
+          "slug": "astatc-mlb-mil-tb-2026-10-27-outs-grijax-gte10",
+          "sides": [
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-outs-grijax-gte10",
+              "teamId": 3026,
+              "price": 0.01
+            },
+            {
+              "identifier": "astatc-mlb-mil-tb-2026-10-27-outs-grijax-gte10",
+              "teamId": 3026,
+              "price": 0.99
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "mlb-mil-tb-2026-10-26",
-        "title": "Game 3: MIL Brewers vs. TB Rays",
-        "start": "2026-10-27T00:00:00Z"
+        "slug": "mlb-mil-tb-2026-10-27",
+        "title": "Game 4: MIL Brewers vs. TB Rays",
+        "start": "2026-10-28T00:00:00Z"
       }
     },
     {
       "sport": "nba",
       "slug": "nba",
       "slug_listed": true,
-      "events": 111,
-      "upcoming_in_horizon": 9,
+      "events": 108,
+      "upcoming_in_horizon": 4,
       "market_types": {
-        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 303,
-        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 284,
-        "BASKETBALL_PLAYER_THREES": 434,
-        "BASKETBALL_PLAYER_POINTS": 502,
-        "BASKETBALL_PLAYER_ASSISTS": 339,
-        "BASKETBALL_PLAYER_REBOUNDS": 514,
-        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS": 393,
-        "BASKETBALL_TEAM_FULL_GAME_WINNER": 111,
-        "BASKETBALL_PLAYER_BLOCKS": 76,
-        "BASKETBALL_PLAYER_STEALS": 137
+        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 134,
+        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 124,
+        "BASKETBALL_PLAYER_POINTS": 242,
+        "BASKETBALL_PLAYER_STEALS": 89,
+        "BASKETBALL_PLAYER_REBOUNDS": 244,
+        "BASKETBALL_PLAYER_THREES": 202,
+        "BASKETBALL_PLAYER_BLOCKS": 22,
+        "BASKETBALL_PLAYER_ASSISTS": 146,
+        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS": 212,
+        "BASKETBALL_TEAM_FULL_GAME_WINNER": 108
       },
       "market_classes": {
-        "SPREAD/FULL_GAME": 303,
-        "TOTAL/FULL_GAME": 284,
-        "OTHER/UNKNOWN": 2395,
-        "WINNER/FULL_GAME": 111
+        "SPREAD/FULL_GAME": 134,
+        "TOTAL/FULL_GAME": 124,
+        "OTHER/UNKNOWN": 1157,
+        "WINNER/FULL_GAME": 108
       },
-      "main_lines_in_horizon": 27,
+      "main_lines_in_horizon": 12,
       "unclassified": [
-        "BASKETBALL_PLAYER_THREES",
         "BASKETBALL_PLAYER_POINTS",
-        "BASKETBALL_PLAYER_ASSISTS",
+        "BASKETBALL_PLAYER_STEALS",
         "BASKETBALL_PLAYER_REBOUNDS",
-        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS",
+        "BASKETBALL_PLAYER_THREES",
         "BASKETBALL_PLAYER_BLOCKS",
-        "BASKETBALL_PLAYER_STEALS"
+        "BASKETBALL_PLAYER_ASSISTS",
+        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS"
       ],
       "examples": {
         "BASKETBALL_TEAM_FULL_GAME_SPREAD": {
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the WAS Wizards cover 2.5 vs the CHA Hornets in WAS Wizards vs. CHA Hornets?",
-          "line": 2.5,
-          "slug": "asc-nba-was-cha-2026-10-26-pos-2pt5",
+          "question": "Will the BKN Nets cover 11.5 vs the BOS Celtics in BKN Nets vs. BOS Celtics?",
+          "line": 11.5,
+          "slug": "asc-nba-bkn-bos-2026-10-27-pos-11pt5",
           "sides": [
             {
-              "identifier": "asc-nba-was-cha-2026-10-26-pos-2pt5",
-              "teamId": 36,
-              "price": 0.52
+              "identifier": "asc-nba-bkn-bos-2026-10-27-pos-11pt5",
+              "teamId": 22,
+              "price": 0.48
             },
             {
-              "identifier": "asc-nba-was-cha-2026-10-26-pos-2pt5",
-              "teamId": 16,
-              "price": 0.53
+              "identifier": "asc-nba-bkn-bos-2026-10-27-pos-11pt5",
+              "teamId": 17,
+              "price": 0.49
             }
           ]
         },
@@ -3250,39 +3234,19 @@
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in WAS Wizards vs. CHA Hornets be more than 228.5?",
-          "line": 228.5,
-          "slug": "tsc-nba-was-cha-2026-10-26-228pt5",
+          "question": "Will the total in BKN Nets vs. BOS Celtics be more than 221.5?",
+          "line": 221.5,
+          "slug": "tsc-nba-bkn-bos-2026-10-27-221pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-was-cha-2026-10-26-228pt5",
+              "identifier": "tsc-nba-bkn-bos-2026-10-27-221pt5",
               "teamId": null,
-              "price": 0.51
+              "price": 0.49
             },
             {
-              "identifier": "tsc-nba-was-cha-2026-10-26-228pt5",
+              "identifier": "tsc-nba-bkn-bos-2026-10-27-221pt5",
               "teamId": null,
-              "price": 0.52
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_THREES": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Trae Young record at least 3 three-point field goals made in WAS Wizards vs. CHA Hornets?",
-          "line": 3,
-          "slug": "astatc-nba-was-cha-2026-10-26-3pm-trayou-gte3",
-          "sides": [
-            {
-              "identifier": "astatc-nba-was-cha-2026-10-26-3pm-trayou-gte3",
-              "teamId": 36,
-              "price": 0.47
-            },
-            {
-              "identifier": "astatc-nba-was-cha-2026-10-26-3pm-trayou-gte3",
-              "teamId": 36,
-              "price": 0.52
+              "price": 0.5
             }
           ]
         },
@@ -3290,119 +3254,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will P.J. Washington record at least 15 points in DAL Mavericks vs. MIA Heat?",
-          "line": 15,
-          "slug": "astatc-nba-dal-mia-2026-10-26-pts-pwas-gte15",
+          "question": "Will Julius Randle record at least 20 points in BKN Nets vs. BOS Celtics?",
+          "line": 20,
+          "slug": "astatc-nba-bkn-bos-2026-10-27-pts-julran-gte20",
           "sides": [
             {
-              "identifier": "astatc-nba-dal-mia-2026-10-26-pts-pwas-gte15",
-              "teamId": 39,
+              "identifier": "astatc-nba-bkn-bos-2026-10-27-pts-julran-gte20",
+              "teamId": 22,
               "price": 0.48
             },
             {
-              "identifier": "astatc-nba-dal-mia-2026-10-26-pts-pwas-gte15",
-              "teamId": 39,
-              "price": 0.52
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_ASSISTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Brandon Miller record at least 2 assists in WAS Wizards vs. CHA Hornets?",
-          "line": 2,
-          "slug": "astatc-nba-was-cha-2026-10-26-ast-bramil-gte2",
-          "sides": [
-            {
-              "identifier": "astatc-nba-was-cha-2026-10-26-ast-bramil-gte2",
-              "teamId": 16,
-              "price": 0.64
-            },
-            {
-              "identifier": "astatc-nba-was-cha-2026-10-26-ast-bramil-gte2",
-              "teamId": 16,
-              "price": 0.87
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_REBOUNDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Kyle Kuzma record at least 6 total rebounds in IND Pacers vs. MIL Bucks?",
-          "line": 6,
-          "slug": "astatc-nba-ind-mil-2026-10-26-reb-kylkuz-gte6",
-          "sides": [
-            {
-              "identifier": "astatc-nba-ind-mil-2026-10-26-reb-kylkuz-gte6",
-              "teamId": 41,
-              "price": 0.48
-            },
-            {
-              "identifier": "astatc-nba-ind-mil-2026-10-26-reb-kylkuz-gte6",
-              "teamId": 41,
-              "price": 0.52
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Donovan Mitchell record at least 35 combined points, rebounds and assists in MIN Timberwolves vs. CLE Cavaliers?",
-          "line": 35,
-          "slug": "astatc-nba-min-cle-2026-10-26-pra-donmit-gte35",
-          "sides": [
-            {
-              "identifier": "astatc-nba-min-cle-2026-10-26-pra-donmit-gte35",
-              "teamId": 38,
-              "price": 0.47
-            },
-            {
-              "identifier": "astatc-nba-min-cle-2026-10-26-pra-donmit-gte35",
-              "teamId": 38,
-              "price": 0.53
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_FULL_GAME_WINNER": {
-          "class": "WINNER",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Who will win in the upcoming basketball event WAS Wizards vs CHA Hornets scheduled for October 26, 2026 at 11:00 PM UTC?",
-          "line": null,
-          "slug": "aec-nba-was-cha-2026-10-26",
-          "sides": [
-            {
-              "identifier": "aec-nba-was-cha-2026-10-26",
-              "teamId": 36,
-              "price": 0.46
-            },
-            {
-              "identifier": "aec-nba-was-cha-2026-10-26",
-              "teamId": 16,
-              "price": 0.47
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_BLOCKS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Anthony Davis record at least 2 blocks in WAS Wizards vs. CHA Hornets?",
-          "line": 2,
-          "slug": "astatc-nba-was-cha-2026-10-26-blk-antdav-gte2",
-          "sides": [
-            {
-              "identifier": "astatc-nba-was-cha-2026-10-26-blk-antdav-gte2",
-              "teamId": 36,
-              "price": 0.36
-            },
-            {
-              "identifier": "astatc-nba-was-cha-2026-10-26-blk-antdav-gte2",
-              "teamId": 36,
-              "price": 0.45
+              "identifier": "astatc-nba-bkn-bos-2026-10-27-pts-julran-gte20",
+              "teamId": 22,
+              "price": 0.5
             }
           ]
         },
@@ -3410,28 +3274,148 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Bilal Coulibaly record at least 2 steals in WAS Wizards vs. CHA Hornets?",
-          "line": 2,
-          "slug": "astatc-nba-was-cha-2026-10-26-stl-bilcou-gte2",
+          "question": "Will Jayson Tatum record at least 1 steals in BKN Nets vs. BOS Celtics?",
+          "line": 1,
+          "slug": "astatc-nba-bkn-bos-2026-10-27-stl-jaytat-gte1",
           "sides": [
             {
-              "identifier": "astatc-nba-was-cha-2026-10-26-stl-bilcou-gte2",
-              "teamId": 36,
-              "price": 0.35
+              "identifier": "astatc-nba-bkn-bos-2026-10-27-stl-jaytat-gte1",
+              "teamId": 17,
+              "price": 0.62
             },
             {
-              "identifier": "astatc-nba-was-cha-2026-10-26-stl-bilcou-gte2",
-              "teamId": 36,
-              "price": 0.42
+              "identifier": "astatc-nba-bkn-bos-2026-10-27-stl-jaytat-gte1",
+              "teamId": 17,
+              "price": 0.73
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_REBOUNDS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": true,
+          "question": "Will Domantas Sabonis record at least 14 total rebounds in SAC Kings vs. SA Spurs?",
+          "line": 14,
+          "slug": "astatc-nba-sac-sa-2026-10-27-reb-domsab-gte14",
+          "sides": [
+            {
+              "identifier": "astatc-nba-sac-sa-2026-10-27-reb-domsab-gte14",
+              "teamId": 32,
+              "price": 0.48
+            },
+            {
+              "identifier": "astatc-nba-sac-sa-2026-10-27-reb-domsab-gte14",
+              "teamId": 32,
+              "price": 0.51
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_THREES": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": true,
+          "question": "Will Jrue Holiday record at least 2 three-point field goals made in POR Trail Blazers vs. LA Lakers?",
+          "line": 2,
+          "slug": "astatc-nba-por-lal-2026-10-27-3pm-jruhol-gte2",
+          "sides": [
+            {
+              "identifier": "astatc-nba-por-lal-2026-10-27-3pm-jruhol-gte2",
+              "teamId": 31,
+              "price": 0.45
+            },
+            {
+              "identifier": "astatc-nba-por-lal-2026-10-27-3pm-jruhol-gte2",
+              "teamId": 31,
+              "price": 0.54
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_BLOCKS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Day'Ron Sharpe record at least 1 blocks in BKN Nets vs. BOS Celtics?",
+          "line": 1,
+          "slug": "astatc-nba-bkn-bos-2026-10-27-blk-daysha-gte1",
+          "sides": [
+            {
+              "identifier": "astatc-nba-bkn-bos-2026-10-27-blk-daysha-gte1",
+              "teamId": 22,
+              "price": 0.48
+            },
+            {
+              "identifier": "astatc-nba-bkn-bos-2026-10-27-blk-daysha-gte1",
+              "teamId": 22,
+              "price": 0.58
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_ASSISTS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Derrick White record at least 6 assists in BKN Nets vs. BOS Celtics?",
+          "line": 6,
+          "slug": "astatc-nba-bkn-bos-2026-10-27-ast-derwhi-gte6",
+          "sides": [
+            {
+              "identifier": "astatc-nba-bkn-bos-2026-10-27-ast-derwhi-gte6",
+              "teamId": 17,
+              "price": 0.5
+            },
+            {
+              "identifier": "astatc-nba-bkn-bos-2026-10-27-ast-derwhi-gte6",
+              "teamId": 17,
+              "price": 0.53
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": true,
+          "question": "Will Karl-Anthony Towns record at least 35 combined points, rebounds and assists in DET Pistons vs. NY Knicks?",
+          "line": 35,
+          "slug": "astatc-nba-det-ny-2026-10-27-pra-kartow-gte35",
+          "sides": [
+            {
+              "identifier": "astatc-nba-det-ny-2026-10-27-pra-kartow-gte35",
+              "teamId": 43,
+              "price": 0.48
+            },
+            {
+              "identifier": "astatc-nba-det-ny-2026-10-27-pra-kartow-gte35",
+              "teamId": 43,
+              "price": 0.51
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_FULL_GAME_WINNER": {
+          "class": "WINNER",
+          "segment": "FULL_GAME",
+          "is_main": true,
+          "question": "Who will win in the upcoming basketball event BKN Nets vs BOS Celtics scheduled for October 27, 2026 at 11:30 PM UTC?",
+          "line": null,
+          "slug": "aec-nba-bkn-bos-2026-10-27",
+          "sides": [
+            {
+              "identifier": "aec-nba-bkn-bos-2026-10-27",
+              "teamId": 22,
+              "price": 0.15
+            },
+            {
+              "identifier": "aec-nba-bkn-bos-2026-10-27",
+              "teamId": 17,
+              "price": 0.16
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "nba-was-cha-2026-10-26",
-        "title": "WAS Wizards vs. CHA Hornets",
-        "start": "2026-10-26T23:00:00Z"
+        "slug": "nba-bkn-bos-2026-10-27",
+        "title": "BKN Nets vs. BOS Celtics",
+        "start": "2026-10-27T23:30:00Z"
       }
     },
     {
@@ -3460,154 +3444,74 @@
       "sport": "nhl",
       "slug": "nhl",
       "slug_listed": true,
-      "events": 32,
-      "upcoming_in_horizon": 3,
+      "events": 39,
+      "upcoming_in_horizon": 11,
       "market_types": {
-        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": 12,
-        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": 12,
-        "HOCKEY_TEAM_TOTAL_GOALS": 36,
-        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": 12,
-        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": 12,
-        "HOCKEY_TEAM_FULL_GAME_SPREAD": 18,
-        "HOCKEY_TEAM_FULL_GAME_TOTAL": 24,
-        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": 12,
-        "HOCKEY_TEAM_FIRST_PERIOD_TOTAL": 12,
-        "HOCKEY_PLAYER_POINTS": 133,
-        "HOCKEY_GAME_FIRST_TEAM_TO_SCORE": 9,
-        "HOCKEY_PLAYER_ASSISTS": 115,
-        "HOCKEY_TEAM_REGULATION_WINNER": 9,
-        "HOCKEY_TEAM_FULL_GAME_WINNER": 32,
-        "HOCKEY_TEAM_THIRD_PERIOD_WINNER": 9,
-        "HOCKEY_PLAYER_GOALS": 116,
-        "HOCKEY_TEAM_SECOND_PERIOD_WINNER": 9,
-        "HOCKEY_TEAM_FIRST_PERIOD_WINNER": 9,
-        "HOCKEY_GAME_OVERTIME": 3,
-        "HOCKEY_GAME_SHOOTOUT": 3
+        "HOCKEY_TEAM_TOTAL_GOALS": 132,
+        "HOCKEY_TEAM_FULL_GAME_SPREAD": 66,
+        "HOCKEY_TEAM_FULL_GAME_TOTAL": 88,
+        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": 44,
+        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": 44,
+        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": 44,
+        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": 44,
+        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": 44,
+        "HOCKEY_TEAM_FIRST_PERIOD_TOTAL": 44,
+        "HOCKEY_GAME_FIRST_TEAM_TO_SCORE": 33,
+        "HOCKEY_PLAYER_ASSISTS": 405,
+        "HOCKEY_PLAYER_POINTS": 473,
+        "HOCKEY_TEAM_FULL_GAME_WINNER": 39,
+        "HOCKEY_TEAM_THIRD_PERIOD_WINNER": 33,
+        "HOCKEY_TEAM_REGULATION_WINNER": 33,
+        "HOCKEY_TEAM_FIRST_PERIOD_WINNER": 33,
+        "HOCKEY_TEAM_SECOND_PERIOD_WINNER": 33,
+        "HOCKEY_PLAYER_GOALS": 408,
+        "HOCKEY_GAME_OVERTIME": 11,
+        "HOCKEY_GAME_SHOOTOUT": 11
       },
       "market_classes": {
-        "SPREAD/FIRST_PERIOD": 12,
-        "TOTAL/THIRD_PERIOD": 12,
-        "OTHER/UNKNOWN": 415,
-        "SPREAD/SECOND_PERIOD": 12,
-        "TOTAL/SECOND_PERIOD": 12,
-        "SPREAD/FULL_GAME": 18,
-        "TOTAL/FULL_GAME": 24,
-        "SPREAD/THIRD_PERIOD": 12,
-        "TOTAL/FIRST_PERIOD": 12,
-        "WINNER/REGULATION": 9,
-        "WINNER/FULL_GAME": 32,
-        "WINNER/THIRD_PERIOD": 9,
-        "WINNER/SECOND_PERIOD": 9,
-        "WINNER/FIRST_PERIOD": 9
+        "OTHER/UNKNOWN": 1473,
+        "SPREAD/FULL_GAME": 66,
+        "TOTAL/FULL_GAME": 88,
+        "SPREAD/FIRST_PERIOD": 44,
+        "SPREAD/SECOND_PERIOD": 44,
+        "TOTAL/THIRD_PERIOD": 44,
+        "TOTAL/SECOND_PERIOD": 44,
+        "SPREAD/THIRD_PERIOD": 44,
+        "TOTAL/FIRST_PERIOD": 44,
+        "WINNER/FULL_GAME": 39,
+        "WINNER/THIRD_PERIOD": 33,
+        "WINNER/REGULATION": 33,
+        "WINNER/FIRST_PERIOD": 33,
+        "WINNER/SECOND_PERIOD": 33
       },
-      "main_lines_in_horizon": 63,
+      "main_lines_in_horizon": 231,
       "unclassified": [
         "HOCKEY_TEAM_TOTAL_GOALS",
-        "HOCKEY_PLAYER_POINTS",
         "HOCKEY_GAME_FIRST_TEAM_TO_SCORE",
         "HOCKEY_PLAYER_ASSISTS",
+        "HOCKEY_PLAYER_POINTS",
         "HOCKEY_PLAYER_GOALS",
         "HOCKEY_GAME_OVERTIME",
         "HOCKEY_GAME_SHOOTOUT"
       ],
       "examples": {
-        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_PERIOD",
-          "is_main": true,
-          "question": "Will LAK Kings cover +0.5 vs NYR Rangers in the first period of LAK vs NYR?",
-          "line": 0.5,
-          "slug": "asc-nhl-la-nyr-2026-10-26-p1-pos-0pt5",
-          "sides": [
-            {
-              "identifier": "asc-nhl-la-nyr-2026-10-26-p1-pos-0pt5",
-              "teamId": 1509,
-              "price": 0.61
-            },
-            {
-              "identifier": "asc-nhl-la-nyr-2026-10-26-p1-pos-0pt5",
-              "teamId": 1495,
-              "price": 0.67
-            }
-          ]
-        },
-        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": {
-          "class": "TOTAL",
-          "segment": "THIRD_PERIOD",
-          "is_main": true,
-          "question": "Will LAK vs NYR have more than 1.5 goals in the third period?",
-          "line": 1.5,
-          "slug": "tsc-nhl-la-nyr-2026-10-26-p3-1pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-p3-1pt5",
-              "teamId": null,
-              "price": 0.54
-            },
-            {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-p3-1pt5",
-              "teamId": null,
-              "price": 0.72
-            }
-          ]
-        },
         "HOCKEY_TEAM_TOTAL_GOALS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will NYR Rangers score more than 0.5 goals in LAK vs NYR?",
-          "line": 0.5,
-          "slug": "tsc-nhl-la-nyr-2026-10-26-tt-nyr-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-tt-nyr-0pt5",
-              "teamId": 1495,
-              "price": 0.7
-            },
-            {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-tt-nyr-0pt5",
-              "teamId": 1495,
-              "price": 0.99
-            }
-          ]
-        },
-        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": {
-          "class": "SPREAD",
-          "segment": "SECOND_PERIOD",
           "is_main": true,
-          "question": "Will LAK Kings cover +0.5 vs NYR Rangers in the second period of LAK vs NYR?",
-          "line": 0.5,
-          "slug": "asc-nhl-la-nyr-2026-10-26-p2-pos-0pt5",
+          "question": "Will BUF Sabres score more than 3.5 goals in BUF vs SJS?",
+          "line": 3.5,
+          "slug": "tsc-nhl-buf-sj-2026-10-27-tt-buf-3pt5",
           "sides": [
             {
-              "identifier": "asc-nhl-la-nyr-2026-10-26-p2-pos-0pt5",
-              "teamId": 1509,
-              "price": 0.53
+              "identifier": "tsc-nhl-buf-sj-2026-10-27-tt-buf-3pt5",
+              "teamId": 1485,
+              "price": 0.47
             },
             {
-              "identifier": "asc-nhl-la-nyr-2026-10-26-p2-pos-0pt5",
-              "teamId": 1495,
-              "price": 0.76
-            }
-          ]
-        },
-        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": {
-          "class": "TOTAL",
-          "segment": "SECOND_PERIOD",
-          "is_main": true,
-          "question": "Will LAK vs NYR have more than 1.5 goals in the second period?",
-          "line": 1.5,
-          "slug": "tsc-nhl-la-nyr-2026-10-26-p2-1pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-p2-1pt5",
-              "teamId": null,
-              "price": 0.49
-            },
-            {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-p2-1pt5",
-              "teamId": null,
-              "price": 0.67
+              "identifier": "tsc-nhl-buf-sj-2026-10-27-tt-buf-3pt5",
+              "teamId": 1485,
+              "price": 0.51
             }
           ]
         },
@@ -3615,19 +3519,19 @@
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the LAK Kings cover 1.5 vs the NYR Rangers in LAK vs NYR?",
-          "line": 1.5,
-          "slug": "asc-nhl-la-nyr-2026-10-26-pos-1pt5",
+          "question": "Will the CBJ Blue Jackets cover -1.5 vs the PHI Flyers in CBJ vs PHI?",
+          "line": -1.5,
+          "slug": "asc-nhl-cbj-phi-2026-10-27-neg-1pt5",
           "sides": [
             {
-              "identifier": "asc-nhl-la-nyr-2026-10-26-pos-1pt5",
-              "teamId": 1509,
-              "price": 0.66
+              "identifier": "asc-nhl-cbj-phi-2026-10-27-neg-1pt5",
+              "teamId": 1499,
+              "price": 0.3
             },
             {
-              "identifier": "asc-nhl-la-nyr-2026-10-26-pos-1pt5",
-              "teamId": 1495,
-              "price": 0.67
+              "identifier": "asc-nhl-cbj-phi-2026-10-27-neg-1pt5",
+              "teamId": 1496,
+              "price": 0.31
             }
           ]
         },
@@ -3635,19 +3539,99 @@
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in LAK vs NYR be more than 5.5?",
+          "question": "Will the total in CBJ vs PHI be more than 5.5?",
           "line": 5.5,
-          "slug": "tsc-nhl-la-nyr-2026-10-26-5pt5",
+          "slug": "tsc-nhl-cbj-phi-2026-10-27-5pt5",
           "sides": [
             {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-5pt5",
+              "identifier": "tsc-nhl-cbj-phi-2026-10-27-5pt5",
+              "teamId": null,
+              "price": 0.49
+            },
+            {
+              "identifier": "tsc-nhl-cbj-phi-2026-10-27-5pt5",
+              "teamId": null,
+              "price": 0.51
+            }
+          ]
+        },
+        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": {
+          "class": "SPREAD",
+          "segment": "FIRST_PERIOD",
+          "is_main": true,
+          "question": "Will CBJ Blue Jackets cover -0.5 vs PHI Flyers in the first period of CBJ vs PHI?",
+          "line": -0.5,
+          "slug": "asc-nhl-cbj-phi-2026-10-27-p1-neg-0pt5",
+          "sides": [
+            {
+              "identifier": "asc-nhl-cbj-phi-2026-10-27-p1-neg-0pt5",
+              "teamId": 1499,
+              "price": 0.33
+            },
+            {
+              "identifier": "asc-nhl-cbj-phi-2026-10-27-p1-neg-0pt5",
+              "teamId": 1496,
+              "price": 0.36
+            }
+          ]
+        },
+        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": {
+          "class": "SPREAD",
+          "segment": "SECOND_PERIOD",
+          "is_main": true,
+          "question": "Will CBJ Blue Jackets cover -0.5 vs PHI Flyers in the second period of CBJ vs PHI?",
+          "line": -0.5,
+          "slug": "asc-nhl-cbj-phi-2026-10-27-p2-neg-0pt5",
+          "sides": [
+            {
+              "identifier": "asc-nhl-cbj-phi-2026-10-27-p2-neg-0pt5",
+              "teamId": 1499,
+              "price": 0.33
+            },
+            {
+              "identifier": "asc-nhl-cbj-phi-2026-10-27-p2-neg-0pt5",
+              "teamId": 1496,
+              "price": 0.41
+            }
+          ]
+        },
+        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": {
+          "class": "TOTAL",
+          "segment": "THIRD_PERIOD",
+          "is_main": true,
+          "question": "Will CBJ vs PHI have more than 1.5 goals in the third period?",
+          "line": 1.5,
+          "slug": "tsc-nhl-cbj-phi-2026-10-27-p3-1pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nhl-cbj-phi-2026-10-27-p3-1pt5",
+              "teamId": null,
+              "price": 0.59
+            },
+            {
+              "identifier": "tsc-nhl-cbj-phi-2026-10-27-p3-1pt5",
+              "teamId": null,
+              "price": 0.67
+            }
+          ]
+        },
+        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": {
+          "class": "TOTAL",
+          "segment": "SECOND_PERIOD",
+          "is_main": true,
+          "question": "Will CBJ vs PHI have more than 1.5 goals in the second period?",
+          "line": 1.5,
+          "slug": "tsc-nhl-cbj-phi-2026-10-27-p2-1pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nhl-cbj-phi-2026-10-27-p2-1pt5",
               "teamId": null,
               "price": 0.53
             },
             {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-5pt5",
+              "identifier": "tsc-nhl-cbj-phi-2026-10-27-p2-1pt5",
               "teamId": null,
-              "price": 0.54
+              "price": 0.62
             }
           ]
         },
@@ -3655,19 +3639,19 @@
           "class": "SPREAD",
           "segment": "THIRD_PERIOD",
           "is_main": true,
-          "question": "Will LAK Kings cover +0.5 vs NYR Rangers in the third period of LAK vs NYR?",
-          "line": 0.5,
-          "slug": "asc-nhl-la-nyr-2026-10-26-p3-pos-0pt5",
+          "question": "Will CBJ Blue Jackets cover -0.5 vs PHI Flyers in the third period of CBJ vs PHI?",
+          "line": -0.5,
+          "slug": "asc-nhl-cbj-phi-2026-10-27-p3-neg-0pt5",
           "sides": [
             {
-              "identifier": "asc-nhl-la-nyr-2026-10-26-p3-pos-0pt5",
-              "teamId": 1509,
-              "price": 0.48
+              "identifier": "asc-nhl-cbj-phi-2026-10-27-p3-neg-0pt5",
+              "teamId": 1499,
+              "price": 0.35
             },
             {
-              "identifier": "asc-nhl-la-nyr-2026-10-26-p3-pos-0pt5",
-              "teamId": 1495,
-              "price": 0.68
+              "identifier": "asc-nhl-cbj-phi-2026-10-27-p3-neg-0pt5",
+              "teamId": 1496,
+              "price": 0.43
             }
           ]
         },
@@ -3675,18 +3659,58 @@
           "class": "TOTAL",
           "segment": "FIRST_PERIOD",
           "is_main": true,
-          "question": "Will LAK vs NYR have more than 1.5 goals in the first period?",
+          "question": "Will CBJ vs PHI have more than 1.5 goals in the first period?",
           "line": 1.5,
-          "slug": "tsc-nhl-la-nyr-2026-10-26-p1-1pt5",
+          "slug": "tsc-nhl-cbj-phi-2026-10-27-p1-1pt5",
           "sides": [
             {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-p1-1pt5",
+              "identifier": "tsc-nhl-cbj-phi-2026-10-27-p1-1pt5",
               "teamId": null,
-              "price": 0.5
+              "price": 0.49
             },
             {
-              "identifier": "tsc-nhl-la-nyr-2026-10-26-p1-1pt5",
+              "identifier": "tsc-nhl-cbj-phi-2026-10-27-p1-1pt5",
               "teamId": null,
+              "price": 0.52
+            }
+          ]
+        },
+        "HOCKEY_GAME_FIRST_TEAM_TO_SCORE": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": true,
+          "question": "Will BOS Bruins score the first goal in BOS vs CAR?",
+          "line": null,
+          "slug": "astatc-nhl-bos-car-2026-10-27-ftts-bos",
+          "sides": [
+            {
+              "identifier": "astatc-nhl-bos-car-2026-10-27-ftts-bos",
+              "teamId": 1484,
+              "price": 0.41
+            },
+            {
+              "identifier": "astatc-nhl-bos-car-2026-10-27-ftts-bos",
+              "teamId": 1484,
+              "price": 0.59
+            }
+          ]
+        },
+        "HOCKEY_PLAYER_ASSISTS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": true,
+          "question": "Will Roman Josi record at least 1 assists in NYI vs NSH?",
+          "line": 1,
+          "slug": "astatc-nhl-nyi-nas-2026-10-27-ast-romjos-gte1",
+          "sides": [
+            {
+              "identifier": "astatc-nhl-nyi-nas-2026-10-27-ast-romjos-gte1",
+              "teamId": 1504,
+              "price": 0.47
+            },
+            {
+              "identifier": "astatc-nhl-nyi-nas-2026-10-27-ast-romjos-gte1",
+              "teamId": 1504,
               "price": 0.53
             }
           ]
@@ -3695,79 +3719,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will Mats Zuccarello record at least 1 points in LAK vs NYR?",
+          "question": "Will Kent Johnson record at least 1 points in CBJ vs PHI?",
           "line": 1,
-          "slug": "astatc-nhl-la-nyr-2026-10-26-pts-matzuc-gte1",
+          "slug": "astatc-nhl-cbj-phi-2026-10-27-pts-kenjoh-gte1",
           "sides": [
             {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-pts-matzuc-gte1",
-              "teamId": 1509,
-              "price": 0.44
-            },
-            {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-pts-matzuc-gte1",
-              "teamId": 1509,
-              "price": 0.52
-            }
-          ]
-        },
-        "HOCKEY_GAME_FIRST_TEAM_TO_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will NYR Rangers score the first goal in LAK vs NYR?",
-          "line": null,
-          "slug": "astatc-nhl-la-nyr-2026-10-26-ftts-nyr",
-          "sides": [
-            {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-ftts-nyr",
-              "teamId": 1495,
-              "price": 0.48
-            },
-            {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-ftts-nyr",
-              "teamId": 1495,
-              "price": 0.66
-            }
-          ]
-        },
-        "HOCKEY_PLAYER_ASSISTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will William Nylander record at least 1 assists in TOR vs CGY?",
-          "line": 1,
-          "slug": "astatc-nhl-tor-cgy-2026-10-26-ast-wilnyl-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-nhl-tor-cgy-2026-10-26-ast-wilnyl-gte1",
-              "teamId": 1490,
+              "identifier": "astatc-nhl-cbj-phi-2026-10-27-pts-kenjoh-gte1",
+              "teamId": 1499,
               "price": 0.47
             },
             {
-              "identifier": "astatc-nhl-tor-cgy-2026-10-26-ast-wilnyl-gte1",
-              "teamId": 1490,
-              "price": 0.53
-            }
-          ]
-        },
-        "HOCKEY_TEAM_REGULATION_WINNER": {
-          "class": "WINNER",
-          "segment": "REGULATION",
-          "is_main": true,
-          "question": "Will NYR Rangers lead after regulation of LAK vs NYR?",
-          "line": null,
-          "slug": "atc-nhl-la-nyr-2026-10-26-reg-nyr",
-          "sides": [
-            {
-              "identifier": "atc-nhl-la-nyr-2026-10-26-reg-nyr",
-              "teamId": 1495,
-              "price": 0.44
-            },
-            {
-              "identifier": "atc-nhl-la-nyr-2026-10-26-reg-nyr",
-              "teamId": 1495,
-              "price": 0.49
+              "identifier": "astatc-nhl-cbj-phi-2026-10-27-pts-kenjoh-gte1",
+              "teamId": 1499,
+              "price": 0.54
             }
           ]
         },
@@ -3775,19 +3739,19 @@
           "class": "WINNER",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Who will win in the upcoming hockey event LAK Kings vs NYR Rangers scheduled for October 26, 2026 at 11:00 PM UTC?",
+          "question": "Who will win in the upcoming hockey event CBJ Blue Jackets vs PHI Flyers scheduled for October 27, 2026 at 11:00 PM UTC?",
           "line": null,
-          "slug": "aec-nhl-la-nyr-2026-10-26",
+          "slug": "aec-nhl-cbj-phi-2026-10-27",
           "sides": [
             {
-              "identifier": "aec-nhl-la-nyr-2026-10-26",
-              "teamId": 1509,
-              "price": 0.43
+              "identifier": "aec-nhl-cbj-phi-2026-10-27",
+              "teamId": 1499,
+              "price": 0.53
             },
             {
-              "identifier": "aec-nhl-la-nyr-2026-10-26",
-              "teamId": 1495,
-              "price": 0.45
+              "identifier": "aec-nhl-cbj-phi-2026-10-27",
+              "teamId": 1496,
+              "price": 0.54
             }
           ]
         },
@@ -3795,59 +3759,39 @@
           "class": "WINNER",
           "segment": "THIRD_PERIOD",
           "is_main": true,
-          "question": "Will NYR Rangers win the third period of LAK vs NYR?",
+          "question": "Will CBJ Blue Jackets win the third period of CBJ vs PHI?",
           "line": null,
-          "slug": "atc-nhl-la-nyr-2026-10-26-p3-nyr",
+          "slug": "atc-nhl-cbj-phi-2026-10-27-p3-cbj",
           "sides": [
             {
-              "identifier": "atc-nhl-la-nyr-2026-10-26-p3-nyr",
-              "teamId": 1495,
-              "price": 0.38
+              "identifier": "atc-nhl-cbj-phi-2026-10-27-p3-cbj",
+              "teamId": 1499,
+              "price": 0.42
             },
             {
-              "identifier": "atc-nhl-la-nyr-2026-10-26-p3-nyr",
-              "teamId": 1495,
-              "price": 0.41
+              "identifier": "atc-nhl-cbj-phi-2026-10-27-p3-cbj",
+              "teamId": 1499,
+              "price": 0.45
             }
           ]
         },
-        "HOCKEY_PLAYER_GOALS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Adrian Kempe record at least 1 goals in LAK vs NYR?",
-          "line": 1,
-          "slug": "astatc-nhl-la-nyr-2026-10-26-goals-adrkem-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-goals-adrkem-gte1",
-              "teamId": 1509,
-              "price": 0.03
-            },
-            {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-goals-adrkem-gte1",
-              "teamId": 1509,
-              "price": 0.35
-            }
-          ]
-        },
-        "HOCKEY_TEAM_SECOND_PERIOD_WINNER": {
+        "HOCKEY_TEAM_REGULATION_WINNER": {
           "class": "WINNER",
-          "segment": "SECOND_PERIOD",
+          "segment": "REGULATION",
           "is_main": true,
-          "question": "Will the second period of LAK vs NYR be tied?",
+          "question": "Will CBJ Blue Jackets lead after regulation of CBJ vs PHI?",
           "line": null,
-          "slug": "atc-nhl-la-nyr-2026-10-26-p2-draw",
+          "slug": "atc-nhl-cbj-phi-2026-10-27-reg-cbj",
           "sides": [
             {
-              "identifier": "atc-nhl-la-nyr-2026-10-26-p2-draw",
-              "teamId": null,
-              "price": 0.33
+              "identifier": "atc-nhl-cbj-phi-2026-10-27-reg-cbj",
+              "teamId": 1499,
+              "price": 0.43
             },
             {
-              "identifier": "atc-nhl-la-nyr-2026-10-26-p2-draw",
-              "teamId": null,
-              "price": 0.35
+              "identifier": "atc-nhl-cbj-phi-2026-10-27-reg-cbj",
+              "teamId": 1499,
+              "price": 0.44
             }
           ]
         },
@@ -3855,19 +3799,59 @@
           "class": "WINNER",
           "segment": "FIRST_PERIOD",
           "is_main": true,
-          "question": "Will NYR Rangers win the first period of LAK vs NYR?",
+          "question": "Will the first period of CBJ vs PHI be tied?",
           "line": null,
-          "slug": "atc-nhl-la-nyr-2026-10-26-p1-nyr",
+          "slug": "atc-nhl-cbj-phi-2026-10-27-p1-draw",
           "sides": [
             {
-              "identifier": "atc-nhl-la-nyr-2026-10-26-p1-nyr",
-              "teamId": 1495,
-              "price": 0.31
+              "identifier": "atc-nhl-cbj-phi-2026-10-27-p1-draw",
+              "teamId": null,
+              "price": 0.36
             },
             {
-              "identifier": "atc-nhl-la-nyr-2026-10-26-p1-nyr",
-              "teamId": 1495,
-              "price": 0.32
+              "identifier": "atc-nhl-cbj-phi-2026-10-27-p1-draw",
+              "teamId": null,
+              "price": 0.43
+            }
+          ]
+        },
+        "HOCKEY_TEAM_SECOND_PERIOD_WINNER": {
+          "class": "WINNER",
+          "segment": "SECOND_PERIOD",
+          "is_main": true,
+          "question": "Will CBJ Blue Jackets win the second period of CBJ vs PHI?",
+          "line": null,
+          "slug": "atc-nhl-cbj-phi-2026-10-27-p2-cbj",
+          "sides": [
+            {
+              "identifier": "atc-nhl-cbj-phi-2026-10-27-p2-cbj",
+              "teamId": 1499,
+              "price": 0.35
+            },
+            {
+              "identifier": "atc-nhl-cbj-phi-2026-10-27-p2-cbj",
+              "teamId": 1499,
+              "price": 0.42
+            }
+          ]
+        },
+        "HOCKEY_PLAYER_GOALS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Matvei Michkov record at least 1 goals in CBJ vs PHI?",
+          "line": 1,
+          "slug": "astatc-nhl-cbj-phi-2026-10-27-goals-matmic-gte1",
+          "sides": [
+            {
+              "identifier": "astatc-nhl-cbj-phi-2026-10-27-goals-matmic-gte1",
+              "teamId": 1496,
+              "price": 0.27
+            },
+            {
+              "identifier": "astatc-nhl-cbj-phi-2026-10-27-goals-matmic-gte1",
+              "teamId": 1496,
+              "price": 0.33
             }
           ]
         },
@@ -3875,19 +3859,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will the NHL hockey game between Kings and Rangers on 2026-10-26 go into Overtime?",
+          "question": "Will the NHL hockey game between Blue Jackets and Flyers on 2026-10-27 go into Overtime?",
           "line": 0.5,
-          "slug": "astatc-nhl-la-nyr-2026-10-26-ot",
+          "slug": "astatc-nhl-cbj-phi-2026-10-27-ot",
           "sides": [
             {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-ot",
-              "teamId": 1495,
-              "price": 0.17
+              "identifier": "astatc-nhl-cbj-phi-2026-10-27-ot",
+              "teamId": 1496,
+              "price": 0.2
             },
             {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-ot",
-              "teamId": 1495,
-              "price": 0.25
+              "identifier": "astatc-nhl-cbj-phi-2026-10-27-ot",
+              "teamId": 1496,
+              "price": 0.26
             }
           ]
         },
@@ -3895,18 +3879,18 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will the NHL hockey game between Kings and Rangers on 2026-10-26 be decided by a shootout?",
+          "question": "Will the NHL hockey game between Blue Jackets and Flyers on 2026-10-27 be decided by a shootout?",
           "line": 0.5,
-          "slug": "astatc-nhl-la-nyr-2026-10-26-so",
+          "slug": "astatc-nhl-cbj-phi-2026-10-27-so",
           "sides": [
             {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-so",
-              "teamId": 1495,
+              "identifier": "astatc-nhl-cbj-phi-2026-10-27-so",
+              "teamId": 1496,
               "price": 0.2
             },
             {
-              "identifier": "astatc-nhl-la-nyr-2026-10-26-so",
-              "teamId": 1495,
+              "identifier": "astatc-nhl-cbj-phi-2026-10-27-so",
+              "teamId": 1496,
               "price": null
             }
           ]
@@ -3914,1456 +3898,90 @@
       },
       "error": null,
       "example_event": {
-        "slug": "nhl-la-nyr-2026-10-26",
-        "title": "LAK Kings vs. NYR Rangers",
-        "start": "2026-10-26T23:00:00Z"
+        "slug": "nhl-cbj-phi-2026-10-27",
+        "title": "CBJ Blue Jackets vs. PHI Flyers",
+        "start": "2026-10-27T23:00:00Z"
       }
     },
     {
       "sport": "nfl",
       "slug": "nfl",
       "slug_listed": true,
-      "events": 30,
-      "upcoming_in_horizon": 1,
+      "events": 29,
+      "upcoming_in_horizon": 0,
       "market_types": {
-        "FOOTBALL_GAME_FIRST_SCORE": 3,
-        "FOOTBALL_GAME_FIRST_TOUCHDOWN": 3,
-        "FOOTBALL_GAME_DOUBLE_RESULT": 9,
-        "FOOTBALL_GAME_EXACT_MARGIN": 7,
-        "FOOTBALL_GAME_RACE_TO_POINTS": 15,
-        "FOOTBALL_TEAM_FIRST_HALF_WINNER": 3,
-        "FOOTBALL_TEAM_FIRST_QUARTER_WINNER": 3,
-        "FOOTBALL_TEAM_SECOND_HALF_WINNER": 3,
-        "FOOTBALL_TEAM_SECOND_QUARTER_WINNER": 3,
-        "FOOTBALL_TEAM_THIRD_QUARTER_WINNER": 3,
-        "FOOTBALL_TEAM_FOURTH_QUARTER_WINNER": 3,
-        "FOOTBALL_TEAM_FULL_GAME_WINNER": 30,
-        "FOOTBALL_TEAM_FIRST_HALF_SPREAD": 31,
-        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": 5,
-        "FOOTBALL_TEAM_SECOND_HALF_SPREAD": 31,
-        "FOOTBALL_TEAM_SECOND_QUARTER_SPREAD": 5,
-        "FOOTBALL_TEAM_THIRD_QUARTER_SPREAD": 5,
-        "FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD": 5,
-        "FOOTBALL_TEAM_FULL_GAME_SPREAD": 41,
-        "FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS": 1,
-        "FOOTBALL_GAME_FIRST_QUARTER_BOTH_TEAMS_SCORE_POINTS": 1,
-        "FOOTBALL_GAME_SECOND_QUARTER_BOTH_TEAMS_SCORE_POINTS": 1,
-        "FOOTBALL_GAME_THIRD_QUARTER_BOTH_TEAMS_SCORE_POINTS": 1,
-        "FOOTBALL_GAME_FOURTH_QUARTER_BOTH_TEAMS_SCORE_POINTS": 1,
-        "FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS": 1,
-        "FOOTBALL_PLAYER_FIRST_TOUCHDOWN": 22,
-        "FOOTBALL_PLAYER_FANTASY_POINTS_PPR": 12,
-        "FOOTBALL_PLAYER_INTERCEPTIONS_THROWN": 4,
-        "FOOTBALL_PLAYER_LONGEST_RECEPTION": 5,
-        "FOOTBALL_PLAYER_MOST_PASSING_YARDS": 2,
-        "FOOTBALL_GAME_OVERTIME": 1,
-        "FOOTBALL_PLAYER_PASSING_ATTEMPTS": 6,
-        "FOOTBALL_PLAYER_PASSING_COMPLETIONS": 6,
-        "FOOTBALL_GAME_TOTAL_PASS_TOUCHDOWNS": 8,
-        "FOOTBALL_PLAYER_PASSING_TOUCHDOWNS": 8,
-        "FOOTBALL_PLAYER_PASSING_YARDS": 18,
-        "FOOTBALL_PLAYER_RUSHING_ATTEMPTS": 3,
-        "FOOTBALL_PLAYER_RECEPTIONS": 65,
-        "FOOTBALL_PLAYER_RECEIVING_YARDS": 89,
-        "FOOTBALL_GAME_TOTAL_RUSH_TOUCHDOWNS": 4,
-        "FOOTBALL_PLAYER_RUSHING_YARDS": 24,
-        "FOOTBALL_GAME_SAFETY": 1,
-        "FOOTBALL_PLAYER_SCRIMMAGE_YARDS": 3,
-        "FOOTBALL_PLAYER_TOUCHDOWNS": 44,
-        "FOOTBALL_GAME_TOTAL_TOUCHDOWNS": 8,
-        "FOOTBALL_TEAM_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS": 2,
-        "FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE": 6,
-        "FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN": 23,
-        "FOOTBALL_GAME_TIE": 1,
-        "FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS": 6,
-        "FOOTBALL_TEAM_TOTAL_TOUCHDOWNS": 6,
-        "FOOTBALL_GAME_FIRST_HALF_TOTAL": 11,
-        "FOOTBALL_GAME_FIRST_QUARTER_TOTAL": 15,
-        "FOOTBALL_GAME_SECOND_HALF_TOTAL": 11,
-        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": 15,
-        "FOOTBALL_GAME_THIRD_QUARTER_TOTAL": 15,
-        "FOOTBALL_GAME_FOURTH_QUARTER_TOTAL": 15,
-        "FOOTBALL_TEAM_FULL_GAME_TOTAL": 29,
-        "FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL": 34,
-        "FOOTBALL_TEAM_FIRST_HALF_TOTAL": 16,
-        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": 16
+        "FOOTBALL_TEAM_FULL_GAME_WINNER": 29
       },
       "market_classes": {
-        "OTHER/UNKNOWN": 420,
-        "WINNER/FIRST_HALF": 3,
-        "WINNER/FIRST_QUARTER": 3,
-        "WINNER/SECOND_HALF": 3,
-        "WINNER/SECOND_QUARTER": 3,
-        "WINNER/THIRD_QUARTER": 3,
-        "WINNER/FOURTH_QUARTER": 3,
-        "WINNER/FULL_GAME": 30,
-        "SPREAD/FIRST_HALF": 31,
-        "SPREAD/FIRST_QUARTER": 5,
-        "SPREAD/SECOND_HALF": 31,
-        "SPREAD/SECOND_QUARTER": 5,
-        "SPREAD/THIRD_QUARTER": 5,
-        "SPREAD/FOURTH_QUARTER": 5,
-        "SPREAD/FULL_GAME": 41,
-        "TOTAL/FIRST_HALF": 11,
-        "TOTAL/FIRST_QUARTER": 15,
-        "TOTAL/SECOND_HALF": 11,
-        "TOTAL/SECOND_QUARTER": 15,
-        "TOTAL/THIRD_QUARTER": 15,
-        "TOTAL/FOURTH_QUARTER": 15,
-        "TOTAL/FULL_GAME": 29,
-        "TEAM_TOTAL/FULL_GAME": 34,
-        "TEAM_TOTAL/FIRST_HALF": 16,
-        "TEAM_TOTAL/SECOND_HALF": 16
+        "WINNER/FULL_GAME": 29
       },
-      "main_lines_in_horizon": 7,
-      "unclassified": [
-        "FOOTBALL_GAME_FIRST_SCORE",
-        "FOOTBALL_GAME_FIRST_TOUCHDOWN",
-        "FOOTBALL_GAME_DOUBLE_RESULT",
-        "FOOTBALL_GAME_EXACT_MARGIN",
-        "FOOTBALL_GAME_RACE_TO_POINTS",
-        "FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS",
-        "FOOTBALL_GAME_FIRST_QUARTER_BOTH_TEAMS_SCORE_POINTS",
-        "FOOTBALL_GAME_SECOND_QUARTER_BOTH_TEAMS_SCORE_POINTS",
-        "FOOTBALL_GAME_THIRD_QUARTER_BOTH_TEAMS_SCORE_POINTS",
-        "FOOTBALL_GAME_FOURTH_QUARTER_BOTH_TEAMS_SCORE_POINTS",
-        "FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS",
-        "FOOTBALL_PLAYER_FIRST_TOUCHDOWN",
-        "FOOTBALL_PLAYER_FANTASY_POINTS_PPR",
-        "FOOTBALL_PLAYER_INTERCEPTIONS_THROWN",
-        "FOOTBALL_PLAYER_LONGEST_RECEPTION",
-        "FOOTBALL_PLAYER_MOST_PASSING_YARDS",
-        "FOOTBALL_GAME_OVERTIME",
-        "FOOTBALL_PLAYER_PASSING_ATTEMPTS",
-        "FOOTBALL_PLAYER_PASSING_COMPLETIONS",
-        "FOOTBALL_GAME_TOTAL_PASS_TOUCHDOWNS",
-        "FOOTBALL_PLAYER_PASSING_TOUCHDOWNS",
-        "FOOTBALL_PLAYER_PASSING_YARDS",
-        "FOOTBALL_PLAYER_RUSHING_ATTEMPTS",
-        "FOOTBALL_PLAYER_RECEPTIONS",
-        "FOOTBALL_PLAYER_RECEIVING_YARDS",
-        "FOOTBALL_GAME_TOTAL_RUSH_TOUCHDOWNS",
-        "FOOTBALL_PLAYER_RUSHING_YARDS",
-        "FOOTBALL_GAME_SAFETY",
-        "FOOTBALL_PLAYER_SCRIMMAGE_YARDS",
-        "FOOTBALL_PLAYER_TOUCHDOWNS",
-        "FOOTBALL_GAME_TOTAL_TOUCHDOWNS",
-        "FOOTBALL_TEAM_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS",
-        "FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE",
-        "FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN",
-        "FOOTBALL_GAME_TIE",
-        "FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS",
-        "FOOTBALL_TEAM_TOTAL_TOUCHDOWNS"
-      ],
+      "main_lines_in_horizon": 0,
+      "unclassified": [],
       "examples": {
-        "FOOTBALL_GAME_FIRST_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "First Team to Score Points: Dallas Cowboys",
-          "line": null,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-fs-dal",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-fs-dal",
-              "teamId": 56,
-              "price": 0.1
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-fs-dal",
-              "teamId": 56,
-              "price": 0.65
-            }
-          ]
-        },
-        "FOOTBALL_GAME_FIRST_TOUCHDOWN": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "First Team to Score a Touchdown: Dallas Cowboys",
-          "line": null,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-ftd-dal",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ftd-dal",
-              "teamId": 56,
-              "price": 0.57
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ftd-dal",
-              "teamId": 56,
-              "price": 0.63
-            }
-          ]
-        },
-        "FOOTBALL_GAME_DOUBLE_RESULT": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Halftime / Full Time: DAL 1H / DAL Game",
-          "line": null,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-htft-away-away",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-htft-away-away",
-              "teamId": null,
-              "price": 0.38
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-htft-away-away",
-              "teamId": null,
-              "price": 0.51
-            }
-          ]
-        },
-        "FOOTBALL_GAME_EXACT_MARGIN": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Exact Margin of Victory: DAL Cowboys by 15+",
-          "line": null,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-margin-long-15-plus",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-margin-long-15-plus",
-              "teamId": null,
-              "price": 0.15
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-margin-long-15-plus",
-              "teamId": null,
-              "price": 0.25
-            }
-          ]
-        },
-        "FOOTBALL_GAME_RACE_TO_POINTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Race to 28 Points: Neither Team",
-          "line": 28,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-race28-none",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-race28-none",
-              "teamId": null,
-              "price": 0.38
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-race28-none",
-              "teamId": null,
-              "price": 0.62
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FIRST_HALF_WINNER": {
-          "class": "WINNER",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will Dallas Cowboys win the first half?",
-          "line": null,
-          "slug": "atc-nfl-dal-phi-2026-10-26-winner-1h-dal",
-          "sides": [
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-1h-dal",
-              "teamId": 56,
-              "price": 0.57
-            },
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-1h-dal",
-              "teamId": 56,
-              "price": 0.58
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FIRST_QUARTER_WINNER": {
-          "class": "WINNER",
-          "segment": "FIRST_QUARTER",
-          "is_main": true,
-          "question": "Will Dallas Cowboys win the first quarter?",
-          "line": null,
-          "slug": "atc-nfl-dal-phi-2026-10-26-winner-1q-dal",
-          "sides": [
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-1q-dal",
-              "teamId": 56,
-              "price": 0.46
-            },
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-1q-dal",
-              "teamId": 56,
-              "price": 0.47
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_SECOND_HALF_WINNER": {
-          "class": "WINNER",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will Dallas Cowboys win the second half?",
-          "line": null,
-          "slug": "atc-nfl-dal-phi-2026-10-26-winner-2h-dal",
-          "sides": [
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-2h-dal",
-              "teamId": 56,
-              "price": 0.55
-            },
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-2h-dal",
-              "teamId": 56,
-              "price": 0.57
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_SECOND_QUARTER_WINNER": {
-          "class": "WINNER",
-          "segment": "SECOND_QUARTER",
-          "is_main": true,
-          "question": "Will Dallas Cowboys win the second quarter?",
-          "line": null,
-          "slug": "atc-nfl-dal-phi-2026-10-26-winner-2q-dal",
-          "sides": [
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-2q-dal",
-              "teamId": 56,
-              "price": 0.5
-            },
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-2q-dal",
-              "teamId": 56,
-              "price": 0.53
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_THIRD_QUARTER_WINNER": {
-          "class": "WINNER",
-          "segment": "THIRD_QUARTER",
-          "is_main": true,
-          "question": "Will Dallas Cowboys win the third quarter?",
-          "line": null,
-          "slug": "atc-nfl-dal-phi-2026-10-26-winner-3q-dal",
-          "sides": [
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-3q-dal",
-              "teamId": 56,
-              "price": 0.45
-            },
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-3q-dal",
-              "teamId": 56,
-              "price": 0.48
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FOURTH_QUARTER_WINNER": {
-          "class": "WINNER",
-          "segment": "FOURTH_QUARTER",
-          "is_main": true,
-          "question": "Will Dallas Cowboys win the fourth quarter?",
-          "line": null,
-          "slug": "atc-nfl-dal-phi-2026-10-26-winner-4q-dal",
-          "sides": [
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-4q-dal",
-              "teamId": 56,
-              "price": 0.48
-            },
-            {
-              "identifier": "atc-nfl-dal-phi-2026-10-26-winner-4q-dal",
-              "teamId": 56,
-              "price": 0.5
-            }
-          ]
-        },
         "FOOTBALL_TEAM_FULL_GAME_WINNER": {
           "class": "WINNER",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Who will win in the upcoming football event Dallas Cowboys vs Philadelphia Eagles scheduled for October 27, 2026 at 12:15 AM UTC?",
+          "question": "Who will win in the upcoming football event Carolina Panthers vs Green Bay Packers scheduled for October 30, 2026 at 12:15 AM UTC?",
           "line": null,
-          "slug": "aec-nfl-dal-phi-2026-10-26",
+          "slug": "aec-nfl-car-gb-2026-10-29",
           "sides": [
             {
-              "identifier": "aec-nfl-dal-phi-2026-10-26",
-              "teamId": 56,
-              "price": 0.675
+              "identifier": "aec-nfl-car-gb-2026-10-29",
+              "teamId": 52,
+              "price": 0.3525
             },
             {
-              "identifier": "aec-nfl-dal-phi-2026-10-26",
-              "teamId": 73,
-              "price": 0.6775
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FIRST_HALF_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will the Dallas Cowboys cover -3.5 vs the Philadelphia Eagles in DAL Cowboys vs. PHI Eagles?",
-          "line": -3.5,
-          "slug": "asc-nfl-dal-phi-2026-10-26-1h-neg-3pt5",
-          "sides": [
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-1h-neg-3pt5",
-              "teamId": 56,
-              "price": 0.46
-            },
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-1h-neg-3pt5",
-              "teamId": 73,
-              "price": 0.48
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_QUARTER",
-          "is_main": true,
-          "question": "Will the Dallas Cowboys cover -0.5 vs the Philadelphia Eagles in DAL Cowboys vs. PHI Eagles?",
-          "line": -0.5,
-          "slug": "asc-nfl-dal-phi-2026-10-26-1q-neg-0pt5",
-          "sides": [
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-1q-neg-0pt5",
-              "teamId": 56,
-              "price": 0.45
-            },
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-1q-neg-0pt5",
-              "teamId": 73,
-              "price": 0.47
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_SECOND_HALF_SPREAD": {
-          "class": "SPREAD",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the Dallas Cowboys cover -2.5 vs the Philadelphia Eagles in DAL Cowboys vs. PHI Eagles?",
-          "line": -2.5,
-          "slug": "asc-nfl-dal-phi-2026-10-26-2h-neg-2pt5",
-          "sides": [
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-2h-neg-2pt5",
-              "teamId": 56,
-              "price": 0.5
-            },
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-2h-neg-2pt5",
-              "teamId": 73,
-              "price": 0.51
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_SECOND_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "SECOND_QUARTER",
-          "is_main": true,
-          "question": "Will the Dallas Cowboys cover -1.5 vs the Philadelphia Eagles in DAL Cowboys vs. PHI Eagles?",
-          "line": -1.5,
-          "slug": "asc-nfl-dal-phi-2026-10-26-2q-neg-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-2q-neg-1pt5",
-              "teamId": 56,
-              "price": 0.48
-            },
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-2q-neg-1pt5",
-              "teamId": 73,
-              "price": 0.51
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_THIRD_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "THIRD_QUARTER",
-          "is_main": true,
-          "question": "Will the Dallas Cowboys cover -0.5 vs the Philadelphia Eagles in DAL Cowboys vs. PHI Eagles?",
-          "line": -0.5,
-          "slug": "asc-nfl-dal-phi-2026-10-26-3q-neg-0pt5",
-          "sides": [
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-3q-neg-0pt5",
-              "teamId": 56,
-              "price": 0.43
-            },
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-3q-neg-0pt5",
-              "teamId": 73,
-              "price": 0.5
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FOURTH_QUARTER",
-          "is_main": true,
-          "question": "Will the Dallas Cowboys cover -0.5 vs the Philadelphia Eagles in DAL Cowboys vs. PHI Eagles?",
-          "line": -0.5,
-          "slug": "asc-nfl-dal-phi-2026-10-26-4q-neg-0pt5",
-          "sides": [
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-4q-neg-0pt5",
-              "teamId": 56,
-              "price": 0.47
-            },
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-4q-neg-0pt5",
-              "teamId": 73,
-              "price": 0.5
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FULL_GAME_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Will the Dallas Cowboys cover -4.5 vs the Philadelphia Eagles in DAL Cowboys vs. PHI Eagles?",
-          "line": -4.5,
-          "slug": "asc-nfl-dal-phi-2026-10-26-neg-4pt5",
-          "sides": [
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-neg-4pt5",
-              "teamId": 56,
-              "price": 0.5
-            },
-            {
-              "identifier": "asc-nfl-dal-phi-2026-10-26-neg-4pt5",
-              "teamId": 73,
-              "price": 0.505
-            }
-          ]
-        },
-        "FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Total Successful Two-Point Conversions: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-2pc-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-2pc-0pt5",
-              "teamId": null,
-              "price": 0.01
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-2pc-0pt5",
-              "teamId": null,
-              "price": 0.31
-            }
-          ]
-        },
-        "FOOTBALL_GAME_FIRST_QUARTER_BOTH_TEAMS_SCORE_POINTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Both Teams to Score Points - 1st Quarter: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-bp1q-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-bp1q-0pt5",
-              "teamId": null,
-              "price": 0.38
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-bp1q-0pt5",
-              "teamId": null,
-              "price": 0.45
-            }
-          ]
-        },
-        "FOOTBALL_GAME_SECOND_QUARTER_BOTH_TEAMS_SCORE_POINTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Both Teams to Score Points - 2nd Quarter: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-bp2q-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-bp2q-0pt5",
-              "teamId": null,
-              "price": 0.67
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-bp2q-0pt5",
-              "teamId": null,
-              "price": 0.74
-            }
-          ]
-        },
-        "FOOTBALL_GAME_THIRD_QUARTER_BOTH_TEAMS_SCORE_POINTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Both Teams to Score Points - 3rd Quarter: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-bp3q-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-bp3q-0pt5",
-              "teamId": null,
-              "price": 0.42
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-bp3q-0pt5",
-              "teamId": null,
-              "price": 0.49
-            }
-          ]
-        },
-        "FOOTBALL_GAME_FOURTH_QUARTER_BOTH_TEAMS_SCORE_POINTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Both Teams to Score Points - 4th Quarter: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-bp4q-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-bp4q-0pt5",
-              "teamId": null,
-              "price": 0.59
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-bp4q-0pt5",
-              "teamId": null,
-              "price": 0.64
-            }
-          ]
-        },
-        "FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Total Defensive/Special Teams Touchdowns: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-dstd-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-dstd-0pt5",
-              "teamId": null,
-              "price": 0.22
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-dstd-0pt5",
-              "teamId": null,
-              "price": 0.29
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_FIRST_TOUCHDOWN": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Brevyn Spann-Ford score the first touchdown?",
-          "line": null,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-firsttd-brefor",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-firsttd-brefor",
-              "teamId": 56,
-              "price": 0.02
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-firsttd-brefor",
-              "teamId": 56,
-              "price": 0.03
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_FANTASY_POINTS_PPR": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will CeeDee Lamb record 19+ fantasy points (PPR scoring)?",
-          "line": 19,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-fpts-ceelam-gte19",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-fpts-ceelam-gte19",
-              "teamId": 56,
-              "price": 0.38
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-fpts-ceelam-gte19",
-              "teamId": 56,
-              "price": 0.49
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_INTERCEPTIONS_THROWN": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Dak Prescott throw 1+ interceptions?",
-          "line": 1,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-int-dakpre-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-int-dakpre-gte1",
-              "teamId": 56,
-              "price": 0.55
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-int-dakpre-gte1",
-              "teamId": 56,
-              "price": 0.56
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_LONGEST_RECEPTION": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will CeeDee Lamb record 25+ longest reception?",
-          "line": 25,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-lrec-ceelam-gte25",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-lrec-ceelam-gte25",
-              "teamId": 56,
-              "price": 0.47
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-lrec-ceelam-gte25",
-              "teamId": 56,
-              "price": 0.51
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_MOST_PASSING_YARDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Dak Prescott record the most passing yards?",
-          "line": null,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-mpyd-dakpre",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-mpyd-dakpre",
-              "teamId": 56,
-              "price": 0.98
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-mpyd-dakpre",
-              "teamId": 56,
-              "price": null
-            }
-          ]
-        },
-        "FOOTBALL_GAME_OVERTIME": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Overtime?: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-ot-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ot-0pt5",
-              "teamId": null,
-              "price": 0.07
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ot-0pt5",
-              "teamId": null,
-              "price": 0.08
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_PASSING_ATTEMPTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Dak Prescott record 32+ passing attempts?",
-          "line": 32,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-patt-dakpre-gte32",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-patt-dakpre-gte32",
-              "teamId": 56,
-              "price": 0.59
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-patt-dakpre-gte32",
-              "teamId": 56,
-              "price": 0.95
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_PASSING_COMPLETIONS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Dak Prescott record 22+ passing completions?",
-          "line": 22,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-pcmp-dakpre-gte22",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-pcmp-dakpre-gte22",
-              "teamId": 56,
-              "price": 0.35
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-pcmp-dakpre-gte22",
-              "teamId": 56,
-              "price": 0.92
-            }
-          ]
-        },
-        "FOOTBALL_GAME_TOTAL_PASS_TOUCHDOWNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Total Passing Touchdowns: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-ptd-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ptd-0pt5",
-              "teamId": null,
-              "price": 0.71
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ptd-0pt5",
-              "teamId": null,
-              "price": 0.99
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_PASSING_TOUCHDOWNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Dak Prescott record 1+ passing touchdowns?",
-          "line": 1,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-ptd-dakpre-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ptd-dakpre-gte1",
-              "teamId": 56,
-              "price": 0.84
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ptd-dakpre-gte1",
-              "teamId": 56,
-              "price": 0.88
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_PASSING_YARDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Dak Prescott record 175+ passing yards?",
-          "line": 175,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-pyd-dakpre-gte175",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-pyd-dakpre-gte175",
-              "teamId": 56,
-              "price": 0.89
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-pyd-dakpre-gte175",
-              "teamId": 56,
-              "price": 0.9
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_RUSHING_ATTEMPTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Javonte Williams record 12+ rushing attempts?",
-          "line": 12,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-ratt-javwil-gte12",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ratt-javwil-gte12",
-              "teamId": 56,
-              "price": 0.59
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ratt-javwil-gte12",
-              "teamId": 56,
-              "price": 0.95
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_RECEPTIONS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Brevyn Spann-Ford record 1+ receptions?",
-          "line": 1,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-rec-brefor-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-rec-brefor-gte1",
-              "teamId": 56,
-              "price": 0.24
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-rec-brefor-gte1",
-              "teamId": 56,
-              "price": 0.73
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_RECEIVING_YARDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will CeeDee Lamb record 100+ receiving yards?",
-          "line": 100,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-recyd-ceelam-gte100",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-recyd-ceelam-gte100",
-              "teamId": 56,
-              "price": 0.33
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-recyd-ceelam-gte100",
-              "teamId": 56,
-              "price": 0.34
-            }
-          ]
-        },
-        "FOOTBALL_GAME_TOTAL_RUSH_TOUCHDOWNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Total Rushing Touchdowns: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-rtd-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-rtd-0pt5",
-              "teamId": null,
-              "price": 0.01
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-rtd-0pt5",
-              "teamId": null,
-              "price": 0.95
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_RUSHING_YARDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Dameon Pierce record 10+ rushing yards?",
-          "line": 10,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-ryd-dampie-gte10",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ryd-dampie-gte10",
-              "teamId": 73,
-              "price": 0.99
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ryd-dampie-gte10",
-              "teamId": 73,
-              "price": null
-            }
-          ]
-        },
-        "FOOTBALL_GAME_SAFETY": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will there be a Safety?: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-safety-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-safety-0pt5",
-              "teamId": null,
-              "price": 0.07
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-safety-0pt5",
-              "teamId": null,
-              "price": 0.08
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_SCRIMMAGE_YARDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Javonte Williams record 100+ scrimmage yards?",
-          "line": 100,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-scrim-javwil-gte100",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-scrim-javwil-gte100",
-              "teamId": 56,
-              "price": 0.23
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-scrim-javwil-gte100",
-              "teamId": 56,
-              "price": 0.34
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_TOUCHDOWNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Brevyn Spann-Ford record 1+ touchdowns?",
-          "line": 1,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-td-brefor-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-td-brefor-gte1",
-              "teamId": 56,
-              "price": 0.1
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-td-brefor-gte1",
-              "teamId": 56,
-              "price": 0.11
-            }
-          ]
-        },
-        "FOOTBALL_GAME_TOTAL_TOUCHDOWNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Total Touchdowns: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-tds-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tds-0pt5",
-              "teamId": null,
-              "price": 0.69
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tds-0pt5",
-              "teamId": null,
-              "price": 0.99
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Team Total Defensive/Special Teams Touchdowns: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-tdstd-dal-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tdstd-dal-0pt5",
-              "teamId": 56,
-              "price": 0.01
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tdstd-dal-0pt5",
-              "teamId": 56,
-              "price": 0.2
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Team Total Field Goals Made: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-tfg-dal-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tfg-dal-0pt5",
-              "teamId": 56,
-              "price": 0.87
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tfg-dal-0pt5",
-              "teamId": 56,
-              "price": 0.97
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Brevyn Spann-Ford score the first Dallas Cowboys touchdown?",
-          "line": null,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-tftd-dal-brefor",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tftd-dal-brefor",
-              "teamId": 56,
-              "price": 0.08
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tftd-dal-brefor",
-              "teamId": 56,
-              "price": null
-            }
-          ]
-        },
-        "FOOTBALL_GAME_TIE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Game Ends in a Tie (Including Overtime)?: Over 0.5",
-          "line": 0.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-tie-0pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tie-0pt5",
-              "teamId": null,
-              "price": 0.04
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-tie-0pt5",
-              "teamId": null,
-              "price": null
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Team Total Offensive Yards: Over 250.5",
-          "line": 250.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-toyd-dal-250pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-toyd-dal-250pt5",
-              "teamId": 56,
-              "price": 0.14
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-toyd-dal-250pt5",
-              "teamId": 56,
-              "price": 0.9
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_TOTAL_TOUCHDOWNS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Team Total Touchdowns: Over 2.5",
-          "line": 2.5,
-          "slug": "astatc-nfl-dal-phi-2026-10-26-ttds-dal-2pt5",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ttds-dal-2pt5",
-              "teamId": 56,
-              "price": 0.16
-            },
-            {
-              "identifier": "astatc-nfl-dal-phi-2026-10-26-ttds-dal-2pt5",
-              "teamId": 56,
-              "price": 0.76
-            }
-          ]
-        },
-        "FOOTBALL_GAME_FIRST_HALF_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 21.5?",
-          "line": 21.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-1h-21pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-1h-21pt5",
-              "teamId": null,
-              "price": 0.49
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-1h-21pt5",
-              "teamId": null,
-              "price": 0.51
-            }
-          ]
-        },
-        "FOOTBALL_GAME_FIRST_QUARTER_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FIRST_QUARTER",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 8.5?",
-          "line": 8.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-1q-8pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-1q-8pt5",
-              "teamId": null,
-              "price": 0.48
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-1q-8pt5",
-              "teamId": null,
-              "price": 0.5
-            }
-          ]
-        },
-        "FOOTBALL_GAME_SECOND_HALF_TOTAL": {
-          "class": "TOTAL",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 21.5?",
-          "line": 21.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-2h-21pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-2h-21pt5",
-              "teamId": null,
-              "price": 0.48
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-2h-21pt5",
-              "teamId": null,
-              "price": 0.52
-            }
-          ]
-        },
-        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": {
-          "class": "TOTAL",
-          "segment": "SECOND_QUARTER",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 13.5?",
-          "line": 13.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-2q-13pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-2q-13pt5",
-              "teamId": null,
-              "price": 0.45
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-2q-13pt5",
-              "teamId": null,
-              "price": 0.47
-            }
-          ]
-        },
-        "FOOTBALL_GAME_THIRD_QUARTER_TOTAL": {
-          "class": "TOTAL",
-          "segment": "THIRD_QUARTER",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 9.5?",
-          "line": 9.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-3q-9pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-3q-9pt5",
-              "teamId": null,
-              "price": 0.48
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-3q-9pt5",
-              "teamId": null,
-              "price": 0.5
-            }
-          ]
-        },
-        "FOOTBALL_GAME_FOURTH_QUARTER_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FOURTH_QUARTER",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 12.5?",
-          "line": 12.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-4q-12pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-4q-12pt5",
-              "teamId": null,
-              "price": 0.49
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-4q-12pt5",
-              "teamId": null,
-              "price": 0.53
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FULL_GAME_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 43.5?",
-          "line": 43.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-total-43pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-total-43pt5",
-              "teamId": null,
-              "price": 0.51
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-total-43pt5",
-              "teamId": null,
-              "price": 0.52
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL": {
-          "class": "TEAM_TOTAL",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 24.5?",
-          "line": 24.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-tt-dal-24pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-tt-dal-24pt5",
-              "teamId": 56,
-              "price": 0.47
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-tt-dal-24pt5",
-              "teamId": 56,
-              "price": 0.49
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_FIRST_HALF_TOTAL": {
-          "class": "TEAM_TOTAL",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 12.5?",
-          "line": 12.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-tt1h-dal-12pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-tt1h-dal-12pt5",
-              "teamId": 56,
-              "price": 0.51
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-tt1h-dal-12pt5",
-              "teamId": 56,
-              "price": 0.53
-            }
-          ]
-        },
-        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": {
-          "class": "TEAM_TOTAL",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the total in DAL Cowboys vs. PHI Eagles be more than 7.5?",
-          "line": 7.5,
-          "slug": "tsc-nfl-dal-phi-2026-10-26-tt2h-dal-7pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-tt2h-dal-7pt5",
-              "teamId": 56,
-              "price": 0.68
-            },
-            {
-              "identifier": "tsc-nfl-dal-phi-2026-10-26-tt2h-dal-7pt5",
-              "teamId": 56,
-              "price": 0.73
+              "identifier": "aec-nfl-car-gb-2026-10-29",
+              "teamId": 59,
+              "price": 0.355
             }
           ]
         }
       },
       "error": null,
-      "example_event": {
-        "slug": "nfl-dal-phi-2026-10-26",
-        "title": "DAL Cowboys vs. PHI Eagles",
-        "start": "2026-10-27T00:15:00Z"
-      }
+      "example_event": null
     },
     {
       "sport": "cs2",
       "slug": "cs2",
       "slug_listed": true,
-      "events": 29,
-      "upcoming_in_horizon": 26,
+      "events": 21,
+      "upcoming_in_horizon": 18,
       "market_types": {
-        "ESPORTS_MATCH_WINNER": 29,
-        "ESPORTS_MAP_WINNER_1": 25,
-        "ESPORTS_MAP_WINNER_2": 25,
-        "ESPORTS_SERIES_MAP_HANDICAP": 12,
-        "ESPORTS_SERIES_TOTAL_MAPS": 12
+        "ESPORTS_MATCH_WINNER": 21,
+        "ESPORTS_SERIES_MAP_HANDICAP": 17,
+        "ESPORTS_SERIES_TOTAL_MAPS": 16,
+        "ESPORTS_MAP_WINNER_2": 18,
+        "ESPORTS_MAP_WINNER_1": 18
       },
       "market_classes": {
-        "WINNER/MATCH": 29,
-        "WINNER/MAP_1": 25,
-        "WINNER/MAP_2": 25,
-        "SPREAD/SERIES": 12,
-        "TOTAL/SERIES": 12
+        "WINNER/MATCH": 21,
+        "SPREAD/SERIES": 17,
+        "TOTAL/SERIES": 16,
+        "WINNER/MAP_2": 18,
+        "WINNER/MAP_1": 18
       },
-      "main_lines_in_horizon": 100,
+      "main_lines_in_horizon": 86,
       "unclassified": [],
       "examples": {
         "ESPORTS_MATCH_WINNER": {
           "class": "WINNER",
           "segment": "MATCH",
           "is_main": true,
-          "question": "Who will win in the upcoming esports event Nemiga vs Aurora Gaming scheduled for October 26, 2026 at 8:00 AM UTC?",
+          "question": "Who will win in the upcoming esports event FlyQuest vs Rooster scheduled for October 27, 2026 at 7:15 AM UTC?",
           "line": null,
-          "slug": "aec-cs2-nemi-aur-2026-10-26",
+          "slug": "aec-cs2-fly-rstr-2026-10-27",
           "sides": [
             {
-              "identifier": "aec-cs2-nemi-aur-2026-10-26",
-              "teamId": 7704,
-              "price": 0.36
+              "identifier": "aec-cs2-fly-rstr-2026-10-27",
+              "teamId": 5716,
+              "price": 0.97
             },
             {
-              "identifier": "aec-cs2-nemi-aur-2026-10-26",
-              "teamId": 5156,
-              "price": 0.37
-            }
-          ]
-        },
-        "ESPORTS_MAP_WINNER_1": {
-          "class": "WINNER",
-          "segment": "MAP_1",
-          "is_main": true,
-          "question": "Will Falcons Force win Map 1 vs KUUSAMO.gg?",
-          "line": null,
-          "slug": "astatc-cs2-falf-ksm-2026-10-26-map1",
-          "sides": [
-            {
-              "identifier": "astatc-cs2-falf-ksm-2026-10-26-map1",
-              "teamId": 11740,
-              "price": 0.49
-            },
-            {
-              "identifier": "astatc-cs2-falf-ksm-2026-10-26-map1",
-              "teamId": 11740,
-              "price": 0.5
-            }
-          ]
-        },
-        "ESPORTS_MAP_WINNER_2": {
-          "class": "WINNER",
-          "segment": "MAP_2",
-          "is_main": true,
-          "question": "Will Falcons Force win Map 2 vs KUUSAMO.gg?",
-          "line": null,
-          "slug": "astatc-cs2-falf-ksm-2026-10-26-map2",
-          "sides": [
-            {
-              "identifier": "astatc-cs2-falf-ksm-2026-10-26-map2",
-              "teamId": 11740,
-              "price": 0.49
-            },
-            {
-              "identifier": "astatc-cs2-falf-ksm-2026-10-26-map2",
-              "teamId": 11740,
-              "price": 0.5
+              "identifier": "aec-cs2-fly-rstr-2026-10-27",
+              "teamId": 11883,
+              "price": 0.99
             }
           ]
         },
@@ -5371,19 +3989,19 @@
           "class": "SPREAD",
           "segment": "SERIES",
           "is_main": true,
-          "question": "Will the 9z cover -1.5 vs the TYLOO in 9z vs. TYLOO?",
-          "line": -1.5,
-          "slug": "asc-cs2-9z-tyloo-2026-10-26-hcap-neg-1pt5",
+          "question": "Will the Alliance cover 1.5 vs the FaZe in Alliance vs. FaZe?",
+          "line": 1.5,
+          "slug": "asc-cs2-all-faze-2026-10-27-hcap-pos-1pt5",
           "sides": [
             {
-              "identifier": "asc-cs2-9z-tyloo-2026-10-26-hcap-neg-1pt5",
-              "teamId": 5166,
-              "price": 0.55
+              "identifier": "asc-cs2-all-faze-2026-10-27-hcap-pos-1pt5",
+              "teamId": 7716,
+              "price": 0.59
             },
             {
-              "identifier": "asc-cs2-9z-tyloo-2026-10-26-hcap-neg-1pt5",
-              "teamId": 5158,
-              "price": 0.57
+              "identifier": "asc-cs2-all-faze-2026-10-27-hcap-pos-1pt5",
+              "teamId": 5155,
+              "price": 0.67
             }
           ]
         },
@@ -5391,112 +4009,108 @@
           "class": "TOTAL",
           "segment": "SERIES",
           "is_main": true,
-          "question": "Will the total in 9z vs. TYLOO be more than 2.5?",
+          "question": "Will the total in Alliance vs. FaZe be more than 2.5?",
           "line": 2.5,
-          "slug": "tsc-cs2-9z-tyloo-2026-10-26-tot-2pt5",
+          "slug": "tsc-cs2-all-faze-2026-10-27-tot-2pt5",
           "sides": [
             {
-              "identifier": "tsc-cs2-9z-tyloo-2026-10-26-tot-2pt5",
+              "identifier": "tsc-cs2-all-faze-2026-10-27-tot-2pt5",
               "teamId": null,
+              "price": 0.41
+            },
+            {
+              "identifier": "tsc-cs2-all-faze-2026-10-27-tot-2pt5",
+              "teamId": null,
+              "price": 0.46
+            }
+          ]
+        },
+        "ESPORTS_MAP_WINNER_2": {
+          "class": "WINNER",
+          "segment": "MAP_2",
+          "is_main": true,
+          "question": "Will Alliance win Map 2 vs FaZe?",
+          "line": null,
+          "slug": "astatc-cs2-all-faze-2026-10-27-map2",
+          "sides": [
+            {
+              "identifier": "astatc-cs2-all-faze-2026-10-27-map2",
+              "teamId": 7716,
+              "price": 0.37
+            },
+            {
+              "identifier": "astatc-cs2-all-faze-2026-10-27-map2",
+              "teamId": 7716,
+              "price": 0.38
+            }
+          ]
+        },
+        "ESPORTS_MAP_WINNER_1": {
+          "class": "WINNER",
+          "segment": "MAP_1",
+          "is_main": true,
+          "question": "Will Alliance win Map 1 vs FaZe?",
+          "line": null,
+          "slug": "astatc-cs2-all-faze-2026-10-27-map1",
+          "sides": [
+            {
+              "identifier": "astatc-cs2-all-faze-2026-10-27-map1",
+              "teamId": 7716,
               "price": 0.36
             },
             {
-              "identifier": "tsc-cs2-9z-tyloo-2026-10-26-tot-2pt5",
-              "teamId": null,
-              "price": 0.4
+              "identifier": "astatc-cs2-all-faze-2026-10-27-map1",
+              "teamId": 7716,
+              "price": 0.37
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "cs2-falf-ksm-2026-10-26",
-        "title": "Falcons Force vs. KUUSAMO.gg",
-        "start": "2026-10-26T09:00:00Z"
+        "slug": "cs2-all-faze-2026-10-27",
+        "title": "Alliance vs. FaZe",
+        "start": "2026-10-27T11:00:00Z"
       }
     },
     {
       "sport": "lol",
       "slug": "lol",
       "slug_listed": true,
-      "events": 4,
-      "upcoming_in_horizon": 4,
+      "events": 6,
+      "upcoming_in_horizon": 1,
       "market_types": {
-        "ESPORTS_MATCH_WINNER": 4,
-        "ESPORTS_SERIES_GAME_HANDICAP": 4,
-        "ESPORTS_GAME_WINNER_2": 2,
-        "ESPORTS_GAME_WINNER_1": 2,
-        "ESPORTS_SERIES_TOTAL_GAMES": 2
+        "ESPORTS_MATCH_WINNER": 6,
+        "ESPORTS_GAME_WINNER_1": 1,
+        "ESPORTS_GAME_WINNER_2": 1
       },
       "market_classes": {
-        "WINNER/MATCH": 4,
-        "OTHER/UNKNOWN": 10
+        "WINNER/MATCH": 6,
+        "OTHER/UNKNOWN": 2
       },
-      "main_lines_in_horizon": 4,
+      "main_lines_in_horizon": 1,
       "unclassified": [
-        "ESPORTS_SERIES_GAME_HANDICAP",
-        "ESPORTS_GAME_WINNER_2",
         "ESPORTS_GAME_WINNER_1",
-        "ESPORTS_SERIES_TOTAL_GAMES"
+        "ESPORTS_GAME_WINNER_2"
       ],
       "examples": {
         "ESPORTS_MATCH_WINNER": {
           "class": "WINNER",
           "segment": "MATCH",
           "is_main": true,
-          "question": "Who will win in the upcoming esports event CTBC Flying Oyster vs T1 scheduled for October 26, 2026 at 5:00 PM UTC?",
+          "question": "Who will win in the upcoming esports event T1 vs Movistar KOI scheduled for October 28, 2026 at 8:00 PM UTC?",
           "line": null,
-          "slug": "aec-lol-cfo-t1-2026-10-26",
+          "slug": "aec-lol-t1-mkoi-2026-10-28",
           "sides": [
             {
-              "identifier": "aec-lol-cfo-t1-2026-10-26",
-              "teamId": 7730,
-              "price": 0.11
-            },
-            {
-              "identifier": "aec-lol-cfo-t1-2026-10-26",
+              "identifier": "aec-lol-t1-mkoi-2026-10-28",
               "teamId": 5212,
-              "price": 0.12
-            }
-          ]
-        },
-        "ESPORTS_SERIES_GAME_HANDICAP": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will the Team Secret Whales cover 1.5 vs the LOS in Team Secret Whales vs. LOS?",
-          "line": 1.5,
-          "slug": "asc-lol-tsw-los-2026-10-26-hcap-pos-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-lol-tsw-los-2026-10-26-hcap-pos-1pt5",
-              "teamId": 7731,
-              "price": 0.8
+              "price": 0.83
             },
             {
-              "identifier": "asc-lol-tsw-los-2026-10-26-hcap-pos-1pt5",
-              "teamId": 5195,
-              "price": 0.86
-            }
-          ]
-        },
-        "ESPORTS_GAME_WINNER_2": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Team Secret Whales win Game 2 vs LOS?",
-          "line": null,
-          "slug": "astatc-lol-tsw-los-2026-10-26-game2",
-          "sides": [
-            {
-              "identifier": "astatc-lol-tsw-los-2026-10-26-game2",
-              "teamId": 7731,
-              "price": 0.58
-            },
-            {
-              "identifier": "astatc-lol-tsw-los-2026-10-26-game2",
-              "teamId": 7731,
-              "price": 0.62
+              "identifier": "aec-lol-t1-mkoi-2026-10-28",
+              "teamId": 5197,
+              "price": 0.84
             }
           ]
         },
@@ -5504,48 +4118,48 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Team Secret Whales win Game 1 vs LOS?",
+          "question": "Will T1 win Game 1 vs Movistar KOI?",
           "line": null,
-          "slug": "astatc-lol-tsw-los-2026-10-26-game1",
+          "slug": "astatc-lol-t1-mkoi-2026-10-28-game1",
           "sides": [
             {
-              "identifier": "astatc-lol-tsw-los-2026-10-26-game1",
-              "teamId": 7731,
-              "price": 0.59
+              "identifier": "astatc-lol-t1-mkoi-2026-10-28-game1",
+              "teamId": 5212,
+              "price": 0.47
             },
             {
-              "identifier": "astatc-lol-tsw-los-2026-10-26-game1",
-              "teamId": 7731,
-              "price": 0.61
+              "identifier": "astatc-lol-t1-mkoi-2026-10-28-game1",
+              "teamId": 5212,
+              "price": 0.78
             }
           ]
         },
-        "ESPORTS_SERIES_TOTAL_GAMES": {
+        "ESPORTS_GAME_WINNER_2": {
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will the total in Team Secret Whales vs. LOS be more than 2.5?",
-          "line": 2.5,
-          "slug": "tsc-lol-tsw-los-2026-10-26-tot-2pt5",
+          "question": "Will T1 win Game 2 vs Movistar KOI?",
+          "line": null,
+          "slug": "astatc-lol-t1-mkoi-2026-10-28-game2",
           "sides": [
             {
-              "identifier": "tsc-lol-tsw-los-2026-10-26-tot-2pt5",
-              "teamId": null,
-              "price": 0.44
+              "identifier": "astatc-lol-t1-mkoi-2026-10-28-game2",
+              "teamId": 5212,
+              "price": 0.18
             },
             {
-              "identifier": "tsc-lol-tsw-los-2026-10-26-tot-2pt5",
-              "teamId": null,
-              "price": 0.48
+              "identifier": "astatc-lol-t1-mkoi-2026-10-28-game2",
+              "teamId": 5212,
+              "price": 0.97
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "lol-cfo-t1-2026-10-26",
-        "title": "CTBC Flying Oyster vs. T1",
-        "start": "2026-10-26T17:00:00Z"
+        "slug": "lol-t1-mkoi-2026-10-28",
+        "title": "T1 vs. Movistar KOI",
+        "start": "2026-10-28T20:00:00Z"
       }
     },
     {
@@ -5574,12 +4188,12 @@
             {
               "identifier": "atc-epl-cfc-mnu-2026-10-31-cfc",
               "teamId": 2688,
-              "price": 0.52
+              "price": 0.53
             },
             {
               "identifier": "atc-epl-cfc-mnu-2026-10-31-cfc",
               "teamId": 2688,
-              "price": 0.53
+              "price": 0.54
             }
           ]
         }
@@ -5591,486 +4205,40 @@
       "sport": "laliga",
       "slug": "lal",
       "slug_listed": true,
-      "events": 11,
-      "upcoming_in_horizon": 1,
+      "events": 10,
+      "upcoming_in_horizon": 0,
       "market_types": {
-        "SOCCER_TEAM_FULL_TIME_WINNER": 33,
-        "SOCCER_TEAM_FULL_GAME_TOTAL": 6,
-        "SOCCER_PLAYER_GOALS": 6,
-        "SOCCER_TEAM_FULL_GAME_SPREAD": 4,
-        "SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE": 3,
-        "SOCCER_GAME_EXACT_SCORE": 16,
-        "SOCCER_GAME_FIRST_HALF_EXACT_SCORE": 9,
-        "SOCCER_TEAM_FIRST_HALF_SPREAD": 4,
-        "SOCCER_TEAM_FIRST_HALF_WINNER": 3,
-        "SOCCER_TEAM_FIRST_HALF_TOTAL": 5,
-        "SOCCER_TEAM_SECOND_HALF_SPREAD": 4,
-        "SOCCER_GAME_FIRST_HALF_BTTS": 1,
-        "SOCCER_GAME_FIRST_TEAM_TO_SCORE": 3,
-        "SOCCER_GAME_TOTAL_CORNERS": 7,
-        "SOCCER_TEAM_SECOND_HALF_TOTAL": 5,
-        "SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF": 4,
-        "SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE": 3,
-        "SOCCER_TEAM_TOTAL_GOALS": 6,
-        "SOCCER_GAME_SECOND_HALF_BTTS": 1,
-        "SOCCER_TEAM_SECOND_HALF_WINNER": 3,
-        "SOCCER_GAME_BTTS": 1
+        "SOCCER_TEAM_FULL_TIME_WINNER": 30
       },
       "market_classes": {
-        "WINNER/FULL_TIME": 33,
-        "TOTAL/FULL_GAME": 6,
-        "OTHER/UNKNOWN": 60,
-        "SPREAD/FULL_GAME": 4,
-        "SPREAD/FIRST_HALF": 4,
-        "WINNER/FIRST_HALF": 3,
-        "TOTAL/FIRST_HALF": 5,
-        "SPREAD/SECOND_HALF": 4,
-        "TOTAL/SECOND_HALF": 5,
-        "WINNER/SECOND_HALF": 3
+        "WINNER/FULL_TIME": 30
       },
-      "main_lines_in_horizon": 12,
-      "unclassified": [
-        "SOCCER_PLAYER_GOALS",
-        "SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE",
-        "SOCCER_GAME_EXACT_SCORE",
-        "SOCCER_GAME_FIRST_HALF_EXACT_SCORE",
-        "SOCCER_GAME_FIRST_HALF_BTTS",
-        "SOCCER_GAME_FIRST_TEAM_TO_SCORE",
-        "SOCCER_GAME_TOTAL_CORNERS",
-        "SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF",
-        "SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE",
-        "SOCCER_TEAM_TOTAL_GOALS",
-        "SOCCER_GAME_SECOND_HALF_BTTS",
-        "SOCCER_GAME_BTTS"
-      ],
+      "main_lines_in_horizon": 0,
+      "unclassified": [],
       "examples": {
         "SOCCER_TEAM_FULL_TIME_WINNER": {
           "class": "WINNER",
           "segment": "FULL_TIME",
           "is_main": true,
-          "question": "Will Sevilla FC win against CA Osasuna in the La Liga match scheduled for Oct 26, 2026?",
+          "question": "Will Villarreal CF win against RCD Espanyol de Barcelona in the La Liga match scheduled for Oct 30, 2026?",
           "line": null,
-          "slug": "atc-lal-sev-osa-2026-10-26-sev",
+          "slug": "atc-lal-vil-esp-2026-10-30-vil",
           "sides": [
             {
-              "identifier": "atc-lal-sev-osa-2026-10-26-sev",
-              "teamId": 3443,
-              "price": 0.51
+              "identifier": "atc-lal-vil-esp-2026-10-30-vil",
+              "teamId": 3453,
+              "price": 0.66
             },
             {
-              "identifier": "atc-lal-sev-osa-2026-10-26-sev",
-              "teamId": 3443,
-              "price": 0.52
-            }
-          ]
-        },
-        "SOCCER_TEAM_FULL_GAME_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Will the total in SEV vs OSA be more than 2.5?",
-          "line": 2.5,
-          "slug": "tsc-lal-sev-osa-2026-10-26-2pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-2pt5",
-              "teamId": null,
-              "price": 0.43
-            },
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-2pt5",
-              "teamId": null,
-              "price": 0.44
-            }
-          ]
-        },
-        "SOCCER_PLAYER_GOALS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Ante Budimir record at least 1 goals in SEV vs OSA?",
-          "line": 1,
-          "slug": "astatc-lal-sev-osa-2026-10-26-g-lalantbud-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-g-lalantbud-gte1",
-              "teamId": 3454,
-              "price": 0.08
-            },
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-g-lalantbud-gte1",
-              "teamId": 3454,
-              "price": 0.31
-            }
-          ]
-        },
-        "SOCCER_TEAM_FULL_GAME_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Will the Sevilla FC cover -1.5 vs the CA Osasuna in SEV vs OSA?",
-          "line": -1.5,
-          "slug": "asc-lal-sev-osa-2026-10-26-neg-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-lal-sev-osa-2026-10-26-neg-1pt5",
-              "teamId": 3443,
-              "price": 0.25
-            },
-            {
-              "identifier": "asc-lal-sev-osa-2026-10-26-neg-1pt5",
-              "teamId": 3454,
-              "price": 0.26
-            }
-          ]
-        },
-        "SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will CA Osasuna be the first to score a goal in the second half on 2026-10-26 4:00PM ET?",
-          "line": null,
-          "slug": "astatc-lal-sev-osa-2026-10-26-sh-ftts-osa",
-          "sides": [
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-sh-ftts-osa",
-              "teamId": 3454,
-              "price": 0.99
-            },
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-sh-ftts-osa",
-              "teamId": 3454,
-              "price": null
-            }
-          ]
-        },
-        "SOCCER_GAME_EXACT_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will SEV vs OSA finish SEV wins 1-0?",
-          "line": null,
-          "slug": "atc-lal-sev-osa-2026-10-26-exact-score-1-0",
-          "sides": [
-            {
-              "identifier": "atc-lal-sev-osa-2026-10-26-exact-score-1-0",
-              "teamId": null,
-              "price": 0.13
-            },
-            {
-              "identifier": "atc-lal-sev-osa-2026-10-26-exact-score-1-0",
-              "teamId": null,
-              "price": 0.15
-            }
-          ]
-        },
-        "SOCCER_GAME_FIRST_HALF_EXACT_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will SEV vs OSA be SEV wins 1-0 at halftime?",
-          "line": null,
-          "slug": "atc-lal-sev-osa-2026-10-26-fh-exact-score-1-0",
-          "sides": [
-            {
-              "identifier": "atc-lal-sev-osa-2026-10-26-fh-exact-score-1-0",
-              "teamId": null,
-              "price": 0.21
-            },
-            {
-              "identifier": "atc-lal-sev-osa-2026-10-26-fh-exact-score-1-0",
-              "teamId": null,
-              "price": 0.25
-            }
-          ]
-        },
-        "SOCCER_TEAM_FIRST_HALF_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will the Sevilla FC cover -1.5 vs the CA Osasuna in SEV vs OSA?",
-          "line": -1.5,
-          "slug": "asc-lal-sev-osa-2026-10-26-fh-neg-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-lal-sev-osa-2026-10-26-fh-neg-1pt5",
-              "teamId": 3443,
-              "price": 0.1
-            },
-            {
-              "identifier": "asc-lal-sev-osa-2026-10-26-fh-neg-1pt5",
-              "teamId": 3454,
-              "price": 0.11
-            }
-          ]
-        },
-        "SOCCER_TEAM_FIRST_HALF_WINNER": {
-          "class": "WINNER",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will Sevilla FC lead CA Osasuna at halftime?",
-          "line": null,
-          "slug": "atc-lal-sev-osa-2026-10-26-fh-sev",
-          "sides": [
-            {
-              "identifier": "atc-lal-sev-osa-2026-10-26-fh-sev",
-              "teamId": 3443,
-              "price": 0.37
-            },
-            {
-              "identifier": "atc-lal-sev-osa-2026-10-26-fh-sev",
-              "teamId": 3443,
-              "price": 0.38
-            }
-          ]
-        },
-        "SOCCER_TEAM_FIRST_HALF_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will the total in SEV vs OSA be more than 0.5?",
-          "line": 0.5,
-          "slug": "tsc-lal-sev-osa-2026-10-26-fh-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-fh-0pt5",
-              "teamId": null,
-              "price": 0.65
-            },
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-fh-0pt5",
-              "teamId": null,
+              "identifier": "atc-lal-vil-esp-2026-10-30-vil",
+              "teamId": 3453,
               "price": 0.67
-            }
-          ]
-        },
-        "SOCCER_TEAM_SECOND_HALF_SPREAD": {
-          "class": "SPREAD",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the Sevilla FC cover 1.5 vs the CA Osasuna in SEV vs OSA?",
-          "line": 1.5,
-          "slug": "asc-lal-sev-osa-2026-10-26-sh-pos-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-lal-sev-osa-2026-10-26-sh-pos-1pt5",
-              "teamId": 3443,
-              "price": 0.01
-            },
-            {
-              "identifier": "asc-lal-sev-osa-2026-10-26-sh-pos-1pt5",
-              "teamId": 3454,
-              "price": 0.99
-            }
-          ]
-        },
-        "SOCCER_GAME_FIRST_HALF_BTTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will both teams score in the first half between Sevilla FC and CA Osasuna on 2026-10-26 4:00PM ET?",
-          "line": 1,
-          "slug": "astatc-lal-sev-osa-2026-10-26-fh-btts",
-          "sides": [
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-fh-btts",
-              "teamId": null,
-              "price": 0.16
-            },
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-fh-btts",
-              "teamId": null,
-              "price": 0.18
-            }
-          ]
-        },
-        "SOCCER_GAME_FIRST_TEAM_TO_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will CA Osasuna be the first to score a goal on 2026-10-26 4:00PM ET?",
-          "line": null,
-          "slug": "astatc-lal-sev-osa-2026-10-26-ftts-osa",
-          "sides": [
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-ftts-osa",
-              "teamId": 3454,
-              "price": 0.31
-            },
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-ftts-osa",
-              "teamId": 3454,
-              "price": 0.98
-            }
-          ]
-        },
-        "SOCCER_GAME_TOTAL_CORNERS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will SEV vs OSA's corners be above 7.5 on Oct 26, 2026?",
-          "line": 7.5,
-          "slug": "astatc-lal-sev-osa-2026-10-26-cor-all-gt7pt5",
-          "sides": [
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-cor-all-gt7pt5",
-              "teamId": null,
-              "price": 0.61
-            },
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-cor-all-gt7pt5",
-              "teamId": null,
-              "price": 0.67
-            }
-          ]
-        },
-        "SOCCER_TEAM_SECOND_HALF_TOTAL": {
-          "class": "TOTAL",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the total in SEV vs OSA be more than 2.5?",
-          "line": 2.5,
-          "slug": "tsc-lal-sev-osa-2026-10-26-sh-2pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-sh-2pt5",
-              "teamId": null,
-              "price": 0.02
-            },
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-sh-2pt5",
-              "teamId": null,
-              "price": 0.99
-            }
-          ]
-        },
-        "SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will CA Osasuna score more than 1.5 goals in the first half of SEV vs OSA?",
-          "line": 1.5,
-          "slug": "tsc-lal-sev-osa-2026-10-26-ttg-fh-osa-1pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-ttg-fh-osa-1pt5",
-              "teamId": 3454,
-              "price": 0.01
-            },
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-ttg-fh-osa-1pt5",
-              "teamId": 3454,
-              "price": 0.99
-            }
-          ]
-        },
-        "SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will None be the first to score a goal in the first half on 2026-10-26 4:00PM ET?",
-          "line": null,
-          "slug": "astatc-lal-sev-osa-2026-10-26-fh-ftts-none",
-          "sides": [
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-fh-ftts-none",
-              "teamId": null,
-              "price": 0.99
-            },
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-fh-ftts-none",
-              "teamId": null,
-              "price": null
-            }
-          ]
-        },
-        "SOCCER_TEAM_TOTAL_GOALS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will CA Osasuna score more than 2.5 goals in 90 minutes plus stoppage time of SEV vs OSA?",
-          "line": 2.5,
-          "slug": "tsc-lal-sev-osa-2026-10-26-ttg-osa-2pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-ttg-osa-2pt5",
-              "teamId": 3454,
-              "price": 0.02
-            },
-            {
-              "identifier": "tsc-lal-sev-osa-2026-10-26-ttg-osa-2pt5",
-              "teamId": 3454,
-              "price": 0.11
-            }
-          ]
-        },
-        "SOCCER_GAME_SECOND_HALF_BTTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will both teams score in the second half between Sevilla FC and CA Osasuna on 2026-10-26 4:00PM ET?",
-          "line": 1,
-          "slug": "astatc-lal-sev-osa-2026-10-26-sh-btts",
-          "sides": [
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-sh-btts",
-              "teamId": null,
-              "price": 0.18
-            },
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-sh-btts",
-              "teamId": null,
-              "price": 0.98
-            }
-          ]
-        },
-        "SOCCER_TEAM_SECOND_HALF_WINNER": {
-          "class": "WINNER",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will Sevilla FC win the second half against CA Osasuna?",
-          "line": null,
-          "slug": "atc-lal-sev-osa-2026-10-26-sh-sev",
-          "sides": [
-            {
-              "identifier": "atc-lal-sev-osa-2026-10-26-sh-sev",
-              "teamId": 3443,
-              "price": 0.02
-            },
-            {
-              "identifier": "atc-lal-sev-osa-2026-10-26-sh-sev",
-              "teamId": 3443,
-              "price": 0.96
-            }
-          ]
-        },
-        "SOCCER_GAME_BTTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will both teams score in the match between Sevilla FC and CA Osasuna on 2026-10-26 4:00PM ET?",
-          "line": 1,
-          "slug": "astatc-lal-sev-osa-2026-10-26-btts",
-          "sides": [
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-btts",
-              "teamId": null,
-              "price": 0.48
-            },
-            {
-              "identifier": "astatc-lal-sev-osa-2026-10-26-btts",
-              "teamId": null,
-              "price": 0.49
             }
           ]
         }
       },
       "error": null,
-      "example_event": {
-        "slug": "lal-sev-osa-2026-10-26",
-        "title": "Sevilla FC vs. CA Osasuna",
-        "start": "2026-10-26T20:00:00Z"
-      }
+      "example_event": null
     },
     {
       "sport": "bundesliga",
@@ -6098,12 +4266,12 @@
             {
               "identifier": "atc-bun-elv-mai-2026-10-30-elv",
               "teamId": 7520,
-              "price": 0.29
+              "price": 0.3
             },
             {
               "identifier": "atc-bun-elv-mai-2026-10-30-elv",
               "teamId": 7520,
-              "price": 0.3
+              "price": 0.31
             }
           ]
         }
@@ -6116,42 +4284,43 @@
       "slug": "sea",
       "slug_listed": true,
       "events": 20,
-      "upcoming_in_horizon": 3,
+      "upcoming_in_horizon": 8,
       "market_types": {
         "SOCCER_TEAM_FULL_TIME_WINNER": 60,
-        "SOCCER_GAME_FIRST_HALF_EXACT_SCORE": 27,
-        "SOCCER_TEAM_FIRST_HALF_WINNER": 9,
-        "SOCCER_TEAM_SECOND_HALF_WINNER": 9,
-        "SOCCER_TEAM_FIRST_HALF_TOTAL": 15,
-        "SOCCER_TEAM_FIRST_HALF_SPREAD": 12,
-        "SOCCER_TEAM_TOTAL_GOALS": 18,
-        "SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF": 12,
-        "SOCCER_TEAM_SECOND_HALF_SPREAD": 12,
-        "SOCCER_TEAM_FULL_GAME_SPREAD": 12,
-        "SOCCER_GAME_TOTAL_CORNERS": 21,
-        "SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE": 9,
-        "SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE": 9,
-        "SOCCER_GAME_EXACT_SCORE": 48,
-        "SOCCER_TEAM_FULL_GAME_TOTAL": 18,
-        "SOCCER_TEAM_SECOND_HALF_TOTAL": 15,
-        "SOCCER_GAME_FIRST_TEAM_TO_SCORE": 9,
-        "SOCCER_GAME_FIRST_HALF_BTTS": 3,
-        "SOCCER_GAME_SECOND_HALF_BTTS": 3,
-        "SOCCER_GAME_BTTS": 3
+        "SOCCER_TEAM_FIRST_HALF_WINNER": 24,
+        "SOCCER_GAME_FIRST_HALF_EXACT_SCORE": 72,
+        "SOCCER_TEAM_SECOND_HALF_WINNER": 24,
+        "SOCCER_TEAM_FIRST_HALF_TOTAL": 40,
+        "SOCCER_TEAM_FIRST_HALF_SPREAD": 32,
+        "SOCCER_TEAM_TOTAL_GOALS": 48,
+        "SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF": 32,
+        "SOCCER_TEAM_SECOND_HALF_SPREAD": 32,
+        "SOCCER_TEAM_FULL_GAME_SPREAD": 32,
+        "SOCCER_GAME_TOTAL_CORNERS": 56,
+        "SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE": 24,
+        "SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE": 24,
+        "SOCCER_GAME_EXACT_SCORE": 128,
+        "SOCCER_TEAM_FULL_GAME_TOTAL": 48,
+        "SOCCER_TEAM_SECOND_HALF_TOTAL": 40,
+        "SOCCER_GAME_FIRST_TEAM_TO_SCORE": 24,
+        "SOCCER_GAME_FIRST_HALF_BTTS": 8,
+        "SOCCER_GAME_SECOND_HALF_BTTS": 8,
+        "SOCCER_PLAYER_GOALS": 27,
+        "SOCCER_GAME_BTTS": 8
       },
       "market_classes": {
         "WINNER/FULL_TIME": 60,
-        "OTHER/UNKNOWN": 162,
-        "WINNER/FIRST_HALF": 9,
-        "WINNER/SECOND_HALF": 9,
-        "TOTAL/FIRST_HALF": 15,
-        "SPREAD/FIRST_HALF": 12,
-        "SPREAD/SECOND_HALF": 12,
-        "SPREAD/FULL_GAME": 12,
-        "TOTAL/FULL_GAME": 18,
-        "TOTAL/SECOND_HALF": 15
+        "WINNER/FIRST_HALF": 24,
+        "OTHER/UNKNOWN": 459,
+        "WINNER/SECOND_HALF": 24,
+        "TOTAL/FIRST_HALF": 40,
+        "SPREAD/FIRST_HALF": 32,
+        "SPREAD/SECOND_HALF": 32,
+        "SPREAD/FULL_GAME": 32,
+        "TOTAL/FULL_GAME": 48,
+        "TOTAL/SECOND_HALF": 40
       },
-      "main_lines_in_horizon": 36,
+      "main_lines_in_horizon": 96,
       "unclassified": [
         "SOCCER_GAME_FIRST_HALF_EXACT_SCORE",
         "SOCCER_TEAM_TOTAL_GOALS",
@@ -6163,6 +4332,7 @@
         "SOCCER_GAME_FIRST_TEAM_TO_SCORE",
         "SOCCER_GAME_FIRST_HALF_BTTS",
         "SOCCER_GAME_SECOND_HALF_BTTS",
+        "SOCCER_PLAYER_GOALS",
         "SOCCER_GAME_BTTS"
       ],
       "examples": {
@@ -6177,12 +4347,32 @@
             {
               "identifier": "atc-sea-sas-laz-2026-10-27-sas",
               "teamId": 3433,
-              "price": 0.28
+              "price": 0.27
             },
             {
               "identifier": "atc-sea-sas-laz-2026-10-27-sas",
               "teamId": 3433,
-              "price": 0.29
+              "price": 0.28
+            }
+          ]
+        },
+        "SOCCER_TEAM_FIRST_HALF_WINNER": {
+          "class": "WINNER",
+          "segment": "FIRST_HALF",
+          "is_main": true,
+          "question": "Will SS Lazio lead US Sassuolo Calcio at halftime?",
+          "line": null,
+          "slug": "atc-sea-sas-laz-2026-10-27-fh-laz",
+          "sides": [
+            {
+              "identifier": "atc-sea-sas-laz-2026-10-27-fh-laz",
+              "teamId": 3422,
+              "price": 0.36
+            },
+            {
+              "identifier": "atc-sea-sas-laz-2026-10-27-fh-laz",
+              "teamId": 3422,
+              "price": 0.37
             }
           ]
         },
@@ -6202,27 +4392,7 @@
             {
               "identifier": "atc-sea-sas-laz-2026-10-27-fh-exact-score-0-2",
               "teamId": null,
-              "price": 0.1
-            }
-          ]
-        },
-        "SOCCER_TEAM_FIRST_HALF_WINNER": {
-          "class": "WINNER",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will US Sassuolo Calcio lead SS Lazio at halftime?",
-          "line": null,
-          "slug": "atc-sea-sas-laz-2026-10-27-fh-sas",
-          "sides": [
-            {
-              "identifier": "atc-sea-sas-laz-2026-10-27-fh-sas",
-              "teamId": 3433,
-              "price": 0.25
-            },
-            {
-              "identifier": "atc-sea-sas-laz-2026-10-27-fh-sas",
-              "teamId": 3433,
-              "price": 0.26
+              "price": 0.09
             }
           ]
         },
@@ -6237,7 +4407,7 @@
             {
               "identifier": "atc-sea-sas-laz-2026-10-27-sh-draw",
               "teamId": null,
-              "price": 0.04
+              "price": 0.02
             },
             {
               "identifier": "atc-sea-sas-laz-2026-10-27-sh-draw",
@@ -6277,7 +4447,7 @@
             {
               "identifier": "asc-sea-sas-laz-2026-10-27-fh-pos-1pt5",
               "teamId": 3433,
-              "price": 0.87
+              "price": 0.88
             },
             {
               "identifier": "asc-sea-sas-laz-2026-10-27-fh-pos-1pt5",
@@ -6297,12 +4467,12 @@
             {
               "identifier": "tsc-sea-sas-laz-2026-10-27-ttg-laz-1pt5",
               "teamId": 3422,
-              "price": 0.47
+              "price": 0.52
             },
             {
               "identifier": "tsc-sea-sas-laz-2026-10-27-ttg-laz-1pt5",
               "teamId": 3422,
-              "price": 0.52
+              "price": 0.53
             }
           ]
         },
@@ -6357,12 +4527,12 @@
             {
               "identifier": "asc-sea-sas-laz-2026-10-27-pos-1pt5",
               "teamId": 3433,
-              "price": 0.76
+              "price": 0.75
             },
             {
               "identifier": "asc-sea-sas-laz-2026-10-27-pos-1pt5",
               "teamId": 3422,
-              "price": 0.78
+              "price": 0.76
             }
           ]
         },
@@ -6382,7 +4552,7 @@
             {
               "identifier": "astatc-sea-tor-com-2026-10-27-cor-all-gt8pt5",
               "teamId": null,
-              "price": 0.6
+              "price": 0.55
             }
           ]
         },
@@ -6457,12 +4627,12 @@
             {
               "identifier": "tsc-sea-sas-laz-2026-10-27-2pt5",
               "teamId": null,
-              "price": 0.56
+              "price": 0.59
             },
             {
               "identifier": "tsc-sea-sas-laz-2026-10-27-2pt5",
               "teamId": null,
-              "price": 0.58
+              "price": 0.6
             }
           ]
         },
@@ -6482,7 +4652,7 @@
             {
               "identifier": "tsc-sea-sas-laz-2026-10-27-sh-2pt5",
               "teamId": null,
-              "price": 0.99
+              "price": 0.98
             }
           ]
         },
@@ -6497,7 +4667,7 @@
             {
               "identifier": "astatc-sea-sas-laz-2026-10-27-ftts-laz",
               "teamId": 3422,
-              "price": 0.51
+              "price": 0.52
             },
             {
               "identifier": "astatc-sea-sas-laz-2026-10-27-ftts-laz",
@@ -6517,7 +4687,7 @@
             {
               "identifier": "astatc-sea-sas-laz-2026-10-27-fh-btts",
               "teamId": null,
-              "price": 0.23
+              "price": 0.24
             },
             {
               "identifier": "astatc-sea-sas-laz-2026-10-27-fh-btts",
@@ -6537,32 +4707,52 @@
             {
               "identifier": "astatc-sea-sas-laz-2026-10-27-sh-btts",
               "teamId": null,
-              "price": 0.99
+              "price": 0.01
             },
             {
               "identifier": "astatc-sea-sas-laz-2026-10-27-sh-btts",
               "teamId": null,
-              "price": null
+              "price": 0.98
+            }
+          ]
+        },
+        "SOCCER_PLAYER_GOALS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Davide Frattesi record at least 1 goals in SAS vs LAZ?",
+          "line": 1,
+          "slug": "astatc-sea-sas-laz-2026-10-27-g-seadavfra-gte1",
+          "sides": [
+            {
+              "identifier": "astatc-sea-sas-laz-2026-10-27-g-seadavfra-gte1",
+              "teamId": 3422,
+              "price": 0.02
+            },
+            {
+              "identifier": "astatc-sea-sas-laz-2026-10-27-g-seadavfra-gte1",
+              "teamId": 3422,
+              "price": 0.22
             }
           ]
         },
         "SOCCER_GAME_BTTS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will both teams score in the match between US Sassuolo Calcio and SS Lazio on 2026-10-27 1:30PM ET?",
+          "is_main": true,
+          "question": "Will both teams score in the match between AC Milan and Bologna FC 1909 on 2026-10-28 1:30PM ET?",
           "line": 1,
-          "slug": "astatc-sea-sas-laz-2026-10-27-btts",
+          "slug": "astatc-sea-mil-bol-2026-10-28-btts",
           "sides": [
             {
-              "identifier": "astatc-sea-sas-laz-2026-10-27-btts",
+              "identifier": "astatc-sea-mil-bol-2026-10-28-btts",
               "teamId": null,
-              "price": 0.6
+              "price": 0.5
             },
             {
-              "identifier": "astatc-sea-sas-laz-2026-10-27-btts",
+              "identifier": "astatc-sea-mil-bol-2026-10-28-btts",
               "teamId": null,
-              "price": 0.61
+              "price": 0.52
             }
           ]
         }
@@ -6578,464 +4768,40 @@
       "sport": "ligue1",
       "slug": "lg1",
       "slug_listed": true,
-      "events": 10,
-      "upcoming_in_horizon": 1,
+      "events": 9,
+      "upcoming_in_horizon": 0,
       "market_types": {
-        "SOCCER_TEAM_FULL_TIME_WINNER": 30,
-        "SOCCER_TEAM_SECOND_HALF_WINNER": 3,
-        "SOCCER_GAME_FIRST_HALF_EXACT_SCORE": 9,
-        "SOCCER_GAME_EXACT_SCORE": 16,
-        "SOCCER_TEAM_SECOND_HALF_SPREAD": 4,
-        "SOCCER_TEAM_FULL_GAME_TOTAL": 6,
-        "SOCCER_TEAM_FIRST_HALF_SPREAD": 4,
-        "SOCCER_GAME_TOTAL_CORNERS": 7,
-        "SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE": 3,
-        "SOCCER_TEAM_TOTAL_GOALS": 6,
-        "SOCCER_GAME_FIRST_TEAM_TO_SCORE": 3,
-        "SOCCER_TEAM_SECOND_HALF_TOTAL": 5,
-        "SOCCER_TEAM_FIRST_HALF_TOTAL": 5,
-        "SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF": 4,
-        "SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE": 3,
-        "SOCCER_TEAM_FULL_GAME_SPREAD": 4,
-        "SOCCER_TEAM_FIRST_HALF_WINNER": 3,
-        "SOCCER_GAME_SECOND_HALF_BTTS": 1,
-        "SOCCER_GAME_FIRST_HALF_BTTS": 1,
-        "SOCCER_GAME_BTTS": 1
+        "SOCCER_TEAM_FULL_TIME_WINNER": 27
       },
       "market_classes": {
-        "WINNER/FULL_TIME": 30,
-        "WINNER/SECOND_HALF": 3,
-        "OTHER/UNKNOWN": 54,
-        "SPREAD/SECOND_HALF": 4,
-        "TOTAL/FULL_GAME": 6,
-        "SPREAD/FIRST_HALF": 4,
-        "TOTAL/SECOND_HALF": 5,
-        "TOTAL/FIRST_HALF": 5,
-        "SPREAD/FULL_GAME": 4,
-        "WINNER/FIRST_HALF": 3
+        "WINNER/FULL_TIME": 27
       },
-      "main_lines_in_horizon": 12,
-      "unclassified": [
-        "SOCCER_GAME_FIRST_HALF_EXACT_SCORE",
-        "SOCCER_GAME_EXACT_SCORE",
-        "SOCCER_GAME_TOTAL_CORNERS",
-        "SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE",
-        "SOCCER_TEAM_TOTAL_GOALS",
-        "SOCCER_GAME_FIRST_TEAM_TO_SCORE",
-        "SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF",
-        "SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE",
-        "SOCCER_GAME_SECOND_HALF_BTTS",
-        "SOCCER_GAME_FIRST_HALF_BTTS",
-        "SOCCER_GAME_BTTS"
-      ],
+      "main_lines_in_horizon": 0,
+      "unclassified": [],
       "examples": {
         "SOCCER_TEAM_FULL_TIME_WINNER": {
           "class": "WINNER",
           "segment": "FULL_TIME",
           "is_main": true,
-          "question": "Will Paris Saint-Germain FC win against Olympique Lyonnais in the Ligue 1 match scheduled for Oct 25, 2026?",
+          "question": "Will Le Havre AC win against Paris Saint-Germain FC in the Ligue 1 match scheduled for Oct 30, 2026?",
           "line": null,
-          "slug": "atc-lg1-psg-lyo-2026-10-25-psg",
+          "slug": "atc-lg1-hac-psg-2026-10-30-hac",
           "sides": [
             {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-psg",
-              "teamId": 25622,
-              "price": 0.72
+              "identifier": "atc-lg1-hac-psg-2026-10-30-hac",
+              "teamId": 25632,
+              "price": 0.07
             },
             {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-psg",
-              "teamId": 25622,
-              "price": 0.73
-            }
-          ]
-        },
-        "SOCCER_TEAM_SECOND_HALF_WINNER": {
-          "class": "WINNER",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will Paris Saint-Germain FC win the second half against Olympique Lyonnais?",
-          "line": null,
-          "slug": "atc-lg1-psg-lyo-2026-10-25-sh-psg",
-          "sides": [
-            {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-sh-psg",
-              "teamId": 25622,
-              "price": 0.02
-            },
-            {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-sh-psg",
-              "teamId": 25622,
-              "price": 0.98
-            }
-          ]
-        },
-        "SOCCER_GAME_FIRST_HALF_EXACT_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will PSG vs LYO be Other at halftime?",
-          "line": null,
-          "slug": "atc-lg1-psg-lyo-2026-10-25-fh-exact-score-other",
-          "sides": [
-            {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-fh-exact-score-other",
-              "teamId": null,
-              "price": 0.99
-            },
-            {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-fh-exact-score-other",
-              "teamId": null,
-              "price": null
-            }
-          ]
-        },
-        "SOCCER_GAME_EXACT_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will PSG vs LYO finish LYO wins 3-1?",
-          "line": null,
-          "slug": "atc-lg1-psg-lyo-2026-10-25-exact-score-1-3",
-          "sides": [
-            {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-exact-score-1-3",
-              "teamId": null,
-              "price": 0.01
-            },
-            {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-exact-score-1-3",
-              "teamId": null,
-              "price": 0.02
-            }
-          ]
-        },
-        "SOCCER_TEAM_SECOND_HALF_SPREAD": {
-          "class": "SPREAD",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the Paris Saint-Germain FC cover 1.5 vs the Olympique Lyonnais in PSG vs LYO?",
-          "line": 1.5,
-          "slug": "asc-lg1-psg-lyo-2026-10-25-sh-pos-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-lg1-psg-lyo-2026-10-25-sh-pos-1pt5",
-              "teamId": 25622,
-              "price": 0.01
-            },
-            {
-              "identifier": "asc-lg1-psg-lyo-2026-10-25-sh-pos-1pt5",
-              "teamId": 25601,
-              "price": 0.99
-            }
-          ]
-        },
-        "SOCCER_TEAM_FULL_GAME_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Will the total in PSG vs LYO be more than 3.5?",
-          "line": 3.5,
-          "slug": "tsc-lg1-psg-lyo-2026-10-25-3pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-3pt5",
-              "teamId": null,
-              "price": 0.49
-            },
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-3pt5",
-              "teamId": null,
-              "price": 0.5
-            }
-          ]
-        },
-        "SOCCER_TEAM_FIRST_HALF_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will the Paris Saint-Germain FC cover -1.5 vs the Olympique Lyonnais in PSG vs LYO?",
-          "line": -1.5,
-          "slug": "asc-lg1-psg-lyo-2026-10-25-fh-neg-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-lg1-psg-lyo-2026-10-25-fh-neg-1pt5",
-              "teamId": 25622,
-              "price": 0.22
-            },
-            {
-              "identifier": "asc-lg1-psg-lyo-2026-10-25-fh-neg-1pt5",
-              "teamId": 25601,
-              "price": 0.24
-            }
-          ]
-        },
-        "SOCCER_GAME_TOTAL_CORNERS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will PSG vs LYO's corners be above 9.5 on Oct 25, 2026?",
-          "line": 9.5,
-          "slug": "astatc-lg1-psg-lyo-2026-10-25-cor-all-gt9pt5",
-          "sides": [
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-cor-all-gt9pt5",
-              "teamId": null,
-              "price": 0.45
-            },
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-cor-all-gt9pt5",
-              "teamId": null,
-              "price": 0.56
-            }
-          ]
-        },
-        "SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will None be the first to score a goal in the first half on 2026-10-25 3:45PM ET?",
-          "line": null,
-          "slug": "astatc-lg1-psg-lyo-2026-10-25-fh-ftts-none",
-          "sides": [
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-fh-ftts-none",
-              "teamId": null,
-              "price": 0.99
-            },
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-fh-ftts-none",
-              "teamId": null,
-              "price": null
-            }
-          ]
-        },
-        "SOCCER_TEAM_TOTAL_GOALS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Paris Saint-Germain FC score more than 0.5 goals in 90 minutes plus stoppage time of PSG vs LYO?",
-          "line": 0.5,
-          "slug": "tsc-lg1-psg-lyo-2026-10-25-ttg-psg-0pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-ttg-psg-0pt5",
-              "teamId": 25622,
-              "price": 0.9
-            },
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-ttg-psg-0pt5",
-              "teamId": 25622,
-              "price": 0.91
-            }
-          ]
-        },
-        "SOCCER_GAME_FIRST_TEAM_TO_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will None be the first to score a goal on 2026-10-25 3:45PM ET?",
-          "line": null,
-          "slug": "astatc-lg1-psg-lyo-2026-10-25-ftts-none",
-          "sides": [
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-ftts-none",
-              "teamId": null,
-              "price": 0.01
-            },
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-ftts-none",
-              "teamId": null,
-              "price": 0.98
-            }
-          ]
-        },
-        "SOCCER_TEAM_SECOND_HALF_TOTAL": {
-          "class": "TOTAL",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the total in PSG vs LYO be more than 2.5?",
-          "line": 2.5,
-          "slug": "tsc-lg1-psg-lyo-2026-10-25-sh-2pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-sh-2pt5",
-              "teamId": null,
-              "price": 0.01
-            },
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-sh-2pt5",
-              "teamId": null,
-              "price": 0.99
-            }
-          ]
-        },
-        "SOCCER_TEAM_FIRST_HALF_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will the total in PSG vs LYO be more than 1.5?",
-          "line": 1.5,
-          "slug": "tsc-lg1-psg-lyo-2026-10-25-fh-1pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-fh-1pt5",
-              "teamId": null,
-              "price": 0.46
-            },
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-fh-1pt5",
-              "teamId": null,
-              "price": 0.49
-            }
-          ]
-        },
-        "SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Paris Saint-Germain FC score more than 1.5 goals in the first half of PSG vs LYO?",
-          "line": 1.5,
-          "slug": "tsc-lg1-psg-lyo-2026-10-25-ttg-fh-psg-1pt5",
-          "sides": [
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-ttg-fh-psg-1pt5",
-              "teamId": 25622,
-              "price": 0.01
-            },
-            {
-              "identifier": "tsc-lg1-psg-lyo-2026-10-25-ttg-fh-psg-1pt5",
-              "teamId": 25622,
-              "price": 0.99
-            }
-          ]
-        },
-        "SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will None be the first to score a goal in the second half on 2026-10-25 3:45PM ET?",
-          "line": null,
-          "slug": "astatc-lg1-psg-lyo-2026-10-25-sh-ftts-none",
-          "sides": [
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-sh-ftts-none",
-              "teamId": null,
-              "price": 0.99
-            },
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-sh-ftts-none",
-              "teamId": null,
-              "price": null
-            }
-          ]
-        },
-        "SOCCER_TEAM_FULL_GAME_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Will the Paris Saint-Germain FC cover -1.5 vs the Olympique Lyonnais in PSG vs LYO?",
-          "line": -1.5,
-          "slug": "asc-lg1-psg-lyo-2026-10-25-neg-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-lg1-psg-lyo-2026-10-25-neg-1pt5",
-              "teamId": 25622,
-              "price": 0.49
-            },
-            {
-              "identifier": "asc-lg1-psg-lyo-2026-10-25-neg-1pt5",
-              "teamId": 25601,
-              "price": 0.5
-            }
-          ]
-        },
-        "SOCCER_TEAM_FIRST_HALF_WINNER": {
-          "class": "WINNER",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will Olympique Lyonnais lead Paris Saint-Germain FC at halftime?",
-          "line": null,
-          "slug": "atc-lg1-psg-lyo-2026-10-25-fh-lyo",
-          "sides": [
-            {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-fh-lyo",
-              "teamId": 25601,
-              "price": 0.13
-            },
-            {
-              "identifier": "atc-lg1-psg-lyo-2026-10-25-fh-lyo",
-              "teamId": 25601,
-              "price": 0.15
-            }
-          ]
-        },
-        "SOCCER_GAME_SECOND_HALF_BTTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will both teams score in the second half between Paris Saint-Germain FC and Olympique Lyonnais on 2026-10-25 3:45PM ET?",
-          "line": 1,
-          "slug": "astatc-lg1-psg-lyo-2026-10-25-sh-btts",
-          "sides": [
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-sh-btts",
-              "teamId": null,
-              "price": 0.99
-            },
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-sh-btts",
-              "teamId": null,
-              "price": null
-            }
-          ]
-        },
-        "SOCCER_GAME_FIRST_HALF_BTTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will both teams score in the first half between Paris Saint-Germain FC and Olympique Lyonnais on 2026-10-25 3:45PM ET?",
-          "line": 1,
-          "slug": "astatc-lg1-psg-lyo-2026-10-25-fh-btts",
-          "sides": [
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-fh-btts",
-              "teamId": null,
-              "price": 0.24
-            },
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-fh-btts",
-              "teamId": null,
-              "price": 0.27
-            }
-          ]
-        },
-        "SOCCER_GAME_BTTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will both teams score in the match between Paris Saint-Germain FC and Olympique Lyonnais on 2026-10-25 3:45PM ET?",
-          "line": 1,
-          "slug": "astatc-lg1-psg-lyo-2026-10-25-btts",
-          "sides": [
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-btts",
-              "teamId": null,
-              "price": 0.59
-            },
-            {
-              "identifier": "astatc-lg1-psg-lyo-2026-10-25-btts",
-              "teamId": null,
-              "price": 0.61
+              "identifier": "atc-lg1-hac-psg-2026-10-30-hac",
+              "teamId": 25632,
+              "price": 0.08
             }
           ]
         }
       },
       "error": null,
-      "example_event": {
-        "slug": "lg1-psg-lyo-2026-10-25",
-        "title": "Paris Saint-Germain FC vs. Olympique Lyonnais",
-        "start": "2026-10-26T19:30:00Z"
-      }
+      "example_event": null
     }
   ]
 }
