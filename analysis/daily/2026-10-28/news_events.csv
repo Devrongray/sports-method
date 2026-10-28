@@ -1,0 +1,312 @@
+sport,kind,team,detail,news_ts,seen_ts,game_start,source
+nhl,goalie_confirmed,Montreal Canadiens,Jakub Dobes,2026-10-13 14:08:54.208+00:00,2026-10-15 01:56:05+00:00,2026-10-14 23:30:00+00:00,Marco D'Amico
+nhl,goalie_likely,Colorado Avalanche,Scott Wedgewood,2026-10-14 11:43:26.903+00:00,2026-10-14 22:18:36+00:00,2026-10-15 00:30:00+00:00,Aarif Deen
+nhl,goalie_confirmed,Dallas Stars,Casey DeSmith,2026-10-14 11:46:13.929+00:00,2026-10-15 03:58:34+00:00,2026-10-15 00:30:00+00:00,Sam Nestler
+nhl,goalie_confirmed,Detroit Red Wings,Daniil Tarasov,2026-10-14 16:35:37.292+00:00,2026-10-15 07:13:52+00:00,2026-10-15 23:30:00+00:00,Ansar Khan
+nhl,goalie_confirmed,Washington Capitals,Charlie Lindgren,2026-10-14 21:01:39.432+00:00,2026-10-14 22:18:36+00:00,2026-10-14 23:30:00+00:00,Tom Gulitti
+nhl,goalie_confirmed,Colorado Avalanche,Scott Wedgewood,2026-10-15 00:07:22.576+00:00,2026-10-15 05:25:10+00:00,2026-10-15 00:30:00+00:00,Evan Rawal
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-15 14:05:55.000+00:00,2026-10-15 14:05:55+00:00,2026-10-15 17:00:00+00:00,MLB StatsAPI
+mlb,lineup_home,Cleveland Guardians,9 players,2026-10-15 14:05:55.000+00:00,2026-10-15 14:05:55+00:00,2026-10-15 17:00:00+00:00,MLB StatsAPI
+nhl,goalie_likely,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-15 14:32:37.818+00:00,2026-10-15 21:29:36+00:00,2026-10-15 23:00:00+00:00,David Alter
+nhl,goalie_likely,Ottawa Senators,Linus Ullmark,2026-10-15 14:33:43.622+00:00,2026-10-15 16:30:56+00:00,2026-10-15 23:00:00+00:00,Alex Adams
+nhl,goalie_likely,Tampa Bay Lightning,Andrei Vasilevskiy,2026-10-15 14:50:33.038+00:00,2026-10-15 17:01:45+00:00,2026-10-15 23:00:00+00:00,Gabby Shirley
+nhl,goalie_likely,New Jersey Devils,Nico Daws,2026-10-15 14:53:05.466+00:00,2026-10-15 16:30:56+00:00,2026-10-15 23:00:00+00:00,Mike Morreale
+nhl,goalie_confirmed,Florida Panthers,Akira Schmid,2026-10-15 14:54:25.571+00:00,2026-10-15 22:33:10+00:00,2026-10-15 23:00:00+00:00,Doug Plagens
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-15 15:00:00.000+00:00,2026-10-15 15:00:00+00:00,2026-10-15 17:00:00+00:00,MLB StatsAPI
+nhl,goalie_likely,Chicago Blackhawks,Spencer Knight,2026-10-15 15:25:43.381+00:00,2026-10-15 15:39:46+00:00,2026-10-16 00:00:00+00:00,Charlie Roumeliotis
+nhl,goalie_likely,Buffalo Sabres,Ukko-Pekka Luukkonen,2026-10-15 15:29:06.835+00:00,2026-10-15 17:01:45+00:00,2026-10-15 23:00:00+00:00,Matthew Fairburn
+nhl,goalie_likely,New York Islanders,Ilya Sorokin,2026-10-15 15:30:14.987+00:00,2026-10-15 15:34:45+00:00,2026-10-15 23:00:00+00:00,Andrew Gross
+nhl,goalie_likely,Vancouver Canucks,Leevi Merilainen,2026-10-15 15:30:44.095+00:00,2026-10-15 15:44:47+00:00,2026-10-15 23:00:00+00:00,Thomas Drance
+nhl,goalie_confirmed,Minnesota Wild,Jesper Wallstedt,2026-10-15 15:41:12.935+00:00,2026-10-15 19:55:52+00:00,2026-10-16 00:00:00+00:00,Dylan Loucks
+nhl,goalie_confirmed,New York Rangers,Dylan Garand,2026-10-15 15:43:23.407+00:00,2026-10-16 04:26:48+00:00,2026-10-15 23:00:00+00:00,Stephen Whyno
+nhl,goalie_likely,Nashville Predators,Juuse Saros,2026-10-15 15:53:31.672+00:00,2026-10-15 21:24:35+00:00,2026-10-16 00:00:00+00:00,Nick Kieser
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-15 15:54:48.000+00:00,2026-10-15 15:54:48+00:00,2026-10-15 17:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,New York Islanders,Semyon Varlamov,2026-10-15 15:55:40.547+00:00,2026-10-15 23:39:59+00:00,2026-10-15 23:00:00+00:00,Andrew Gross
+nhl,goalie_confirmed,Vancouver Canucks,Leevi Merilainen,2026-10-15 16:19:44.338+00:00,2026-10-16 04:59:51+00:00,2026-10-15 23:00:00+00:00,Dan Murphy
+nhl,goalie_likely,Winnipeg Jets,Stuart Skinner,2026-10-15 16:21:53.750+00:00,2026-10-15 20:23:23+00:00,2026-10-16 00:00:00+00:00,Mitchell Clinton
+nhl,goalie_confirmed,Ottawa Senators,Linus Ullmark,2026-10-15 16:39:42.276+00:00,2026-10-15 20:57:10+00:00,2026-10-15 23:00:00+00:00,Julien McKenzie
+nhl,goalie_confirmed,Edmonton Oilers,Devon Levi,2026-10-15 16:45:34.309+00:00,2026-10-15 23:34:58+00:00,2026-10-16 01:00:00+00:00,Mark Spector
+nhl,goalie_confirmed,Chicago Blackhawks,Spencer Knight,2026-10-15 16:52:32.754+00:00,2026-10-15 23:48:41+00:00,2026-10-16 00:00:00+00:00,Jack Bushman
+nhl,goalie_confirmed,San Jose Sharks,Alex Nedeljkovic,2026-10-15 16:54:36.756+00:00,2026-10-16 01:04:55+00:00,2026-10-16 00:00:00+00:00,Sheng Peng
+mlb,probable_away,Milwaukee Brewers,Shane Drohan,2026-10-15 17:55:02.000+00:00,2026-10-15 17:55:02+00:00,2026-10-16 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Calgary Flames,Dustin Wolf,2026-10-15 17:57:50.682+00:00,2026-10-16 01:56:51+00:00,2026-10-16 02:00:00+00:00,Derek Wills
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-15 18:28:33.000+00:00,2026-10-15 18:28:33+00:00,2026-10-15 17:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-15 18:30:34.000+00:00,2026-10-15 18:30:34+00:00,2026-10-15 17:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Utah Mammoth,Karel Vejmelka,2026-10-15 18:31:35.638+00:00,2026-10-15 20:23:23+00:00,2026-10-16 01:00:00+00:00,Jason Gregor
+nhl,goalie_confirmed,Vegas Golden Knights,Carter Hart,2026-10-15 18:36:16.097+00:00,2026-10-16 03:59:03+00:00,2026-10-16 02:00:00+00:00,Hannah Kirkell
+mlb,probable_away,Tampa Bay Rays,Nick Martinez,2026-10-15 20:21:59.000+00:00,2026-10-15 20:21:59+00:00,2026-10-16 22:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-15 20:23:23.000+00:00,2026-10-15 20:23:23+00:00,2026-10-15 17:00:00+00:00,MLB StatsAPI
+mlb,lineup_home,Los Angeles Dodgers,9 players,2026-10-15 20:31:24.000+00:00,2026-10-15 20:31:24+00:00,2026-10-16 00:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Milwaukee Brewers,9 players,2026-10-15 21:09:12.000+00:00,2026-10-15 21:09:12+00:00,2026-10-16 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Philadelphia Flyers,Joseph Woll,2026-10-15 21:28:07.902+00:00,2026-10-16 05:57:59+00:00,2026-10-15 23:30:00+00:00,Philadelphia Flyers
+nhl,goalie_confirmed,New Jersey Devils,Nico Daws,2026-10-15 22:30:05.736+00:00,2026-10-15 23:19:56+00:00,2026-10-15 23:00:00+00:00,Amanda Stein
+nhl,goalie_confirmed,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-15 22:31:06.542+00:00,2026-10-16 05:28:05+00:00,2026-10-15 23:00:00+00:00,Heather Engel
+nhl,goalie_confirmed,Buffalo Sabres,Ukko-Pekka Luukkonen,2026-10-15 22:31:35.181+00:00,2026-10-16 04:59:51+00:00,2026-10-15 23:00:00+00:00,Heather Engel
+nhl,goalie_confirmed,Tampa Bay Lightning,Andrei Vasilevskiy,2026-10-15 22:32:33.841+00:00,2026-10-16 01:14:57+00:00,2026-10-15 23:00:00+00:00,Gabby Shirley
+nhl,goalie_confirmed,Seattle Kraken,Philipp Grubauer,2026-10-15 22:46:55.853+00:00,2026-10-16 04:26:48+00:00,2026-10-15 23:00:00+00:00,NHL.com
+nhl,goalie_confirmed,St Louis Blues,Joel Hofer,2026-10-15 23:31:54.601+00:00,2026-10-15 23:48:41+00:00,2026-10-16 00:00:00+00:00,Dylan Loucks
+nhl,goalie_confirmed,Nashville Predators,Juuse Saros,2026-10-15 23:32:47.116+00:00,2026-10-16 02:57:41+00:00,2026-10-16 00:00:00+00:00,Brooks Bratten
+nhl,goalie_confirmed,Winnipeg Jets,Stuart Skinner,2026-10-15 23:33:12.426+00:00,2026-10-15 23:48:41+00:00,2026-10-16 00:00:00+00:00,Tracey Myers
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-15 23:48:40.000+00:00,2026-10-15 23:48:40+00:00,2026-10-15 17:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Edmonton Oilers,Tristan Jarry,2026-10-16 04:17:42.955+00:00,2026-10-17 19:49:03+00:00,2026-10-18 02:00:00+00:00,Jason Gregor
+mlb,probable_home,Cleveland Guardians,Shawn Armstrong,2026-10-16 14:34:38.000+00:00,2026-10-16 14:34:38+00:00,2026-10-17 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Colorado Avalanche,Mackenzie Blackwood,2026-10-16 16:25:28.818+00:00,2026-10-16 22:21:27+00:00,2026-10-17 01:00:00+00:00,Jesse Montano
+nhl,goalie_likely,Winnipeg Jets,Clay Stevenson,2026-10-16 17:15:53.466+00:00,2026-10-17 17:06:16+00:00,2026-10-17 19:30:00+00:00,Ken Wiebe
+nhl,goalie_confirmed,Anaheim Ducks,Lukas Dostal,2026-10-16 17:51:34.387+00:00,2026-10-17 03:23:09+00:00,2026-10-17 02:00:00+00:00,Derek Lee
+nhl,goalie_confirmed,Pittsburgh Penguins,Arturs Silovs,2026-10-16 18:03:40.337+00:00,2026-10-17 01:55:22+00:00,2026-10-17 01:00:00+00:00,Josh Getzoff
+nhl,goalie_confirmed,Boston Bruins,Michael DiPietro,2026-10-16 18:20:07.901+00:00,2026-10-16 18:22:28+00:00,2026-10-17 02:00:00+00:00,Adam Pellerin
+mlb,lineup_home,Cleveland Guardians,9 players,2026-10-16 20:00:34.000+00:00,2026-10-16 20:00:34+00:00,2026-10-17 00:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-16 20:46:03.000+00:00,2026-10-16 20:46:03+00:00,2026-10-17 00:00:00+00:00,MLB StatsAPI
+mlb,probable_home,Cleveland Guardians,Shawn Armstrong,2026-10-17 01:24:55.000+00:00,2026-10-17 01:24:55+00:00,2026-10-18 00:00:00+00:00,MLB StatsAPI
+mlb,probable_away,Tampa Bay Rays,Nick Martinez,2026-10-17 01:24:55.000+00:00,2026-10-17 01:24:55+00:00,2026-10-18 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Florida Panthers,Jacob Markstrom,2026-10-17 14:13:15.487+00:00,2026-10-17 22:42:24+00:00,2026-10-17 22:00:00+00:00,George Richards
+nhl,goalie_likely,Columbus Blue Jackets,Jet Greaves,2026-10-17 14:23:01.584+00:00,2026-10-17 21:18:58+00:00,2026-10-17 23:00:00+00:00,Mark Scheig
+nhl,goalie_likely,Chicago Blackhawks,Spencer Knight,2026-10-17 14:29:00.910+00:00,2026-10-17 14:50:16+00:00,2026-10-17 23:00:00+00:00,Ben Pope
+nhl,goalie_likely,Detroit Red Wings,John Gibson,2026-10-17 14:30:27.935+00:00,2026-10-17 14:32:31+00:00,2026-10-17 23:00:00+00:00,Ansar Khan
+nhl,goalie_likely,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-17 14:31:01.851+00:00,2026-10-17 14:32:31+00:00,2026-10-17 23:00:00+00:00,Mark Masters
+nhl,goalie_likely,Philadelphia Flyers,Dan Vladar,2026-10-17 14:39:18.233+00:00,2026-10-17 15:17:43+00:00,2026-10-17 23:00:00+00:00,Will James
+nhl,goalie_confirmed,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-17 14:43:07.107+00:00,2026-10-17 17:06:16+00:00,2026-10-17 23:00:00+00:00,Mark Master
+nhl,goalie_confirmed,Chicago Blackhawks,Spencer Knight,2026-10-17 14:52:09.967+00:00,2026-10-17 21:34:20+00:00,2026-10-17 23:00:00+00:00,CHGO Blackhawks
+nhl,goalie_confirmed,Montreal Canadiens,Jacob Fowler,2026-10-17 14:52:44.511+00:00,2026-10-17 14:55:16+00:00,2026-10-17 23:00:00+00:00,Renaud Lavoie
+nhl,goalie_confirmed,Washington Capitals,Logan Thompson,2026-10-17 14:53:34.678+00:00,2026-10-17 21:49:30+00:00,2026-10-17 17:00:00+00:00,Sammi Silber
+nhl,goalie_confirmed,New Jersey Devils,Jake Allen,2026-10-17 14:54:14.499+00:00,2026-10-17 15:17:43+00:00,2026-10-17 17:00:00+00:00,Sam Kasan
+nhl,goalie_confirmed,Philadelphia Flyers,Dan Vladar,2026-10-17 15:22:55.963+00:00,2026-10-17 16:43:23+00:00,2026-10-17 23:00:00+00:00,Jordan Hall
+nhl,goalie_confirmed,Detroit Red Wings,John Gibson,2026-10-17 15:28:29.639+00:00,2026-10-17 23:14:43+00:00,2026-10-17 23:00:00+00:00,Michael Whitaker
+nhl,goalie_likely,Buffalo Sabres,Ukko-Pekka Luukkonen,2026-10-17 15:32:16.588+00:00,2026-10-17 21:49:30+00:00,2026-10-17 23:00:00+00:00,Matthew Fairburn
+nhl,goalie_likely,New York Rangers,Dylan Garand,2026-10-17 15:34:16.677+00:00,2026-10-17 15:55:56+00:00,2026-10-17 23:00:00+00:00,Mark Scheig
+nhl,goalie_likely,New York Islanders,Ilya Sorokin,2026-10-17 15:41:58.022+00:00,2026-10-17 15:55:56+00:00,2026-10-17 23:00:00+00:00,Andrew Gross
+nhl,goalie_likely,Nashville Predators,Juuse Saros,2026-10-17 15:47:52.166+00:00,2026-10-17 22:47:11+00:00,2026-10-18 00:00:00+00:00,Nick Kieser
+nhl,goalie_confirmed,Ottawa Senators,Linus Ullmark,2026-10-17 15:53:10.898+00:00,2026-10-17 17:48:08+00:00,2026-10-17 23:00:00+00:00,Jackson Starr
+nhl,goalie_confirmed,Dallas Stars,Jake Oettinger,2026-10-17 16:18:31.699+00:00,2026-10-17 19:14:07+00:00,2026-10-17 23:00:00+00:00,Owen Newkirk
+nhl,goalie_confirmed,New York Rangers,Dylan Garand,2026-10-17 16:19:23.856+00:00,2026-10-18 00:35:57+00:00,2026-10-17 23:00:00+00:00,Mark Scheig
+nhl,goalie_confirmed,St Louis Blues,Jordan Binnington,2026-10-17 16:39:43.794+00:00,2026-10-17 19:14:07+00:00,2026-10-18 00:00:00+00:00,Lou Korac
+nhl,goalie_likely,Los Angeles Kings,Anton Forsberg,2026-10-17 17:03:28.195+00:00,2026-10-18 04:24:37+00:00,2026-10-18 01:00:00+00:00,Zach Dooley
+nhl,goalie_confirmed,San Jose Sharks,Alex Nedeljkovic,2026-10-17 17:10:39.504+00:00,2026-10-17 19:14:07+00:00,2026-10-17 23:00:00+00:00,Sheng Peng
+nhl,goalie_confirmed,Minnesota Wild,Jesper Wallstedt,2026-10-17 17:22:04.553+00:00,2026-10-18 12:16:15+00:00,2026-10-18 22:00:00+00:00,Dylan Loucks
+nhl,goalie_likely,Utah Mammoth,Karel Vejmelka,2026-10-17 17:26:06.139+00:00,2026-10-17 19:49:03+00:00,2026-10-18 02:00:00+00:00,Cole Bagley
+nhl,goalie_confirmed,Vegas Golden Knights,Adin Hill,2026-10-17 18:22:39.627+00:00,2026-10-18 02:54:55+00:00,2026-10-18 02:00:00+00:00,Jesse Granger
+nhl,goalie_confirmed,Tampa Bay Lightning,Dennis Hildeby,2026-10-17 18:42:39.382+00:00,2026-10-17 23:34:47+00:00,2026-10-17 20:00:00+00:00,Benjamin Pierce
+nhl,goalie_confirmed,Winnipeg Jets,Clay Stevenson,2026-10-17 19:08:25.959+00:00,2026-10-18 01:07:00+00:00,2026-10-17 19:30:00+00:00,Ken Wiebe
+nhl,goalie_confirmed,Carolina Hurricanes,Pyotr Kochetkov,2026-10-17 19:09:19.875+00:00,2026-10-17 20:51:25+00:00,2026-10-17 19:30:00+00:00,Ken Wiebe
+nhl,goalie_confirmed,Vancouver Canucks,Kevin Lankinen,2026-10-17 19:30:29.673+00:00,2026-10-17 22:17:00+00:00,2026-10-17 20:00:00+00:00,Canucks Insider
+mlb,lineup_home,Cleveland Guardians,9 players,2026-10-17 20:01:04.000+00:00,2026-10-17 20:01:04+00:00,2026-10-18 00:08:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-17 20:51:25.000+00:00,2026-10-17 20:51:25+00:00,2026-10-18 00:08:00+00:00,MLB StatsAPI
+mlb,lineup_home,Cleveland Guardians,9 players,2026-10-17 21:18:57.000+00:00,2026-10-17 21:18:57+00:00,2026-10-18 21:08:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-17 21:18:57.000+00:00,2026-10-17 21:18:57+00:00,2026-10-18 21:08:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Seattle Kraken,Joey Daccord,2026-10-17 21:30:31.230+00:00,2026-10-18 05:23:20+00:00,2026-10-17 22:00:00+00:00,Rob Darragh
+nhl,goalie_confirmed,Columbus Blue Jackets,Jet Greaves,2026-10-17 22:36:42.781+00:00,2026-10-17 23:44:12+00:00,2026-10-17 23:00:00+00:00,Peter Baugh
+nhl,goalie_confirmed,New York Islanders,Ilya Sorokin,2026-10-17 22:37:34.752+00:00,2026-10-17 22:42:24+00:00,2026-10-17 23:00:00+00:00,Ethan Sears
+nhl,goalie_confirmed,Buffalo Sabres,Ukko-Pekka Luukkonen,2026-10-17 22:39:26.012+00:00,2026-10-18 00:20:54+00:00,2026-10-17 23:00:00+00:00,Mike Harrington
+nhl,goalie_confirmed,Nashville Predators,Juuse Saros,2026-10-17 23:31:05.072+00:00,2026-10-18 03:57:09+00:00,2026-10-18 00:00:00+00:00,Nashville Predators
+mlb,lineup_home,Cleveland Guardians,0 players,2026-10-17 23:52:13.000+00:00,2026-10-17 23:52:13+00:00,2026-10-18 21:08:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,0 players,2026-10-17 23:52:13.000+00:00,2026-10-17 23:52:13+00:00,2026-10-18 21:08:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Boston Bruins,Jeremy Swayman,2026-10-18 00:31:09.249+00:00,2026-10-18 01:55:07+00:00,2026-10-18 01:00:00+00:00,Zach Dooley
+nhl,goalie_confirmed,Pittsburgh Penguins,Sergei Murashov,2026-10-18 01:31:39.166+00:00,2026-10-18 04:55:47+00:00,2026-10-18 02:00:00+00:00,Jesse Granger
+nhl,goalie_confirmed,Utah Mammoth,Karel Vejmelka,2026-10-18 01:32:31.417+00:00,2026-10-18 03:14:58+00:00,2026-10-18 02:00:00+00:00,Catherine Bogart
+mlb,probable_home,Cleveland Guardians,Parker Messick,2026-10-18 03:30:26.000+00:00,2026-10-18 03:30:26+00:00,2026-10-18 21:08:00+00:00,MLB StatsAPI
+mlb,probable_away,Tampa Bay Rays,Drew Rasmussen,2026-10-18 03:40:28.000+00:00,2026-10-18 03:40:28+00:00,2026-10-18 21:08:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Carolina Hurricanes,Brandon Bussi,2026-10-18 13:53:43.008+00:00,2026-10-19 02:57:53+00:00,2026-10-19 00:00:00+00:00,Ryan Henkel
+nhl,goalie_confirmed,Calgary Flames,Devin Cooley,2026-10-18 16:35:44.491+00:00,2026-10-18 20:50:24+00:00,2026-10-19 00:00:00+00:00,Pat Steinberg
+mlb,lineup_home,Cleveland Guardians,9 players,2026-10-18 17:02:36.000+00:00,2026-10-18 17:02:36+00:00,2026-10-18 21:08:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-18 17:46:10.000+00:00,2026-10-18 17:46:10+00:00,2026-10-18 21:08:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Columbus Blue Jackets,Cam Talbot,2026-10-18 21:16:38.456+00:00,2026-10-18 23:45:25+00:00,2026-10-18 22:00:00+00:00,Columbus Blue Jackets
+nhl,goalie_likely,Columbus Blue Jackets,Cam Talbot,2026-10-18 21:16:38.456+00:00,2026-10-18 21:17:53+00:00,2026-10-18 22:00:00+00:00,Heather Rule
+mlb,probable_home,Tampa Bay Rays,Freddy Peralta,2026-10-19 00:20:47.000+00:00,2026-10-19 00:20:47+00:00,2026-10-20 00:08:00+00:00,MLB StatsAPI
+nhl,goalie_likely,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-19 14:33:19.308+00:00,2026-10-19 15:05:11+00:00,2026-10-19 23:30:00+00:00,David Alter
+nhl,goalie_confirmed,Philadelphia Flyers,Joseph Woll,2026-10-19 14:38:55.741+00:00,2026-10-19 15:58:28+00:00,2026-10-19 23:00:00+00:00,Jordan Hall
+nhl,goalie_likely,New York Rangers,Dylan Garand,2026-10-19 14:55:07.911+00:00,2026-10-19 16:23:31+00:00,2026-10-19 23:00:00+00:00,Mollie Walker
+mlb,probable_away,Cleveland Guardians,Shawn Armstrong,2026-10-19 15:05:10.000+00:00,2026-10-19 15:05:10+00:00,2026-10-20 00:08:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Detroit Red Wings,Daniil Tarasov,2026-10-19 15:24:41.511+00:00,2026-10-21 05:59:55+00:00,2026-10-21 01:40:00+00:00,Michael Whitaker
+nhl,goalie_confirmed,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-19 15:29:53.532+00:00,2026-10-19 16:28:33+00:00,2026-10-19 23:30:00+00:00,Elliotte Friedman
+nhl,goalie_confirmed,Toronto Maple Leafs,Anthony Stolarz,2026-10-19 15:30:14.850+00:00,2026-10-21 04:59:12+00:00,2026-10-20 23:00:00+00:00,Elliotte Friedman
+nhl,goalie_likely,San Jose Sharks,Yaroslav Askarov,2026-10-19 15:32:16.119+00:00,2026-10-19 16:28:33+00:00,2026-10-19 23:30:00+00:00,Max Miller
+nhl,goalie_likely,Colorado Avalanche,Mackenzie Blackwood,2026-10-19 16:03:54.709+00:00,2026-10-19 16:43:36+00:00,2026-10-19 23:00:00+00:00,Anthony Di Marco
+nhl,goalie_confirmed,Anaheim Ducks,Ville Husso,2026-10-19 16:20:00.161+00:00,2026-10-19 16:43:36+00:00,2026-10-19 23:00:00+00:00,Stephen Whyno
+nhl,goalie_confirmed,Anaheim Ducks,Lukas Dostal,2026-10-19 16:20:24.443+00:00,2026-10-20 11:58:06+00:00,2026-10-20 23:00:00+00:00,Stephen Whyno
+nhl,goalie_confirmed,San Jose Sharks,Yaroslav Askarov,2026-10-19 16:27:54.766+00:00,2026-10-19 19:59:18+00:00,2026-10-19 23:30:00+00:00,Curtis Pashelka
+nhl,goalie_likely,San Jose Sharks,Alex Nedeljkovic,2026-10-19 16:47:28.280+00:00,2026-10-20 19:08:19+00:00,2026-10-20 23:00:00+00:00,Sheng Peng
+nhl,goalie_confirmed,Utah Mammoth,Sebastian Cossa,2026-10-19 16:57:23.117+00:00,2026-10-19 23:54:06+00:00,2026-10-20 01:00:00+00:00,Brogan Houston
+nhl,goalie_confirmed,Colorado Avalanche,Mackenzie Blackwood,2026-10-19 16:59:18.046+00:00,2026-10-19 20:28:14+00:00,2026-10-19 23:00:00+00:00,Corey Masisak
+nhl,goalie_confirmed,New York Rangers,Dylan Garand,2026-10-19 17:30:58.630+00:00,2026-10-19 19:08:19+00:00,2026-10-19 23:00:00+00:00,Vince Mercogliano
+nhl,goalie_confirmed,Pittsburgh Penguins,Arturs Silovs,2026-10-19 17:51:14.226+00:00,2026-10-20 03:26:37+00:00,2026-10-20 01:00:00+00:00,Josh Getzoff
+mlb,lineup_home,Tampa Bay Rays,9 players,2026-10-19 20:01:18.000+00:00,2026-10-19 20:01:18+00:00,2026-10-20 00:08:00+00:00,MLB StatsAPI
+mlb,lineup_away,Cleveland Guardians,9 players,2026-10-19 20:17:20.000+00:00,2026-10-19 20:17:20+00:00,2026-10-20 00:08:00+00:00,MLB StatsAPI
+nhl,goalie_likely,New York Islanders,Ilya Sorokin,2026-10-20 14:28:58.806+00:00,2026-10-20 14:30:08+00:00,2026-10-20 23:00:00+00:00,Stefen Rosner
+nhl,goalie_confirmed,Columbus Blue Jackets,Jet Greaves,2026-10-20 14:34:17.006+00:00,2026-10-20 19:08:19+00:00,2026-10-20 23:00:00+00:00,Mark Scheig
+nhl,goalie_confirmed,Washington Capitals,Logan Thompson,2026-10-20 14:37:45.519+00:00,2026-10-21 02:10:23+00:00,2026-10-20 23:00:00+00:00,Sammi Silber
+nhl,goalie_confirmed,Colorado Avalanche,Scott Wedgewood,2026-10-20 14:40:44.588+00:00,2026-10-20 20:34:37+00:00,2026-10-20 23:00:00+00:00,Aarif Deen
+nhl,goalie_confirmed,New York Islanders,Ilya Sorokin,2026-10-20 14:45:30.017+00:00,2026-10-21 02:00:21+00:00,2026-10-20 23:00:00+00:00,Stefen Rosner
+nhl,goalie_confirmed,New Jersey Devils,Jake Allen,2026-10-20 14:57:50.180+00:00,2026-10-21 04:59:12+00:00,2026-10-20 23:00:00+00:00,Amanda Stein
+nhl,goalie_confirmed,Montreal Canadiens,Jakub Dobes,2026-10-20 14:58:25.902+00:00,2026-10-21 04:01:30+00:00,2026-10-20 23:00:00+00:00,Eric Engels
+nhl,goalie_likely,Los Angeles Kings,Darcy Kuemper,2026-10-20 15:13:53.936+00:00,2026-10-20 15:23:33+00:00,2026-10-20 23:00:00+00:00,Tom Gulitti
+nhl,goalie_confirmed,Dallas Stars,Jake Oettinger,2026-10-20 15:40:12.824+00:00,2026-10-21 00:18:45+00:00,2026-10-21 00:00:00+00:00,Bruce LeVine
+nhl,goalie_likely,St Louis Blues,Joel Hofer,2026-10-20 16:12:54.987+00:00,2026-10-20 16:36:24+00:00,2026-10-21 00:00:00+00:00,Lou Korac
+nhl,goalie_likely,Winnipeg Jets,Stuart Skinner,2026-10-20 16:34:41.581+00:00,2026-10-20 16:36:24+00:00,2026-10-21 00:00:00+00:00,Mitchell Clinton
+nhl,goalie_confirmed,Winnipeg Jets,Stuart Skinner,2026-10-20 16:46:50.620+00:00,2026-10-20 16:56:28+00:00,2026-10-21 00:00:00+00:00,Ken Wiebe
+nhl,goalie_confirmed,Boston Bruins,Jeremy Swayman,2026-10-20 16:50:26.483+00:00,2026-10-21 00:10:44+00:00,2026-10-21 00:00:00+00:00,Adam Pellerin
+nhl,goalie_confirmed,Seattle Kraken,Philipp Grubauer,2026-10-20 16:59:01.493+00:00,2026-10-20 18:40:30+00:00,2026-10-21 01:40:00+00:00,Sound of Hockey
+nhl,goalie_likely,Vancouver Canucks,Leevi Merilainen,2026-10-20 17:22:38.661+00:00,2026-10-20 17:29:08+00:00,2026-10-21 02:00:00+00:00,Jeff Paterson
+nhl,goalie_confirmed,Vegas Golden Knights,Carter Hart,2026-10-20 18:23:27.471+00:00,2026-10-21 02:58:38+00:00,2026-10-21 02:30:00+00:00,Sin Bin Vegas
+nhl,goalie_likely,Tampa Bay Lightning,Andrei Vasilevskiy,2026-10-20 18:24:29.036+00:00,2026-10-20 20:57:31+00:00,2026-10-21 02:30:00+00:00,Gabby Shirley
+nhl,goalie_confirmed,St Louis Blues,Joel Hofer,2026-10-20 18:26:04.326+00:00,2026-10-20 23:50:40+00:00,2026-10-21 00:00:00+00:00,Lou Korac
+nhl,goalie_likely,Carolina Hurricanes,Pyotr Kochetkov,2026-10-20 18:35:35.974+00:00,2026-10-20 18:40:30+00:00,2026-10-21 02:00:00+00:00,Walt Ruff
+nhl,goalie_likely,Edmonton Oilers,Devon Levi,2026-10-20 18:55:12.966+00:00,2026-10-20 23:22:19+00:00,2026-10-21 01:00:00+00:00,Jason Gregor
+nhl,goalie_likely,Minnesota Wild,Jesper Wallstedt,2026-10-20 18:55:46.418+00:00,2026-10-20 22:24:47+00:00,2026-10-21 01:00:00+00:00,Jason Gregor
+nhl,goalie_confirmed,Carolina Hurricanes,Pyotr Kochetkov,2026-10-20 20:24:17.643+00:00,2026-10-20 21:25:16+00:00,2026-10-21 02:00:00+00:00,Walt Ruff
+nhl,goalie_confirmed,San Jose Sharks,Alex Nedeljkovic,2026-10-20 20:49:17.098+00:00,2026-10-20 21:57:05+00:00,2026-10-20 23:00:00+00:00,Curtis Pashelka
+nhl,goalie_confirmed,Los Angeles Kings,Darcy Kuemper,2026-10-20 22:31:35.356+00:00,2026-10-21 00:18:45+00:00,2026-10-20 23:00:00+00:00,Zach Dooley
+nhl,goalie_confirmed,Edmonton Oilers,Devon Levi,2026-10-20 23:40:39.078+00:00,2026-10-21 05:28:02+00:00,2026-10-21 01:00:00+00:00,@EdmontonOilers
+nhl,goalie_confirmed,Minnesota Wild,Jesper Wallstedt,2026-10-21 00:50:50.278+00:00,2026-10-21 04:01:30+00:00,2026-10-21 01:00:00+00:00,NHL.com
+nhl,goalie_confirmed,Vancouver Canucks,Leevi Merilainen,2026-10-21 01:37:00.088+00:00,2026-10-21 04:01:30+00:00,2026-10-21 02:00:00+00:00,Brendan Batchelor
+nhl,goalie_confirmed,Tampa Bay Lightning,Andrei Vasilevskiy,2026-10-21 02:07:25.614+00:00,2026-10-21 04:59:12+00:00,2026-10-21 02:30:00+00:00,Jesse Granger
+nhl,goalie_likely,Buffalo Sabres,Ukko-Pekka Luukkonen,2026-10-21 14:33:26.497+00:00,2026-10-21 15:00:06+00:00,2026-10-21 23:30:00+00:00,Rachel Lenzi
+nhl,goalie_confirmed,Buffalo Sabres,Ukko-Pekka Luukkonen,2026-10-21 15:31:36.248+00:00,2026-10-21 23:23:47+00:00,2026-10-21 23:30:00+00:00,Mike Harrington
+nhl,goalie_likely,Philadelphia Flyers,Dan Vladar,2026-10-21 15:53:26.792+00:00,2026-10-21 15:58:03+00:00,2026-10-21 23:30:00+00:00,Jackie Spiegel
+nhl,goalie_likely,Ottawa Senators,Linus Ullmark,2026-10-21 15:53:55.722+00:00,2026-10-21 21:58:46+00:00,2026-10-21 23:30:00+00:00,Ottawa Senators
+nhl,goalie_confirmed,Philadelphia Flyers,Dan Vladar,2026-10-21 16:10:20.548+00:00,2026-10-22 05:01:34+00:00,2026-10-21 23:30:00+00:00,Heather Engel
+nhl,goalie_confirmed,Florida Panthers,Akira Schmid,2026-10-21 16:23:52.434+00:00,2026-10-21 22:26:23+00:00,2026-10-21 23:30:00+00:00,TSN 1200
+nhl,goalie_confirmed,Ottawa Senators,Linus Ullmark,2026-10-21 23:17:51.501+00:00,2026-10-21 23:22:39+00:00,2026-10-21 23:30:00+00:00,Graeme Nichols
+nhl,goalie_likely,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-22 14:24:59.057+00:00,2026-10-22 14:28:45+00:00,2026-10-22 23:00:00+00:00,David Alter
+nhl,goalie_likely,New York Islanders,Semyon Varlamov,2026-10-22 14:27:51.333+00:00,2026-10-22 14:28:45+00:00,2026-10-22 23:30:00+00:00,Stefen Rosner
+nhl,goalie_likely,Boston Bruins,Michael DiPietro,2026-10-22 14:29:08.737+00:00,2026-10-22 15:01:47+00:00,2026-10-22 23:00:00+00:00,Steve Conroy
+nhl,goalie_confirmed,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-22 14:40:45.826+00:00,2026-10-22 23:52:24+00:00,2026-10-22 23:00:00+00:00,Mark Masters
+nhl,goalie_confirmed,New York Islanders,Semyon Varlamov,2026-10-22 14:49:05.354+00:00,2026-10-22 18:05:54+00:00,2026-10-22 23:30:00+00:00,Stefen Rosner
+nhl,goalie_likely,New Jersey Devils,Nico Daws,2026-10-22 14:57:42.590+00:00,2026-10-22 15:01:47+00:00,2026-10-22 23:00:00+00:00,Amanda Stein
+nhl,goalie_confirmed,Boston Bruins,Michael DiPietro,2026-10-22 15:01:05.809+00:00,2026-10-22 20:24:52+00:00,2026-10-22 23:00:00+00:00,Amanda Stein
+nhl,goalie_likely,Pittsburgh Penguins,Arturs Silovs,2026-10-22 15:01:43.839+00:00,2026-10-22 15:06:48+00:00,2026-10-22 23:00:00+00:00,Dan Potash
+nhl,goalie_confirmed,New Jersey Devils,Nico Daws,2026-10-22 15:31:27.632+00:00,2026-10-23 03:00:19+00:00,2026-10-22 23:00:00+00:00,Daniel Amoia
+nhl,goalie_confirmed,St Louis Blues,Joel Hofer,2026-10-22 15:39:20.595+00:00,2026-10-22 23:23:47+00:00,2026-10-23 00:00:00+00:00,Matthew DeFranks
+nhl,goalie_confirmed,New York Rangers,Dylan Garand,2026-10-22 15:42:20.759+00:00,2026-10-22 20:26:45+00:00,2026-10-22 23:00:00+00:00,Mollie Walker
+nhl,goalie_confirmed,Pittsburgh Penguins,Arturs Silovs,2026-10-22 15:49:49.370+00:00,2026-10-22 21:59:16+00:00,2026-10-22 23:00:00+00:00,Pens Inside Scoop
+nhl,goalie_likely,San Jose Sharks,Yaroslav Askarov,2026-10-22 15:51:30.906+00:00,2026-10-22 15:59:45+00:00,2026-10-22 23:00:00+00:00,Max Miller
+nhl,goalie_likely,Los Angeles Kings,Darcy Kuemper,2026-10-22 15:58:11.545+00:00,2026-10-22 16:32:59+00:00,2026-10-22 23:30:00+00:00,Stephen Whyno
+nhl,goalie_confirmed,San Jose Sharks,Yaroslav Askarov,2026-10-22 16:03:45.463+00:00,2026-10-22 17:55:33+00:00,2026-10-22 23:00:00+00:00,Sheng Peng
+nhl,goalie_confirmed,Anaheim Ducks,Ville Husso,2026-10-22 16:18:45.646+00:00,2026-10-23 03:31:11+00:00,2026-10-22 23:00:00+00:00,Zach Dooley
+nhl,goalie_confirmed,Dallas Stars,Jake Oettinger,2026-10-22 16:26:48.905+00:00,2026-10-23 00:17:28+00:00,2026-10-23 00:00:00+00:00,Brien Rea
+nhl,goalie_likely,Winnipeg Jets,Stuart Skinner,2026-10-22 16:32:43.980+00:00,2026-10-22 16:53:03+00:00,2026-10-23 00:00:00+00:00,Mitchell Clinton
+nhl,goalie_confirmed,Edmonton Oilers,Devon Levi,2026-10-22 16:48:59.484+00:00,2026-10-22 20:59:08+00:00,2026-10-23 01:00:00+00:00,Jason Gregor
+nhl,goalie_likely,Ottawa Senators,Samuel Ersson,2026-10-22 16:50:14.526+00:00,2026-10-22 20:24:52+00:00,2026-10-22 23:00:00+00:00,Muurray Pam
+nhl,goalie_likely,Vegas Golden Knights,Adin Hill,2026-10-22 17:10:16.539+00:00,2026-10-22 22:36:52+00:00,2026-10-23 00:00:00+00:00,Lou Korac
+nhl,goalie_confirmed,Calgary Flames,Devin Cooley,2026-10-22 17:11:50.978+00:00,2026-10-22 21:27:07+00:00,2026-10-23 01:00:00+00:00,Pat Steinberg
+nhl,goalie_likely,Minnesota Wild,Jesper Wallstedt,2026-10-22 17:54:22.294+00:00,2026-10-22 20:26:45+00:00,2026-10-23 01:00:00+00:00,Joe Smith
+nhl,goalie_confirmed,Winnipeg Jets,Stuart Skinner,2026-10-22 17:59:30.809+00:00,2026-10-22 18:28:08+00:00,2026-10-23 00:00:00+00:00,Ken Wiebe
+nhl,goalie_likely,Florida Panthers,Cooper Black,2026-10-22 18:22:18.342+00:00,2026-10-22 20:26:45+00:00,2026-10-22 23:00:00+00:00,George Richards
+nhl,goalie_likely,Carolina Hurricanes,Brandon Bussi,2026-10-22 18:53:42.839+00:00,2026-10-22 22:36:52+00:00,2026-10-23 01:00:00+00:00,Walt Ruff
+mlb,probable_away,Tampa Bay Rays,Nick Martinez,2026-10-22 20:21:12.000+00:00,2026-10-22 20:21:12+00:00,2026-10-24 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Florida Panthers,Cooper Black,2026-10-22 20:26:10.427+00:00,2026-10-23 00:17:28+00:00,2026-10-22 23:00:00+00:00,Jameson Olive
+nhl,goalie_confirmed,Ottawa Senators,Samuel Ersson,2026-10-22 20:51:13.633+00:00,2026-10-22 22:56:12+00:00,2026-10-22 23:00:00+00:00,Andrew Wilimek
+nhl,goalie_confirmed,Minnesota Wild,Jesper Wallstedt,2026-10-22 21:35:02.817+00:00,2026-10-22 23:16:14+00:00,2026-10-23 01:00:00+00:00,Dylan Loucks
+nhl,goalie_confirmed,Nashville Predators,Justus Annunen,2026-10-22 22:31:00.383+00:00,2026-10-23 04:58:46+00:00,2026-10-22 23:00:00+00:00,Brooks Bratten
+nhl,goalie_confirmed,Los Angeles Kings,Darcy Kuemper,2026-10-22 23:00:30.702+00:00,2026-10-23 05:26:27+00:00,2026-10-22 23:30:00+00:00,Stefen Rosner
+nhl,goalie_confirmed,Vegas Golden Knights,Adin Hill,2026-10-22 23:30:54.253+00:00,2026-10-23 01:38:29+00:00,2026-10-23 00:00:00+00:00,Matthew DeFranks
+nhl,goalie_confirmed,Carolina Hurricanes,Brandon Bussi,2026-10-23 00:37:45.169+00:00,2026-10-23 05:58:54+00:00,2026-10-23 01:00:00+00:00,Walt Ruff
+nhl,goalie_confirmed,Vancouver Canucks,Kevin Lankinen,2026-10-23 01:30:39.891+00:00,2026-10-23 02:00:57+00:00,2026-10-23 02:00:00+00:00,Brendan Batchelor
+nhl,goalie_confirmed,Utah Mammoth,Karel Vejmelka,2026-10-23 01:31:02.287+00:00,2026-10-23 03:31:11+00:00,2026-10-23 02:00:00+00:00,Catherine Bogart
+nhl,goalie_confirmed,Detroit Red Wings,John Gibson,2026-10-23 01:31:34.687+00:00,2026-10-23 04:58:46+00:00,2026-10-23 02:00:00+00:00,Thomas Drance
+nhl,goalie_confirmed,Seattle Kraken,Philipp Grubauer,2026-10-23 01:35:22.575+00:00,2026-10-23 04:22:13+00:00,2026-10-23 02:00:00+00:00,@CirclingSports
+nhl,goalie_likely,Chicago Blackhawks,Spencer Knight,2026-10-23 15:25:15.697+00:00,2026-10-23 15:29:02+00:00,2026-10-24 00:00:00+00:00,Charlie Roumeliotis
+nhl,goalie_confirmed,Colorado Avalanche,Mackenzie Blackwood,2026-10-23 16:26:32.640+00:00,2026-10-24 03:59:06+00:00,2026-10-24 01:00:00+00:00,Evan Rawal
+nhl,goalie_confirmed,Montreal Canadiens,Jacob Fowler,2026-10-23 17:12:10.576+00:00,2026-10-24 02:57:47+00:00,2026-10-24 00:00:00+00:00,Eric Engels
+nhl,goalie_confirmed,Chicago Blackhawks,Spencer Knight,2026-10-23 17:38:57.370+00:00,2026-10-24 03:59:06+00:00,2026-10-24 00:00:00+00:00,Chicago Blackhawks
+nhl,goalie_confirmed,Tampa Bay Lightning,Andrei Vasilevskiy,2026-10-23 17:44:29.480+00:00,2026-10-23 23:22:15+00:00,2026-10-24 01:00:00+00:00,Gabby Shirley
+nhl,goalie_confirmed,Edmonton Oilers,Tristan Jarry,2026-10-23 18:50:20.460+00:00,2026-10-24 18:56:50+00:00,2026-10-24 23:00:00+00:00,Jason Gregor
+mlb,lineup_home,Milwaukee Brewers,9 players,2026-10-23 20:04:45.000+00:00,2026-10-23 20:04:45+00:00,2026-10-24 00:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-23 20:16:46.000+00:00,2026-10-23 20:16:46+00:00,2026-10-24 00:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-23 21:11:39.000+00:00,2026-10-23 21:11:39+00:00,2026-10-24 00:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-23 22:25:01.000+00:00,2026-10-23 22:25:01+00:00,2026-10-24 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_likely,Columbus Blue Jackets,Cam Talbot,2026-10-24 14:34:34.959+00:00,2026-10-24 14:52:38+00:00,2026-10-24 23:00:00+00:00,Mark Scheig
+nhl,goalie_confirmed,Washington Capitals,Charlie Lindgren,2026-10-24 14:45:41.433+00:00,2026-10-24 16:31:01+00:00,2026-10-24 23:00:00+00:00,Sammi Silber
+nhl,goalie_likely,Ottawa Senators,Jonas Johansson,2026-10-24 14:49:44.306+00:00,2026-10-24 14:52:38+00:00,2026-10-24 23:00:00+00:00,Bruce Garrioch
+nhl,goalie_confirmed,Philadelphia Flyers,Joseph Woll,2026-10-24 14:50:13.988+00:00,2026-10-24 17:55:25+00:00,2026-10-24 17:00:00+00:00,Philadelphia Flyers
+nhl,goalie_confirmed,Boston Bruins,Jeremy Swayman,2026-10-24 14:59:19.712+00:00,2026-10-25 01:06:12+00:00,2026-10-24 23:00:00+00:00,Jack Studley
+nhl,goalie_likely,Pittsburgh Penguins,Arturs Silovs,2026-10-24 15:01:09.604+00:00,2026-10-24 16:55:12+00:00,2026-10-24 23:00:00+00:00,Dan Potash
+nhl,goalie_confirmed,Pittsburgh Penguins,Arturs Silovs,2026-10-24 15:01:09.604+00:00,2026-10-25 04:24:59+00:00,2026-10-24 23:00:00+00:00,Pittsburgh Penguins
+nhl,goalie_confirmed,Ottawa Senators,Jonas Johansson,2026-10-24 15:15:50.280+00:00,2026-10-24 23:15:16+00:00,2026-10-24 23:00:00+00:00,TSN 1200
+nhl,goalie_likely,Buffalo Sabres,Ukko-Pekka Luukkonen,2026-10-24 15:30:51.810+00:00,2026-10-24 15:40:17+00:00,2026-10-24 23:00:00+00:00,Matthew Fairburn
+nhl,goalie_confirmed,Columbus Blue Jackets,Cam Talbot,2026-10-24 15:32:32.146+00:00,2026-10-24 15:53:26+00:00,2026-10-24 23:00:00+00:00,Mark Scheig
+nhl,goalie_likely,Vegas Golden Knights,Carter Hart,2026-10-24 15:36:48.049+00:00,2026-10-24 19:51:59+00:00,2026-10-24 23:00:00+00:00,Mark Scheig
+nhl,goalie_confirmed,New York Rangers,Dylan Garand,2026-10-24 15:37:42.216+00:00,2026-10-24 23:17:49+00:00,2026-10-24 23:00:00+00:00,Mollie Walker
+nhl,goalie_confirmed,Buffalo Sabres,Ukko-Pekka Luukkonen,2026-10-24 15:43:35.500+00:00,2026-10-25 02:23:55+00:00,2026-10-24 23:00:00+00:00,Mike Harrington
+nhl,goalie_confirmed,St Louis Blues,Joel Hofer,2026-10-24 15:44:23.131+00:00,2026-10-24 22:34:52+00:00,2026-10-24 23:00:00+00:00,Lou Korac
+nhl,goalie_likely,San Jose Sharks,Alex Nedeljkovic,2026-10-24 15:55:25.448+00:00,2026-10-24 15:58:27+00:00,2026-10-24 23:00:00+00:00,Curtis Pashelka
+nhl,goalie_confirmed,Nashville Predators,Juuse Saros,2026-10-24 15:56:16.281+00:00,2026-10-24 17:37:51+00:00,2026-10-24 23:00:00+00:00,Mex Herz
+nhl,goalie_confirmed,San Jose Sharks,Alex Nedeljkovic,2026-10-24 16:06:01.887+00:00,2026-10-25 01:06:12+00:00,2026-10-24 23:00:00+00:00,Sheng Peng
+nhl,goalie_confirmed,Calgary Flames,Devin Cooley,2026-10-24 16:24:22.507+00:00,2026-10-24 17:22:47+00:00,2026-10-25 02:00:00+00:00,Pat Steinberg
+nhl,goalie_confirmed,Anaheim Ducks,Lukas Dostal,2026-10-24 16:38:16.530+00:00,2026-10-25 05:02:07+00:00,2026-10-24 17:00:00+00:00,Derek Lee
+nhl,goalie_likely,Utah Mammoth,Karel Vejmelka,2026-10-24 17:11:59.953+00:00,2026-10-24 22:19:49+00:00,2026-10-25 01:00:00+00:00,Cole Bagley
+nhl,goalie_confirmed,New Jersey Devils,Jake Allen,2026-10-24 17:31:56.013+00:00,2026-10-24 20:34:36+00:00,2026-10-24 19:30:00+00:00,Daniel Amoia
+nhl,goalie_confirmed,Detroit Red Wings,John Gibson,2026-10-24 17:52:44.365+00:00,2026-10-24 19:24:25+00:00,2026-10-25 02:00:00+00:00,Ryan Pike
+nhl,goalie_confirmed,Minnesota Wild,Jesper Wallstedt,2026-10-24 18:37:27.914+00:00,2026-10-25 03:25:59+00:00,2026-10-25 02:00:00+00:00,Joe O'Donnell
+nhl,goalie_confirmed,Minnesota Wild,Calvin Pickard,2026-10-24 18:43:22.743+00:00,2026-10-25 18:18:46+00:00,2026-10-26 02:00:00+00:00,Joe Smith
+nhl,goalie_confirmed,Los Angeles Kings,Anton Forsberg,2026-10-24 19:00:24.293+00:00,2026-10-24 19:01:50+00:00,2026-10-24 19:30:00+00:00,Zach Dooley
+nhl,goalie_confirmed,Florida Panthers,Akira Schmid,2026-10-24 19:29:40.239+00:00,2026-10-25 06:23:20+00:00,2026-10-25 19:00:00+00:00,Jameson Olive
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-24 20:02:01.000+00:00,2026-10-24 20:02:01+00:00,2026-10-25 00:00:00+00:00,MLB StatsAPI
+mlb,lineup_home,Milwaukee Brewers,9 players,2026-10-24 20:18:03.000+00:00,2026-10-24 20:18:03+00:00,2026-10-25 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_likely,Seattle Kraken,Joey Daccord,2026-10-24 20:31:39.541+00:00,2026-10-24 20:51:10+00:00,2026-10-25 02:00:00+00:00,Mike Benton
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-24 20:41:37.000+00:00,2026-10-24 20:41:37+00:00,2026-10-25 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Toronto Maple Leafs,Anthony Stolarz,2026-10-24 20:54:34.227+00:00,2026-10-25 05:02:07+00:00,2026-10-24 23:00:00+00:00,Mark Masters
+nhl,goalie_confirmed,Carolina Hurricanes,Pyotr Kochetkov,2026-10-24 22:32:34.088+00:00,2026-10-24 23:15:16+00:00,2026-10-24 23:00:00+00:00,Matthew DeFranks
+nhl,goalie_confirmed,Vegas Golden Knights,Carter Hart,2026-10-24 22:33:02.238+00:00,2026-10-24 23:15:16+00:00,2026-10-24 23:00:00+00:00,Mark Scheig
+mlb,lineup_away,Tampa Bay Rays,9 players,2026-10-24 22:56:13.000+00:00,2026-10-24 22:56:13+00:00,2026-10-25 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Utah Mammoth,Karel Vejmelka,2026-10-25 00:32:10.436+00:00,2026-10-25 05:55:42+00:00,2026-10-25 01:00:00+00:00,Utah Mammoth
+nhl,goalie_confirmed,Tampa Bay Lightning,Dennis Hildeby,2026-10-25 00:33:19.708+00:00,2026-10-25 04:28:36+00:00,2026-10-25 01:00:00+00:00,Gabby Shirley
+nhl,goalie_confirmed,Seattle Kraken,Joey Daccord,2026-10-25 01:44:09.859+00:00,2026-10-25 02:58:27+00:00,2026-10-25 02:00:00+00:00,Sound of Hockey
+nhl,goalie_likely,New York Islanders,Ilya Sorokin,2026-10-25 15:46:08.660+00:00,2026-10-25 17:22:53+00:00,2026-10-25 22:00:00+00:00,Andrew Gross
+nhl,goalie_likely,Colorado Avalanche,Scott Wedgewood,2026-10-25 17:08:32.671+00:00,2026-10-25 21:51:22+00:00,2026-10-26 00:00:00+00:00,Conor McGahey
+nhl,goalie_likely,Vancouver Canucks,Leevi Merilainen,2026-10-25 17:18:56.266+00:00,2026-10-25 23:47:11+00:00,2026-10-26 02:00:00+00:00,Jeff Paterson
+nhl,goalie_likely,Nashville Predators,Justus Annunen,2026-10-25 17:24:44.442+00:00,2026-10-25 17:51:05+00:00,2026-10-26 00:00:00+00:00,Max Herz
+nhl,goalie_confirmed,Chicago Blackhawks,Spencer Knight,2026-10-25 18:30:22.059+00:00,2026-10-26 01:20:46+00:00,2026-10-25 19:00:00+00:00,Vinnie Parise
+nhl,goalie_confirmed,Montreal Canadiens,Jacob Fowler,2026-10-25 20:34:43.836+00:00,2026-10-25 23:47:11+00:00,2026-10-25 23:00:00+00:00,Eric Engels
+nhl,goalie_confirmed,New York Islanders,Ilya Sorokin,2026-10-25 20:41:19.351+00:00,2026-10-26 05:04:42+00:00,2026-10-25 22:00:00+00:00,Stefen Rosner
+nhl,goalie_confirmed,Dallas Stars,Jake Oettinger,2026-10-25 20:48:24.572+00:00,2026-10-25 23:16:21+00:00,2026-10-25 22:00:00+00:00,Bruce LeVine
+nhl,goalie_confirmed,Winnipeg Jets,Stuart Skinner,2026-10-25 22:42:20.595+00:00,2026-10-26 05:04:42+00:00,2026-10-25 23:00:00+00:00,Winnipeg Jets
+nhl,goalie_confirmed,Nashville Predators,Justus Annunen,2026-10-25 23:30:18.583+00:00,2026-10-26 01:40:48+00:00,2026-10-26 00:00:00+00:00,Nick Kieser
+nhl,goalie_confirmed,Colorado Avalanche,Scott Wedgewood,2026-10-25 23:30:27.008+00:00,2026-10-26 01:20:46+00:00,2026-10-26 00:00:00+00:00,Nick Kieser
+nhl,goalie_confirmed,Vancouver Canucks,Leevi Merilainen,2026-10-26 01:38:54.958+00:00,2026-10-26 01:40:48+00:00,2026-10-26 02:00:00+00:00,Brendan Batchelor
+nhl,goalie_likely,New York Rangers,James Reimer,2026-10-26 14:57:18.613+00:00,2026-10-26 15:28:21+00:00,2026-10-26 23:00:00+00:00,Coline Stepenson
+nhl,goalie_confirmed,Calgary Flames,Devin Cooley,2026-10-26 15:23:15.174+00:00,2026-10-27 00:20:00+00:00,2026-10-27 00:30:00+00:00,Pat Steinberg
+nhl,goalie_confirmed,New York Rangers,James Reimer,2026-10-26 15:40:54.179+00:00,2026-10-27 05:59:49+00:00,2026-10-26 23:00:00+00:00,Vince Mercogliano
+nhl,goalie_likely,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-26 16:37:16.555+00:00,2026-10-26 21:58:13+00:00,2026-10-27 00:30:00+00:00,Luke Fox
+nhl,goalie_likely,Los Angeles Kings,Darcy Kuemper,2026-10-26 16:40:17.191+00:00,2026-10-26 20:30:03+00:00,2026-10-26 23:00:00+00:00,Zach Dooley
+nhl,goalie_confirmed,Detroit Red Wings,Michal Postava,2026-10-26 17:42:20.698+00:00,2026-10-27 05:59:49+00:00,2026-10-27 01:30:00+00:00,Jonathan Mills
+nhl,goalie_confirmed,Edmonton Oilers,Tristan Jarry,2026-10-26 17:49:54.879+00:00,2026-10-26 20:00:02+00:00,2026-10-27 01:30:00+00:00,Edmonton Oilers
+mlb,lineup_home,Tampa Bay Rays,9 players,2026-10-26 20:02:03.000+00:00,2026-10-26 20:02:03+00:00,2026-10-27 00:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Milwaukee Brewers,9 players,2026-10-26 20:30:03.000+00:00,2026-10-26 20:30:03+00:00,2026-10-27 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Los Angeles Kings,Darcy Kuemper,2026-10-26 22:30:40.771+00:00,2026-10-27 00:22:44+00:00,2026-10-26 23:00:00+00:00,Zach Dooley
+nhl,goalie_confirmed,Toronto Maple Leafs,Sergei Bobrovsky,2026-10-27 00:05:05.519+00:00,2026-10-27 05:00:25+00:00,2026-10-27 00:30:00+00:00,Ryan Pike
+mlb,probable_home,Tampa Bay Rays,Griffin Jax,2026-10-27 04:01:29.000+00:00,2026-10-27 04:01:29+00:00,2026-10-28 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Philadelphia Flyers,Dan Vladar,2026-10-27 14:31:22.614+00:00,2026-10-27 23:21:15+00:00,2026-10-27 23:00:00+00:00,Charlie O'Connor
+nhl,goalie_likely,Carolina Hurricanes,Pyotr Kochetkov,2026-10-27 14:33:45.281+00:00,2026-10-27 15:37:26+00:00,2026-10-28 00:00:00+00:00,Walt Ruff
+nhl,goalie_likely,Winnipeg Jets,Clay Stevenson,2026-10-27 15:22:57.006+00:00,2026-10-27 15:27:24+00:00,2026-10-28 00:00:00+00:00,Mitchell Clinton
+nhl,goalie_confirmed,Chicago Blackhawks,Spencer Knight,2026-10-27 15:24:13.436+00:00,2026-10-27 17:09:35+00:00,2026-10-28 00:00:00+00:00,Charlie Roumeliotis
+nhl,goalie_likely,St Louis Blues,Jordan Binnington,2026-10-27 15:32:39.545+00:00,2026-10-27 16:08:37+00:00,2026-10-28 00:00:00+00:00,Matthew DeFranks
+nhl,goalie_likely,Nashville Predators,Juuse Saros,2026-10-27 15:35:20.771+00:00,2026-10-27 18:04:29+00:00,2026-10-28 00:00:00+00:00,Stefen Rosner
+nhl,goalie_confirmed,Dallas Stars,Casey DeSmith,2026-10-27 15:36:37.960+00:00,2026-10-27 20:34:33+00:00,2026-10-28 00:00:00+00:00,Bruce LeVine
+nhl,goalie_confirmed,Winnipeg Jets,Clay Stevenson,2026-10-27 15:50:27.452+00:00,2026-10-27 23:21:15+00:00,2026-10-28 00:00:00+00:00,Mike McIntyre
+nhl,goalie_confirmed,Boston Bruins,Jeremy Swayman,2026-10-27 15:57:24.673+00:00,2026-10-28 05:30:05+00:00,2026-10-28 00:00:00+00:00,Adam Pellerin
+nhl,goalie_confirmed,Columbus Blue Jackets,Cam Talbot,2026-10-27 16:05:25.056+00:00,2026-10-27 22:33:24+00:00,2026-10-27 23:00:00+00:00,Jackie Spiegel
+nhl,goalie_likely,New York Islanders,Semyon Varlamov,2026-10-27 16:29:34.092+00:00,2026-10-27 17:24:36+00:00,2026-10-28 00:00:00+00:00,Andrew Gross
+nhl,goalie_likely,Utah Mammoth,Karel Vejmelka,2026-10-27 16:56:25.244+00:00,2026-10-27 17:19:36+00:00,2026-10-28 01:00:00+00:00,Cole Bagley
+nhl,goalie_confirmed,New Jersey Devils,Connor Hellebuyck,2026-10-27 16:56:51.085+00:00,2026-10-27 18:04:29+00:00,2026-10-28 00:00:00+00:00,Peter Baugh
+nhl,goalie_confirmed,Minnesota Wild,Jesper Wallstedt,2026-10-27 17:04:50.150+00:00,2026-10-27 21:23:48+00:00,2026-10-28 01:00:00+00:00,Joe O'Donnell
+nhl,goalie_confirmed,St Louis Blues,Jordan Binnington,2026-10-27 17:16:20.450+00:00,2026-10-28 01:35:33+00:00,2026-10-28 00:00:00+00:00,Lou Korac
+nhl,goalie_confirmed,Montreal Canadiens,Jacob Fowler,2026-10-27 17:17:23.823+00:00,2026-10-27 17:19:36+00:00,2026-10-28 00:00:00+00:00,Marc Denis
+nhl,goalie_confirmed,Florida Panthers,Akira Schmid,2026-10-27 17:19:51.606+00:00,2026-10-28 01:35:33+00:00,2026-10-28 00:00:00+00:00,Jameson Olive
+nhl,goalie_likely,Los Angeles Kings,Anton Forsberg,2026-10-27 17:37:56.785+00:00,2026-10-27 23:21:15+00:00,2026-10-28 00:00:00+00:00,Zach Dooley
+nhl,goalie_confirmed,Ottawa Senators,Jonas Johansson,2026-10-27 17:38:53.189+00:00,2026-10-27 21:59:50+00:00,2026-10-28 02:00:00+00:00,Jackson Starr
+nhl,goalie_confirmed,Utah Mammoth,Karel Vejmelka,2026-10-27 17:41:34.433+00:00,2026-10-28 00:20:44+00:00,2026-10-28 01:00:00+00:00,Cole Bagley
+nhl,goalie_confirmed,San Jose Sharks,Yaroslav Askarov,2026-10-27 17:53:02.308+00:00,2026-10-28 00:20:44+00:00,2026-10-28 02:30:00+00:00,Sheng Peng
+nhl,goalie_confirmed,Anaheim Ducks,Lukas Dostal,2026-10-27 17:54:19.923+00:00,2026-10-28 00:20:44+00:00,2026-10-28 02:00:00+00:00,Derek Lee
+nhl,goalie_likely,Buffalo Sabres,Colten Ellis,2026-10-27 18:00:56.736+00:00,2026-10-27 21:59:50+00:00,2026-10-28 02:30:00+00:00,Rachel Lenzi
+nhl,goalie_confirmed,Vegas Golden Knights,Adin Hill,2026-10-27 18:47:43.886+00:00,2026-10-28 01:35:33+00:00,2026-10-28 02:00:00+00:00,Danny Webster
+nhl,goalie_confirmed,New York Islanders,Semyon Varlamov,2026-10-27 19:01:57.637+00:00,2026-10-28 01:35:33+00:00,2026-10-28 00:00:00+00:00,Stefen Rosner
+mlb,lineup_home,Tampa Bay Rays,9 players,2026-10-27 20:02:17.000+00:00,2026-10-27 20:02:17+00:00,2026-10-28 00:00:00+00:00,MLB StatsAPI
+mlb,probable_away,Milwaukee Brewers,Dustin May,2026-10-27 20:34:33.000+00:00,2026-10-27 20:34:33+00:00,2026-10-28 00:00:00+00:00,MLB StatsAPI
+mlb,lineup_away,Milwaukee Brewers,9 players,2026-10-27 20:34:33.000+00:00,2026-10-27 20:34:33+00:00,2026-10-28 00:00:00+00:00,MLB StatsAPI
+nhl,goalie_confirmed,Nashville Predators,Juuse Saros,2026-10-27 23:30:53.517+00:00,2026-10-27 23:55:01+00:00,2026-10-28 00:00:00+00:00,Nick Kieser
+nhl,goalie_confirmed,Carolina Hurricanes,Pyotr Kochetkov,2026-10-27 23:31:32.866+00:00,2026-10-27 23:55:01+00:00,2026-10-28 00:00:00+00:00,Ryan Henkel
+nhl,goalie_confirmed,Los Angeles Kings,Anton Forsberg,2026-10-27 23:32:11.179+00:00,2026-10-28 02:33:44+00:00,2026-10-28 00:00:00+00:00,Zach Dooley
+nhl,goalie_confirmed,Vancouver Canucks,Leevi Merilainen,2026-10-28 01:30:41.604+00:00,2026-10-28 03:31:25+00:00,2026-10-28 02:00:00+00:00,@CanucksInsider
+nhl,goalie_confirmed,Buffalo Sabres,Colten Ellis,2026-10-28 02:07:52.239+00:00,2026-10-28 02:33:44+00:00,2026-10-28 02:30:00+00:00,Max Miller
+nhl,goalie_confirmed,New Jersey Devils,Jake Allen,2026-10-28 03:10:22.372+00:00,2026-10-28 08:38:36+00:00,2026-10-29 01:00:00+00:00,Peter Baugh
+mlb,probable_away,Milwaukee Brewers,Jacob Misiorowski,2026-10-28 04:45:46.000+00:00,2026-10-28 04:45:46+00:00,2026-10-29 00:00:00+00:00,MLB StatsAPI
