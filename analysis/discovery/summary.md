@@ -1,127 +1,129 @@
-# Polymarket US discovery 2026-10-27T08:44:27+00:00
+# Polymarket US discovery 2026-10-28T08:53:06+00:00
 
 389 leagues listed.
 
 | Sport | Slug | Listed | Events | Next 36h | Main lines to record (next 36h) | Unclassified types | Note |
 |---|---|---|---|---|---|---|---|
-| mlb | mlb | yes | 1 | 1 | 44 | BASEBALL_PLAYER_STRIKEOUTS, BASEBALL_TEAM_TOTAL_RUNS, BASEBALL_PLAYER_HITS_RUNS_RBIS, BASEBALL_PLAYER_HITS, BASEBALL_PLAYER_TOTAL_BASES, BASEBALL_PLAYER_EARNED_RUNS_ALLOWED, BASEBALL_TEAM_FIRST_INNING_RUN, BASEBALL_PLAYER_HITS_ALLOWED, BASEBALL_PLAYER_WALKS_ALLOWED, BASEBALL_PLAYER_RBIS, BASEBALL_PLAYER_HOME_RUNS, BASEBALL_GAME_EXTRA_INNINGS, BASEBALL_PLAYER_OUTS |  |
-| nba | nba | yes | 108 | 4 | 12 | BASKETBALL_PLAYER_POINTS, BASKETBALL_PLAYER_STEALS, BASKETBALL_PLAYER_REBOUNDS, BASKETBALL_PLAYER_THREES, BASKETBALL_PLAYER_BLOCKS, BASKETBALL_PLAYER_ASSISTS, BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS |  |
+| mlb | mlb | yes | 1 | 1 | 44 | BASEBALL_PLAYER_STRIKEOUTS, BASEBALL_TEAM_TOTAL_RUNS, BASEBALL_PLAYER_HITS_RUNS_RBIS, BASEBALL_PLAYER_HITS, BASEBALL_PLAYER_OUTS, BASEBALL_PLAYER_TOTAL_BASES, BASEBALL_PLAYER_EARNED_RUNS_ALLOWED, BASEBALL_TEAM_FIRST_INNING_RUN, BASEBALL_PLAYER_RBIS, BASEBALL_PLAYER_HOME_RUNS, BASEBALL_GAME_EXTRA_INNINGS, BASEBALL_PLAYER_HITS_ALLOWED, BASEBALL_PLAYER_STOLEN_BASES |  |
+| nba | nba | yes | 114 | 12 | 36 | BASKETBALL_PLAYER_REBOUNDS, BASKETBALL_PLAYER_THREES, BASKETBALL_PLAYER_POINTS, BASKETBALL_PLAYER_ASSISTS, BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS, BASKETBALL_PLAYER_BLOCKS, BASKETBALL_PLAYER_STEALS |  |
 | ncaab | cbb | yes | 0 | 0 | 0 | - | candidates: bbl, bcl, kbl, slb, ebattlesebb, ebattlesebbec |
-| nhl | nhl | yes | 39 | 11 | 231 | HOCKEY_TEAM_TOTAL_GOALS, HOCKEY_GAME_FIRST_TEAM_TO_SCORE, HOCKEY_PLAYER_ASSISTS, HOCKEY_PLAYER_POINTS, HOCKEY_PLAYER_GOALS, HOCKEY_GAME_OVERTIME, HOCKEY_GAME_SHOOTOUT |  |
+| nhl | nhl | yes | 33 | 4 | 84 | HOCKEY_TEAM_TOTAL_GOALS, HOCKEY_GAME_FIRST_TEAM_TO_SCORE, HOCKEY_PLAYER_POINTS, HOCKEY_PLAYER_ASSISTS, HOCKEY_PLAYER_GOALS, HOCKEY_GAME_OVERTIME, HOCKEY_GAME_SHOOTOUT |  |
 | nfl | nfl | yes | 29 | 0 | 0 | - |  |
-| cs2 | cs2 | yes | 21 | 18 | 86 | - |  |
-| lol | lol | yes | 6 | 1 | 1 | ESPORTS_GAME_WINNER_1, ESPORTS_GAME_WINNER_2 |  |
+| cs2 | cs2 | yes | 24 | 20 | 80 | - |  |
+| lol | lol | yes | 6 | 3 | 3 | ESPORTS_SERIES_GAME_HANDICAP, ESPORTS_SERIES_TOTAL_GAMES, ESPORTS_GAME_WINNER_1, ESPORTS_GAME_WINNER_2 |  |
 | epl | epl | yes | 10 | 0 | 0 | - |  |
 | laliga | lal | yes | 10 | 0 | 0 | - |  |
 | bundesliga | bun | yes | 9 | 0 | 0 | - |  |
-| seriea | sea | yes | 20 | 8 | 96 | SOCCER_GAME_FIRST_HALF_EXACT_SCORE, SOCCER_TEAM_TOTAL_GOALS, SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF, SOCCER_GAME_TOTAL_CORNERS, SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_EXACT_SCORE, SOCCER_GAME_FIRST_TEAM_TO_SCORE, SOCCER_GAME_FIRST_HALF_BTTS, SOCCER_GAME_SECOND_HALF_BTTS, SOCCER_PLAYER_GOALS, SOCCER_GAME_BTTS |  |
+| seriea | sea | yes | 17 | 7 | 84 | SOCCER_TEAM_TOTAL_GOALS, SOCCER_GAME_EXACT_SCORE, SOCCER_GAME_TOTAL_CORNERS, SOCCER_GAME_FIRST_HALF_EXACT_SCORE, SOCCER_GAME_SECOND_HALF_BTTS, SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_FIRST_TEAM_TO_SCORE, SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF, SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_FIRST_HALF_BTTS, SOCCER_PLAYER_GOALS, SOCCER_GAME_BTTS |  |
 | ligue1 | lg1 | yes | 9 | 0 | 0 | - |  |
 
 ## Market types seen, with one example each
 
 | Sport | Raw type | Class/segment | Count | Example question | Line | Sides |
 |---|---|---|---|---|---|---|
-| mlb | BASEBALL_GAME_EXTRA_INNINGS | OTHER/UNKNOWN | 1 | Will Game 4: MIL Brewers vs. TB Rays go to extra innings? | 10 | astatc-mlb-mil-tb-2026-10-27-xi (team 3026) @0.10; astatc-mlb-mil-tb-2026-10-27-xi (team 3 |
-| mlb | BASEBALL_PLAYER_EARNED_RUNS_ALLOWED | OTHER/UNKNOWN | 2 | Will Griffin Jax record at least 2 earned runs allowed in Ga | 2 | astatc-mlb-mil-tb-2026-10-27-er-grijax-gte2 (team 3026) @0.42; astatc-mlb-mil-tb-2026-10-2 |
-| mlb | BASEBALL_PLAYER_HITS | OTHER/UNKNOWN | 33 | Will Jackson Chourio record at least 1 hits in Game 4: MIL B | 1 | astatc-mlb-mil-tb-2026-10-27-hits-jaccho-gte1 (team 3016) @0.69; astatc-mlb-mil-tb-2026-10 |
-| mlb | BASEBALL_PLAYER_HITS_ALLOWED | OTHER/UNKNOWN | 3 | Will Griffin Jax record at least 4 hits allowed in Game 4: M | 4 | astatc-mlb-mil-tb-2026-10-27-ha-grijax-gte4 (team 3026) @0.42; astatc-mlb-mil-tb-2026-10-2 |
-| mlb | BASEBALL_PLAYER_HITS_RUNS_RBIS | OTHER/UNKNOWN | 66 | Will William Contreras record at least 2 hits + runs + RBIs  | 2 | astatc-mlb-mil-tb-2026-10-27-hrr-wilcon2-gte2 (team 3016) @0.49; astatc-mlb-mil-tb-2026-10 |
-| mlb | BASEBALL_PLAYER_HOME_RUNS | OTHER/UNKNOWN | 22 | Will Chandler Simpson record at least 2 home runs in Game 4: | 2 | astatc-mlb-mil-tb-2026-10-27-hr-chasim-gte2 (team 3026) @0.18; astatc-mlb-mil-tb-2026-10-2 |
-| mlb | BASEBALL_PLAYER_OUTS | OTHER/UNKNOWN | 3 | Will Griffin Jax record at least 10 outs recorded in Game 4: | 10 | astatc-mlb-mil-tb-2026-10-27-outs-grijax-gte10 (team 3026) @0.01; astatc-mlb-mil-tb-2026-1 |
-| mlb | BASEBALL_PLAYER_RBIS | OTHER/UNKNOWN | 33 | Will Christian Yelich record at least 1 RBIs in Game 4: MIL  | 1 | astatc-mlb-mil-tb-2026-10-27-rbi-chryel-gte1 (team 3016) @0.01; astatc-mlb-mil-tb-2026-10- |
-| mlb | BASEBALL_PLAYER_STRIKEOUTS | OTHER/UNKNOWN | 6 | Will Griffin Jax record at least 2 pitching strikeouts in Ga | 2 | astatc-mlb-mil-tb-2026-10-27-k-grijax-gte2 (team 3026) @0.80; astatc-mlb-mil-tb-2026-10-27 |
-| mlb | BASEBALL_PLAYER_TOTAL_BASES | OTHER/UNKNOWN | 55 | Will Jackson Chourio record at least 2 total bases in Game 4 | 2 | astatc-mlb-mil-tb-2026-10-27-tb-jaccho-gte2 (team 3016) @0.43; astatc-mlb-mil-tb-2026-10-2 |
-| mlb | BASEBALL_PLAYER_WALKS_ALLOWED | OTHER/UNKNOWN | 2 | Will Griffin Jax record at least 2 walks allowed in Game 4:  | 2 | astatc-mlb-mil-tb-2026-10-27-wa-grijax-gte2 (team 3026) @0.03; astatc-mlb-mil-tb-2026-10-2 |
-| mlb | BASEBALL_TEAM_FIRST_FIVE_SPREAD | SPREAD/FIRST_FIVE | 2 | Will the Milwaukee Brewers cover -1.5 vs the Tampa Bay Rays  | -1.5 | asc-mlb-mil-tb-2026-10-27-f5-neg-1pt5 (team 3016) @0.28; asc-mlb-mil-tb-2026-10-27-f5-neg- |
-| mlb | BASEBALL_TEAM_FIRST_FIVE_TOTAL | TOTAL/FIRST_FIVE | 7 | Will the total in Game 4: MIL Brewers vs. TB Rays be more th | 3.5 | tsc-mlb-mil-tb-2026-10-27-f5-3pt5 @0.52; tsc-mlb-mil-tb-2026-10-27-f5-3pt5 @0.54 |
-| mlb | BASEBALL_TEAM_FIRST_FIVE_WINNER | WINNER/FIRST_FIVE | 3 | Will the Milwaukee Brewers win the first 5 innings vs the Ta |  | atc-mlb-mil-tb-2026-10-27-f5-mil (team 3016) @0.43; atc-mlb-mil-tb-2026-10-27-f5-mil (team |
-| mlb | BASEBALL_TEAM_FIRST_INNING_RUN | OTHER/UNKNOWN | 1 | Will any run be scored in the 1st inning of Game 4: MIL Brew | 1 | astatc-mlb-mil-tb-2026-10-27-yrfi (team 3026) @0.43; astatc-mlb-mil-tb-2026-10-27-yrfi (te |
-| mlb | BASEBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 8 | Will the Milwaukee Brewers cover -1.5 vs the Tampa Bay Rays  | -1.5 | asc-mlb-mil-tb-2026-10-27-neg-1pt5 (team 3016) @0.41; asc-mlb-mil-tb-2026-10-27-neg-1pt5 ( |
-| mlb | BASEBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 11 | Will the total in Game 4: MIL Brewers vs. TB Rays be more th | 7.5 | tsc-mlb-mil-tb-2026-10-27-7pt5 @0.45; tsc-mlb-mil-tb-2026-10-27-7pt5 @0.45 |
-| mlb | BASEBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 1 | Who will win in the upcoming baseball event Milwaukee Brewer |  | aec-mlb-mil-tb-2026-10-27 (team 3016) @0.57; aec-mlb-mil-tb-2026-10-27 (team 3026) @0.57 |
-| mlb | BASEBALL_TEAM_INNING1_TOTAL | TOTAL/INNING1 | 1 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-27-i1-1pt5 @0.21; tsc-mlb-mil-tb-2026-10-27-i1-1pt5 @0.23 |
-| mlb | BASEBALL_TEAM_INNING1_WINNER | WINNER/INNING1 | 3 | Will the 1st inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-27-i1-draw @0.57; atc-mlb-mil-tb-2026-10-27-i1-draw @0.63 |
-| mlb | BASEBALL_TEAM_INNING2_TOTAL | TOTAL/INNING2 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 0.5 | tsc-mlb-mil-tb-2026-10-27-i2-0pt5 @0.37; tsc-mlb-mil-tb-2026-10-27-i2-0pt5 @0.43 |
-| mlb | BASEBALL_TEAM_INNING2_WINNER | WINNER/INNING2 | 3 | Will the 2nd inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-27-i2-draw @0.59; atc-mlb-mil-tb-2026-10-27-i2-draw @0.66 |
-| mlb | BASEBALL_TEAM_INNING3_TOTAL | TOTAL/INNING3 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 0.5 | tsc-mlb-mil-tb-2026-10-27-i3-0pt5 @0.39; tsc-mlb-mil-tb-2026-10-27-i3-0pt5 @0.44 |
-| mlb | BASEBALL_TEAM_INNING3_WINNER | WINNER/INNING3 | 3 | Will the 3rd inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-27-i3-draw @0.57; atc-mlb-mil-tb-2026-10-27-i3-draw @0.64 |
-| mlb | BASEBALL_TEAM_INNING4_TOTAL | TOTAL/INNING4 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 0.5 | tsc-mlb-mil-tb-2026-10-27-i4-0pt5 @0.39; tsc-mlb-mil-tb-2026-10-27-i4-0pt5 @0.45 |
-| mlb | BASEBALL_TEAM_INNING4_WINNER | WINNER/INNING4 | 3 | Will the 4th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-27-i4-draw @0.57; atc-mlb-mil-tb-2026-10-27-i4-draw @0.66 |
-| mlb | BASEBALL_TEAM_INNING5_TOTAL | TOTAL/INNING5 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 0.5 | tsc-mlb-mil-tb-2026-10-27-i5-0pt5 @0.39; tsc-mlb-mil-tb-2026-10-27-i5-0pt5 @0.44 |
-| mlb | BASEBALL_TEAM_INNING5_WINNER | WINNER/INNING5 | 3 | Will the 5th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-27-i5-draw @0.57; atc-mlb-mil-tb-2026-10-27-i5-draw @0.64 |
-| mlb | BASEBALL_TEAM_INNING6_TOTAL | TOTAL/INNING6 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 0.5 | tsc-mlb-mil-tb-2026-10-27-i6-0pt5 @0.39; tsc-mlb-mil-tb-2026-10-27-i6-0pt5 @0.45 |
-| mlb | BASEBALL_TEAM_INNING6_WINNER | WINNER/INNING6 | 3 | Will the 6th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-27-i6-draw @0.57; atc-mlb-mil-tb-2026-10-27-i6-draw @0.65 |
-| mlb | BASEBALL_TEAM_INNING7_TOTAL | TOTAL/INNING7 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 0.5 | tsc-mlb-mil-tb-2026-10-27-i7-0pt5 @0.39; tsc-mlb-mil-tb-2026-10-27-i7-0pt5 @0.44 |
-| mlb | BASEBALL_TEAM_INNING7_WINNER | WINNER/INNING7 | 3 | Will the 7th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-27-i7-draw @0.59; atc-mlb-mil-tb-2026-10-27-i7-draw @0.66 |
-| mlb | BASEBALL_TEAM_INNING8_TOTAL | TOTAL/INNING8 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 0.5 | tsc-mlb-mil-tb-2026-10-27-i8-0pt5 @0.38; tsc-mlb-mil-tb-2026-10-27-i8-0pt5 @0.44 |
-| mlb | BASEBALL_TEAM_INNING8_WINNER | WINNER/INNING8 | 3 | Will the 8th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-27-i8-draw @0.59; atc-mlb-mil-tb-2026-10-27-i8-draw @0.67 |
-| mlb | BASEBALL_TEAM_INNING9_TOTAL | TOTAL/INNING9 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 0.5 | tsc-mlb-mil-tb-2026-10-27-i9-0pt5 @0.31; tsc-mlb-mil-tb-2026-10-27-i9-0pt5 @0.36 |
-| mlb | BASEBALL_TEAM_INNING9_WINNER | WINNER/INNING9 | 3 | Will the Tampa Bay Rays win the 9th inning vs the Milwaukee  |  | atc-mlb-mil-tb-2026-10-27-i9-tb (team 3026) @0.02; atc-mlb-mil-tb-2026-10-27-i9-tb (team 3 |
-| mlb | BASEBALL_TEAM_TOTAL_RUNS | OTHER/UNKNOWN | 16 | Will Milwaukee Brewers score more than 1.5 runs in Game 4: M | 1.5 | tsc-mlb-mil-tb-2026-10-27-tt-mil-1pt5 (team 3016) @0.78; tsc-mlb-mil-tb-2026-10-27-tt-mil- |
-| nba | BASKETBALL_PLAYER_ASSISTS | OTHER/UNKNOWN | 146 | Will Derrick White record at least 6 assists in BKN Nets vs. | 6 | astatc-nba-bkn-bos-2026-10-27-ast-derwhi-gte6 (team 17) @0.50; astatc-nba-bkn-bos-2026-10- |
-| nba | BASKETBALL_PLAYER_BLOCKS | OTHER/UNKNOWN | 22 | Will Day'Ron Sharpe record at least 1 blocks in BKN Nets vs. | 1 | astatc-nba-bkn-bos-2026-10-27-blk-daysha-gte1 (team 22) @0.48; astatc-nba-bkn-bos-2026-10- |
-| nba | BASKETBALL_PLAYER_POINTS | OTHER/UNKNOWN | 242 | Will Julius Randle record at least 20 points in BKN Nets vs. | 20 | astatc-nba-bkn-bos-2026-10-27-pts-julran-gte20 (team 22) @0.48; astatc-nba-bkn-bos-2026-10 |
-| nba | BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS | OTHER/UNKNOWN | 212 | Will Karl-Anthony Towns record at least 35 combined points,  | 35 | astatc-nba-det-ny-2026-10-27-pra-kartow-gte35 (team 43) @0.48; astatc-nba-det-ny-2026-10-2 |
-| nba | BASKETBALL_PLAYER_REBOUNDS | OTHER/UNKNOWN | 244 | Will Domantas Sabonis record at least 14 total rebounds in S | 14 | astatc-nba-sac-sa-2026-10-27-reb-domsab-gte14 (team 32) @0.48; astatc-nba-sac-sa-2026-10-2 |
-| nba | BASKETBALL_PLAYER_STEALS | OTHER/UNKNOWN | 89 | Will Jayson Tatum record at least 1 steals in BKN Nets vs. B | 1 | astatc-nba-bkn-bos-2026-10-27-stl-jaytat-gte1 (team 17) @0.62; astatc-nba-bkn-bos-2026-10- |
-| nba | BASKETBALL_PLAYER_THREES | OTHER/UNKNOWN | 202 | Will Jrue Holiday record at least 2 three-point field goals  | 2 | astatc-nba-por-lal-2026-10-27-3pm-jruhol-gte2 (team 31) @0.45; astatc-nba-por-lal-2026-10- |
-| nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 134 | Will the BKN Nets cover 11.5 vs the BOS Celtics in BKN Nets  | 11.5 | asc-nba-bkn-bos-2026-10-27-pos-11pt5 (team 22) @0.48; asc-nba-bkn-bos-2026-10-27-pos-11pt5 |
-| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 124 | Will the total in BKN Nets vs. BOS Celtics be more than 221. | 221.5 | tsc-nba-bkn-bos-2026-10-27-221pt5 @0.49; tsc-nba-bkn-bos-2026-10-27-221pt5 @0.50 |
-| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 108 | Who will win in the upcoming basketball event BKN Nets vs BO |  | aec-nba-bkn-bos-2026-10-27 (team 22) @0.15; aec-nba-bkn-bos-2026-10-27 (team 17) @0.16 |
-| nhl | HOCKEY_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 33 | Will BOS Bruins score the first goal in BOS vs CAR? |  | astatc-nhl-bos-car-2026-10-27-ftts-bos (team 1484) @0.41; astatc-nhl-bos-car-2026-10-27-ft |
-| nhl | HOCKEY_GAME_OVERTIME | OTHER/UNKNOWN | 11 | Will the NHL hockey game between Blue Jackets and Flyers on  | 0.5 | astatc-nhl-cbj-phi-2026-10-27-ot (team 1496) @0.20; astatc-nhl-cbj-phi-2026-10-27-ot (team |
-| nhl | HOCKEY_GAME_SHOOTOUT | OTHER/UNKNOWN | 11 | Will the NHL hockey game between Blue Jackets and Flyers on  | 0.5 | astatc-nhl-cbj-phi-2026-10-27-so (team 1496) @0.20; astatc-nhl-cbj-phi-2026-10-27-so (team |
-| nhl | HOCKEY_PLAYER_ASSISTS | OTHER/UNKNOWN | 405 | Will Roman Josi record at least 1 assists in NYI vs NSH? | 1 | astatc-nhl-nyi-nas-2026-10-27-ast-romjos-gte1 (team 1504) @0.47; astatc-nhl-nyi-nas-2026-1 |
-| nhl | HOCKEY_PLAYER_GOALS | OTHER/UNKNOWN | 408 | Will Matvei Michkov record at least 1 goals in CBJ vs PHI? | 1 | astatc-nhl-cbj-phi-2026-10-27-goals-matmic-gte1 (team 1496) @0.27; astatc-nhl-cbj-phi-2026 |
-| nhl | HOCKEY_PLAYER_POINTS | OTHER/UNKNOWN | 473 | Will Kent Johnson record at least 1 points in CBJ vs PHI? | 1 | astatc-nhl-cbj-phi-2026-10-27-pts-kenjoh-gte1 (team 1499) @0.47; astatc-nhl-cbj-phi-2026-1 |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 44 | Will CBJ Blue Jackets cover -0.5 vs PHI Flyers in the first  | -0.5 | asc-nhl-cbj-phi-2026-10-27-p1-neg-0pt5 (team 1499) @0.33; asc-nhl-cbj-phi-2026-10-27-p1-ne |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 44 | Will CBJ vs PHI have more than 1.5 goals in the first period | 1.5 | tsc-nhl-cbj-phi-2026-10-27-p1-1pt5 @0.49; tsc-nhl-cbj-phi-2026-10-27-p1-1pt5 @0.52 |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_WINNER | WINNER/FIRST_PERIOD | 33 | Will the first period of CBJ vs PHI be tied? |  | atc-nhl-cbj-phi-2026-10-27-p1-draw @0.36; atc-nhl-cbj-phi-2026-10-27-p1-draw @0.43 |
-| nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 66 | Will the CBJ Blue Jackets cover -1.5 vs the PHI Flyers in CB | -1.5 | asc-nhl-cbj-phi-2026-10-27-neg-1pt5 (team 1499) @0.30; asc-nhl-cbj-phi-2026-10-27-neg-1pt5 |
-| nhl | HOCKEY_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 88 | Will the total in CBJ vs PHI be more than 5.5? | 5.5 | tsc-nhl-cbj-phi-2026-10-27-5pt5 @0.49; tsc-nhl-cbj-phi-2026-10-27-5pt5 @0.51 |
-| nhl | HOCKEY_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 39 | Who will win in the upcoming hockey event CBJ Blue Jackets v |  | aec-nhl-cbj-phi-2026-10-27 (team 1499) @0.53; aec-nhl-cbj-phi-2026-10-27 (team 1496) @0.54 |
-| nhl | HOCKEY_TEAM_REGULATION_WINNER | WINNER/REGULATION | 33 | Will CBJ Blue Jackets lead after regulation of CBJ vs PHI? |  | atc-nhl-cbj-phi-2026-10-27-reg-cbj (team 1499) @0.43; atc-nhl-cbj-phi-2026-10-27-reg-cbj ( |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_SPREAD | SPREAD/SECOND_PERIOD | 44 | Will CBJ Blue Jackets cover -0.5 vs PHI Flyers in the second | -0.5 | asc-nhl-cbj-phi-2026-10-27-p2-neg-0pt5 (team 1499) @0.33; asc-nhl-cbj-phi-2026-10-27-p2-ne |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_TOTAL | TOTAL/SECOND_PERIOD | 44 | Will CBJ vs PHI have more than 1.5 goals in the second perio | 1.5 | tsc-nhl-cbj-phi-2026-10-27-p2-1pt5 @0.53; tsc-nhl-cbj-phi-2026-10-27-p2-1pt5 @0.62 |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_WINNER | WINNER/SECOND_PERIOD | 33 | Will CBJ Blue Jackets win the second period of CBJ vs PHI? |  | atc-nhl-cbj-phi-2026-10-27-p2-cbj (team 1499) @0.35; atc-nhl-cbj-phi-2026-10-27-p2-cbj (te |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_SPREAD | SPREAD/THIRD_PERIOD | 44 | Will CBJ Blue Jackets cover -0.5 vs PHI Flyers in the third  | -0.5 | asc-nhl-cbj-phi-2026-10-27-p3-neg-0pt5 (team 1499) @0.35; asc-nhl-cbj-phi-2026-10-27-p3-ne |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_TOTAL | TOTAL/THIRD_PERIOD | 44 | Will CBJ vs PHI have more than 1.5 goals in the third period | 1.5 | tsc-nhl-cbj-phi-2026-10-27-p3-1pt5 @0.59; tsc-nhl-cbj-phi-2026-10-27-p3-1pt5 @0.67 |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_WINNER | WINNER/THIRD_PERIOD | 33 | Will CBJ Blue Jackets win the third period of CBJ vs PHI? |  | atc-nhl-cbj-phi-2026-10-27-p3-cbj (team 1499) @0.42; atc-nhl-cbj-phi-2026-10-27-p3-cbj (te |
-| nhl | HOCKEY_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 132 | Will BUF Sabres score more than 3.5 goals in BUF vs SJS? | 3.5 | tsc-nhl-buf-sj-2026-10-27-tt-buf-3pt5 (team 1485) @0.47; tsc-nhl-buf-sj-2026-10-27-tt-buf- |
+| mlb | BASEBALL_GAME_EXTRA_INNINGS | OTHER/UNKNOWN | 1 | Will Game 5: MIL Brewers vs. TB Rays go to extra innings? | 10 | astatc-mlb-mil-tb-2026-10-28-xi (team 3026) @0.01; astatc-mlb-mil-tb-2026-10-28-xi (team 3 |
+| mlb | BASEBALL_PLAYER_EARNED_RUNS_ALLOWED | OTHER/UNKNOWN | 2 | Will Jacob Misiorowski record at least 2 earned runs allowed | 2 | astatc-mlb-mil-tb-2026-10-28-er-jacmis-gte2 (team 3016) @0.37; astatc-mlb-mil-tb-2026-10-2 |
+| mlb | BASEBALL_PLAYER_HITS | OTHER/UNKNOWN | 40 | Will Jackson Chourio record at least 1 hits in Game 5: MIL B | 1 | astatc-mlb-mil-tb-2026-10-28-hits-jaccho-gte1 (team 3016) @0.67; astatc-mlb-mil-tb-2026-10 |
+| mlb | BASEBALL_PLAYER_HITS_ALLOWED | OTHER/UNKNOWN | 3 | Will Jacob Misiorowski record at least 2 hits allowed in Gam | 2 | astatc-mlb-mil-tb-2026-10-28-ha-jacmis-gte2 (team 3016) @0.02; astatc-mlb-mil-tb-2026-10-2 |
+| mlb | BASEBALL_PLAYER_HITS_RUNS_RBIS | OTHER/UNKNOWN | 60 | Will William Contreras record at least 2 hits + runs + RBIs  | 2 | astatc-mlb-mil-tb-2026-10-28-hrr-wilcon2-gte2 (team 3016) @0.49; astatc-mlb-mil-tb-2026-10 |
+| mlb | BASEBALL_PLAYER_HOME_RUNS | OTHER/UNKNOWN | 20 | Will Chandler Simpson record at least 2 home runs in Game 5: | 2 | astatc-mlb-mil-tb-2026-10-28-hr-chasim-gte2 (team 3026) @0.18; astatc-mlb-mil-tb-2026-10-2 |
+| mlb | BASEBALL_PLAYER_OUTS | OTHER/UNKNOWN | 6 | Will Jacob Misiorowski record at least 16 outs recorded in G | 16 | astatc-mlb-mil-tb-2026-10-28-outs-jacmis-gte16 (team 3016) @0.07; astatc-mlb-mil-tb-2026-1 |
+| mlb | BASEBALL_PLAYER_RBIS | OTHER/UNKNOWN | 30 | Will Brice Turang record at least 3 RBIs in Game 5: MIL Brew | 3 | astatc-mlb-mil-tb-2026-10-28-rbi-britur-gte3 (team 3016) @0.01; astatc-mlb-mil-tb-2026-10- |
+| mlb | BASEBALL_PLAYER_STOLEN_BASES | OTHER/UNKNOWN | 10 | Will Brice Turang record at least 1 stolen bases in Game 5:  | 1 | astatc-mlb-mil-tb-2026-10-28-sb-britur-gte1 (team 3016) @0.02; astatc-mlb-mil-tb-2026-10-2 |
+| mlb | BASEBALL_PLAYER_STRIKEOUTS | OTHER/UNKNOWN | 9 | Will Jacob Misiorowski record at least 4 pitching strikeouts | 4 | astatc-mlb-mil-tb-2026-10-28-k-jacmis-gte4 (team 3016) @0.36; astatc-mlb-mil-tb-2026-10-28 |
+| mlb | BASEBALL_PLAYER_TOTAL_BASES | OTHER/UNKNOWN | 50 | Will Jackson Chourio record at least 2 total bases in Game 5 | 2 | astatc-mlb-mil-tb-2026-10-28-tb-jaccho-gte2 (team 3016) @0.41; astatc-mlb-mil-tb-2026-10-2 |
+| mlb | BASEBALL_TEAM_FIRST_FIVE_SPREAD | SPREAD/FIRST_FIVE | 2 | Will the Milwaukee Brewers cover -1.5 vs the Tampa Bay Rays  | -1.5 | asc-mlb-mil-tb-2026-10-28-f5-neg-1pt5 (team 3016) @0.27; asc-mlb-mil-tb-2026-10-28-f5-neg- |
+| mlb | BASEBALL_TEAM_FIRST_FIVE_TOTAL | TOTAL/FIRST_FIVE | 7 | Will the total in Game 5: MIL Brewers vs. TB Rays be more th | 3.5 | tsc-mlb-mil-tb-2026-10-28-f5-3pt5 @0.45; tsc-mlb-mil-tb-2026-10-28-f5-3pt5 @0.47 |
+| mlb | BASEBALL_TEAM_FIRST_FIVE_WINNER | WINNER/FIRST_FIVE | 3 | Will the Milwaukee Brewers win the first 5 innings vs the Ta |  | atc-mlb-mil-tb-2026-10-28-f5-mil (team 3016) @0.45; atc-mlb-mil-tb-2026-10-28-f5-mil (team |
+| mlb | BASEBALL_TEAM_FIRST_INNING_RUN | OTHER/UNKNOWN | 1 | Will any run be scored in the 1st inning of Game 5: MIL Brew | 1 | astatc-mlb-mil-tb-2026-10-28-yrfi (team 3026) @0.40; astatc-mlb-mil-tb-2026-10-28-yrfi (te |
+| mlb | BASEBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 8 | Will the Milwaukee Brewers cover -1.5 vs the Tampa Bay Rays  | -1.5 | asc-mlb-mil-tb-2026-10-28-neg-1pt5 (team 3016) @0.43; asc-mlb-mil-tb-2026-10-28-neg-1pt5 ( |
+| mlb | BASEBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 10 | Will the total in Game 5: MIL Brewers vs. TB Rays be more th | 6.5 | tsc-mlb-mil-tb-2026-10-28-6pt5 @0.51; tsc-mlb-mil-tb-2026-10-28-6pt5 @0.51 |
+| mlb | BASEBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 1 | Who will win in the upcoming baseball event Milwaukee Brewer |  | aec-mlb-mil-tb-2026-10-28 (team 3016) @0.58; aec-mlb-mil-tb-2026-10-28 (team 3026) @0.58 |
+| mlb | BASEBALL_TEAM_INNING1_TOTAL | TOTAL/INNING1 | 1 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i1-1pt5 @0.19; tsc-mlb-mil-tb-2026-10-28-i1-1pt5 @0.22 |
+| mlb | BASEBALL_TEAM_INNING1_WINNER | WINNER/INNING1 | 3 | Will the 1st inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i1-draw @0.57; atc-mlb-mil-tb-2026-10-28-i1-draw @0.58 |
+| mlb | BASEBALL_TEAM_INNING2_TOTAL | TOTAL/INNING2 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i2-1pt5 @0.02; tsc-mlb-mil-tb-2026-10-28-i2-1pt5 @0.30 |
+| mlb | BASEBALL_TEAM_INNING2_WINNER | WINNER/INNING2 | 3 | Will the 2nd inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i2-draw @0.60; atc-mlb-mil-tb-2026-10-28-i2-draw @0.61 |
+| mlb | BASEBALL_TEAM_INNING3_TOTAL | TOTAL/INNING3 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i3-1pt5 @0.02; tsc-mlb-mil-tb-2026-10-28-i3-1pt5 @0.32 |
+| mlb | BASEBALL_TEAM_INNING3_WINNER | WINNER/INNING3 | 3 | Will the 3rd inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i3-draw @0.65; atc-mlb-mil-tb-2026-10-28-i3-draw @0.66 |
+| mlb | BASEBALL_TEAM_INNING4_TOTAL | TOTAL/INNING4 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i4-1pt5 @0.02; tsc-mlb-mil-tb-2026-10-28-i4-1pt5 @0.32 |
+| mlb | BASEBALL_TEAM_INNING4_WINNER | WINNER/INNING4 | 3 | Will the 4th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i4-draw @0.59; atc-mlb-mil-tb-2026-10-28-i4-draw @0.60 |
+| mlb | BASEBALL_TEAM_INNING5_TOTAL | TOTAL/INNING5 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i5-1pt5 @0.02; tsc-mlb-mil-tb-2026-10-28-i5-1pt5 @0.32 |
+| mlb | BASEBALL_TEAM_INNING5_WINNER | WINNER/INNING5 | 3 | Will the 5th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i5-draw @0.66; atc-mlb-mil-tb-2026-10-28-i5-draw @0.67 |
+| mlb | BASEBALL_TEAM_INNING6_TOTAL | TOTAL/INNING6 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i6-1pt5 @0.02; tsc-mlb-mil-tb-2026-10-28-i6-1pt5 @0.32 |
+| mlb | BASEBALL_TEAM_INNING6_WINNER | WINNER/INNING6 | 3 | Will the 6th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i6-draw @0.65; atc-mlb-mil-tb-2026-10-28-i6-draw @0.66 |
+| mlb | BASEBALL_TEAM_INNING7_TOTAL | TOTAL/INNING7 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i7-1pt5 @0.02; tsc-mlb-mil-tb-2026-10-28-i7-1pt5 @0.31 |
+| mlb | BASEBALL_TEAM_INNING7_WINNER | WINNER/INNING7 | 3 | Will the 7th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i7-draw @0.61; atc-mlb-mil-tb-2026-10-28-i7-draw @0.62 |
+| mlb | BASEBALL_TEAM_INNING8_TOTAL | TOTAL/INNING8 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i8-1pt5 @0.02; tsc-mlb-mil-tb-2026-10-28-i8-1pt5 @0.32 |
+| mlb | BASEBALL_TEAM_INNING8_WINNER | WINNER/INNING8 | 3 | Will the 8th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i8-draw @0.62; atc-mlb-mil-tb-2026-10-28-i8-draw @0.63 |
+| mlb | BASEBALL_TEAM_INNING9_TOTAL | TOTAL/INNING9 | 2 | Will the Milwaukee Brewers and Tampa Bay Rays combine for mo | 1.5 | tsc-mlb-mil-tb-2026-10-28-i9-1pt5 @0.02; tsc-mlb-mil-tb-2026-10-28-i9-1pt5 @0.32 |
+| mlb | BASEBALL_TEAM_INNING9_WINNER | WINNER/INNING9 | 3 | Will the 9th inning of Tampa Bay Rays vs Milwaukee Brewers e |  | atc-mlb-mil-tb-2026-10-28-i9-draw @0.28; atc-mlb-mil-tb-2026-10-28-i9-draw @0.29 |
+| mlb | BASEBALL_TEAM_TOTAL_RUNS | OTHER/UNKNOWN | 16 | Will Milwaukee Brewers score more than 1.5 runs in Game 5: M | 1.5 | tsc-mlb-mil-tb-2026-10-28-tt-mil-1pt5 (team 3016) @0.77; tsc-mlb-mil-tb-2026-10-28-tt-mil- |
+| nba | BASKETBALL_PLAYER_ASSISTS | OTHER/UNKNOWN | 276 | Will Evan Mobley record at least 4 assists in WAS Wizards vs | 4 | astatc-nba-was-cle-2026-10-28-ast-evamob-gte4 (team 38) @0.48; astatc-nba-was-cle-2026-10- |
+| nba | BASKETBALL_PLAYER_BLOCKS | OTHER/UNKNOWN | 47 | Will Moussa Diabate record at least 1 blocks in CHA Hornets  | 1 | astatc-nba-cha-det-2026-10-28-blk-moudia-gte1 (team 16) @0.01; astatc-nba-cha-det-2026-10- |
+| nba | BASKETBALL_PLAYER_POINTS | OTHER/UNKNOWN | 444 | Will Brandon Miller record at least 25 points in CHA Hornets | 25 | astatc-nba-cha-det-2026-10-28-pts-bramil-gte25 (team 16) @0.45; astatc-nba-cha-det-2026-10 |
+| nba | BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS | OTHER/UNKNOWN | 374 | Will Trey Murphy III record at least 25 combined points, reb | 25 | astatc-nba-den-no-2026-10-28-pra-tremur-gte25 (team 42) @0.48; astatc-nba-den-no-2026-10-2 |
+| nba | BASKETBALL_PLAYER_REBOUNDS | OTHER/UNKNOWN | 456 | Will Anthony Black record at least 4 total rebounds in ORL M | 4 | astatc-nba-orl-tor-2026-10-28-reb-antbla-gte4 (team 28) @0.47; astatc-nba-orl-tor-2026-10- |
+| nba | BASKETBALL_PLAYER_STEALS | OTHER/UNKNOWN | 138 | Will Brandon Miller record at least 1 steals in CHA Hornets  | 1 | astatc-nba-cha-det-2026-10-28-stl-bramil-gte1 (team 16) @0.01; astatc-nba-cha-det-2026-10- |
+| nba | BASKETBALL_PLAYER_THREES | OTHER/UNKNOWN | 367 | Will Onyeka Okongwu record at least 2 three-point field goal | 2 | astatc-nba-mia-atl-2026-10-28-3pm-onyoko-gte2 (team 25) @0.50; astatc-nba-mia-atl-2026-10- |
+| nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 402 | Will the CHA Hornets cover 6.5 vs the DET Pistons in CHA Hor | 6.5 | asc-nba-cha-det-2026-10-28-pos-6pt5 (team 16) @0.51; asc-nba-cha-det-2026-10-28-pos-6pt5 ( |
+| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 372 | Will the total in CHA Hornets vs. DET Pistons be more than 2 | 215.5 | tsc-nba-cha-det-2026-10-28-215pt5 @0.48; tsc-nba-cha-det-2026-10-28-215pt5 @0.49 |
+| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 114 | Who will win in the upcoming basketball event CHA Hornets vs |  | aec-nba-cha-det-2026-10-28 (team 16) @0.31; aec-nba-cha-det-2026-10-28 (team 23) @0.32 |
+| nhl | HOCKEY_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 12 | Will WSH Capitals score the first goal in PHI vs WSH? |  | astatc-nhl-phi-was-2026-10-28-ftts-was (team 1498) @0.42; astatc-nhl-phi-was-2026-10-28-ft |
+| nhl | HOCKEY_GAME_OVERTIME | OTHER/UNKNOWN | 4 | Will the NHL hockey game between Flyers and Capitals on 2026 | 0.5 | astatc-nhl-phi-was-2026-10-28-ot (team 1498) @0.16; astatc-nhl-phi-was-2026-10-28-ot (team |
+| nhl | HOCKEY_GAME_SHOOTOUT | OTHER/UNKNOWN | 4 | Will the NHL hockey game between Flyers and Capitals on 2026 | 0.5 | astatc-nhl-phi-was-2026-10-28-so (team 1498) @0.01; astatc-nhl-phi-was-2026-10-28-so (team |
+| nhl | HOCKEY_PLAYER_ASSISTS | OTHER/UNKNOWN | 153 | Will Dylan Strome record at least 1 assists in PHI vs WSH? | 1 | astatc-nhl-phi-was-2026-10-28-ast-dylstr-gte1 (team 1498) @0.40; astatc-nhl-phi-was-2026-1 |
+| nhl | HOCKEY_PLAYER_GOALS | OTHER/UNKNOWN | 148 | Will Alex Tuch record at least 1 goals in PHI vs WSH? | 1 | astatc-nhl-phi-was-2026-10-28-goals-aletuc-gte1 (team 1498) @0.29; astatc-nhl-phi-was-2026 |
+| nhl | HOCKEY_PLAYER_POINTS | OTHER/UNKNOWN | 180 | Will Matt Coronato record at least 1 points in CGY vs EDM? | 1 | astatc-nhl-cgy-edm-2026-10-28-pts-matcor-gte1 (team 1507) @0.46; astatc-nhl-cgy-edm-2026-1 |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 16 | Will PHI Flyers cover +0.5 vs WSH Capitals in the first peri | 0.5 | asc-nhl-phi-was-2026-10-28-p1-pos-0pt5 (team 1496) @0.57; asc-nhl-phi-was-2026-10-28-p1-po |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 16 | Will PHI vs WSH have more than 1.5 goals in the first period | 1.5 | tsc-nhl-phi-was-2026-10-28-p1-1pt5 @0.54; tsc-nhl-phi-was-2026-10-28-p1-1pt5 @0.55 |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_WINNER | WINNER/FIRST_PERIOD | 12 | Will WSH Capitals win the first period of PHI vs WSH? |  | atc-nhl-phi-was-2026-10-28-p1-was (team 1498) @0.41; atc-nhl-phi-was-2026-10-28-p1-was (te |
+| nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 24 | Will the PHI Flyers cover 1.5 vs the WSH Capitals in PHI vs  | 1.5 | asc-nhl-phi-was-2026-10-28-pos-1pt5 (team 1496) @0.54; asc-nhl-phi-was-2026-10-28-pos-1pt5 |
+| nhl | HOCKEY_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 32 | Will the total in PHI vs WSH be more than 6.5? | 6.5 | tsc-nhl-phi-was-2026-10-28-6pt5 @0.46; tsc-nhl-phi-was-2026-10-28-6pt5 @0.47 |
+| nhl | HOCKEY_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 33 | Who will win in the upcoming hockey event PHI Flyers vs WSH  |  | aec-nhl-phi-was-2026-10-28 (team 1496) @0.32; aec-nhl-phi-was-2026-10-28 (team 1498) @0.33 |
+| nhl | HOCKEY_TEAM_REGULATION_WINNER | WINNER/REGULATION | 12 | Will WSH Capitals lead after regulation of PHI vs WSH? |  | atc-nhl-phi-was-2026-10-28-reg-was (team 1498) @0.47; atc-nhl-phi-was-2026-10-28-reg-was ( |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_SPREAD | SPREAD/SECOND_PERIOD | 16 | Will PHI Flyers cover +0.5 vs WSH Capitals in the second per | 0.5 | asc-nhl-phi-was-2026-10-28-p2-pos-0pt5 (team 1496) @0.46; asc-nhl-phi-was-2026-10-28-p2-po |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_TOTAL | TOTAL/SECOND_PERIOD | 16 | Will PHI vs WSH have more than 1.5 goals in the second perio | 1.5 | tsc-nhl-phi-was-2026-10-28-p2-1pt5 @0.54; tsc-nhl-phi-was-2026-10-28-p2-1pt5 @0.70 |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_WINNER | WINNER/SECOND_PERIOD | 12 | Will WSH Capitals win the second period of PHI vs WSH? |  | atc-nhl-phi-was-2026-10-28-p2-was (team 1498) @0.43; atc-nhl-phi-was-2026-10-28-p2-was (te |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_SPREAD | SPREAD/THIRD_PERIOD | 16 | Will PHI Flyers cover +0.5 vs WSH Capitals in the third peri | 0.5 | asc-nhl-phi-was-2026-10-28-p3-pos-0pt5 (team 1496) @0.39; asc-nhl-phi-was-2026-10-28-p3-po |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_TOTAL | TOTAL/THIRD_PERIOD | 16 | Will PHI vs WSH have more than 1.5 goals in the third period | 1.5 | tsc-nhl-phi-was-2026-10-28-p3-1pt5 @0.54; tsc-nhl-phi-was-2026-10-28-p3-1pt5 @0.76 |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_WINNER | WINNER/THIRD_PERIOD | 12 | Will WSH Capitals win the third period of PHI vs WSH? |  | atc-nhl-phi-was-2026-10-28-p3-was (team 1498) @0.46; atc-nhl-phi-was-2026-10-28-p3-was (te |
+| nhl | HOCKEY_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 48 | Will PHI Flyers score more than 2.5 goals in PHI vs WSH? | 2.5 | tsc-nhl-phi-was-2026-10-28-tt-phi-2pt5 (team 1496) @0.47; tsc-nhl-phi-was-2026-10-28-tt-ph |
 | nfl | FOOTBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 29 | Who will win in the upcoming football event Carolina Panther |  | aec-nfl-car-gb-2026-10-29 (team 52) @0.35; aec-nfl-car-gb-2026-10-29 (team 59) @0.35 |
-| cs2 | ESPORTS_MAP_WINNER_1 | WINNER/MAP_1 | 18 | Will Alliance win Map 1 vs FaZe? |  | astatc-cs2-all-faze-2026-10-27-map1 (team 7716) @0.36; astatc-cs2-all-faze-2026-10-27-map1 |
-| cs2 | ESPORTS_MAP_WINNER_2 | WINNER/MAP_2 | 18 | Will Alliance win Map 2 vs FaZe? |  | astatc-cs2-all-faze-2026-10-27-map2 (team 7716) @0.37; astatc-cs2-all-faze-2026-10-27-map2 |
-| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 21 | Who will win in the upcoming esports event FlyQuest vs Roost |  | aec-cs2-fly-rstr-2026-10-27 (team 5716) @0.97; aec-cs2-fly-rstr-2026-10-27 (team 11883) @0 |
-| cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 17 | Will the Alliance cover 1.5 vs the FaZe in Alliance vs. FaZe | 1.5 | asc-cs2-all-faze-2026-10-27-hcap-pos-1pt5 (team 7716) @0.59; asc-cs2-all-faze-2026-10-27-h |
-| cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 16 | Will the total in Alliance vs. FaZe be more than 2.5? | 2.5 | tsc-cs2-all-faze-2026-10-27-tot-2pt5 @0.41; tsc-cs2-all-faze-2026-10-27-tot-2pt5 @0.46 |
-| lol | ESPORTS_GAME_WINNER_1 | OTHER/UNKNOWN | 1 | Will T1 win Game 1 vs Movistar KOI? |  | astatc-lol-t1-mkoi-2026-10-28-game1 (team 5212) @0.47; astatc-lol-t1-mkoi-2026-10-28-game1 |
-| lol | ESPORTS_GAME_WINNER_2 | OTHER/UNKNOWN | 1 | Will T1 win Game 2 vs Movistar KOI? |  | astatc-lol-t1-mkoi-2026-10-28-game2 (team 5212) @0.18; astatc-lol-t1-mkoi-2026-10-28-game2 |
-| lol | ESPORTS_MATCH_WINNER | WINNER/MATCH | 6 | Who will win in the upcoming esports event T1 vs Movistar KO |  | aec-lol-t1-mkoi-2026-10-28 (team 5212) @0.83; aec-lol-t1-mkoi-2026-10-28 (team 5197) @0.84 |
-| epl | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 30 | Will Chelsea FC win against Manchester United FC in the Prem |  | atc-epl-cfc-mnu-2026-10-31-cfc (team 2688) @0.53; atc-epl-cfc-mnu-2026-10-31-cfc (team 268 |
-| laliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 30 | Will Villarreal CF win against RCD Espanyol de Barcelona in  |  | atc-lal-vil-esp-2026-10-30-vil (team 3453) @0.66; atc-lal-vil-esp-2026-10-30-vil (team 345 |
+| cs2 | ESPORTS_MAP_WINNER_1 | WINNER/MAP_1 | 18 | Will magic win Map 1 vs Astralis? |  | astatc-cs2-mgc-ast-2026-10-28-map1 (team 5530) @0.48; astatc-cs2-mgc-ast-2026-10-28-map1 ( |
+| cs2 | ESPORTS_MAP_WINNER_2 | WINNER/MAP_2 | 18 | Will magic win Map 2 vs Astralis? |  | astatc-cs2-mgc-ast-2026-10-28-map2 (team 5530) @0.38; astatc-cs2-mgc-ast-2026-10-28-map2 ( |
+| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 24 | Who will win in the upcoming esports event B8 vs Alliance sc |  | aec-cs2-b8-all-2026-10-28 (team 5154) @0.47; aec-cs2-b8-all-2026-10-28 (team 7716) @0.48 |
+| cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 13 | Will the magic cover 1.5 vs the Astralis in Astralis vs. mag | 1.5 | asc-cs2-mgc-ast-2026-10-28-hcap-pos-1pt5 (team 5530) @0.01; asc-cs2-mgc-ast-2026-10-28-hca |
+| cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 12 | Will the total in Astralis vs. magic be more than 2.5? | 2.5 | tsc-cs2-mgc-ast-2026-10-28-tot-2pt5 @0.41; tsc-cs2-mgc-ast-2026-10-28-tot-2pt5 @0.99 |
+| lol | ESPORTS_GAME_WINNER_1 | OTHER/UNKNOWN | 3 | Will T1 win Game 1 vs Movistar KOI? |  | astatc-lol-t1-mkoi-2026-10-28-game1 (team 5212) @0.14; astatc-lol-t1-mkoi-2026-10-28-game1 |
+| lol | ESPORTS_GAME_WINNER_2 | OTHER/UNKNOWN | 3 | Will T1 win Game 2 vs Movistar KOI? |  | astatc-lol-t1-mkoi-2026-10-28-game2 (team 5212) @0.16; astatc-lol-t1-mkoi-2026-10-28-game2 |
+| lol | ESPORTS_MATCH_WINNER | WINNER/MATCH | 6 | Who will win in the upcoming esports event T1 vs Movistar KO |  | aec-lol-t1-mkoi-2026-10-28 (team 5212) @0.85; aec-lol-t1-mkoi-2026-10-28 (team 5197) @0.86 |
+| lol | ESPORTS_SERIES_GAME_HANDICAP | OTHER/UNKNOWN | 6 | Will the T1 cover -1.5 vs the Movistar KOI in T1 vs. Movista | -1.5 | asc-lol-t1-mkoi-2026-10-28-hcap-neg-1pt5 (team 5212) @0.55; asc-lol-t1-mkoi-2026-10-28-hca |
+| lol | ESPORTS_SERIES_TOTAL_GAMES | OTHER/UNKNOWN | 3 | Will the total in Invictus Gaming vs. LYON be more than 2.5? | 2.5 | tsc-lol-ig-lyon-2026-10-28-tot-2pt5 @0.45; tsc-lol-ig-lyon-2026-10-28-tot-2pt5 @0.49 |
+| epl | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 30 | Will Chelsea FC win against Manchester United FC in the Prem |  | atc-epl-cfc-mnu-2026-10-31-cfc (team 2688) @0.54; atc-epl-cfc-mnu-2026-10-31-cfc (team 268 |
+| laliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 30 | Will Villarreal CF win against RCD Espanyol de Barcelona in  |  | atc-lal-vil-esp-2026-10-30-vil (team 3453) @0.68; atc-lal-vil-esp-2026-10-30-vil (team 345 |
 | bundesliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 27 | Will SV 07 Elversberg win against 1. FSV Mainz 05 in the Bun |  | atc-bun-elv-mai-2026-10-30-elv (team 7520) @0.30; atc-bun-elv-mai-2026-10-30-elv (team 752 |
-| seriea | SOCCER_GAME_BTTS | OTHER/UNKNOWN | 8 | Will both teams score in the match between AC Milan and Bolo | 1 | astatc-sea-mil-bol-2026-10-28-btts @0.50; astatc-sea-mil-bol-2026-10-28-btts @0.52 |
-| seriea | SOCCER_GAME_EXACT_SCORE | OTHER/UNKNOWN | 128 | Will SAS vs LAZ finish LAZ wins 3-0? |  | atc-sea-sas-laz-2026-10-27-exact-score-0-3 @0.03; atc-sea-sas-laz-2026-10-27-exact-score-0 |
-| seriea | SOCCER_GAME_FIRST_HALF_BTTS | OTHER/UNKNOWN | 8 | Will both teams score in the first half between US Sassuolo  | 1 | astatc-sea-sas-laz-2026-10-27-fh-btts @0.24; astatc-sea-sas-laz-2026-10-27-fh-btts @0.26 |
-| seriea | SOCCER_GAME_FIRST_HALF_EXACT_SCORE | OTHER/UNKNOWN | 72 | Will SAS vs LAZ be LAZ wins 2-0 at halftime? |  | atc-sea-sas-laz-2026-10-27-fh-exact-score-0-2 @0.04; atc-sea-sas-laz-2026-10-27-fh-exact-s |
-| seriea | SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 24 | Will None be the first to score a goal in the first half on  |  | astatc-sea-sas-laz-2026-10-27-fh-ftts-none @0.99; astatc-sea-sas-laz-2026-10-27-fh-ftts-no |
-| seriea | SOCCER_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 24 | Will SS Lazio be the first to score a goal on 2026-10-27 1:3 |  | astatc-sea-sas-laz-2026-10-27-ftts-laz (team 3422) @0.52; astatc-sea-sas-laz-2026-10-27-ft |
-| seriea | SOCCER_GAME_SECOND_HALF_BTTS | OTHER/UNKNOWN | 8 | Will both teams score in the second half between US Sassuolo | 1 | astatc-sea-sas-laz-2026-10-27-sh-btts @0.01; astatc-sea-sas-laz-2026-10-27-sh-btts @0.98 |
-| seriea | SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 24 | Will SS Lazio be the first to score a goal in the second hal |  | astatc-sea-sas-laz-2026-10-27-sh-ftts-laz (team 3422) @0.99; astatc-sea-sas-laz-2026-10-27 |
-| seriea | SOCCER_GAME_TOTAL_CORNERS | OTHER/UNKNOWN | 56 | Will TOR vs COM's corners be above 8.5 on Oct 27, 2026? | 8.5 | astatc-sea-tor-com-2026-10-27-cor-all-gt8pt5 @0.47; astatc-sea-tor-com-2026-10-27-cor-all- |
-| seriea | SOCCER_PLAYER_GOALS | OTHER/UNKNOWN | 27 | Will Davide Frattesi record at least 1 goals in SAS vs LAZ? | 1 | astatc-sea-sas-laz-2026-10-27-g-seadavfra-gte1 (team 3422) @0.02; astatc-sea-sas-laz-2026- |
-| seriea | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 32 | Will the US Sassuolo Calcio cover 1.5 vs the SS Lazio in SAS | 1.5 | asc-sea-sas-laz-2026-10-27-fh-pos-1pt5 (team 3433) @0.88; asc-sea-sas-laz-2026-10-27-fh-po |
-| seriea | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 40 | Will the total in SAS vs LAZ be more than 1.5? | 1.5 | tsc-sea-sas-laz-2026-10-27-fh-1pt5 @0.39; tsc-sea-sas-laz-2026-10-27-fh-1pt5 @0.41 |
-| seriea | SOCCER_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 24 | Will SS Lazio lead US Sassuolo Calcio at halftime? |  | atc-sea-sas-laz-2026-10-27-fh-laz (team 3422) @0.36; atc-sea-sas-laz-2026-10-27-fh-laz (te |
-| seriea | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 32 | Will the US Sassuolo Calcio cover 1.5 vs the SS Lazio in SAS | 1.5 | asc-sea-sas-laz-2026-10-27-pos-1pt5 (team 3433) @0.75; asc-sea-sas-laz-2026-10-27-pos-1pt5 |
-| seriea | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 48 | Will the total in SAS vs LAZ be more than 2.5? | 2.5 | tsc-sea-sas-laz-2026-10-27-2pt5 @0.59; tsc-sea-sas-laz-2026-10-27-2pt5 @0.60 |
-| seriea | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 60 | Will US Sassuolo Calcio win against SS Lazio in the Serie A  |  | atc-sea-sas-laz-2026-10-27-sas (team 3433) @0.27; atc-sea-sas-laz-2026-10-27-sas (team 343 |
-| seriea | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 32 | Will the US Sassuolo Calcio cover 1.5 vs the SS Lazio in SAS | 1.5 | asc-sea-sas-laz-2026-10-27-sh-pos-1pt5 (team 3433) @0.01; asc-sea-sas-laz-2026-10-27-sh-po |
-| seriea | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 40 | Will the total in SAS vs LAZ be more than 2.5? | 2.5 | tsc-sea-sas-laz-2026-10-27-sh-2pt5 @0.01; tsc-sea-sas-laz-2026-10-27-sh-2pt5 @0.98 |
-| seriea | SOCCER_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 24 | Will the second half of SAS vs LAZ be a draw? |  | atc-sea-sas-laz-2026-10-27-sh-draw @0.02; atc-sea-sas-laz-2026-10-27-sh-draw @0.96 |
-| seriea | SOCCER_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 48 | Will SS Lazio score more than 1.5 goals in 90 minutes plus s | 1.5 | tsc-sea-sas-laz-2026-10-27-ttg-laz-1pt5 (team 3422) @0.52; tsc-sea-sas-laz-2026-10-27-ttg- |
-| seriea | SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF | OTHER/UNKNOWN | 32 | Will SS Lazio score more than 0.5 goals in the first half of | 0.5 | tsc-sea-sas-laz-2026-10-27-ttg-fh-laz-0pt5 (team 3422) @0.01; tsc-sea-sas-laz-2026-10-27-t |
-| ligue1 | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 27 | Will Le Havre AC win against Paris Saint-Germain FC in the L |  | atc-lg1-hac-psg-2026-10-30-hac (team 25632) @0.07; atc-lg1-hac-psg-2026-10-30-hac (team 25 |
+| seriea | SOCCER_GAME_BTTS | OTHER/UNKNOWN | 7 | Will both teams score in the match between Parma Calcio 1913 | 1 | astatc-sea-par-udi-2026-10-28-btts @0.54; astatc-sea-par-udi-2026-10-28-btts @0.55 |
+| seriea | SOCCER_GAME_EXACT_SCORE | OTHER/UNKNOWN | 112 | Will MIL vs BOL finish MIL wins 2-1? |  | atc-sea-mil-bol-2026-10-28-exact-score-2-1 @0.09; atc-sea-mil-bol-2026-10-28-exact-score-2 |
+| seriea | SOCCER_GAME_FIRST_HALF_BTTS | OTHER/UNKNOWN | 7 | Will both teams score in the first half between AC Milan and | 1 | astatc-sea-mil-bol-2026-10-28-fh-btts @0.15; astatc-sea-mil-bol-2026-10-28-fh-btts @0.18 |
+| seriea | SOCCER_GAME_FIRST_HALF_EXACT_SCORE | OTHER/UNKNOWN | 63 | Will MIL vs BOL be BOL wins 2-0 at halftime? |  | atc-sea-mil-bol-2026-10-28-fh-exact-score-0-2 @0.04; atc-sea-mil-bol-2026-10-28-fh-exact-s |
+| seriea | SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 21 | Will Bologna FC 1909 be the first to score a goal in the fir |  | astatc-sea-mil-bol-2026-10-28-fh-ftts-bol (team 3426) @0.99; astatc-sea-mil-bol-2026-10-28 |
+| seriea | SOCCER_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 21 | Will AC Milan be the first to score a goal on 2026-10-28 1:3 |  | astatc-sea-mil-bol-2026-10-28-ftts-mil (team 3423) @0.60; astatc-sea-mil-bol-2026-10-28-ft |
+| seriea | SOCCER_GAME_SECOND_HALF_BTTS | OTHER/UNKNOWN | 7 | Will both teams score in the second half between AC Milan an | 1 | astatc-sea-mil-bol-2026-10-28-sh-btts @0.02; astatc-sea-mil-bol-2026-10-28-sh-btts @0.99 |
+| seriea | SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 21 | Will None be the first to score a goal in the second half on |  | astatc-sea-mil-bol-2026-10-28-sh-ftts-none @0.99; astatc-sea-mil-bol-2026-10-28-sh-ftts-no |
+| seriea | SOCCER_GAME_TOTAL_CORNERS | OTHER/UNKNOWN | 49 | Will FRO vs LEC's corners be above 9.5 on Oct 29, 2026? | 9.5 | astatc-sea-fro-lec-2026-10-29-cor-all-gt9pt5 @0.40; astatc-sea-fro-lec-2026-10-29-cor-all- |
+| seriea | SOCCER_PLAYER_GOALS | OTHER/UNKNOWN | 54 | Will Federico Bernardeschi record at least 1 goals in MIL vs | 1 | astatc-sea-mil-bol-2026-10-28-g-seafedber-gte1 (team 3426) @0.02; astatc-sea-mil-bol-2026- |
+| seriea | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 28 | Will the AC Milan cover -1.5 vs the Bologna FC 1909 in MIL v | -1.5 | asc-sea-mil-bol-2026-10-28-fh-neg-1pt5 (team 3423) @0.11; asc-sea-mil-bol-2026-10-28-fh-ne |
+| seriea | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 35 | Will the total in MIL vs BOL be more than 0.5? | 0.5 | tsc-sea-mil-bol-2026-10-28-fh-0pt5 @0.67; tsc-sea-mil-bol-2026-10-28-fh-0pt5 @0.69 |
+| seriea | SOCCER_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 21 | Will AC Milan lead Bologna FC 1909 at halftime? |  | atc-sea-mil-bol-2026-10-28-fh-mil (team 3423) @0.40; atc-sea-mil-bol-2026-10-28-fh-mil (te |
+| seriea | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 28 | Will the AC Milan cover -1.5 vs the Bologna FC 1909 in MIL v | -1.5 | asc-sea-mil-bol-2026-10-28-neg-1pt5 (team 3423) @0.29; asc-sea-mil-bol-2026-10-28-neg-1pt5 |
+| seriea | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 42 | Will the total in MIL vs BOL be more than 2.5? | 2.5 | tsc-sea-mil-bol-2026-10-28-2pt5 @0.44; tsc-sea-mil-bol-2026-10-28-2pt5 @0.45 |
+| seriea | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 51 | Will AC Milan win against Bologna FC 1909 in the Serie A mat |  | atc-sea-mil-bol-2026-10-28-mil (team 3423) @0.55; atc-sea-mil-bol-2026-10-28-mil (team 342 |
+| seriea | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 28 | Will the AC Milan cover 1.5 vs the Bologna FC 1909 in MIL vs | 1.5 | asc-sea-mil-bol-2026-10-28-sh-pos-1pt5 (team 3423) @0.01; asc-sea-mil-bol-2026-10-28-sh-po |
+| seriea | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 35 | Will the total in MIL vs BOL be more than 2.5? | 2.5 | tsc-sea-mil-bol-2026-10-28-sh-2pt5 @0.01; tsc-sea-mil-bol-2026-10-28-sh-2pt5 @0.98 |
+| seriea | SOCCER_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 21 | Will AC Milan win the second half against Bologna FC 1909? |  | atc-sea-mil-bol-2026-10-28-sh-mil (team 3423) @0.02; atc-sea-mil-bol-2026-10-28-sh-mil (te |
+| seriea | SOCCER_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 42 | Will AC Milan score more than 1.5 goals in 90 minutes plus s | 1.5 | tsc-sea-mil-bol-2026-10-28-ttg-mil-1pt5 (team 3423) @0.49; tsc-sea-mil-bol-2026-10-28-ttg- |
+| seriea | SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF | OTHER/UNKNOWN | 28 | Will Bologna FC 1909 score more than 1.5 goals in the first  | 1.5 | tsc-sea-mil-bol-2026-10-28-ttg-fh-bol-1pt5 (team 3426) @0.01; tsc-sea-mil-bol-2026-10-28-t |
+| ligue1 | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 27 | Will Le Havre AC win against Paris Saint-Germain FC in the L |  | atc-lg1-hac-psg-2026-10-30-hac (team 25632) @0.08; atc-lg1-hac-psg-2026-10-30-hac (team 25 |
 
 ## All leagues
 
@@ -447,6 +449,7 @@
 | urc | United Rugby Championship | True |
 | bolcup | Copa Bolivia | True |
 | bmwladic | BMW Ladies Championship | True |
+| vidamexi | VidantaWorld Mexico Open | True |
 | svk2 | Slovak 2. Liga | True |
 | prem | PREM Rugby | True |
 | top14 | TOP 14 | True |
@@ -454,7 +457,6 @@
 | arfa | Torneo Regional Federal Amateur | False |
 | urupda | Uruguay Primera Divisional C | False |
 | nscup | North of Scotland Cup | False |
-| vidamexi | VidantaWorld Mexico Open | True |
 | maybcham | Maybank Championship | True |
 | asgames | Asian Games Men's Football | True |
 | aseanc | ASEAN Cup Challenge Division | True |
@@ -497,21 +499,21 @@
 | cznbl | Czech NBL | True |
 | koris | Korisliiga | True |
 | nba | NBA | True |
-| rsmclas | The RSM Classic | True |
+| abudhabc | Abu Dhabi Championship | True |
 | bsktcua | BSKT Cup | True |
 | bsktcin | BSKT Cup International | True |
 | lfa | LFA | True |
+| rsmclas | The RSM Classic | True |
 | rlwc | RLWC | True |
 | bkfc | BKFC | True |
 | bskt3x3 | BSKT Cup 3x3 | True |
-| austcham | Austin Championship | True |
-| acw | Astra Cup Women | True |
-| simmbank | Simmons Bank Championship | True |
-| ebattlesebb | eBattles: eBasketball | True |
-| abudhabc | Abu Dhabi Championship | True |
 | totojapa | Toto Japan Classic | True |
-| ebattlesebbec | eBattles: eBasketball European Conference | True |
+| acw | Astra Cup Women | True |
+| austcham | Austin Championship | True |
 | worlwide | World Wide Technology Championship | True |
+| ebattlesebb | eBattles: eBasketball | True |
+| ebattlesebbec | eBattles: eBasketball European Conference | True |
+| simmbank | Simmons Bank Championship | True |
 | dpworlch | DP World Tour Championship | True |
 | anni | ANNIKA | True |
 | cmegrouc | CME Group Tour Championship | True |
