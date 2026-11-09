@@ -1,237 +1,127 @@
-# Polymarket US discovery 2026-11-08T08:52:43+00:00
+# Polymarket US discovery 2026-11-09T09:11:23+00:00
 
 395 leagues listed.
 
 | Sport | Slug | Listed | Events | Next 36h | Main lines to record (next 36h) | Unclassified types | Note |
 |---|---|---|---|---|---|---|---|
 | mlb | mlb | yes | 0 | 0 | 0 | - | candidates: mlb |
-| nba | nba | yes | 109 | 7 | 21 | BASKETBALL_PLAYER_ASSISTS, BASKETBALL_PLAYER_POINTS, BASKETBALL_PLAYER_REBOUNDS, BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS, BASKETBALL_PLAYER_THREES, BASKETBALL_PLAYER_STEALS, BASKETBALL_PLAYER_BLOCKS |  |
-| ncaab | cbb | yes | 766 | 37 | 69 | BASKETBALL_TEAM_TOTAL_POINTS, BASKETBALL_GAME_RACE_TO_POINTS |  |
-| nhl | nhl | yes | 33 | 6 | 126 | HOCKEY_TEAM_TOTAL_GOALS, HOCKEY_PLAYER_POINTS, HOCKEY_GAME_FIRST_TEAM_TO_SCORE, HOCKEY_PLAYER_ASSISTS, HOCKEY_PLAYER_GOALS, HOCKEY_GAME_OVERTIME |  |
-| nfl | nfl | yes | 40 | 13 | 91 | FOOTBALL_PLAYER_PASSING_COMPLETIONS, FOOTBALL_GAME_TOTAL_PASS_TOUCHDOWNS, FOOTBALL_PLAYER_PASSING_YARDS, FOOTBALL_GAME_TOTAL_TOUCHDOWNS, FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS, FOOTBALL_PLAYER_RECEPTIONS, FOOTBALL_PLAYER_RUSHING_YARDS, FOOTBALL_PLAYER_RECEIVING_YARDS, FOOTBALL_PLAYER_PASSING_TOUCHDOWNS, FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE, FOOTBALL_PLAYER_PASSING_ATTEMPTS, FOOTBALL_TEAM_TOTAL_TOUCHDOWNS, FOOTBALL_GAME_SECOND_QUARTER_BOTH_TEAMS_SCORE_POINTS, FOOTBALL_PLAYER_SCRIMMAGE_YARDS, FOOTBALL_GAME_FOURTH_QUARTER_BOTH_TEAMS_SCORE_POINTS, FOOTBALL_PLAYER_MOST_PASSING_YARDS, FOOTBALL_PLAYER_TOUCHDOWNS, FOOTBALL_PLAYER_RUSHING_ATTEMPTS, FOOTBALL_GAME_RACE_TO_POINTS, FOOTBALL_PLAYER_FANTASY_POINTS_PPR, FOOTBALL_GAME_FIRST_TOUCHDOWN, FOOTBALL_GAME_FIRST_SCORE, FOOTBALL_PLAYER_LONGEST_RECEPTION, FOOTBALL_PLAYER_INTERCEPTIONS_THROWN, FOOTBALL_GAME_FIRST_QUARTER_BOTH_TEAMS_SCORE_POINTS, FOOTBALL_GAME_THIRD_QUARTER_BOTH_TEAMS_SCORE_POINTS, FOOTBALL_GAME_DOUBLE_RESULT, FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN, FOOTBALL_GAME_TOTAL_RUSH_TOUCHDOWNS, FOOTBALL_GAME_EXACT_MARGIN, FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS, FOOTBALL_PLAYER_FIRST_TOUCHDOWN, FOOTBALL_TEAM_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS, FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS, FOOTBALL_GAME_OVERTIME, FOOTBALL_GAME_SAFETY, FOOTBALL_GAME_TIE |  |
-| cs2 | cs2 | yes | 57 | 45 | 145 | - |  |
-| lol | lol | yes | 1 | 1 | 1 | ESPORTS_SERIES_GAME_HANDICAP, ESPORTS_SERIES_TOTAL_GAMES, ESPORTS_GAME_WINNER_1, ESPORTS_GAME_WINNER_3, ESPORTS_GAME_WINNER_2 |  |
-| epl | epl | yes | 5 | 5 | 60 | SOCCER_GAME_EXACT_SCORE, SOCCER_GAME_FIRST_HALF_EXACT_SCORE, SOCCER_GAME_TOTAL_CORNERS, SOCCER_GAME_FIRST_HALF_BTTS, SOCCER_TEAM_TOTAL_GOALS, SOCCER_PLAYER_GOALS, SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE, SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF, SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_FIRST_TEAM_TO_SCORE, SOCCER_GAME_SECOND_HALF_BTTS, SOCCER_GAME_BTTS |  |
-| laliga | lal | yes | 5 | 5 | 60 | SOCCER_GAME_EXACT_SCORE, SOCCER_GAME_TOTAL_CORNERS, SOCCER_GAME_FIRST_HALF_EXACT_SCORE, SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_SECOND_HALF_BTTS, SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF, SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_FIRST_TEAM_TO_SCORE, SOCCER_GAME_FIRST_HALF_BTTS, SOCCER_TEAM_TOTAL_GOALS, SOCCER_PLAYER_GOALS, SOCCER_GAME_BTTS |  |
-| bundesliga | bun | yes | 3 | 3 | 36 | SOCCER_GAME_TOTAL_CORNERS, SOCCER_GAME_EXACT_SCORE, SOCCER_GAME_FIRST_HALF_EXACT_SCORE, SOCCER_TEAM_TOTAL_GOALS, SOCCER_GAME_FIRST_TEAM_TO_SCORE, SOCCER_GAME_FIRST_HALF_BTTS, SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE, SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF, SOCCER_GAME_BTTS, SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_SECOND_HALF_BTTS, SOCCER_PLAYER_GOALS |  |
-| seriea | sea | yes | 5 | 5 | 60 | SOCCER_GAME_EXACT_SCORE, SOCCER_GAME_TOTAL_CORNERS, SOCCER_PLAYER_GOALS, SOCCER_GAME_FIRST_HALF_EXACT_SCORE, SOCCER_TEAM_TOTAL_GOALS, SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE, SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF, SOCCER_GAME_SECOND_HALF_BTTS, SOCCER_GAME_FIRST_HALF_BTTS, SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_FIRST_TEAM_TO_SCORE, SOCCER_GAME_BTTS |  |
-| ligue1 | lg1 | yes | 6 | 6 | 72 | SOCCER_GAME_EXACT_SCORE, SOCCER_GAME_FIRST_HALF_EXACT_SCORE, SOCCER_GAME_FIRST_HALF_BTTS, SOCCER_GAME_FIRST_TEAM_TO_SCORE, SOCCER_TEAM_TOTAL_GOALS, SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_BTTS, SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF, SOCCER_GAME_TOTAL_CORNERS, SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE, SOCCER_GAME_SECOND_HALF_BTTS, SOCCER_PLAYER_GOALS |  |
+| nba | nba | yes | 112 | 8 | 24 | BASKETBALL_PLAYER_ASSISTS, BASKETBALL_PLAYER_REBOUNDS, BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS, BASKETBALL_PLAYER_POINTS, BASKETBALL_PLAYER_THREES, BASKETBALL_PLAYER_STEALS, BASKETBALL_PLAYER_BLOCKS |  |
+| ncaab | cbb | yes | 766 | 50 | 118 | BASKETBALL_TEAM_TOTAL_POINTS, BASKETBALL_GAME_RACE_TO_POINTS |  |
+| nhl | nhl | yes | 29 | 3 | 63 | HOCKEY_TEAM_TOTAL_GOALS, HOCKEY_PLAYER_POINTS, HOCKEY_GAME_FIRST_TEAM_TO_SCORE, HOCKEY_PLAYER_ASSISTS, HOCKEY_PLAYER_GOALS, HOCKEY_GAME_OVERTIME |  |
+| nfl | nfl | yes | 28 | 1 | 7 | FOOTBALL_GAME_FIRST_SCORE, FOOTBALL_GAME_FIRST_TOUCHDOWN, FOOTBALL_GAME_DOUBLE_RESULT, FOOTBALL_GAME_EXACT_MARGIN, FOOTBALL_GAME_RACE_TO_POINTS, FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS, FOOTBALL_GAME_FIRST_QUARTER_BOTH_TEAMS_SCORE_POINTS, FOOTBALL_GAME_SECOND_QUARTER_BOTH_TEAMS_SCORE_POINTS, FOOTBALL_GAME_THIRD_QUARTER_BOTH_TEAMS_SCORE_POINTS, FOOTBALL_GAME_FOURTH_QUARTER_BOTH_TEAMS_SCORE_POINTS, FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS, FOOTBALL_PLAYER_FIRST_TOUCHDOWN, FOOTBALL_PLAYER_FANTASY_POINTS_PPR, FOOTBALL_PLAYER_INTERCEPTIONS_THROWN, FOOTBALL_PLAYER_LONGEST_RECEPTION, FOOTBALL_PLAYER_MOST_PASSING_YARDS, FOOTBALL_GAME_OVERTIME, FOOTBALL_PLAYER_PASSING_ATTEMPTS, FOOTBALL_PLAYER_PASSING_COMPLETIONS, FOOTBALL_GAME_TOTAL_PASS_TOUCHDOWNS, FOOTBALL_PLAYER_PASSING_TOUCHDOWNS, FOOTBALL_PLAYER_PASSING_YARDS, FOOTBALL_PLAYER_RUSHING_ATTEMPTS, FOOTBALL_PLAYER_RECEPTIONS, FOOTBALL_PLAYER_RECEIVING_YARDS, FOOTBALL_GAME_TOTAL_RUSH_TOUCHDOWNS, FOOTBALL_PLAYER_RUSHING_YARDS, FOOTBALL_GAME_SAFETY, FOOTBALL_PLAYER_SCRIMMAGE_YARDS, FOOTBALL_PLAYER_TOUCHDOWNS, FOOTBALL_GAME_TOTAL_TOUCHDOWNS, FOOTBALL_TEAM_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS, FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE, FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN, FOOTBALL_GAME_TIE, FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS, FOOTBALL_TEAM_TOTAL_TOUCHDOWNS |  |
+| cs2 | cs2 | yes | 61 | 46 | 118 | - |  |
+| lol | lol | yes | 1 | 0 | 0 | - |  |
+| epl | epl | yes | 0 | 0 | 0 | - | candidates: epl, nbasl, lol, blw, mlc, etpl, mlp, cpl, spl, egpl, sclc, kl1, cpbl, irlp, mlccr |
+| laliga | lal | yes | 0 | 0 | 0 | - | candidates: f1, lal, bun, cadi, onefmyrtbeac, flc, t20blast, t20blastw, rockclas, lmx, ligpor, czechligapro, russialigapro, johndeer, ekst |
+| bundesliga | bun | yes | 0 | 0 | 0 | - | candidates: bun, atbl, bbl, bun2, fbl |
+| seriea | sea | yes | 0 | 0 | 0 | - | candidates: f1, poly-open, masters, nbasl, wnba, uefa, cham, lal, bun, cadi, lol, onefmyrtbeac, trui, atpcq, rbcheri |
+| ligue1 | lg1 | yes | 0 | 0 | 0 | - | candidates: f1, nb1, kl1, nor1, pl1, ecu1, den1, irl1, uzb1, uru1, isl1, lig2, lg1, defran, lnb |
 
 ## Market types seen, with one example each
 
 | Sport | Raw type | Class/segment | Count | Example question | Line | Sides |
 |---|---|---|---|---|---|---|
-| nba | BASKETBALL_PLAYER_ASSISTS | OTHER/UNKNOWN | 229 | Will Josh Giddey record at least 2 assists in PHI 76ers vs.  | 2 | astatc-nba-phi-chi-2026-11-08-ast-josgid-gte2 (team 37) @0.96; astatc-nba-phi-chi-2026-11- |
-| nba | BASKETBALL_PLAYER_BLOCKS | OTHER/UNKNOWN | 34 | Will Caleb Wilson record at least 1 blocks in PHI 76ers vs.  | 1 | astatc-nba-phi-chi-2026-11-08-blk-calwil-gte1 (team 37) @0.45; astatc-nba-phi-chi-2026-11- |
-| nba | BASKETBALL_PLAYER_POINTS | OTHER/UNKNOWN | 319 | Will Zion Williamson record at least 20 points in NO Pelican | 20 | astatc-nba-no-lac-2026-11-08-pts-ziowil-gte20 (team 42) @0.49; astatc-nba-no-lac-2026-11-0 |
-| nba | BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS | OTHER/UNKNOWN | 289 | Will Cade Cunningham record at least 40 combined points, reb | 40 | astatc-nba-lal-det-2026-11-08-pra-cadcun-gte40 (team 23) @0.47; astatc-nba-lal-det-2026-11 |
-| nba | BASKETBALL_PLAYER_REBOUNDS | OTHER/UNKNOWN | 333 | Will Caleb Wilson record at least 6 total rebounds in PHI 76 | 6 | astatc-nba-phi-chi-2026-11-08-reb-calwil-gte6 (team 37) @0.38; astatc-nba-phi-chi-2026-11- |
-| nba | BASKETBALL_PLAYER_STEALS | OTHER/UNKNOWN | 110 | Will Tyrese Maxey record at least 1 steals in PHI 76ers vs.  | 1 | astatc-nba-phi-chi-2026-11-08-stl-tyrmax-gte1 (team 29) @0.58; astatc-nba-phi-chi-2026-11- |
-| nba | BASKETBALL_PLAYER_THREES | OTHER/UNKNOWN | 214 | Will Norman Powell record at least 1 three-point field goals | 1 | astatc-nba-phi-chi-2026-11-08-3pm-norpow-gte1 (team 37) @0.85; astatc-nba-phi-chi-2026-11- |
-| nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 236 | Will the PHI 76ers cover -9.5 vs the CHI Bulls in PHI 76ers  | -9.5 | asc-nba-phi-chi-2026-11-08-neg-9pt5 (team 29) @0.49; asc-nba-phi-chi-2026-11-08-neg-9pt5 ( |
-| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 218 | Will the total in PHI 76ers vs. CHI Bulls be more than 237.5 | 237.5 | tsc-nba-phi-chi-2026-11-08-237pt5 @0.51; tsc-nba-phi-chi-2026-11-08-237pt5 @0.52 |
-| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 109 | Who will win in the upcoming basketball event PHI 76ers vs C |  | aec-nba-phi-chi-2026-11-08 (team 29) @0.78; aec-nba-phi-chi-2026-11-08 (team 37) @0.79 |
-| ncaab | BASKETBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 170 | Will Lehigh reach 30 points before Brown? | 30 | atc-cbb-brown-lehi-2026-11-08-race30-lehi (team 1917) @0.99; atc-cbb-brown-lehi-2026-11-08 |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 411 | Will Iona cover +28.5 vs St. John's in Iona vs. St. John's? | 28.5 | asc-cbb-iona-stjohn-2026-11-08-pos-28pt5 (team 1826) @0.49; asc-cbb-iona-stjohn-2026-11-08 |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 428 | Will the total in Iona vs. St. John's be more than 150.5? | 150.5 | tsc-cbb-iona-stjohn-2026-11-08-150pt5 @0.50; tsc-cbb-iona-stjohn-2026-11-08-150pt5 @0.52 |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 766 | Who will win in the upcoming basketball event Iona vs St. Jo |  | aec-cbb-iona-stjohn-2026-11-08 (team 1826) @0.01; aec-cbb-iona-stjohn-2026-11-08 (team 172 |
-| ncaab | BASKETBALL_TEAM_TOTAL_POINTS | OTHER/UNKNOWN | 96 | Will Iona score more than 60.5 points in Iona vs. St. John's | 60.5 | tsc-cbb-iona-stjohn-2026-11-08-tt-iona-fg-60pt5 (team 1826) @0.42; tsc-cbb-iona-stjohn-202 |
-| nhl | HOCKEY_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 18 | Will BOS Bruins score the first goal in FLA vs BOS? |  | astatc-nhl-fla-bos-2026-11-08-ftts-bos (team 1484) @0.48; astatc-nhl-fla-bos-2026-11-08-ft |
-| nhl | HOCKEY_GAME_OVERTIME | OTHER/UNKNOWN | 6 | Will the NHL hockey game between Panthers and Bruins on 2026 | 0.5 | astatc-nhl-fla-bos-2026-11-08-ot (team 1484) @0.23; astatc-nhl-fla-bos-2026-11-08-ot (team |
-| nhl | HOCKEY_PLAYER_ASSISTS | OTHER/UNKNOWN | 170 | Will Mark Scheifele record at least 1 assists in TBL vs WPG? | 1 | astatc-nhl-tb-wpg-2026-11-08-ast-marsch-gte1 (team 1505) @0.48; astatc-nhl-tb-wpg-2026-11- |
-| nhl | HOCKEY_PLAYER_GOALS | OTHER/UNKNOWN | 227 | Will David Pastrnak record at least 1 goals in FLA vs BOS? | 1 | astatc-nhl-fla-bos-2026-11-08-goals-davpas-gte1 (team 1484) @0.38; astatc-nhl-fla-bos-2026 |
-| nhl | HOCKEY_PLAYER_POINTS | OTHER/UNKNOWN | 227 | Will Seth Jones record at least 1 points in FLA vs BOS? | 1 | astatc-nhl-fla-bos-2026-11-08-pts-setjon-gte1 (team 1491) @0.46; astatc-nhl-fla-bos-2026-1 |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 12 | Will FLA Panthers cover +1.5 vs BOS Bruins in the first peri | 1.5 | asc-nhl-fla-bos-2026-11-08-p1-pos-1pt5 (team 1491) @0.87; asc-nhl-fla-bos-2026-11-08-p1-po |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 24 | Will FLA vs BOS have more than 1.5 goals in the first period | 1.5 | tsc-nhl-fla-bos-2026-11-08-p1-1pt5 @0.55; tsc-nhl-fla-bos-2026-11-08-p1-1pt5 @0.57 |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_WINNER | WINNER/FIRST_PERIOD | 18 | Will BOS Bruins win the first period of FLA vs BOS? |  | atc-nhl-fla-bos-2026-11-08-p1-bos (team 1484) @0.34; atc-nhl-fla-bos-2026-11-08-p1-bos (te |
-| nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 36 | Will the FLA Panthers cover 1.5 vs the BOS Bruins in FLA vs  | 1.5 | asc-nhl-fla-bos-2026-11-08-pos-1pt5 (team 1491) @0.65; asc-nhl-fla-bos-2026-11-08-pos-1pt5 |
-| nhl | HOCKEY_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 48 | Will the total in FLA vs BOS be more than 6.5? | 6.5 | tsc-nhl-fla-bos-2026-11-08-6pt5 @0.46; tsc-nhl-fla-bos-2026-11-08-6pt5 @0.47 |
-| nhl | HOCKEY_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 33 | Who will win in the upcoming hockey event FLA Panthers vs BO |  | aec-nhl-fla-bos-2026-11-08 (team 1491) @0.43; aec-nhl-fla-bos-2026-11-08 (team 1484) @0.44 |
-| nhl | HOCKEY_TEAM_REGULATION_WINNER | WINNER/REGULATION | 18 | Will BOS Bruins lead after regulation of FLA vs BOS? |  | atc-nhl-fla-bos-2026-11-08-reg-bos (team 1484) @0.45; atc-nhl-fla-bos-2026-11-08-reg-bos ( |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_SPREAD | SPREAD/SECOND_PERIOD | 12 | Will FLA Panthers cover +1.5 vs BOS Bruins in the second per | 1.5 | asc-nhl-fla-bos-2026-11-08-p2-pos-1pt5 (team 1491) @0.84; asc-nhl-fla-bos-2026-11-08-p2-po |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_TOTAL | TOTAL/SECOND_PERIOD | 24 | Will FLA vs BOS have more than 1.5 goals in the second perio | 1.5 | tsc-nhl-fla-bos-2026-11-08-p2-1pt5 @0.58; tsc-nhl-fla-bos-2026-11-08-p2-1pt5 @0.63 |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_WINNER | WINNER/SECOND_PERIOD | 18 | Will BOS Bruins win the second period of FLA vs BOS? |  | atc-nhl-fla-bos-2026-11-08-p2-bos (team 1484) @0.36; atc-nhl-fla-bos-2026-11-08-p2-bos (te |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_SPREAD | SPREAD/THIRD_PERIOD | 12 | Will FLA Panthers cover +1.5 vs BOS Bruins in the third peri | 1.5 | asc-nhl-fla-bos-2026-11-08-p3-pos-1pt5 (team 1491) @0.81; asc-nhl-fla-bos-2026-11-08-p3-po |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_TOTAL | TOTAL/THIRD_PERIOD | 24 | Will FLA vs BOS have more than 2.5 goals in the third period | 2.5 | tsc-nhl-fla-bos-2026-11-08-p3-2pt5 @0.37; tsc-nhl-fla-bos-2026-11-08-p3-2pt5 @0.43 |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_WINNER | WINNER/THIRD_PERIOD | 18 | Will BOS Bruins win the third period of FLA vs BOS? |  | atc-nhl-fla-bos-2026-11-08-p3-bos (team 1484) @0.40; atc-nhl-fla-bos-2026-11-08-p3-bos (te |
-| nhl | HOCKEY_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 72 | Will BOS Bruins score more than 0.5 goals in FLA vs BOS? | 0.5 | tsc-nhl-fla-bos-2026-11-08-tt-bos-0pt5 (team 1484) @0.91; tsc-nhl-fla-bos-2026-11-08-tt-bo |
-| nfl | FOOTBALL_GAME_DOUBLE_RESULT | OTHER/UNKNOWN | 117 | Halftime / Full Time: CIN 1H / CIN Game |  | astatc-nfl-cin-atl-2026-11-08-htft-away-away @0.43; astatc-nfl-cin-atl-2026-11-08-htft-awa |
-| nfl | FOOTBALL_GAME_EXACT_MARGIN | OTHER/UNKNOWN | 91 | Exact Margin of Victory: CIN Bengals by 1-6 |  | astatc-nfl-cin-atl-2026-11-08-margin-long-1-6 @0.25; astatc-nfl-cin-atl-2026-11-08-margin- |
-| nfl | FOOTBALL_GAME_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 143 | Will the total in CIN Bengals vs. ATL Falcons be more than 2 | 26.5 | tsc-nfl-cin-atl-2026-11-08-1h-26pt5 @0.50; tsc-nfl-cin-atl-2026-11-08-1h-26pt5 @0.51 |
-| nfl | FOOTBALL_GAME_FIRST_QUARTER_BOTH_TEAMS_SCORE_POINTS | OTHER/UNKNOWN | 13 | Both Teams to Score Points - 1st Quarter: Over 0.5 | 0.5 | astatc-nfl-lv-sf-2026-11-08-bp1q-0pt5 @0.46; astatc-nfl-lv-sf-2026-11-08-bp1q-0pt5 @0.54 |
-| nfl | FOOTBALL_GAME_FIRST_QUARTER_TOTAL | TOTAL/FIRST_QUARTER | 195 | Will the total in CIN Bengals vs. ATL Falcons be more than 8 | 8.5 | tsc-nfl-cin-atl-2026-11-08-1q-8pt5 @0.58; tsc-nfl-cin-atl-2026-11-08-1q-8pt5 @0.59 |
-| nfl | FOOTBALL_GAME_FIRST_SCORE | OTHER/UNKNOWN | 39 | First Team to Score Points: Cincinnati Bengals |  | astatc-nfl-cin-atl-2026-11-08-fs-cin (team 54) @0.28; astatc-nfl-cin-atl-2026-11-08-fs-cin |
-| nfl | FOOTBALL_GAME_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 39 | First Team to Score a Touchdown: Denver Broncos |  | astatc-nfl-den-car-2026-11-08-ftd-den (team 57) @0.46; astatc-nfl-den-car-2026-11-08-ftd-d |
-| nfl | FOOTBALL_GAME_FOURTH_QUARTER_BOTH_TEAMS_SCORE_POINTS | OTHER/UNKNOWN | 13 | Both Teams to Score Points - 4th Quarter: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-bp4q-0pt5 @0.74; astatc-nfl-cin-atl-2026-11-08-bp4q-0pt5 @0. |
-| nfl | FOOTBALL_GAME_FOURTH_QUARTER_TOTAL | TOTAL/FOURTH_QUARTER | 193 | Will the total in CIN Bengals vs. ATL Falcons be more than 1 | 14.5 | tsc-nfl-cin-atl-2026-11-08-4q-14pt5 @0.49; tsc-nfl-cin-atl-2026-11-08-4q-14pt5 @0.50 |
-| nfl | FOOTBALL_GAME_OVERTIME | OTHER/UNKNOWN | 13 | Overtime?: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-ot-0pt5 @0.05; astatc-nfl-cin-atl-2026-11-08-ot-0pt5 @0.06 |
-| nfl | FOOTBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 195 | Race to 14 Points: New York Giants | 14 | astatc-nfl-nyg-phi-2026-11-08-race14-nyg (team 71) @0.44; astatc-nfl-nyg-phi-2026-11-08-ra |
-| nfl | FOOTBALL_GAME_SAFETY | OTHER/UNKNOWN | 13 | Will there be a Safety?: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-safety-0pt5 @0.01; astatc-nfl-cin-atl-2026-11-08-safety-0pt5 |
-| nfl | FOOTBALL_GAME_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 143 | Will the total in CIN Bengals vs. ATL Falcons be more than 2 | 26.5 | tsc-nfl-cin-atl-2026-11-08-2h-26pt5 @0.50; tsc-nfl-cin-atl-2026-11-08-2h-26pt5 @0.51 |
-| nfl | FOOTBALL_GAME_SECOND_QUARTER_BOTH_TEAMS_SCORE_POINTS | OTHER/UNKNOWN | 13 | Both Teams to Score Points - 2nd Quarter: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-bp2q-0pt5 @0.77; astatc-nfl-cin-atl-2026-11-08-bp2q-0pt5 @0. |
-| nfl | FOOTBALL_GAME_SECOND_QUARTER_TOTAL | TOTAL/SECOND_QUARTER | 195 | Will the total in CIN Bengals vs. ATL Falcons be more than 1 | 16.5 | tsc-nfl-cin-atl-2026-11-08-2q-16pt5 @0.48; tsc-nfl-cin-atl-2026-11-08-2q-16pt5 @0.49 |
-| nfl | FOOTBALL_GAME_THIRD_QUARTER_BOTH_TEAMS_SCORE_POINTS | OTHER/UNKNOWN | 13 | Both Teams to Score Points - 3rd Quarter: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-bp3q-0pt5 @0.44; astatc-nfl-cin-atl-2026-11-08-bp3q-0pt5 @0. |
-| nfl | FOOTBALL_GAME_THIRD_QUARTER_TOTAL | TOTAL/THIRD_QUARTER | 195 | Will the total in CIN Bengals vs. ATL Falcons be more than 1 | 10.5 | tsc-nfl-cin-atl-2026-11-08-3q-10pt5 @0.44; tsc-nfl-cin-atl-2026-11-08-3q-10pt5 @0.45 |
-| nfl | FOOTBALL_GAME_TIE | OTHER/UNKNOWN | 13 | Game Ends in a Tie (Including Overtime)?: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-tie-0pt5 @0.01; astatc-nfl-cin-atl-2026-11-08-tie-0pt5 @0.02 |
-| nfl | FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS | OTHER/UNKNOWN | 13 | Total Defensive/Special Teams Touchdowns: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-dstd-0pt5 @0.21; astatc-nfl-cin-atl-2026-11-08-dstd-0pt5 @0. |
-| nfl | FOOTBALL_GAME_TOTAL_PASS_TOUCHDOWNS | OTHER/UNKNOWN | 104 | Total Passing Touchdowns: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-ptd-0pt5 @0.78; astatc-nfl-cin-atl-2026-11-08-ptd-0pt5 @0.99 |
-| nfl | FOOTBALL_GAME_TOTAL_RUSH_TOUCHDOWNS | OTHER/UNKNOWN | 52 | Total Rushing Touchdowns: Over 3.5 | 3.5 | astatc-nfl-cin-atl-2026-11-08-rtd-3pt5 @0.01; astatc-nfl-cin-atl-2026-11-08-rtd-3pt5 @0.31 |
-| nfl | FOOTBALL_GAME_TOTAL_TOUCHDOWNS | OTHER/UNKNOWN | 104 | Total Touchdowns: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-tds-0pt5 @0.98; astatc-nfl-cin-atl-2026-11-08-tds-0pt5 @0.99 |
-| nfl | FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS | OTHER/UNKNOWN | 13 | Total Successful Two-Point Conversions: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-2pc-0pt5 @0.15; astatc-nfl-cin-atl-2026-11-08-2pc-0pt5 @0.16 |
-| nfl | FOOTBALL_PLAYER_FANTASY_POINTS_PPR | OTHER/UNKNOWN | 133 | Will Kendre Miller record 8+ fantasy points (PPR scoring)? | 8 | astatc-nfl-cle-no-2026-11-08-fpts-kendmil-gte8 (team 70) @0.62; astatc-nfl-cle-no-2026-11- |
-| nfl | FOOTBALL_PLAYER_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 301 | Will Bijan Robinson score the first touchdown? |  | astatc-nfl-cin-atl-2026-11-08-firsttd-bijrob (team 49) @0.19; astatc-nfl-cin-atl-2026-11-0 |
-| nfl | FOOTBALL_PLAYER_INTERCEPTIONS_THROWN | OTHER/UNKNOWN | 56 | Will Michael Penix Jr. throw 1+ interceptions? | 1 | astatc-nfl-cin-atl-2026-11-08-int-micpen-gte1 (team 49) @0.49; astatc-nfl-cin-atl-2026-11- |
-| nfl | FOOTBALL_PLAYER_LONGEST_RECEPTION | OTHER/UNKNOWN | 52 | Will Ja'Marr Chase record 25+ longest reception? | 25 | astatc-nfl-cin-atl-2026-11-08-lrec-jacha-gte25 (team 54) @0.50; astatc-nfl-cin-atl-2026-11 |
-| nfl | FOOTBALL_PLAYER_MOST_PASSING_YARDS | OTHER/UNKNOWN | 27 | Will Joe Burrow record the most passing yards? |  | astatc-nfl-cin-atl-2026-11-08-mpyd-joebur (team 54) @0.71; astatc-nfl-cin-atl-2026-11-08-m |
-| nfl | FOOTBALL_PLAYER_PASSING_ATTEMPTS | OTHER/UNKNOWN | 84 | Will Malik Willis record 28+ passing attempts? | 28 | astatc-nfl-det-mia-2026-11-08-patt-malwil-gte28 (team 67) @0.49; astatc-nfl-det-mia-2026-1 |
-| nfl | FOOTBALL_PLAYER_PASSING_COMPLETIONS | OTHER/UNKNOWN | 84 | Will Baker Mayfield record 18+ passing completions? | 18 | astatc-nfl-tb-chi-2026-11-08-pcmp-bakmay-gte18 (team 77) @0.42; astatc-nfl-tb-chi-2026-11- |
-| nfl | FOOTBALL_PLAYER_PASSING_TOUCHDOWNS | OTHER/UNKNOWN | 112 | Will Joe Burrow record 1+ passing touchdowns? | 1 | astatc-nfl-cin-atl-2026-11-08-ptd-joebur-gte1 (team 54) @0.91; astatc-nfl-cin-atl-2026-11- |
-| nfl | FOOTBALL_PLAYER_PASSING_YARDS | OTHER/UNKNOWN | 243 | Will Michael Penix Jr. record 125+ passing yards? | 125 | astatc-nfl-cin-atl-2026-11-08-pyd-micpen-gte125 (team 49) @0.75; astatc-nfl-cin-atl-2026-1 |
-| nfl | FOOTBALL_PLAYER_RECEIVING_YARDS | OTHER/UNKNOWN | 765 | Will Michael Wilson record 50+ receiving yards? | 50 | astatc-nfl-ari-sea-2026-11-08-recyd-micwil-gte50 (team 48) @0.49; astatc-nfl-ari-sea-2026- |
-| nfl | FOOTBALL_PLAYER_RECEPTIONS | OTHER/UNKNOWN | 523 | Will CeeDee Lamb record 7+ receptions? | 7 | astatc-nfl-dal-ind-2026-11-08-rec-ceelam-gte7 (team 56) @0.49; astatc-nfl-dal-ind-2026-11- |
-| nfl | FOOTBALL_PLAYER_RUSHING_ATTEMPTS | OTHER/UNKNOWN | 87 | Will Chase Brown record 12+ rushing attempts? | 12 | astatc-nfl-cin-atl-2026-11-08-ratt-chabro-gte12 (team 54) @0.67; astatc-nfl-cin-atl-2026-1 |
-| nfl | FOOTBALL_PLAYER_RUSHING_YARDS | OTHER/UNKNOWN | 321 | Will Chase Brown record 10+ rushing yards? | 10 | astatc-nfl-cin-atl-2026-11-08-ryd-chabro-gte10 (team 54) @0.73; astatc-nfl-cin-atl-2026-11 |
-| nfl | FOOTBALL_PLAYER_SCRIMMAGE_YARDS | OTHER/UNKNOWN | 66 | Will Bijan Robinson record 100+ scrimmage yards? | 100 | astatc-nfl-cin-atl-2026-11-08-scrim-bijrob-gte100 (team 49) @0.75; astatc-nfl-cin-atl-2026 |
-| nfl | FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 314 | Will Bijan Robinson score the first Atlanta Falcons touchdow |  | astatc-nfl-cin-atl-2026-11-08-tftd-atl-bijrob (team 49) @0.42; astatc-nfl-cin-atl-2026-11- |
-| nfl | FOOTBALL_PLAYER_TOUCHDOWNS | OTHER/UNKNOWN | 577 | Will Bijan Robinson record 1+ touchdowns? | 1 | astatc-nfl-cin-atl-2026-11-08-td-bijrob-gte1 (team 49) @0.69; astatc-nfl-cin-atl-2026-11-0 |
-| nfl | FOOTBALL_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 403 | Will the Cincinnati Bengals cover -2.5 vs the Atlanta Falcon | -2.5 | asc-nfl-cin-atl-2026-11-08-1h-neg-2pt5 (team 54) @0.50; asc-nfl-cin-atl-2026-11-08-1h-neg- |
-| nfl | FOOTBALL_TEAM_FIRST_HALF_TOTAL | TEAM_TOTAL/FIRST_HALF | 208 | Will the total in CIN Bengals vs. ATL Falcons be more than 1 | 13.5 | tsc-nfl-cin-atl-2026-11-08-tt1h-cin-13pt5 (team 54) @0.54; tsc-nfl-cin-atl-2026-11-08-tt1h |
-| nfl | FOOTBALL_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 39 | Will Cincinnati Bengals win the first half? |  | atc-nfl-cin-atl-2026-11-08-winner-1h-cin (team 54) @0.52; atc-nfl-cin-atl-2026-11-08-winne |
-| nfl | FOOTBALL_TEAM_FIRST_QUARTER_SPREAD | SPREAD/FIRST_QUARTER | 65 | Will the Cincinnati Bengals cover -0.5 vs the Atlanta Falcon | -0.5 | asc-nfl-cin-atl-2026-11-08-1q-neg-0pt5 (team 54) @0.45; asc-nfl-cin-atl-2026-11-08-1q-neg- |
-| nfl | FOOTBALL_TEAM_FIRST_QUARTER_WINNER | WINNER/FIRST_QUARTER | 39 | Will Cincinnati Bengals win the first quarter? |  | atc-nfl-cin-atl-2026-11-08-winner-1q-cin (team 54) @0.45; atc-nfl-cin-atl-2026-11-08-winne |
-| nfl | FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD | SPREAD/FOURTH_QUARTER | 65 | Will the Cincinnati Bengals cover -1.5 vs the Atlanta Falcon | -1.5 | asc-nfl-cin-atl-2026-11-08-4q-neg-1pt5 (team 54) @0.43; asc-nfl-cin-atl-2026-11-08-4q-neg- |
-| nfl | FOOTBALL_TEAM_FOURTH_QUARTER_WINNER | WINNER/FOURTH_QUARTER | 39 | Will Cincinnati Bengals win the fourth quarter? |  | atc-nfl-cin-atl-2026-11-08-winner-4q-cin (team 54) @0.46; atc-nfl-cin-atl-2026-11-08-winne |
-| nfl | FOOTBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 533 | Will the Cincinnati Bengals cover -3.5 vs the Atlanta Falcon | -3.5 | asc-nfl-cin-atl-2026-11-08-neg-3pt5 (team 54) @0.47; asc-nfl-cin-atl-2026-11-08-neg-3pt5 ( |
-| nfl | FOOTBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 377 | Will the total in CIN Bengals vs. ATL Falcons be more than 5 | 52.5 | tsc-nfl-cin-atl-2026-11-08-total-52pt5 @0.48; tsc-nfl-cin-atl-2026-11-08-total-52pt5 @0.49 |
-| nfl | FOOTBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 40 | Who will win in the upcoming football event Cincinnati Benga |  | aec-nfl-cin-atl-2026-11-08 (team 54) @0.61; aec-nfl-cin-atl-2026-11-08 (team 49) @0.61 |
-| nfl | FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL | TEAM_TOTAL/FULL_GAME | 442 | Will the total in CIN Bengals vs. ATL Falcons be more than 2 | 23.5 | tsc-nfl-cin-atl-2026-11-08-tt-atl-23pt5 (team 49) @0.56; tsc-nfl-cin-atl-2026-11-08-tt-atl |
-| nfl | FOOTBALL_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 403 | Will the Cincinnati Bengals cover -1.5 vs the Atlanta Falcon | -1.5 | asc-nfl-cin-atl-2026-11-08-2h-neg-1pt5 (team 54) @0.47; asc-nfl-cin-atl-2026-11-08-2h-neg- |
-| nfl | FOOTBALL_TEAM_SECOND_HALF_TOTAL | TEAM_TOTAL/SECOND_HALF | 208 | Will the total in CIN Bengals vs. ATL Falcons be more than 1 | 10.5 | tsc-nfl-cin-atl-2026-11-08-tt2h-cin-10pt5 (team 54) @0.54; tsc-nfl-cin-atl-2026-11-08-tt2h |
-| nfl | FOOTBALL_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 39 | Will Cincinnati Bengals win the second half? |  | atc-nfl-cin-atl-2026-11-08-winner-2h-cin (team 54) @0.51; atc-nfl-cin-atl-2026-11-08-winne |
-| nfl | FOOTBALL_TEAM_SECOND_QUARTER_SPREAD | SPREAD/SECOND_QUARTER | 65 | Will the Cincinnati Bengals cover -0.5 vs the Atlanta Falcon | -0.5 | asc-nfl-cin-atl-2026-11-08-2q-neg-0pt5 (team 54) @0.46; asc-nfl-cin-atl-2026-11-08-2q-neg- |
-| nfl | FOOTBALL_TEAM_SECOND_QUARTER_WINNER | WINNER/SECOND_QUARTER | 39 | Will Cincinnati Bengals win the second quarter? |  | atc-nfl-cin-atl-2026-11-08-winner-2q-cin (team 54) @0.49; atc-nfl-cin-atl-2026-11-08-winne |
-| nfl | FOOTBALL_TEAM_THIRD_QUARTER_SPREAD | SPREAD/THIRD_QUARTER | 65 | Will the Cincinnati Bengals cover -2.5 vs the Atlanta Falcon | -2.5 | asc-nfl-cin-atl-2026-11-08-3q-neg-2pt5 (team 54) @0.43; asc-nfl-cin-atl-2026-11-08-3q-neg- |
-| nfl | FOOTBALL_TEAM_THIRD_QUARTER_WINNER | WINNER/THIRD_QUARTER | 39 | Will Cincinnati Bengals win the third quarter? |  | atc-nfl-cin-atl-2026-11-08-winner-3q-cin (team 54) @0.43; atc-nfl-cin-atl-2026-11-08-winne |
-| nfl | FOOTBALL_TEAM_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS | OTHER/UNKNOWN | 26 | Team Total Defensive/Special Teams Touchdowns: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-tdstd-cin-0pt5 (team 54) @0.01; astatc-nfl-cin-atl-2026-11-0 |
-| nfl | FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE | OTHER/UNKNOWN | 78 | Team Total Field Goals Made: Over 0.5 | 0.5 | astatc-nfl-cin-atl-2026-11-08-tfg-cin-0pt5 (team 54) @0.79; astatc-nfl-cin-atl-2026-11-08- |
-| nfl | FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS | OTHER/UNKNOWN | 78 | Team Total Offensive Yards: Over 250.5 | 250.5 | astatc-nfl-cin-atl-2026-11-08-toyd-atl-250pt5 (team 49) @0.98; astatc-nfl-cin-atl-2026-11- |
-| nfl | FOOTBALL_TEAM_TOTAL_TOUCHDOWNS | OTHER/UNKNOWN | 78 | Team Total Touchdowns: Over 1.5 | 1.5 | astatc-nfl-cin-atl-2026-11-08-ttds-atl-1pt5 (team 49) @0.78; astatc-nfl-cin-atl-2026-11-08 |
-| cs2 | ESPORTS_MAP_WINNER_1 | WINNER/MAP_1 | 33 | Will Esport Academy Copenhagen win Map 1 vs BRUTE SQ? |  | astatc-cs2-eac-brutesq-2026-11-08-map1 (team 11789) @0.68; astatc-cs2-eac-brutesq-2026-11- |
-| cs2 | ESPORTS_MAP_WINNER_2 | WINNER/MAP_2 | 33 | Will Esport Academy Copenhagen win Map 2 vs BRUTE SQ? |  | astatc-cs2-eac-brutesq-2026-11-08-map2 (team 11789) @0.65; astatc-cs2-eac-brutesq-2026-11- |
-| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 57 | Who will win in the upcoming esports event TheMongolz vs MOU |  | aec-cs2-mglz-mouz-2026-11-08 (team 5164) @0.13; aec-cs2-mglz-mouz-2026-11-08 (team 5163) @ |
-| cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 17 | Will the Bebop cover 1.5 vs the ILLYRIANS in Bebop vs. ILLYR | 1.5 | asc-cs2-bbp-ill-2026-11-08-hcap-pos-1pt5 (team 9978); asc-cs2-bbp-ill-2026-11-08-hcap-pos- |
-| cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 17 | Will the total in Bebop vs. ILLYRIANS be more than 2.5? | 2.5 | tsc-cs2-bbp-ill-2026-11-08-tot-2pt5 @0.44; tsc-cs2-bbp-ill-2026-11-08-tot-2pt5 @0.51 |
-| lol | ESPORTS_GAME_WINNER_1 | OTHER/UNKNOWN | 1 | Will BILIBILI GAMING win Game 1 vs T1? |  | astatc-lol-blg-t1-2026-11-08-game1 (team 5136) @0.52; astatc-lol-blg-t1-2026-11-08-game1 ( |
-| lol | ESPORTS_GAME_WINNER_2 | OTHER/UNKNOWN | 1 | Will BILIBILI GAMING win Game 2 vs T1? |  | astatc-lol-blg-t1-2026-11-08-game2 (team 5136) @0.52; astatc-lol-blg-t1-2026-11-08-game2 ( |
-| lol | ESPORTS_GAME_WINNER_3 | OTHER/UNKNOWN | 1 | Will BILIBILI GAMING win Game 3 vs T1? |  | astatc-lol-blg-t1-2026-11-08-game3 (team 5136) @0.52; astatc-lol-blg-t1-2026-11-08-game3 ( |
-| lol | ESPORTS_MATCH_WINNER | WINNER/MATCH | 1 | Who will win in the upcoming esports event BILIBILI GAMING v |  | aec-lol-blg-t1-2026-11-08 (team 5136) @0.56; aec-lol-blg-t1-2026-11-08 (team 5212) @0.57 |
-| lol | ESPORTS_SERIES_GAME_HANDICAP | OTHER/UNKNOWN | 4 | Will the BILIBILI GAMING cover 2.5 vs the T1 in BILIBILI GAM | 2.5 | asc-lol-blg-t1-2026-11-08-hcap-pos-2pt5 (team 5136) @0.83; asc-lol-blg-t1-2026-11-08-hcap- |
-| lol | ESPORTS_SERIES_TOTAL_GAMES | OTHER/UNKNOWN | 2 | Will the total in BILIBILI GAMING vs. T1 be more than 3.5? | 3.5 | tsc-lol-blg-t1-2026-11-08-tot-3pt5 @0.74; tsc-lol-blg-t1-2026-11-08-tot-3pt5 @0.75 |
-| epl | SOCCER_GAME_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the match between Brighton & Hove A | 1 | astatc-epl-bha-bre-2026-11-08-btts @0.62; astatc-epl-bha-bre-2026-11-08-btts @0.63 |
-| epl | SOCCER_GAME_EXACT_SCORE | OTHER/UNKNOWN | 80 | Will BHA vs BRE finish BRE wins 2-1? |  | atc-epl-bha-bre-2026-11-08-exact-score-1-2 @0.06; atc-epl-bha-bre-2026-11-08-exact-score-1 |
-| epl | SOCCER_GAME_FIRST_HALF_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the first half between Brighton & H | 1 | astatc-epl-bha-bre-2026-11-08-fh-btts @0.23; astatc-epl-bha-bre-2026-11-08-fh-btts @0.26 |
-| epl | SOCCER_GAME_FIRST_HALF_EXACT_SCORE | OTHER/UNKNOWN | 45 | Will BHA vs BRE be BRE wins 1-0 at halftime? |  | atc-epl-bha-bre-2026-11-08-fh-exact-score-0-1 @0.12; atc-epl-bha-bre-2026-11-08-fh-exact-s |
-| epl | SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will Brighton & Hove Albion FC be the first to score a goal  |  | astatc-epl-bha-bre-2026-11-08-fh-ftts-bha (team 2708) @0.99; astatc-epl-bha-bre-2026-11-08 |
-| epl | SOCCER_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will Manchester United FC be the first to score a goal on 20 |  | astatc-epl-mnu-ast-2026-11-08-ftts-mnu (team 2694) @0.43; astatc-epl-mnu-ast-2026-11-08-ft |
-| epl | SOCCER_GAME_SECOND_HALF_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the second half between Brighton &  | 1 | astatc-epl-bha-bre-2026-11-08-sh-btts @0.26; astatc-epl-bha-bre-2026-11-08-sh-btts @0.41 |
-| epl | SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will Brighton & Hove Albion FC be the first to score a goal  |  | astatc-epl-bha-bre-2026-11-08-sh-ftts-bha (team 2708) @0.99; astatc-epl-bha-bre-2026-11-08 |
-| epl | SOCCER_GAME_TOTAL_CORNERS | OTHER/UNKNOWN | 35 | Will BHA vs BRE's corners be above 10.5 on Nov 8, 2026? | 10.5 | astatc-epl-bha-bre-2026-11-08-cor-all-gt10pt5 @0.46; astatc-epl-bha-bre-2026-11-08-cor-all |
-| epl | SOCCER_PLAYER_GOALS | OTHER/UNKNOWN | 63 | Will Igor Thiago record at least 3 goals in BHA vs BRE? | 3 | astatc-epl-bha-bre-2026-11-08-g-epligothi-gte3 (team 2714) @0.01; astatc-epl-bha-bre-2026- |
-| epl | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 20 | Will the Brighton & Hove Albion FC cover -1.5 vs the Brentfo | -1.5 | asc-epl-bha-bre-2026-11-08-fh-neg-1pt5 (team 2708) @0.12; asc-epl-bha-bre-2026-11-08-fh-ne |
-| epl | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 25 | Will the total in BHA vs BRE be more than 1.5? | 1.5 | tsc-epl-bha-bre-2026-11-08-fh-1pt5 @0.40; tsc-epl-bha-bre-2026-11-08-fh-1pt5 @0.41 |
-| epl | SOCCER_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 15 | Will Brighton & Hove Albion FC lead Brentford FC at halftime |  | atc-epl-bha-bre-2026-11-08-fh-bha (team 2708) @0.38; atc-epl-bha-bre-2026-11-08-fh-bha (te |
-| epl | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 20 | Will the Brighton & Hove Albion FC cover -1.5 vs the Brentfo | -1.5 | asc-epl-bha-bre-2026-11-08-neg-1pt5 (team 2708) @0.27; asc-epl-bha-bre-2026-11-08-neg-1pt5 |
-| epl | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 30 | Will the total in BHA vs BRE be more than 2.5? | 2.5 | tsc-epl-bha-bre-2026-11-08-2pt5 @0.61; tsc-epl-bha-bre-2026-11-08-2pt5 @0.62 |
-| epl | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 15 | Will Brighton & Hove Albion FC win against Brentford FC in t |  | atc-epl-bha-bre-2026-11-08-bha (team 2708) @0.51; atc-epl-bha-bre-2026-11-08-bha (team 270 |
-| epl | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 20 | Will the Brighton & Hove Albion FC cover 1.5 vs the Brentfor | 1.5 | asc-epl-bha-bre-2026-11-08-sh-pos-1pt5 (team 2708) @0.31; asc-epl-bha-bre-2026-11-08-sh-po |
-| epl | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 25 | Will the total in BHA vs BRE be more than 1.5? | 1.5 | tsc-epl-bha-bre-2026-11-08-sh-1pt5 @0.56; tsc-epl-bha-bre-2026-11-08-sh-1pt5 @0.57 |
-| epl | SOCCER_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 15 | Will Brighton & Hove Albion FC win the second half against B |  | atc-epl-bha-bre-2026-11-08-sh-bha (team 2708) @0.32; atc-epl-bha-bre-2026-11-08-sh-bha (te |
-| epl | SOCCER_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 30 | Will AFC Bournemouth score more than 1.5 goals in 90 minutes | 1.5 | tsc-epl-ips-bor-2026-11-08-ttg-bor-1pt5 (team 2685) @0.52; tsc-epl-ips-bor-2026-11-08-ttg- |
-| epl | SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF | OTHER/UNKNOWN | 20 | Will Brentford FC score more than 0.5 goals in the first hal | 0.5 | tsc-epl-bha-bre-2026-11-08-ttg-fh-bre-0pt5 (team 2714) @0.41; tsc-epl-bha-bre-2026-11-08-t |
-| laliga | SOCCER_GAME_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the match between Elche CF and Real | 1 | astatc-lal-elc-bet-2026-11-08-btts @0.60; astatc-lal-elc-bet-2026-11-08-btts @0.61 |
-| laliga | SOCCER_GAME_EXACT_SCORE | OTHER/UNKNOWN | 80 | Will ELC vs BET finish ELC wins 3-1? |  | atc-lal-elc-bet-2026-11-08-exact-score-3-1 @0.02; atc-lal-elc-bet-2026-11-08-exact-score-3 |
-| laliga | SOCCER_GAME_FIRST_HALF_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the first half between Elche CF and | 1 | astatc-lal-elc-bet-2026-11-08-fh-btts @0.23; astatc-lal-elc-bet-2026-11-08-fh-btts @0.25 |
-| laliga | SOCCER_GAME_FIRST_HALF_EXACT_SCORE | OTHER/UNKNOWN | 45 | Will ELC vs BET be Draw 1-1 at halftime? |  | atc-lal-elc-bet-2026-11-08-fh-exact-score-1-1 @0.10; atc-lal-elc-bet-2026-11-08-fh-exact-s |
-| laliga | SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will Real Betis Balompie be the first to score a goal in the |  | astatc-lal-elc-bet-2026-11-08-fh-ftts-bet (team 3451) @0.99; astatc-lal-elc-bet-2026-11-08 |
-| laliga | SOCCER_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will Real Betis Balompie be the first to score a goal on 202 |  | astatc-lal-elc-bet-2026-11-08-ftts-bet (team 3451) @0.48; astatc-lal-elc-bet-2026-11-08-ft |
-| laliga | SOCCER_GAME_SECOND_HALF_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the second half between Elche CF an | 1 | astatc-lal-elc-bet-2026-11-08-sh-btts @0.27; astatc-lal-elc-bet-2026-11-08-sh-btts @0.39 |
-| laliga | SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will Elche CF be the first to score a goal in the second hal |  | astatc-lal-elc-bet-2026-11-08-sh-ftts-elc (team 3458) @0.99; astatc-lal-elc-bet-2026-11-08 |
-| laliga | SOCCER_GAME_TOTAL_CORNERS | OTHER/UNKNOWN | 35 | Will RSO vs RAY's corners be above 10.5 on Nov 8, 2026? | 10.5 | astatc-lal-rso-ray-2026-11-08-cor-all-gt10pt5 @0.44; astatc-lal-rso-ray-2026-11-08-cor-all |
-| laliga | SOCCER_PLAYER_GOALS | OTHER/UNKNOWN | 75 | Will Fernando Nino record at least 3 goals in ELC vs BET? | 3 | astatc-lal-elc-bet-2026-11-08-g-lalfernin-gte3 (team 3458) @0.02; astatc-lal-elc-bet-2026- |
-| laliga | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 20 | Will the Elche CF cover 1.5 vs the Real Betis Balompie in EL | 1.5 | asc-lal-elc-bet-2026-11-08-fh-pos-1pt5 (team 3458) @0.89; asc-lal-elc-bet-2026-11-08-fh-po |
-| laliga | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 25 | Will the total in ELC vs BET be more than 1.5? | 1.5 | tsc-lal-elc-bet-2026-11-08-fh-1pt5 @0.37; tsc-lal-elc-bet-2026-11-08-fh-1pt5 @0.38 |
-| laliga | SOCCER_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 15 | Will Real Betis Balompie lead Elche CF at halftime? |  | atc-lal-elc-bet-2026-11-08-fh-bet (team 3451) @0.36; atc-lal-elc-bet-2026-11-08-fh-bet (te |
-| laliga | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 20 | Will the Elche CF cover 1.5 vs the Real Betis Balompie in EL | 1.5 | asc-lal-elc-bet-2026-11-08-pos-1pt5 (team 3458) @0.73; asc-lal-elc-bet-2026-11-08-pos-1pt5 |
-| laliga | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 30 | Will the total in ELC vs BET be more than 2.5? | 2.5 | tsc-lal-elc-bet-2026-11-08-2pt5 @0.58; tsc-lal-elc-bet-2026-11-08-2pt5 @0.59 |
-| laliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 15 | Will Elche CF win against Real Betis Balompie in the La Liga |  | atc-lal-elc-bet-2026-11-08-elc (team 3458) @0.24; atc-lal-elc-bet-2026-11-08-elc (team 345 |
-| laliga | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 20 | Will the Elche CF cover 1.5 vs the Real Betis Balompie in EL | 1.5 | asc-lal-elc-bet-2026-11-08-sh-pos-1pt5 (team 3458) @0.78; asc-lal-elc-bet-2026-11-08-sh-po |
-| laliga | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 25 | Will the total in ELC vs BET be more than 1.5? | 1.5 | tsc-lal-elc-bet-2026-11-08-sh-1pt5 @0.51; tsc-lal-elc-bet-2026-11-08-sh-1pt5 @0.52 |
-| laliga | SOCCER_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 15 | Will Real Betis Balompie win the second half against Elche C |  | atc-lal-elc-bet-2026-11-08-sh-bet (team 3451) @0.38; atc-lal-elc-bet-2026-11-08-sh-bet (te |
-| laliga | SOCCER_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 30 | Will Real Betis Balompie score more than 1.5 goals in 90 min | 1.5 | tsc-lal-elc-bet-2026-11-08-ttg-bet-1pt5 (team 3451) @0.53; tsc-lal-elc-bet-2026-11-08-ttg- |
-| laliga | SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF | OTHER/UNKNOWN | 20 | Will Club Atletico de Madrid score more than 0.5 goals in th | 0.5 | tsc-lal-atm-fcb-2026-11-08-ttg-fh-atm-0pt5 (team 3440) @0.47; tsc-lal-atm-fcb-2026-11-08-t |
-| bundesliga | SOCCER_GAME_BTTS | OTHER/UNKNOWN | 3 | Will both teams score in the match between SC Freiburg and 1 | 1 | astatc-bun-scf-unb-2026-11-08-btts @0.51; astatc-bun-scf-unb-2026-11-08-btts @0.53 |
-| bundesliga | SOCCER_GAME_EXACT_SCORE | OTHER/UNKNOWN | 48 | Will KOE vs LEV finish KOE wins 2-0? |  | atc-bun-koe-lev-2026-11-08-exact-score-2-0 @0.02; atc-bun-koe-lev-2026-11-08-exact-score-2 |
-| bundesliga | SOCCER_GAME_FIRST_HALF_BTTS | OTHER/UNKNOWN | 3 | Will both teams score in the first half between 1. FC Koln a | 1 | astatc-bun-koe-lev-2026-11-08-fh-btts @0.25; astatc-bun-koe-lev-2026-11-08-fh-btts @0.28 |
-| bundesliga | SOCCER_GAME_FIRST_HALF_EXACT_SCORE | OTHER/UNKNOWN | 27 | Will KOE vs LEV be LEV wins 2-1 at halftime? |  | atc-bun-koe-lev-2026-11-08-fh-exact-score-1-2 @0.02; atc-bun-koe-lev-2026-11-08-fh-exact-s |
-| bundesliga | SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 9 | Will 1. FC Koln be the first to score a goal in the first ha |  | astatc-bun-koe-lev-2026-11-08-fh-ftts-koe (team 3403) @0.99; astatc-bun-koe-lev-2026-11-08 |
-| bundesliga | SOCCER_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 9 | Will 1. FC Koln be the first to score a goal on 2026-11-08 9 |  | astatc-bun-koe-lev-2026-11-08-ftts-koe (team 3403) @0.98; astatc-bun-koe-lev-2026-11-08-ft |
-| bundesliga | SOCCER_GAME_SECOND_HALF_BTTS | OTHER/UNKNOWN | 3 | Will both teams score in the second half between 1. FC Koln  | 1 | astatc-bun-koe-lev-2026-11-08-sh-btts @0.31; astatc-bun-koe-lev-2026-11-08-sh-btts @0.97 |
-| bundesliga | SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 9 | Will Bayer 04 Leverkusen be the first to score a goal in the |  | astatc-bun-koe-lev-2026-11-08-sh-ftts-lev (team 3404) @0.99; astatc-bun-koe-lev-2026-11-08 |
-| bundesliga | SOCCER_GAME_TOTAL_CORNERS | OTHER/UNKNOWN | 21 | Will KOE vs LEV's corners be above 10.5 on Nov 8, 2026? | 10.5 | astatc-bun-koe-lev-2026-11-08-cor-all-gt10pt5 @0.46; astatc-bun-koe-lev-2026-11-08-cor-all |
-| bundesliga | SOCCER_PLAYER_GOALS | OTHER/UNKNOWN | 18 | Will Patrik Schick record at least 1 goals in KOE vs LEV? | 1 | astatc-bun-koe-lev-2026-11-08-g-bunpatsch-gte1 (team 3404) @0.49; astatc-bun-koe-lev-2026- |
-| bundesliga | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 12 | Will the 1. FC Koln cover 1.5 vs the Bayer 04 Leverkusen in  | 1.5 | asc-bun-koe-lev-2026-11-08-fh-pos-1pt5 (team 3403) @0.86; asc-bun-koe-lev-2026-11-08-fh-po |
-| bundesliga | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 15 | Will the total in KOE vs LEV be more than 1.5? | 1.5 | tsc-bun-koe-lev-2026-11-08-fh-1pt5 @0.44; tsc-bun-koe-lev-2026-11-08-fh-1pt5 @0.45 |
-| bundesliga | SOCCER_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 9 | Will KOE vs LEV be tied at halftime? |  | atc-bun-koe-lev-2026-11-08-fh-draw @0.35; atc-bun-koe-lev-2026-11-08-fh-draw @0.37 |
-| bundesliga | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 12 | Will the 1. FC Koln cover 1.5 vs the Bayer 04 Leverkusen in  | 1.5 | asc-bun-koe-lev-2026-11-08-pos-1pt5 (team 3403) @0.68; asc-bun-koe-lev-2026-11-08-pos-1pt5 |
-| bundesliga | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 18 | Will the total in KOE vs LEV be more than 3.5? | 3.5 | tsc-bun-koe-lev-2026-11-08-3pt5 @0.43; tsc-bun-koe-lev-2026-11-08-3pt5 @0.44 |
-| bundesliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 9 | Will 1. FC Koln win against Bayer 04 Leverkusen in the Bunde |  | atc-bun-koe-lev-2026-11-08-koe (team 3403) @0.22; atc-bun-koe-lev-2026-11-08-koe (team 340 |
-| bundesliga | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 12 | Will the 1. FC Koln cover -1.5 vs the Bayer 04 Leverkusen in | -1.5 | asc-bun-koe-lev-2026-11-08-sh-neg-1pt5 (team 3403) @0.05; asc-bun-koe-lev-2026-11-08-sh-ne |
-| bundesliga | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 15 | Will the total in KOE vs LEV be more than 1.5? | 1.5 | tsc-bun-koe-lev-2026-11-08-sh-1pt5 @0.51; tsc-bun-koe-lev-2026-11-08-sh-1pt5 @0.60 |
-| bundesliga | SOCCER_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 9 | Will 1. FC Koln win the second half against Bayer 04 Leverku |  | atc-bun-koe-lev-2026-11-08-sh-koe (team 3403) @0.17; atc-bun-koe-lev-2026-11-08-sh-koe (te |
-| bundesliga | SOCCER_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 18 | Will Bayer 04 Leverkusen score more than 1.5 goals in 90 min | 1.5 | tsc-bun-koe-lev-2026-11-08-ttg-lev-1pt5 (team 3404) @0.61; tsc-bun-koe-lev-2026-11-08-ttg- |
-| bundesliga | SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF | OTHER/UNKNOWN | 12 | Will 1. FC Koln score more than 0.5 goals in the first half  | 0.5 | tsc-bun-koe-lev-2026-11-08-ttg-fh-koe-0pt5 (team 3403) @0.43; tsc-bun-koe-lev-2026-11-08-t |
-| seriea | SOCCER_GAME_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the match between SSC Napoli and SS | 1 | astatc-sea-nap-laz-2026-11-08-btts @0.63; astatc-sea-nap-laz-2026-11-08-btts @0.64 |
-| seriea | SOCCER_GAME_EXACT_SCORE | OTHER/UNKNOWN | 80 | Will NAP vs LAZ finish Draw 1-1? |  | atc-sea-nap-laz-2026-11-08-exact-score-1-1 @0.11; atc-sea-nap-laz-2026-11-08-exact-score-1 |
-| seriea | SOCCER_GAME_FIRST_HALF_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the first half between SSC Napoli a | 1 | astatc-sea-nap-laz-2026-11-08-fh-btts @0.24; astatc-sea-nap-laz-2026-11-08-fh-btts @0.25 |
-| seriea | SOCCER_GAME_FIRST_HALF_EXACT_SCORE | OTHER/UNKNOWN | 45 | Will NAP vs LAZ be NAP wins 1-0 at halftime? |  | atc-sea-nap-laz-2026-11-08-fh-exact-score-1-0 @0.16; atc-sea-nap-laz-2026-11-08-fh-exact-s |
-| seriea | SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will SS Lazio be the first to score a goal in the first half |  | astatc-sea-nap-laz-2026-11-08-fh-ftts-laz (team 3422) @0.99; astatc-sea-nap-laz-2026-11-08 |
-| seriea | SOCCER_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will SS Lazio be the first to score a goal on 2026-11-08 6:3 |  | astatc-sea-nap-laz-2026-11-08-ftts-laz (team 3422) @0.42; astatc-sea-nap-laz-2026-11-08-ft |
-| seriea | SOCCER_GAME_SECOND_HALF_BTTS | OTHER/UNKNOWN | 5 | Will both teams score in the second half between SSC Napoli  | 1 | astatc-sea-nap-laz-2026-11-08-sh-btts @0.28; astatc-sea-nap-laz-2026-11-08-sh-btts @0.37 |
-| seriea | SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 15 | Will SSC Napoli be the first to score a goal in the second h |  | astatc-sea-nap-laz-2026-11-08-sh-ftts-nap (team 3430) @0.99; astatc-sea-nap-laz-2026-11-08 |
-| seriea | SOCCER_GAME_TOTAL_CORNERS | OTHER/UNKNOWN | 35 | Will FIO vs JUV's corners be above 9.5 on Nov 8, 2026? | 9.5 | astatc-sea-fio-juv-2026-11-08-cor-all-gt9pt5 @0.46; astatc-sea-fio-juv-2026-11-08-cor-all- |
-| seriea | SOCCER_PLAYER_GOALS | OTHER/UNKNOWN | 63 | Will Davide Frattesi record at least 2 goals in NAP vs LAZ? | 2 | astatc-sea-nap-laz-2026-11-08-g-seadavfra-gte2 (team 3422) @0.03; astatc-sea-nap-laz-2026- |
-| seriea | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 20 | Will the SSC Napoli cover -1.5 vs the SS Lazio in NAP vs LAZ | -1.5 | asc-sea-nap-laz-2026-11-08-fh-neg-1pt5 (team 3430) @0.09; asc-sea-nap-laz-2026-11-08-fh-ne |
-| seriea | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 25 | Will the total in NAP vs LAZ be more than 1.5? | 1.5 | tsc-sea-nap-laz-2026-11-08-fh-1pt5 @0.40; tsc-sea-nap-laz-2026-11-08-fh-1pt5 @0.41 |
-| seriea | SOCCER_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 15 | Will SS Lazio lead SSC Napoli at halftime? |  | atc-sea-nap-laz-2026-11-08-fh-laz (team 3422) @0.26; atc-sea-nap-laz-2026-11-08-fh-laz (te |
-| seriea | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 20 | Will the SSC Napoli cover -1.5 vs the SS Lazio in NAP vs LAZ | -1.5 | asc-sea-nap-laz-2026-11-08-neg-1pt5 (team 3430) @0.20; asc-sea-nap-laz-2026-11-08-neg-1pt5 |
-| seriea | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 30 | Will the total in NAP vs LAZ be more than 2.5? | 2.5 | tsc-sea-nap-laz-2026-11-08-2pt5 @0.60; tsc-sea-nap-laz-2026-11-08-2pt5 @0.61 |
-| seriea | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 15 | Will SSC Napoli win against SS Lazio in the Serie A match sc |  | atc-sea-nap-laz-2026-11-08-nap (team 3430) @0.41; atc-sea-nap-laz-2026-11-08-nap (team 343 |
-| seriea | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 20 | Will the SSC Napoli cover 1.5 vs the SS Lazio in NAP vs LAZ? | 1.5 | asc-sea-nap-laz-2026-11-08-sh-pos-1pt5 (team 3430) @0.76; asc-sea-nap-laz-2026-11-08-sh-po |
-| seriea | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 25 | Will the total in NAP vs LAZ be more than 1.5? | 1.5 | tsc-sea-nap-laz-2026-11-08-sh-1pt5 @0.53; tsc-sea-nap-laz-2026-11-08-sh-1pt5 @0.54 |
-| seriea | SOCCER_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 15 | Will SS Lazio win the second half against SSC Napoli? |  | atc-sea-nap-laz-2026-11-08-sh-laz (team 3422) @0.27; atc-sea-nap-laz-2026-11-08-sh-laz (te |
-| seriea | SOCCER_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 30 | Will SSC Napoli score more than 1.5 goals in 90 minutes plus | 1.5 | tsc-sea-nap-laz-2026-11-08-ttg-nap-1pt5 (team 3430) @0.48; tsc-sea-nap-laz-2026-11-08-ttg- |
-| seriea | SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF | OTHER/UNKNOWN | 20 | Will AC Monza score more than 0.5 goals in the first half of | 0.5 | tsc-sea-mon-ata-2026-11-08-ttg-fh-mon-0pt5 (team 7128) @0.45; tsc-sea-mon-ata-2026-11-08-t |
-| ligue1 | SOCCER_GAME_BTTS | OTHER/UNKNOWN | 6 | Will both teams score in the match between Le Mans FC and AS | 1 | astatc-lg1-lmf-asm-2026-11-08-btts @0.51; astatc-lg1-lmf-asm-2026-11-08-btts @0.53 |
-| ligue1 | SOCCER_GAME_EXACT_SCORE | OTHER/UNKNOWN | 96 | Will REN vs LIL finish REN wins 3-1? |  | atc-lg1-ren-lil-2026-11-08-exact-score-3-1 @0.04; atc-lg1-ren-lil-2026-11-08-exact-score-3 |
-| ligue1 | SOCCER_GAME_FIRST_HALF_BTTS | OTHER/UNKNOWN | 6 | Will both teams score in the first half between Stade Rennai | 1 | astatc-lg1-ren-lil-2026-11-08-fh-btts @0.22; astatc-lg1-ren-lil-2026-11-08-fh-btts @0.25 |
-| ligue1 | SOCCER_GAME_FIRST_HALF_EXACT_SCORE | OTHER/UNKNOWN | 54 | Will REN vs LIL be REN wins 2-0 at halftime? |  | atc-lg1-ren-lil-2026-11-08-fh-exact-score-2-0 @0.03; atc-lg1-ren-lil-2026-11-08-fh-exact-s |
-| ligue1 | SOCCER_GAME_FIRST_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 18 | Will Stade Rennais FC 1901 be the first to score a goal in t |  | astatc-lg1-ren-lil-2026-11-08-fh-ftts-ren (team 25610) @0.99; astatc-lg1-ren-lil-2026-11-0 |
-| ligue1 | SOCCER_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 18 | Will FC Lorient be the first to score a goal on 2026-11-08 1 |  | astatc-lg1-hac-lor-2026-11-08-ftts-lor (team 25623) @0.39; astatc-lg1-hac-lor-2026-11-08-f |
-| ligue1 | SOCCER_GAME_SECOND_HALF_BTTS | OTHER/UNKNOWN | 6 | Will both teams score in the second half between Stade Renna | 1 | astatc-lg1-ren-lil-2026-11-08-sh-btts @0.26; astatc-lg1-ren-lil-2026-11-08-sh-btts @0.39 |
-| ligue1 | SOCCER_GAME_SECOND_HALF_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 18 | Will Lille OSC be the first to score a goal in the second ha |  | astatc-lg1-ren-lil-2026-11-08-sh-ftts-lil (team 25627) @0.99; astatc-lg1-ren-lil-2026-11-0 |
-| ligue1 | SOCCER_GAME_TOTAL_CORNERS | OTHER/UNKNOWN | 42 | Will SBR vs LYO's corners be above 9.5 on Nov 8, 2026? | 9.5 | astatc-lg1-sbr-lyo-2026-11-08-cor-all-gt9pt5 @0.47; astatc-lg1-sbr-lyo-2026-11-08-cor-all- |
-| ligue1 | SOCCER_PLAYER_GOALS | OTHER/UNKNOWN | 45 | Will Hakon Arnar Haraldsson record at least 3 goals in REN v | 3 | astatc-lg1-ren-lil-2026-11-08-g-lg1hakhar-gte3 (team 25627) @0.02; astatc-lg1-ren-lil-2026 |
-| ligue1 | SOCCER_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 24 | Will the Stade Rennais FC 1901 cover -1.5 vs the Lille OSC i | -1.5 | asc-lg1-ren-lil-2026-11-08-fh-neg-1pt5 (team 25610) @0.09; asc-lg1-ren-lil-2026-11-08-fh-n |
-| ligue1 | SOCCER_TEAM_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 30 | Will the total in REN vs LIL be more than 1.5? | 1.5 | tsc-lg1-ren-lil-2026-11-08-fh-1pt5 @0.36; tsc-lg1-ren-lil-2026-11-08-fh-1pt5 @0.37 |
-| ligue1 | SOCCER_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 18 | Will Lille OSC lead Stade Rennais FC 1901 at halftime? |  | atc-lg1-ren-lil-2026-11-08-fh-lil (team 25627) @0.25; atc-lg1-ren-lil-2026-11-08-fh-lil (t |
-| ligue1 | SOCCER_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 24 | Will the Stade Rennais FC 1901 cover -1.5 vs the Lille OSC i | -1.5 | asc-lg1-ren-lil-2026-11-08-neg-1pt5 (team 25610) @0.20; asc-lg1-ren-lil-2026-11-08-neg-1pt |
-| ligue1 | SOCCER_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 36 | Will the total in REN vs LIL be more than 2.5? | 2.5 | tsc-lg1-ren-lil-2026-11-08-2pt5 @0.55; tsc-lg1-ren-lil-2026-11-08-2pt5 @0.56 |
-| ligue1 | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 18 | Will Stade Rennais FC 1901 win against Lille OSC in the Ligu |  | atc-lg1-ren-lil-2026-11-08-ren (team 25610) @0.41; atc-lg1-ren-lil-2026-11-08-ren (team 25 |
-| ligue1 | SOCCER_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 24 | Will the Stade Rennais FC 1901 cover 1.5 vs the Lille OSC in | 1.5 | asc-lg1-ren-lil-2026-11-08-sh-pos-1pt5 (team 25610) @0.24; asc-lg1-ren-lil-2026-11-08-sh-p |
-| ligue1 | SOCCER_TEAM_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 30 | Will the total in REN vs LIL be more than 1.5? | 1.5 | tsc-lg1-ren-lil-2026-11-08-sh-1pt5 @0.56; tsc-lg1-ren-lil-2026-11-08-sh-1pt5 @0.57 |
-| ligue1 | SOCCER_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 18 | Will the second half of REN vs LIL be a draw? |  | atc-lg1-ren-lil-2026-11-08-sh-draw @0.24; atc-lg1-ren-lil-2026-11-08-sh-draw @0.43 |
-| ligue1 | SOCCER_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 36 | Will OGC Nice score more than 1.5 goals in 90 minutes plus s | 1.5 | tsc-lg1-ang-ogc-2026-11-08-ttg-ogc-1pt5 (team 25607) @0.48; tsc-lg1-ang-ogc-2026-11-08-ttg |
-| ligue1 | SOCCER_TEAM_TOTAL_GOALS_FIRST_HALF | OTHER/UNKNOWN | 24 | Will Stade Rennais FC 1901 score more than 0.5 goals in the  | 0.5 | tsc-lg1-ren-lil-2026-11-08-ttg-fh-ren-0pt5 (team 25610) @0.49; tsc-lg1-ren-lil-2026-11-08- |
+| nba | BASKETBALL_PLAYER_ASSISTS | OTHER/UNKNOWN | 244 | Will Amen Thompson record at least 4 assists in DEN Nuggets  | 4 | astatc-nba-den-hou-2026-11-09-ast-ametho-gte4 (team 18) @0.50; astatc-nba-den-hou-2026-11- |
+| nba | BASKETBALL_PLAYER_BLOCKS | OTHER/UNKNOWN | 47 | Will Onyeka Okongwu record at least 1 blocks in LA Lakers vs | 1 | astatc-nba-lal-atl-2026-11-09-blk-onyoko-gte1 (team 25) @0.01; astatc-nba-lal-atl-2026-11- |
+| nba | BASKETBALL_PLAYER_POINTS | OTHER/UNKNOWN | 346 | Will Ivica Zubac record at least 10 points in IND Pacers vs. | 10 | astatc-nba-ind-dal-2026-11-09-pts-ivizub-gte10 (team 19) @0.48; astatc-nba-ind-dal-2026-11 |
+| nba | BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS | OTHER/UNKNOWN | 294 | Will Peyton Watson record at least 20 combined points, rebou | 20 | astatc-nba-cle-cha-2026-11-09-pra-peywat-gte20 (team 38) @0.49; astatc-nba-cle-cha-2026-11 |
+| nba | BASKETBALL_PLAYER_REBOUNDS | OTHER/UNKNOWN | 377 | Will Jake LaRavia record at least 4 total rebounds in LA Lak | 4 | astatc-nba-lal-atl-2026-11-09-reb-jaklar-gte4 (team 24) @0.49; astatc-nba-lal-atl-2026-11- |
+| nba | BASKETBALL_PLAYER_STEALS | OTHER/UNKNOWN | 117 | Will Dyson Daniels record at least 1 steals in LA Lakers vs. | 1 | astatc-nba-lal-atl-2026-11-09-stl-dysdan-gte1 (team 25) @0.87; astatc-nba-lal-atl-2026-11- |
+| nba | BASKETBALL_PLAYER_THREES | OTHER/UNKNOWN | 245 | Will Jaylen Wells record at least 2 three-point field goals  | 2 | astatc-nba-mem-tor-2026-11-09-3pm-jaywel-gte2 (team 21) @0.50; astatc-nba-mem-tor-2026-11- |
+| nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 267 | Will the LA Lakers cover -1.5 vs the ATL Hawks in LA Lakers  | -1.5 | asc-nba-lal-atl-2026-11-09-neg-1pt5 (team 24) @0.51; asc-nba-lal-atl-2026-11-09-neg-1pt5 ( |
+| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 239 | Will the total in LA Lakers vs. ATL Hawks be more than 236.5 | 236.5 | tsc-nba-lal-atl-2026-11-09-236pt5 @0.49; tsc-nba-lal-atl-2026-11-09-236pt5 @0.51 |
+| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 112 | Who will win in the upcoming basketball event LA Lakers vs A |  | aec-nba-lal-atl-2026-11-09 (team 24) @0.52; aec-nba-lal-atl-2026-11-09 (team 25) @0.53 |
+| ncaab | BASKETBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 280 | Will Marshall reach 10 points before Ohio State? | 10 | atc-cbb-marsh-ohiost-2026-11-09-race10-marsh (team 1795); atc-cbb-marsh-ohiost-2026-11-09- |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 880 | Will Marshall cover +25.5 vs Ohio State in Marshall vs. Ohio | 25.5 | asc-cbb-marsh-ohiost-2026-11-09-pos-25pt5 (team 1795) @0.47; asc-cbb-marsh-ohiost-2026-11- |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 910 | Will the total in Marshall vs. Ohio State be more than 162.5 | 162.5 | tsc-cbb-marsh-ohiost-2026-11-09-162pt5 @0.49; tsc-cbb-marsh-ohiost-2026-11-09-162pt5 @0.51 |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 766 | Who will win in the upcoming basketball event Cheyney vs Cop |  | aec-cbb-chey-coppst-2026-11-09 (team 44898) @0.02; aec-cbb-chey-coppst-2026-11-09 (team 18 |
+| ncaab | BASKETBALL_TEAM_TOTAL_POINTS | OTHER/UNKNOWN | 204 | Will Marshall score more than 67.5 points in Marshall vs. Oh | 67.5 | tsc-cbb-marsh-ohiost-2026-11-09-tt-marsh-fg-67pt5 (team 1795) @0.43; tsc-cbb-marsh-ohiost- |
+| nhl | HOCKEY_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 9 | Will EDM Oilers score the first goal in NYR vs EDM? |  | astatc-nhl-nyr-edm-2026-11-09-ftts-edm (team 1508) @0.73; astatc-nhl-nyr-edm-2026-11-09-ft |
+| nhl | HOCKEY_GAME_OVERTIME | OTHER/UNKNOWN | 3 | Will the NHL hockey game between Rangers and Oilers on 2026- | 0.5 | astatc-nhl-nyr-edm-2026-11-09-ot (team 1508) @0.21; astatc-nhl-nyr-edm-2026-11-09-ot (team |
+| nhl | HOCKEY_PLAYER_ASSISTS | OTHER/UNKNOWN | 84 | Will Connor McDavid record at least 1 assists in NYR vs EDM? | 1 | astatc-nhl-nyr-edm-2026-11-09-ast-conmcd-gte1 (team 1508) @0.34; astatc-nhl-nyr-edm-2026-1 |
+| nhl | HOCKEY_PLAYER_GOALS | OTHER/UNKNOWN | 113 | Will Leon Draisaitl record at least 1 goals in NYR vs EDM? | 1 | astatc-nhl-nyr-edm-2026-11-09-goals-leodra-gte1 (team 1508) @0.43; astatc-nhl-nyr-edm-2026 |
+| nhl | HOCKEY_PLAYER_POINTS | OTHER/UNKNOWN | 110 | Will Jake DeBrusk record at least 1 points in PHI vs VAN? | 1 | astatc-nhl-phi-van-2026-11-09-pts-jakdeb-gte1 (team 1511) @0.45; astatc-nhl-phi-van-2026-1 |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 6 | Will NYR Rangers cover +1.5 vs EDM Oilers in the first perio | 1.5 | asc-nhl-nyr-edm-2026-11-09-p1-pos-1pt5 (team 1495) @0.85; asc-nhl-nyr-edm-2026-11-09-p1-po |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 12 | Will NYR vs EDM have more than 1.5 goals in the first period | 1.5 | tsc-nhl-nyr-edm-2026-11-09-p1-1pt5 @0.53; tsc-nhl-nyr-edm-2026-11-09-p1-1pt5 @0.59 |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_WINNER | WINNER/FIRST_PERIOD | 9 | Will EDM Oilers win the first period of NYR vs EDM? |  | atc-nhl-nyr-edm-2026-11-09-p1-edm (team 1508) @0.34; atc-nhl-nyr-edm-2026-11-09-p1-edm (te |
+| nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 18 | Will the NYR Rangers cover 1.5 vs the EDM Oilers in NYR vs E | 1.5 | asc-nhl-nyr-edm-2026-11-09-pos-1pt5 (team 1495) @0.62; asc-nhl-nyr-edm-2026-11-09-pos-1pt5 |
+| nhl | HOCKEY_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 24 | Will the total in NYR vs EDM be more than 6.5? | 6.5 | tsc-nhl-nyr-edm-2026-11-09-6pt5 @0.51; tsc-nhl-nyr-edm-2026-11-09-6pt5 @0.52 |
+| nhl | HOCKEY_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 29 | Who will win in the upcoming hockey event NYR Rangers vs EDM |  | aec-nhl-nyr-edm-2026-11-09 (team 1495) @0.40; aec-nhl-nyr-edm-2026-11-09 (team 1508) @0.41 |
+| nhl | HOCKEY_TEAM_REGULATION_WINNER | WINNER/REGULATION | 9 | Will EDM Oilers lead after regulation of NYR vs EDM? |  | atc-nhl-nyr-edm-2026-11-09-reg-edm (team 1508) @0.38; atc-nhl-nyr-edm-2026-11-09-reg-edm ( |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_SPREAD | SPREAD/SECOND_PERIOD | 6 | Will NYR Rangers cover +1.5 vs EDM Oilers in the second peri | 1.5 | asc-nhl-nyr-edm-2026-11-09-p2-pos-1pt5 (team 1495) @0.82; asc-nhl-nyr-edm-2026-11-09-p2-po |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_TOTAL | TOTAL/SECOND_PERIOD | 12 | Will NYR vs EDM have more than 1.5 goals in the second perio | 1.5 | tsc-nhl-nyr-edm-2026-11-09-p2-1pt5 @0.60; tsc-nhl-nyr-edm-2026-11-09-p2-1pt5 @0.68 |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_WINNER | WINNER/SECOND_PERIOD | 9 | Will EDM Oilers win the second period of NYR vs EDM? |  | atc-nhl-nyr-edm-2026-11-09-p2-edm (team 1508) @0.29; atc-nhl-nyr-edm-2026-11-09-p2-edm (te |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_SPREAD | SPREAD/THIRD_PERIOD | 6 | Will NYR Rangers cover +1.5 vs EDM Oilers in the third perio | 1.5 | asc-nhl-nyr-edm-2026-11-09-p3-pos-1pt5 (team 1495) @0.78; asc-nhl-nyr-edm-2026-11-09-p3-po |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_TOTAL | TOTAL/THIRD_PERIOD | 12 | Will NYR vs EDM have more than 2.5 goals in the third period | 2.5 | tsc-nhl-nyr-edm-2026-11-09-p3-2pt5 @0.38; tsc-nhl-nyr-edm-2026-11-09-p3-2pt5 @0.44 |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_WINNER | WINNER/THIRD_PERIOD | 9 | Will EDM Oilers win the third period of NYR vs EDM? |  | atc-nhl-nyr-edm-2026-11-09-p3-edm (team 1508) @0.31; atc-nhl-nyr-edm-2026-11-09-p3-edm (te |
+| nhl | HOCKEY_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 36 | Will EDM Oilers score more than 3.5 goals in NYR vs EDM? | 3.5 | tsc-nhl-nyr-edm-2026-11-09-tt-edm-3pt5 (team 1508) @0.49; tsc-nhl-nyr-edm-2026-11-09-tt-ed |
+| nfl | FOOTBALL_GAME_DOUBLE_RESULT | OTHER/UNKNOWN | 9 | Halftime / Full Time: BUF 1H / BUF Game |  | astatc-nfl-buf-min-2026-11-09-htft-away-away @0.35; astatc-nfl-buf-min-2026-11-09-htft-awa |
+| nfl | FOOTBALL_GAME_EXACT_MARGIN | OTHER/UNKNOWN | 7 | Exact Margin of Victory: BUF Bills by 15+ |  | astatc-nfl-buf-min-2026-11-09-margin-long-15-plus @0.13; astatc-nfl-buf-min-2026-11-09-mar |
+| nfl | FOOTBALL_GAME_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 11 | Will the total in BUF Bills vs. MIN Vikings be more than 22. | 22.5 | tsc-nfl-buf-min-2026-11-09-1h-22pt5 @0.48; tsc-nfl-buf-min-2026-11-09-1h-22pt5 @0.49 |
+| nfl | FOOTBALL_GAME_FIRST_QUARTER_BOTH_TEAMS_SCORE_POINTS | OTHER/UNKNOWN | 1 | Both Teams to Score Points - 1st Quarter: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-bp1q-0pt5 @0.36; astatc-nfl-buf-min-2026-11-09-bp1q-0pt5 @0. |
+| nfl | FOOTBALL_GAME_FIRST_QUARTER_TOTAL | TOTAL/FIRST_QUARTER | 15 | Will the total in BUF Bills vs. MIN Vikings be more than 8.5 | 8.5 | tsc-nfl-buf-min-2026-11-09-1q-8pt5 @0.48; tsc-nfl-buf-min-2026-11-09-1q-8pt5 @0.49 |
+| nfl | FOOTBALL_GAME_FIRST_SCORE | OTHER/UNKNOWN | 3 | First Team to Score Points: Buffalo Bills |  | astatc-nfl-buf-min-2026-11-09-fs-buf (team 51) @0.61; astatc-nfl-buf-min-2026-11-09-fs-buf |
+| nfl | FOOTBALL_GAME_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 3 | First Team to Score a Touchdown: Buffalo Bills |  | astatc-nfl-buf-min-2026-11-09-ftd-buf (team 51) @0.49; astatc-nfl-buf-min-2026-11-09-ftd-b |
+| nfl | FOOTBALL_GAME_FOURTH_QUARTER_BOTH_TEAMS_SCORE_POINTS | OTHER/UNKNOWN | 1 | Both Teams to Score Points - 4th Quarter: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-bp4q-0pt5 @0.55; astatc-nfl-buf-min-2026-11-09-bp4q-0pt5 @0. |
+| nfl | FOOTBALL_GAME_FOURTH_QUARTER_TOTAL | TOTAL/FOURTH_QUARTER | 15 | Will the total in BUF Bills vs. MIN Vikings be more than 12. | 12.5 | tsc-nfl-buf-min-2026-11-09-4q-12pt5 @0.51; tsc-nfl-buf-min-2026-11-09-4q-12pt5 @0.54 |
+| nfl | FOOTBALL_GAME_OVERTIME | OTHER/UNKNOWN | 1 | Overtime?: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-ot-0pt5 @0.06; astatc-nfl-buf-min-2026-11-09-ot-0pt5 @0.08 |
+| nfl | FOOTBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 15 | Race to 14 Points: Buffalo Bills | 14 | astatc-nfl-buf-min-2026-11-09-race14-buf (team 51) @0.53; astatc-nfl-buf-min-2026-11-09-ra |
+| nfl | FOOTBALL_GAME_SAFETY | OTHER/UNKNOWN | 1 | Will there be a Safety?: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-safety-0pt5 @0.03; astatc-nfl-buf-min-2026-11-09-safety-0pt5 |
+| nfl | FOOTBALL_GAME_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 11 | Will the total in BUF Bills vs. MIN Vikings be more than 22. | 22.5 | tsc-nfl-buf-min-2026-11-09-2h-22pt5 @0.47; tsc-nfl-buf-min-2026-11-09-2h-22pt5 @0.49 |
+| nfl | FOOTBALL_GAME_SECOND_QUARTER_BOTH_TEAMS_SCORE_POINTS | OTHER/UNKNOWN | 1 | Both Teams to Score Points - 2nd Quarter: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-bp2q-0pt5 @0.63; astatc-nfl-buf-min-2026-11-09-bp2q-0pt5 @0. |
+| nfl | FOOTBALL_GAME_SECOND_QUARTER_TOTAL | TOTAL/SECOND_QUARTER | 15 | Will the total in BUF Bills vs. MIN Vikings be more than 13. | 13.5 | tsc-nfl-buf-min-2026-11-09-2q-13pt5 @0.46; tsc-nfl-buf-min-2026-11-09-2q-13pt5 @0.48 |
+| nfl | FOOTBALL_GAME_THIRD_QUARTER_BOTH_TEAMS_SCORE_POINTS | OTHER/UNKNOWN | 1 | Both Teams to Score Points - 3rd Quarter: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-bp3q-0pt5 @0.35; astatc-nfl-buf-min-2026-11-09-bp3q-0pt5 @0. |
+| nfl | FOOTBALL_GAME_THIRD_QUARTER_TOTAL | TOTAL/THIRD_QUARTER | 15 | Will the total in BUF Bills vs. MIN Vikings be more than 8.5 | 8.5 | tsc-nfl-buf-min-2026-11-09-3q-8pt5 @0.50; tsc-nfl-buf-min-2026-11-09-3q-8pt5 @0.53 |
+| nfl | FOOTBALL_GAME_TIE | OTHER/UNKNOWN | 1 | Game Ends in a Tie (Including Overtime)?: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-tie-0pt5 @0.04; astatc-nfl-buf-min-2026-11-09-tie-0pt5 |
+| nfl | FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS | OTHER/UNKNOWN | 1 | Total Defensive/Special Teams Touchdowns: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-dstd-0pt5 @0.21; astatc-nfl-buf-min-2026-11-09-dstd-0pt5 @0. |
+| nfl | FOOTBALL_GAME_TOTAL_PASS_TOUCHDOWNS | OTHER/UNKNOWN | 8 | Total Passing Touchdowns: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-ptd-0pt5 @0.65; astatc-nfl-buf-min-2026-11-09-ptd-0pt5 @0.99 |
+| nfl | FOOTBALL_GAME_TOTAL_RUSH_TOUCHDOWNS | OTHER/UNKNOWN | 4 | Total Rushing Touchdowns: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-rtd-0pt5 @0.01; astatc-nfl-buf-min-2026-11-09-rtd-0pt5 @0.97 |
+| nfl | FOOTBALL_GAME_TOTAL_TOUCHDOWNS | OTHER/UNKNOWN | 8 | Total Touchdowns: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-tds-0pt5 @0.88; astatc-nfl-buf-min-2026-11-09-tds-0pt5 @0.99 |
+| nfl | FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS | OTHER/UNKNOWN | 1 | Total Successful Two-Point Conversions: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-2pc-0pt5 @0.05; astatc-nfl-buf-min-2026-11-09-2pc-0pt5 @0.28 |
+| nfl | FOOTBALL_PLAYER_FANTASY_POINTS_PPR | OTHER/UNKNOWN | 10 | Will Aaron Jones Sr. record 10+ fantasy points (PPR scoring) | 10 | astatc-nfl-buf-min-2026-11-09-fpts-aarjon-gte10 (team 68) @0.26; astatc-nfl-buf-min-2026-1 |
+| nfl | FOOTBALL_PLAYER_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 21 | Will Aaron Jones Sr. score the first touchdown? |  | astatc-nfl-buf-min-2026-11-09-firsttd-aarjon (team 68) @0.06; astatc-nfl-buf-min-2026-11-0 |
+| nfl | FOOTBALL_PLAYER_INTERCEPTIONS_THROWN | OTHER/UNKNOWN | 4 | Will Carson Wentz throw 1+ interceptions? | 1 | astatc-nfl-buf-min-2026-11-09-int-carwen-gte1 (team 68) @0.53; astatc-nfl-buf-min-2026-11- |
+| nfl | FOOTBALL_PLAYER_LONGEST_RECEPTION | OTHER/UNKNOWN | 6 | Will Justin Jefferson record 25+ longest reception? | 25 | astatc-nfl-buf-min-2026-11-09-lrec-jusjef-gte25 (team 68) @0.47; astatc-nfl-buf-min-2026-1 |
+| nfl | FOOTBALL_PLAYER_MOST_PASSING_YARDS | OTHER/UNKNOWN | 2 | Will Carson Wentz record the most passing yards? |  | astatc-nfl-buf-min-2026-11-09-mpyd-carwen (team 68) @0.01; astatc-nfl-buf-min-2026-11-09-m |
+| nfl | FOOTBALL_PLAYER_PASSING_ATTEMPTS | OTHER/UNKNOWN | 6 | Will Carson Wentz record 24+ passing attempts? | 24 | astatc-nfl-buf-min-2026-11-09-patt-carwen-gte24 (team 68) @0.61; astatc-nfl-buf-min-2026-1 |
+| nfl | FOOTBALL_PLAYER_PASSING_COMPLETIONS | OTHER/UNKNOWN | 6 | Will Carson Wentz record 14+ passing completions? | 14 | astatc-nfl-buf-min-2026-11-09-pcmp-carwen-gte14 (team 68) @0.68; astatc-nfl-buf-min-2026-1 |
+| nfl | FOOTBALL_PLAYER_PASSING_TOUCHDOWNS | OTHER/UNKNOWN | 8 | Will Carson Wentz record 1+ passing touchdowns? | 1 | astatc-nfl-buf-min-2026-11-09-ptd-carwen-gte1 (team 68) @0.80; astatc-nfl-buf-min-2026-11- |
+| nfl | FOOTBALL_PLAYER_PASSING_YARDS | OTHER/UNKNOWN | 18 | Will Carson Wentz record 100+ passing yards? | 100 | astatc-nfl-buf-min-2026-11-09-pyd-carwen-gte100 (team 68); astatc-nfl-buf-min-2026-11-09-p |
+| nfl | FOOTBALL_PLAYER_RECEIVING_YARDS | OTHER/UNKNOWN | 57 | Will Dalton Kincaid record 10+ receiving yards? | 10 | astatc-nfl-buf-min-2026-11-09-recyd-dalkin-gte10 (team 51) @0.76; astatc-nfl-buf-min-2026- |
+| nfl | FOOTBALL_PLAYER_RECEPTIONS | OTHER/UNKNOWN | 45 | Will Aaron Jones Sr. record 1+ receptions? | 1 | astatc-nfl-buf-min-2026-11-09-rec-aarjon-gte1 (team 68) @0.73; astatc-nfl-buf-min-2026-11- |
+| nfl | FOOTBALL_PLAYER_RUSHING_ATTEMPTS | OTHER/UNKNOWN | 9 | Will Aaron Jones Sr. record 12+ rushing attempts? | 12 | astatc-nfl-buf-min-2026-11-09-ratt-aarjon-gte12 (team 68) @0.18; astatc-nfl-buf-min-2026-1 |
+| nfl | FOOTBALL_PLAYER_RUSHING_YARDS | OTHER/UNKNOWN | 33 | Will Aaron Jones Sr. record 10+ rushing yards? | 10 | astatc-nfl-buf-min-2026-11-09-ryd-aarjon-gte10 (team 68) @0.81; astatc-nfl-buf-min-2026-11 |
+| nfl | FOOTBALL_PLAYER_SCRIMMAGE_YARDS | OTHER/UNKNOWN | 3 | Will Aaron Jones Sr. record 40+ scrimmage yards? | 40 | astatc-nfl-buf-min-2026-11-09-scrim-aarjon-gte40 (team 68) @0.53; astatc-nfl-buf-min-2026- |
+| nfl | FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 22 | Will Dalton Kincaid score the first Buffalo Bills touchdown? |  | astatc-nfl-buf-min-2026-11-09-tftd-buf-dalkin (team 51) @0.23; astatc-nfl-buf-min-2026-11- |
+| nfl | FOOTBALL_PLAYER_TOUCHDOWNS | OTHER/UNKNOWN | 39 | Will Aaron Jones Sr. record 1+ touchdowns? | 1 | astatc-nfl-buf-min-2026-11-09-td-aarjon-gte1 (team 68) @0.25; astatc-nfl-buf-min-2026-11-0 |
+| nfl | FOOTBALL_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 31 | Will the Buffalo Bills cover -2.5 vs the Minnesota Vikings i | -2.5 | asc-nfl-buf-min-2026-11-09-1h-neg-2pt5 (team 51) @0.50; asc-nfl-buf-min-2026-11-09-1h-neg- |
+| nfl | FOOTBALL_TEAM_FIRST_HALF_TOTAL | TEAM_TOTAL/FIRST_HALF | 16 | Will the total in BUF Bills vs. MIN Vikings be more than 10. | 10.5 | tsc-nfl-buf-min-2026-11-09-tt1h-buf-10pt5 (team 51) @0.49; tsc-nfl-buf-min-2026-11-09-tt1h |
+| nfl | FOOTBALL_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 3 | Will Buffalo Bills win the first half? |  | atc-nfl-buf-min-2026-11-09-winner-1h-buf (team 51) @0.53; atc-nfl-buf-min-2026-11-09-winne |
+| nfl | FOOTBALL_TEAM_FIRST_QUARTER_SPREAD | SPREAD/FIRST_QUARTER | 5 | Will the Buffalo Bills cover -0.5 vs the Minnesota Vikings i | -0.5 | asc-nfl-buf-min-2026-11-09-1q-neg-0pt5 (team 51) @0.43; asc-nfl-buf-min-2026-11-09-1q-neg- |
+| nfl | FOOTBALL_TEAM_FIRST_QUARTER_WINNER | WINNER/FIRST_QUARTER | 3 | Will Buffalo Bills win the first quarter? |  | atc-nfl-buf-min-2026-11-09-winner-1q-buf (team 51) @0.43; atc-nfl-buf-min-2026-11-09-winne |
+| nfl | FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD | SPREAD/FOURTH_QUARTER | 5 | Will the Buffalo Bills cover -0.5 vs the Minnesota Vikings i | -0.5 | asc-nfl-buf-min-2026-11-09-4q-neg-0pt5 (team 51) @0.43; asc-nfl-buf-min-2026-11-09-4q-neg- |
+| nfl | FOOTBALL_TEAM_FOURTH_QUARTER_WINNER | WINNER/FOURTH_QUARTER | 3 | Will Buffalo Bills win the fourth quarter? |  | atc-nfl-buf-min-2026-11-09-winner-4q-buf (team 51) @0.45; atc-nfl-buf-min-2026-11-09-winne |
+| nfl | FOOTBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 41 | Will the Buffalo Bills cover -3.5 vs the Minnesota Vikings i | -3.5 | asc-nfl-buf-min-2026-11-09-neg-3pt5 (team 51) @0.46; asc-nfl-buf-min-2026-11-09-neg-3pt5 ( |
+| nfl | FOOTBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 29 | Will the total in BUF Bills vs. MIN Vikings be more than 44. | 44.5 | tsc-nfl-buf-min-2026-11-09-total-44pt5 @0.48; tsc-nfl-buf-min-2026-11-09-total-44pt5 @0.49 |
+| nfl | FOOTBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 28 | Who will win in the upcoming football event Buffalo Bills vs |  | aec-nfl-buf-min-2026-11-09 (team 51) @0.61; aec-nfl-buf-min-2026-11-09 (team 68) @0.61 |
+| nfl | FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL | TEAM_TOTAL/FULL_GAME | 34 | Will the total in BUF Bills vs. MIN Vikings be more than 23. | 23.5 | tsc-nfl-buf-min-2026-11-09-tt-buf-23pt5 (team 51) @0.51; tsc-nfl-buf-min-2026-11-09-tt-buf |
+| nfl | FOOTBALL_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 31 | Will the Buffalo Bills cover -1.5 vs the Minnesota Vikings i | -1.5 | asc-nfl-buf-min-2026-11-09-2h-neg-1pt5 (team 51) @0.48; asc-nfl-buf-min-2026-11-09-2h-neg- |
+| nfl | FOOTBALL_TEAM_SECOND_HALF_TOTAL | TEAM_TOTAL/SECOND_HALF | 16 | Will the total in BUF Bills vs. MIN Vikings be more than 12. | 12.5 | tsc-nfl-buf-min-2026-11-09-tt2h-buf-12pt5 (team 51) @0.42; tsc-nfl-buf-min-2026-11-09-tt2h |
+| nfl | FOOTBALL_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 3 | Will Buffalo Bills win the second half? |  | atc-nfl-buf-min-2026-11-09-winner-2h-buf (team 51) @0.52; atc-nfl-buf-min-2026-11-09-winne |
+| nfl | FOOTBALL_TEAM_SECOND_QUARTER_SPREAD | SPREAD/SECOND_QUARTER | 5 | Will the Buffalo Bills cover -0.5 vs the Minnesota Vikings i | -0.5 | asc-nfl-buf-min-2026-11-09-2q-neg-0pt5 (team 51) @0.44; asc-nfl-buf-min-2026-11-09-2q-neg- |
+| nfl | FOOTBALL_TEAM_SECOND_QUARTER_WINNER | WINNER/SECOND_QUARTER | 3 | Will Buffalo Bills win the second quarter? |  | atc-nfl-buf-min-2026-11-09-winner-2q-buf (team 51) @0.47; atc-nfl-buf-min-2026-11-09-winne |
+| nfl | FOOTBALL_TEAM_THIRD_QUARTER_SPREAD | SPREAD/THIRD_QUARTER | 5 | Will the Buffalo Bills cover -0.5 vs the Minnesota Vikings i | -0.5 | asc-nfl-buf-min-2026-11-09-3q-neg-0pt5 (team 51) @0.40; asc-nfl-buf-min-2026-11-09-3q-neg- |
+| nfl | FOOTBALL_TEAM_THIRD_QUARTER_WINNER | WINNER/THIRD_QUARTER | 3 | Will Buffalo Bills win the third quarter? |  | atc-nfl-buf-min-2026-11-09-winner-3q-buf (team 51) @0.44; atc-nfl-buf-min-2026-11-09-winne |
+| nfl | FOOTBALL_TEAM_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS | OTHER/UNKNOWN | 2 | Team Total Defensive/Special Teams Touchdowns: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-tdstd-buf-0pt5 (team 51) @0.02; astatc-nfl-buf-min-2026-11-0 |
+| nfl | FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE | OTHER/UNKNOWN | 6 | Team Total Field Goals Made: Over 0.5 | 0.5 | astatc-nfl-buf-min-2026-11-09-tfg-buf-0pt5 (team 51) @0.78; astatc-nfl-buf-min-2026-11-09- |
+| nfl | FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS | OTHER/UNKNOWN | 6 | Team Total Offensive Yards: Over 250.5 | 250.5 | astatc-nfl-buf-min-2026-11-09-toyd-buf-250pt5 (team 51) @0.60; astatc-nfl-buf-min-2026-11- |
+| nfl | FOOTBALL_TEAM_TOTAL_TOUCHDOWNS | OTHER/UNKNOWN | 6 | Team Total Touchdowns: Over 2.5 | 2.5 | astatc-nfl-buf-min-2026-11-09-ttds-buf-2pt5 (team 51) @0.49; astatc-nfl-buf-min-2026-11-09 |
+| cs2 | ESPORTS_MAP_WINNER_1 | WINNER/MAP_1 | 23 | Will Balkan Outlaws win Map 1 vs ex-ENCE? |  | astatc-cs2-bal-eex-2026-11-09-map1 (team 45176) @0.46; astatc-cs2-bal-eex-2026-11-09-map1  |
+| cs2 | ESPORTS_MAP_WINNER_2 | WINNER/MAP_2 | 23 | Will Balkan Outlaws win Map 2 vs ex-ENCE? |  | astatc-cs2-bal-eex-2026-11-09-map2 (team 45176) @0.45; astatc-cs2-bal-eex-2026-11-09-map2  |
+| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 61 | Who will win in the upcoming esports event Sokerorg vs Prest |  | aec-cs2-skr-pre-2026-11-09 (team 39285) @0.57; aec-cs2-skr-pre-2026-11-09 (team 11719) @0. |
+| cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 13 | Will the Balkan Outlaws cover 1.5 vs the ex-ENCE in Balkan O | 1.5 | asc-cs2-bal-eex-2026-11-09-hcap-pos-1pt5 (team 45176); asc-cs2-bal-eex-2026-11-09-hcap-pos |
+| cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 13 | Will the total in Balkan Outlaws vs. ex-ENCE be more than 2. | 2.5 | tsc-cs2-bal-eex-2026-11-09-tot-2pt5 @0.42; tsc-cs2-bal-eex-2026-11-09-tot-2pt5 @0.52 |
+| lol | ESPORTS_MATCH_WINNER | WINNER/MATCH | 1 | Who will win in the upcoming esports event BILIBILI GAMING v |  | aec-lol-blg-gen-2026-11-14 (team 5136) @0.37; aec-lol-blg-gen-2026-11-14 (team 5134) @0.38 |
 
 ## All leagues
 
@@ -607,28 +497,28 @@
 | cznbl | Czech NBL | True |
 | koris | Korisliiga | True |
 | nba | NBA | True |
-| rsmclas | The RSM Classic | True |
+| cmegrouc | CME Group Tour Championship | True |
 | bsktcua | BSKT Cup | True |
 | bsktcin | BSKT Cup International | True |
 | lfa | LFA | True |
-| cmegrouc | CME Group Tour Championship | True |
 | rlwc | RLWC | True |
 | bkfc | BKFC | True |
 | bskt3x3 | BSKT Cup 3x3 | True |
-| austcham | Austin Championship | True |
 | acw | Astra Cup Women | True |
+| rsmclas | The RSM Classic | True |
 | totojapa | Toto Japan Classic | True |
-| dpworlch | DP World Tour Championship | True |
 | ebattlesebb | eBattles: eBasketball | True |
 | worlwide | World Wide Technology Championship | True |
 | abudhabc | Abu Dhabi Championship | True |
 | ebattlesebbec | eBattles: eBasketball European Conference | True |
+| austcham | Austin Championship | True |
+| dpworlch | DP World Tour Championship | True |
 | anni | ANNIKA | True |
 | simmbank | Simmons Bank Championship | True |
+| aust | Australian Open | True |
 | pga | PGA Tour | True |
+| nedbgolf | Nedbank Golf Challenge | True |
 | adt10 | Abu Dhabi T10 | True |
 | heroworl | Hero World Challenge | True |
 | masttour | Masters Tournament | True |
 | austpgac | Australian PGA Championship | True |
-| aust | Australian Open | True |
-| nedbgolf | Nedbank Golf Challenge | True |
