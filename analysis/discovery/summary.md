@@ -1,15 +1,15 @@
-# Polymarket US discovery 2026-11-10T08:57:09+00:00
+# Polymarket US discovery 2026-11-11T08:57:32+00:00
 
 397 leagues listed.
 
 | Sport | Slug | Listed | Events | Next 36h | Main lines to record (next 36h) | Unclassified types | Note |
 |---|---|---|---|---|---|---|---|
 | mlb | mlb | yes | 0 | 0 | 0 | - | candidates: mlb |
-| nba | nba | yes | 107 | 6 | 18 | BASKETBALL_PLAYER_REBOUNDS, BASKETBALL_PLAYER_POINTS, BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS, BASKETBALL_PLAYER_THREES, BASKETBALL_PLAYER_ASSISTS, BASKETBALL_PLAYER_STEALS, BASKETBALL_PLAYER_BLOCKS |  |
-| ncaab | cbb | yes | 799 | 75 | 185 | BASKETBALL_TEAM_TOTAL_POINTS, BASKETBALL_GAME_RACE_TO_POINTS |  |
-| nhl | nhl | yes | 40 | 7 | 147 | HOCKEY_TEAM_TOTAL_GOALS, HOCKEY_GAME_FIRST_TEAM_TO_SCORE, HOCKEY_PLAYER_POINTS, HOCKEY_PLAYER_ASSISTS, HOCKEY_PLAYER_GOALS, HOCKEY_GAME_OVERTIME |  |
-| nfl | nfl | yes | 27 | 0 | 0 | - |  |
-| cs2 | cs2 | yes | 71 | 63 | 179 | - |  |
+| nba | nba | yes | 110 | 10 | 30 | BASKETBALL_PLAYER_ASSISTS, BASKETBALL_PLAYER_BLOCKS, BASKETBALL_PLAYER_POINTS, BASKETBALL_PLAYER_REBOUNDS, BASKETBALL_PLAYER_STEALS, BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS, BASKETBALL_PLAYER_THREES |  |
+| ncaab | cbb | yes | 788 | 68 | 162 | BASKETBALL_TEAM_TOTAL_POINTS, BASKETBALL_GAME_RACE_TO_POINTS |  |
+| nhl | nhl | yes | 38 | 7 | 147 | HOCKEY_TEAM_TOTAL_GOALS, HOCKEY_PLAYER_POINTS, HOCKEY_PLAYER_ASSISTS, HOCKEY_GAME_FIRST_TEAM_TO_SCORE, HOCKEY_PLAYER_GOALS, HOCKEY_GAME_OVERTIME |  |
+| nfl | nfl | yes | 28 | 0 | 0 | - |  |
+| cs2 | cs2 | yes | 46 | 40 | 134 | - |  |
 | lol | lol | yes | 1 | 0 | 0 | - |  |
 | epl | epl | yes | 0 | 0 | 0 | - | candidates: epl, nbasl, lol, blw, mlc, etpl, mlp, cpl, spl, egpl, sclc, kl1, cpbl, irlp, mlccr |
 | laliga | lal | yes | 0 | 0 | 0 | - | candidates: f1, lal, bun, cadi, onefmyrtbeac, flc, t20blast, t20blastw, rockclas, lmx, ligpor, czechligapro, russialigapro, johndeer, ekst |
@@ -21,47 +21,47 @@
 
 | Sport | Raw type | Class/segment | Count | Example question | Line | Sides |
 |---|---|---|---|---|---|---|
-| nba | BASKETBALL_PLAYER_ASSISTS | OTHER/UNKNOWN | 203 | Will Payton Pritchard record at least 4 assists in BOS Celti | 4 | astatc-nba-bos-phi-2026-11-10-ast-paypri-gte4 (team 17) @0.49; astatc-nba-bos-phi-2026-11- |
-| nba | BASKETBALL_PLAYER_BLOCKS | OTHER/UNKNOWN | 25 | Will Neemias Queta record at least 1 blocks in BOS Celtics v | 1 | astatc-nba-bos-phi-2026-11-10-blk-neeque-gte1 (team 17) @0.60; astatc-nba-bos-phi-2026-11- |
-| nba | BASKETBALL_PLAYER_POINTS | OTHER/UNKNOWN | 280 | Will Karl-Anthony Towns record at least 10 points in MIL Buc | 10 | astatc-nba-mil-ny-2026-11-10-pts-kartow-gte10 (team 43) @0.51; astatc-nba-mil-ny-2026-11-1 |
-| nba | BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS | OTHER/UNKNOWN | 244 | Will Keaton Wagler record at least 15 combined points, rebou | 15 | astatc-nba-lac-pho-2026-11-10-pra-keawag-gte15 (team 20) @0.47; astatc-nba-lac-pho-2026-11 |
-| nba | BASKETBALL_PLAYER_REBOUNDS | OTHER/UNKNOWN | 278 | Will Karl-Anthony Towns record at least 4 total rebounds in  | 4 | astatc-nba-mil-ny-2026-11-10-reb-kartow-gte4 (team 43) @0.56; astatc-nba-mil-ny-2026-11-10 |
-| nba | BASKETBALL_PLAYER_STEALS | OTHER/UNKNOWN | 81 | Will OG Anunoby record at least 1 steals in MIL Bucks vs. NY | 1 | astatc-nba-mil-ny-2026-11-10-stl-oganu-gte1 (team 43) @0.64; astatc-nba-mil-ny-2026-11-10- |
-| nba | BASKETBALL_PLAYER_THREES | OTHER/UNKNOWN | 212 | Will Karl-Anthony Towns record at least 2 three-point field  | 2 | astatc-nba-mil-ny-2026-11-10-3pm-kartow-gte2 (team 43) @0.49; astatc-nba-mil-ny-2026-11-10 |
-| nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 201 | Will the MIL Bucks cover 15.5 vs the NY Knicks in MIL Bucks  | 15.5 | asc-nba-mil-ny-2026-11-10-pos-15pt5 (team 41) @0.47; asc-nba-mil-ny-2026-11-10-pos-15pt5 ( |
-| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 181 | Will the total in MIL Bucks vs. NY Knicks be more than 219.5 | 219.5 | tsc-nba-mil-ny-2026-11-10-219pt5 @0.50; tsc-nba-mil-ny-2026-11-10-219pt5 @0.51 |
-| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 107 | Who will win in the upcoming basketball event MIL Bucks vs N |  | aec-nba-mil-ny-2026-11-10 (team 41) @0.09; aec-nba-mil-ny-2026-11-10 (team 43) @0.10 |
-| ncaab | BASKETBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 510 | Will Tulane reach 30 points before Nicholls? | 30 | atc-cbb-nichls-tulane-2026-11-10-race30-tulane (team 1670); atc-cbb-nichls-tulane-2026-11- |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 1389 | Will Delaware State cover +27.5 vs Georgetown in Delaware St | 27.5 | asc-cbb-delst-george-2026-11-10-pos-27pt5 (team 1859) @0.47; asc-cbb-delst-george-2026-11- |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 1498 | Will the total in Florida vs. Florida State be more than 166 | 166.5 | tsc-cbb-fl-flst-2026-11-10-166pt5 @0.50; tsc-cbb-fl-flst-2026-11-10-166pt5 @0.51 |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 799 | Who will win in the upcoming basketball event Florida vs Flo |  | aec-cbb-fl-flst-2026-11-10 (team 1928) @0.81; aec-cbb-fl-flst-2026-11-10 (team 1688) @0.82 |
-| ncaab | BASKETBALL_TEAM_TOTAL_POINTS | OTHER/UNKNOWN | 330 | Will Florida score more than 89.5 points in Florida vs. Flor | 89.5 | tsc-cbb-fl-flst-2026-11-10-tt-fl-fg-89pt5 (team 1928) @0.38; tsc-cbb-fl-flst-2026-11-10-tt |
-| nhl | HOCKEY_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 21 | Will WPG Jets score the first goal in NJD vs WPG? |  | astatc-nhl-nj-wpg-2026-11-10-ftts-wpg (team 1505) @0.42; astatc-nhl-nj-wpg-2026-11-10-ftts |
-| nhl | HOCKEY_GAME_OVERTIME | OTHER/UNKNOWN | 7 | Will the NHL hockey game between Devils and Jets on 2026-11- | 0.5 | astatc-nhl-nj-wpg-2026-11-10-ot (team 1505) @0.21; astatc-nhl-nj-wpg-2026-11-10-ot (team 1 |
-| nhl | HOCKEY_PLAYER_ASSISTS | OTHER/UNKNOWN | 164 | Will Nick Suzuki record at least 1 assists in MIN vs MTL? | 1 | astatc-nhl-min-mon-2026-11-10-ast-nicsuz-gte1 (team 1487) @0.48; astatc-nhl-min-mon-2026-1 |
-| nhl | HOCKEY_PLAYER_GOALS | OTHER/UNKNOWN | 260 | Will Jack Hughes record at least 1 goals in NJD vs WPG? | 1 | astatc-nhl-nj-wpg-2026-11-10-goals-jachug-gte1 (team 1493) @0.41; astatc-nhl-nj-wpg-2026-1 |
-| nhl | HOCKEY_PLAYER_POINTS | OTHER/UNKNOWN | 221 | Will Jake Sanderson record at least 1 points in WSH vs OTT? | 1 | astatc-nhl-was-ott-2026-11-10-pts-jaksan-gte1 (team 1488) @0.47; astatc-nhl-was-ott-2026-1 |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 14 | Will NJD Devils cover +1.5 vs WPG Jets in the first period o | 1.5 | asc-nhl-nj-wpg-2026-11-10-p1-pos-1pt5 (team 1493) @0.78; asc-nhl-nj-wpg-2026-11-10-p1-pos- |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 28 | Will NJD vs WPG have more than 1.5 goals in the first period | 1.5 | tsc-nhl-nj-wpg-2026-11-10-p1-1pt5 @0.50; tsc-nhl-nj-wpg-2026-11-10-p1-1pt5 @0.57 |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_WINNER | WINNER/FIRST_PERIOD | 21 | Will the first period of NJD vs WPG be tied? |  | atc-nhl-nj-wpg-2026-11-10-p1-draw @0.36; atc-nhl-nj-wpg-2026-11-10-p1-draw @0.43 |
-| nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 42 | Will the NJD Devils cover -1.5 vs the WPG Jets in NJD vs WPG | -1.5 | asc-nhl-nj-wpg-2026-11-10-neg-1pt5 (team 1493) @0.35; asc-nhl-nj-wpg-2026-11-10-neg-1pt5 ( |
-| nhl | HOCKEY_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 56 | Will the total in NJD vs WPG be more than 6.5? | 6.5 | tsc-nhl-nj-wpg-2026-11-10-6pt5 @0.45; tsc-nhl-nj-wpg-2026-11-10-6pt5 @0.46 |
-| nhl | HOCKEY_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 40 | Who will win in the upcoming hockey event NJD Devils vs WPG  |  | aec-nhl-nj-wpg-2026-11-10 (team 1493) @0.58; aec-nhl-nj-wpg-2026-11-10 (team 1505) @0.59 |
-| nhl | HOCKEY_TEAM_REGULATION_WINNER | WINNER/REGULATION | 21 | Will NJD Devils lead after regulation of NJD vs WPG? |  | atc-nhl-nj-wpg-2026-11-10-reg-nj (team 1493) @0.46; atc-nhl-nj-wpg-2026-11-10-reg-nj (team |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_SPREAD | SPREAD/SECOND_PERIOD | 14 | Will NJD Devils cover -1.5 vs WPG Jets in the second period  | -1.5 | asc-nhl-nj-wpg-2026-11-10-p2-neg-1pt5 (team 1493) @0.03; asc-nhl-nj-wpg-2026-11-10-p2-neg- |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_TOTAL | TOTAL/SECOND_PERIOD | 28 | Will NJD vs WPG have more than 1.5 goals in the second perio | 1.5 | tsc-nhl-nj-wpg-2026-11-10-p2-1pt5 @0.54; tsc-nhl-nj-wpg-2026-11-10-p2-1pt5 @0.69 |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_WINNER | WINNER/SECOND_PERIOD | 21 | Will NJD Devils win the second period of NJD vs WPG? |  | atc-nhl-nj-wpg-2026-11-10-p2-nj (team 1493) @0.37; atc-nhl-nj-wpg-2026-11-10-p2-nj (team 1 |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_SPREAD | SPREAD/THIRD_PERIOD | 14 | Will NJD Devils cover -1.5 vs WPG Jets in the third period o | -1.5 | asc-nhl-nj-wpg-2026-11-10-p3-neg-1pt5 (team 1493) @0.06; asc-nhl-nj-wpg-2026-11-10-p3-neg- |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_TOTAL | TOTAL/THIRD_PERIOD | 28 | Will NJD vs WPG have more than 2.5 goals in the third period | 2.5 | tsc-nhl-nj-wpg-2026-11-10-p3-2pt5 @0.29; tsc-nhl-nj-wpg-2026-11-10-p3-2pt5 @0.47 |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_WINNER | WINNER/THIRD_PERIOD | 21 | Will NJD Devils win the third period of NJD vs WPG? |  | atc-nhl-nj-wpg-2026-11-10-p3-nj (team 1493) @0.39; atc-nhl-nj-wpg-2026-11-10-p3-nj (team 1 |
-| nhl | HOCKEY_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 84 | Will NJD Devils score more than 0.5 goals in NJD vs WPG? | 0.5 | tsc-nhl-nj-wpg-2026-11-10-tt-nj-0pt5 (team 1493) @0.81; tsc-nhl-nj-wpg-2026-11-10-tt-nj-0p |
-| nfl | FOOTBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 27 | Who will win in the upcoming football event Washington Comma |  | aec-nfl-was-nyg-2026-11-12 (team 79) @0.45; aec-nfl-was-nyg-2026-11-12 (team 71) @0.45 |
-| cs2 | ESPORTS_MAP_WINNER_1 | WINNER/MAP_1 | 41 | Will Bad Beavers win Map 1 vs Copenhagen Wolves? |  | astatc-cs2-bbv-cwo-2026-11-10-map1 (team 44388) @0.24; astatc-cs2-bbv-cwo-2026-11-10-map1  |
-| cs2 | ESPORTS_MAP_WINNER_2 | WINNER/MAP_2 | 41 | Will Bad Beavers win Map 2 vs Copenhagen Wolves? |  | astatc-cs2-bbv-cwo-2026-11-10-map2 (team 44388) @0.31; astatc-cs2-bbv-cwo-2026-11-10-map2  |
-| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 71 | Who will win in the upcoming esports event Young TigeRES vs  |  | aec-cs2-ytigeres-din-2026-11-09 (team 22635) @0.64; aec-cs2-ytigeres-din-2026-11-09 (team  |
-| cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 20 | Will the NAVI Junior cover -1.5 vs the Sokerorg in NAVI Juni | -1.5 | asc-cs2-navij-skr-2026-11-10-hcap-neg-1pt5 (team 11732); asc-cs2-navij-skr-2026-11-10-hcap |
-| cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 17 | Will the total in NAVI Junior vs. Sokerorg be more than 2.5? | 2.5 | tsc-cs2-navij-skr-2026-11-10-tot-2pt5 @0.07; tsc-cs2-navij-skr-2026-11-10-tot-2pt5 @0.92 |
-| lol | ESPORTS_MATCH_WINNER | WINNER/MATCH | 1 | Who will win in the upcoming esports event BILIBILI GAMING v |  | aec-lol-blg-gen-2026-11-14 (team 5136) @0.38; aec-lol-blg-gen-2026-11-14 (team 5134) @0.39 |
+| nba | BASKETBALL_PLAYER_ASSISTS | OTHER/UNKNOWN | 275 | Will Stephon Castle record at least 6 assists in SA Spurs vs | 6 | astatc-nba-sa-chi-2026-11-11-ast-stecas-gte6 (team 33) @0.49; astatc-nba-sa-chi-2026-11-11 |
+| nba | BASKETBALL_PLAYER_BLOCKS | OTHER/UNKNOWN | 43 | Will Anthony Davis record at least 1 blocks in WAS Wizards v | 1 | astatc-nba-was-ind-2026-11-11-blk-antdav-gte1 (team 36) @0.54; astatc-nba-was-ind-2026-11- |
+| nba | BASKETBALL_PLAYER_POINTS | OTHER/UNKNOWN | 414 | Will Franz Wagner record at least 25 points in ORL Magic vs. | 25 | astatc-nba-orl-uta-2026-11-11-pts-frawag-gte25 (team 28) @0.49; astatc-nba-orl-uta-2026-11 |
+| nba | BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS | OTHER/UNKNOWN | 353 | Will Ja'Kobe Walter record at least 20 combined points, rebo | 20 | astatc-nba-bos-tor-2026-11-11-pra-jawal-gte20 (team 34) @0.49; astatc-nba-bos-tor-2026-11- |
+| nba | BASKETBALL_PLAYER_REBOUNDS | OTHER/UNKNOWN | 432 | Will Aaron Nesmith record at least 4 total rebounds in WAS W | 4 | astatc-nba-was-ind-2026-11-11-reb-aarnes-gte4 (team 19) @0.50; astatc-nba-was-ind-2026-11- |
+| nba | BASKETBALL_PLAYER_STEALS | OTHER/UNKNOWN | 114 | Will Andrew Nembhard record at least 1 steals in WAS Wizards | 1 | astatc-nba-was-ind-2026-11-11-stl-andnem-gte1 (team 19) @0.54; astatc-nba-was-ind-2026-11- |
+| nba | BASKETBALL_PLAYER_THREES | OTHER/UNKNOWN | 275 | Will Donovan Mitchell record at least 3 three-point field go | 3 | astatc-nba-cle-ny-2026-11-11-3pm-donmit-gte3 (team 38) @0.49; astatc-nba-cle-ny-2026-11-11 |
+| nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 333 | Will the WAS Wizards cover 3.5 vs the IND Pacers in WAS Wiza | 3.5 | asc-nba-was-ind-2026-11-11-pos-3pt5 (team 36) @0.49; asc-nba-was-ind-2026-11-11-pos-3pt5 ( |
+| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 303 | Will the total in WAS Wizards vs. IND Pacers be more than 22 | 225.5 | tsc-nba-was-ind-2026-11-11-225pt5 @0.51; tsc-nba-was-ind-2026-11-11-225pt5 @0.52 |
+| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 110 | Who will win in the upcoming basketball event WAS Wizards vs |  | aec-nba-was-ind-2026-11-11 (team 36) @0.41; aec-nba-was-ind-2026-11-11 (team 19) @0.42 |
+| ncaab | BASKETBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 390 | Will Cornell reach 50 points before St. Bonaventure? | 50 | atc-cbb-cornel-stbon-2026-11-11-race50-cornel (team 1821); atc-cbb-cornel-stbon-2026-11-11 |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 1162 | Will Florida A&M cover +6.5 vs Kansas City in Florida A&M vs | 6.5 | asc-cbb-flam-umkc-2026-11-11-pos-6pt5 (team 1856) @0.47; asc-cbb-flam-umkc-2026-11-11-pos- |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 1261 | Will the total in FDU vs. East Texas A&M be more than 137.5? | 137.5 | tsc-cbb-fairdk-txamc-2026-11-11-137pt5 @0.50; tsc-cbb-fairdk-txamc-2026-11-11-137pt5 @0.54 |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 788 | Who will win in the upcoming basketball event FDU vs East Te |  | aec-cbb-fairdk-txamc-2026-11-11 (team 1882) @0.16; aec-cbb-fairdk-txamc-2026-11-11 (team 2 |
+| ncaab | BASKETBALL_TEAM_TOTAL_POINTS | OTHER/UNKNOWN | 273 | Will FDU score more than 64.5 points in FDU vs. East Texas A | 64.5 | tsc-cbb-fairdk-txamc-2026-11-11-tt-fairdk-fg-64pt5 (team 1882) @0.02; tsc-cbb-fairdk-txamc |
+| nhl | HOCKEY_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 21 | Will NSH Predators score the first goal in NSH vs ANA? |  | astatc-nhl-nas-ana-2026-11-11-ftts-nas (team 1504) @0.42; astatc-nhl-nas-ana-2026-11-11-ft |
+| nhl | HOCKEY_GAME_OVERTIME | OTHER/UNKNOWN | 7 | Will the NHL hockey game between Lightning and Sabres on 202 | 0.5 | astatc-nhl-tb-buf-2026-11-11-ot (team 1485) @0.21; astatc-nhl-tb-buf-2026-11-11-ot (team 1 |
+| nhl | HOCKEY_PLAYER_ASSISTS | OTHER/UNKNOWN | 167 | Will Clayton Keller record at least 1 assists in UTA vs VGK? | 1 | astatc-nhl-uta-veg-2026-11-11-ast-clakel-gte1 (team 1515) @0.49; astatc-nhl-uta-veg-2026-1 |
+| nhl | HOCKEY_PLAYER_GOALS | OTHER/UNKNOWN | 229 | Will Tage Thompson record at least 1 goals in TBL vs BUF? | 1 | astatc-nhl-tb-buf-2026-11-11-goals-tagtho-gte1 (team 1485) @0.37; astatc-nhl-tb-buf-2026-1 |
+| nhl | HOCKEY_PLAYER_POINTS | OTHER/UNKNOWN | 219 | Will John Carlson record at least 1 points in TBL vs BUF? | 1 | astatc-nhl-tb-buf-2026-11-11-pts-johcar-gte1 (team 1489) @0.45; astatc-nhl-tb-buf-2026-11- |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 14 | Will TBL Lightning cover -1.5 vs BUF Sabres in the first per | -1.5 | asc-nhl-tb-buf-2026-11-11-p1-neg-1pt5 (team 1489) @0.03; asc-nhl-tb-buf-2026-11-11-p1-neg- |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 28 | Will TBL vs BUF have more than 1.5 goals in the first period | 1.5 | tsc-nhl-tb-buf-2026-11-11-p1-1pt5 @0.56; tsc-nhl-tb-buf-2026-11-11-p1-1pt5 @0.58 |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_WINNER | WINNER/FIRST_PERIOD | 21 | Will TBL Lightning win the first period of TBL vs BUF? |  | atc-nhl-tb-buf-2026-11-11-p1-tb (team 1489) @0.33; atc-nhl-tb-buf-2026-11-11-p1-tb (team 1 |
+| nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 42 | Will the TBL Lightning cover -1.5 vs the BUF Sabres in TBL v | -1.5 | asc-nhl-tb-buf-2026-11-11-neg-1pt5 (team 1489) @0.32; asc-nhl-tb-buf-2026-11-11-neg-1pt5 ( |
+| nhl | HOCKEY_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 56 | Will the total in TBL vs BUF be more than 6.5? | 6.5 | tsc-nhl-tb-buf-2026-11-11-6pt5 @0.51; tsc-nhl-tb-buf-2026-11-11-6pt5 @0.52 |
+| nhl | HOCKEY_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 38 | Who will win in the upcoming hockey event TBL Lightning vs B |  | aec-nhl-tb-buf-2026-11-11 (team 1489) @0.54; aec-nhl-tb-buf-2026-11-11 (team 1485) @0.55 |
+| nhl | HOCKEY_TEAM_REGULATION_WINNER | WINNER/REGULATION | 21 | Will TBL Lightning lead after regulation of TBL vs BUF? |  | atc-nhl-tb-buf-2026-11-11-reg-tb (team 1489) @0.43; atc-nhl-tb-buf-2026-11-11-reg-tb (team |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_SPREAD | SPREAD/SECOND_PERIOD | 14 | Will TBL Lightning cover -1.5 vs BUF Sabres in the second pe | -1.5 | asc-nhl-tb-buf-2026-11-11-p2-neg-1pt5 (team 1489) @0.04; asc-nhl-tb-buf-2026-11-11-p2-neg- |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_TOTAL | TOTAL/SECOND_PERIOD | 28 | Will TBL vs BUF have more than 1.5 goals in the second perio | 1.5 | tsc-nhl-tb-buf-2026-11-11-p2-1pt5 @0.62; tsc-nhl-tb-buf-2026-11-11-p2-1pt5 @0.64 |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_WINNER | WINNER/SECOND_PERIOD | 21 | Will TBL Lightning win the second period of TBL vs BUF? |  | atc-nhl-tb-buf-2026-11-11-p2-tb (team 1489) @0.35; atc-nhl-tb-buf-2026-11-11-p2-tb (team 1 |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_SPREAD | SPREAD/THIRD_PERIOD | 14 | Will TBL Lightning cover -1.5 vs BUF Sabres in the third per | -1.5 | asc-nhl-tb-buf-2026-11-11-p3-neg-1pt5 (team 1489) @0.07; asc-nhl-tb-buf-2026-11-11-p3-neg- |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_TOTAL | TOTAL/THIRD_PERIOD | 28 | Will TBL vs BUF have more than 2.5 goals in the third period | 2.5 | tsc-nhl-tb-buf-2026-11-11-p3-2pt5 @0.41; tsc-nhl-tb-buf-2026-11-11-p3-2pt5 @0.43 |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_WINNER | WINNER/THIRD_PERIOD | 21 | Will TBL Lightning win the third period of TBL vs BUF? |  | atc-nhl-tb-buf-2026-11-11-p3-tb (team 1489) @0.37; atc-nhl-tb-buf-2026-11-11-p3-tb (team 1 |
+| nhl | HOCKEY_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 84 | Will SEA Kraken score more than 2.5 goals in CAR vs SEA? | 2.5 | tsc-nhl-car-sea-2026-11-12-tt-sea-2pt5 (team 1514) @0.41; tsc-nhl-car-sea-2026-11-12-tt-se |
+| nfl | FOOTBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 28 | Who will win in the upcoming football event Washington Comma |  | aec-nfl-was-nyg-2026-11-12 (team 79) @0.43; aec-nfl-was-nyg-2026-11-12 (team 71) @0.43 |
+| cs2 | ESPORTS_MAP_WINNER_1 | WINNER/MAP_1 | 28 | Will 9INE Academy win Map 1 vs Teletubisie? |  | astatc-cs2-9inea-ttbs-2026-11-11-map1 (team 41192) @0.22; astatc-cs2-9inea-ttbs-2026-11-11 |
+| cs2 | ESPORTS_MAP_WINNER_2 | WINNER/MAP_2 | 28 | Will 9INE Academy win Map 2 vs Teletubisie? |  | astatc-cs2-9inea-ttbs-2026-11-11-map2 (team 41192) @0.49; astatc-cs2-9inea-ttbs-2026-11-11 |
+| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 46 | Who will win in the upcoming esports event Spirit vs FUT Esp |  | aec-cs2-ts-fut-2026-11-11 (team 5161) @0.93; aec-cs2-ts-fut-2026-11-11 (team 5169) @0.94 |
+| cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 21 | Will the UPGRADE cover -1.5 vs the Butterfly in UPGRADE vs.  | -1.5 | asc-cs2-upg-btf-2026-11-11-hcap-neg-1pt5 (team 29526); asc-cs2-upg-btf-2026-11-11-hcap-neg |
+| cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 19 | Will the total in UPGRADE vs. Butterfly be more than 2.5? | 2.5 | tsc-cs2-upg-btf-2026-11-11-tot-2pt5 @0.37; tsc-cs2-upg-btf-2026-11-11-tot-2pt5 @0.53 |
+| lol | ESPORTS_MATCH_WINNER | WINNER/MATCH | 1 | Who will win in the upcoming esports event BILIBILI GAMING v |  | aec-lol-blg-gen-2026-11-14 (team 5136) @0.37; aec-lol-blg-gen-2026-11-14 (team 5134) @0.38 |
 
 ## All leagues
 
@@ -437,22 +437,22 @@
 | cznbl | Czech NBL | True |
 | koris | Korisliiga | True |
 | nba | NBA | True |
+| rsmclas | The RSM Classic | True |
 | bsktcua | BSKT Cup | True |
 | bsktcin | BSKT Cup International | True |
 | lfa | LFA | True |
-| rsmclas | The RSM Classic | True |
+| cmegrouc | CME Group Tour Championship | True |
 | rlwc | RLWC | True |
 | bkfc | BKFC | True |
 | bskt3x3 | BSKT Cup 3x3 | True |
-| austcham | Austin Championship | True |
 | acw | Astra Cup Women | True |
-| cmegrouc | CME Group Tour Championship | True |
 | totojapa | Toto Japan Classic | True |
-| dpworlch | DP World Tour Championship | True |
 | ebattlesebb | eBattles: eBasketball | True |
 | worlwide | World Wide Technology Championship | True |
 | abudhabc | Abu Dhabi Championship | True |
 | ebattlesebbec | eBattles: eBasketball European Conference | True |
+| austcham | Austin Championship | True |
+| dpworlch | DP World Tour Championship | True |
 | anni | ANNIKA | True |
 | simmbank | Simmons Bank Championship | True |
 | pga | PGA Tour | True |
