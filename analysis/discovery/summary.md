@@ -1,81 +1,143 @@
-# Polymarket US discovery 2026-11-13T08:58:54+00:00
+# Polymarket US discovery 2026-11-14T08:52:43+00:00
 
 452 leagues listed.
 
 | Sport | Slug | Listed | Events | Next 36h | Main lines to record (next 36h) | Unclassified types | Note |
 |---|---|---|---|---|---|---|---|
 | mlb | mlb | yes | 0 | 0 | 0 | - | candidates: mlb |
-| nba | nba | yes | 107 | 9 | 27 | BASKETBALL_PLAYER_ASSISTS, BASKETBALL_PLAYER_POINTS, BASKETBALL_PLAYER_REBOUNDS, BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS, BASKETBALL_PLAYER_THREES, BASKETBALL_PLAYER_STEALS, BASKETBALL_PLAYER_DOUBLE_DOUBLE, BASKETBALL_PLAYER_BLOCKS, BASKETBALL_PLAYER_TRIPLE_DOUBLE |  |
-| ncaab | cbb | yes | 746 | 85 | 193 | BASKETBALL_TEAM_TOTAL_POINTS, BASKETBALL_GAME_RACE_TO_POINTS |  |
-| nhl | nhl | yes | 34 | 4 | 84 | HOCKEY_TEAM_TOTAL_GOALS, HOCKEY_GAME_FIRST_TEAM_TO_SCORE, HOCKEY_PLAYER_POINTS, HOCKEY_PLAYER_ASSISTS, HOCKEY_PLAYER_GOALS, HOCKEY_GAME_OVERTIME |  |
-| nfl | nfl | yes | 31 | 0 | 0 | - |  |
-| cs2 | cs2 | yes | 40 | 38 | 142 | - |  |
-| lol | lol | yes | 1 | 1 | 1 | ESPORTS_SERIES_GAME_HANDICAP, ESPORTS_PLAYER_KILLS, ESPORTS_SERIES_TOTAL_GAMES, ESPORTS_GAME_PLAYER_KILLS_1, ESPORTS_GAME_WINNER_3, ESPORTS_GAME_WINNER_1, ESPORTS_GAME_WINNER_2, ESPORTS_GAME_PLAYER_KILLS_2, ESPORTS_GAME_PLAYER_KILLS_3 |  |
-| epl | epl | yes | 0 | 0 | 0 | - | candidates: epl, nbasl, lol, blw, mlc, etpl, mlp, cpl, spl, egpl, sclc, kl1, cpbl, irlp, mlccr |
-| laliga | lal | yes | 1 | 0 | 0 | - |  |
-| bundesliga | bun | yes | 1 | 0 | 0 | - |  |
-| seriea | sea | yes | 0 | 0 | 0 | - | candidates: f1, poly-open, masters, nbasl, wnba, uefa, cham, lal, bun, cadi, lol, onefmyrtbeac, trui, atpcq, rbcheri |
-| ligue1 | lg1 | yes | 1 | 0 | 0 | - |  |
+| nba | nba | yes | 103 | 6 | 106 | BASKETBALL_PLAYER_ASSISTS, BASKETBALL_PLAYER_POINTS, BASKETBALL_PLAYER_REBOUNDS, BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS, BASKETBALL_GAME_RACE_TO_POINTS, BASKETBALL_PLAYER_THREES, BASKETBALL_GAME_WINNING_MARGIN, BASKETBALL_PLAYER_DOUBLE_DOUBLE, BASKETBALL_GAME_OVERTIME, BASKETBALL_PLAYER_STEALS, BASKETBALL_PLAYER_TRIPLE_DOUBLE, BASKETBALL_PLAYER_BLOCKS |  |
+| ncaab | cbb | yes | 743 | 93 | 207 | BASKETBALL_GAME_RACE_TO_POINTS, BASKETBALL_TEAM_TOTAL_POINTS |  |
+| nhl | nhl | yes | 35 | 14 | 294 | HOCKEY_TEAM_TOTAL_GOALS, HOCKEY_GAME_FIRST_TEAM_TO_SCORE, HOCKEY_PLAYER_POINTS, HOCKEY_PLAYER_ASSISTS, HOCKEY_PLAYER_GOALS, HOCKEY_GAME_OVERTIME |  |
+| nfl | nfl | yes | 31 | 8 | 56 | FOOTBALL_GAME_FIRST_SCORE, FOOTBALL_GAME_FIRST_TOUCHDOWN, FOOTBALL_GAME_DOUBLE_RESULT, FOOTBALL_GAME_EXACT_MARGIN, FOOTBALL_GAME_RACE_TO_POINTS, FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS, FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS, FOOTBALL_PLAYER_FIRST_TOUCHDOWN, FOOTBALL_PLAYER_FANTASY_POINTS_PPR, FOOTBALL_PLAYER_INTERCEPTIONS_THROWN, FOOTBALL_PLAYER_LONGEST_RECEPTION, FOOTBALL_PLAYER_MOST_PASSING_YARDS, FOOTBALL_GAME_OVERTIME, FOOTBALL_PLAYER_PASSING_ATTEMPTS, FOOTBALL_PLAYER_PASSING_COMPLETIONS, FOOTBALL_PLAYER_PASSING_TOUCHDOWNS, FOOTBALL_PLAYER_PASSING_YARDS, FOOTBALL_PLAYER_RUSHING_ATTEMPTS, FOOTBALL_PLAYER_RECEPTIONS, FOOTBALL_PLAYER_RECEIVING_YARDS, FOOTBALL_PLAYER_RUSHING_YARDS, FOOTBALL_GAME_SAFETY, FOOTBALL_PLAYER_SCRIMMAGE_YARDS, FOOTBALL_PLAYER_TOUCHDOWNS, FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE, FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN, FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS, FOOTBALL_TEAM_TOTAL_TOUCHDOWNS |  |
+| cs2 | cs2 | yes | 49 | 37 | 135 | - |  |
+| lol | lol | yes | 1 | 1 | 1 | ESPORTS_PLAYER_KILLS, ESPORTS_SERIES_GAME_HANDICAP, ESPORTS_SERIES_TOTAL_GAMES, ESPORTS_GAME_PLAYER_KILLS_1, ESPORTS_GAME_WINNER_2, ESPORTS_GAME_WINNER_3, ESPORTS_GAME_WINNER_1, ESPORTS_GAME_PLAYER_KILLS_2, ESPORTS_GAME_PLAYER_KILLS_3 |  |
+| epl | epl | yes | 7 | 0 | 0 | - |  |
+| laliga | lal | yes | 5 | 0 | 0 | - |  |
+| bundesliga | bun | yes | 7 | 0 | 0 | - |  |
+| seriea | sea | yes | 4 | 0 | 0 | - |  |
+| ligue1 | lg1 | yes | 6 | 0 | 0 | - |  |
 
 ## Market types seen, with one example each
 
 | Sport | Raw type | Class/segment | Count | Example question | Line | Sides |
 |---|---|---|---|---|---|---|
-| nba | BASKETBALL_PLAYER_ASSISTS | OTHER/UNKNOWN | 292 | Will Jalen Brunson record at least 2 assists in NY Knicks vs | 2 | astatc-nba-ny-ind-2026-11-13-ast-jalbru-gte2 (team 43) @0.86; astatc-nba-ny-ind-2026-11-13 |
-| nba | BASKETBALL_PLAYER_BLOCKS | OTHER/UNKNOWN | 57 | Will Myles Turner record at least 1 blocks in MIL Bucks vs.  | 1 | astatc-nba-mil-orl-2026-11-13-blk-myltur-gte1 (team 41) @0.01; astatc-nba-mil-orl-2026-11- |
-| nba | BASKETBALL_PLAYER_DOUBLE_DOUBLE | OTHER/UNKNOWN | 54 | Will Pascal Siakam record a double-double in NY Knicks vs. I |  | astatc-nba-ny-ind-2026-11-13-dd-passia (team 19) @0.01; astatc-nba-ny-ind-2026-11-13-dd-pa |
-| nba | BASKETBALL_PLAYER_POINTS | OTHER/UNKNOWN | 407 | Will Darius Acuff Jr. record at least 25 points in POR Trail | 25 | astatc-nba-por-sac-2026-11-13-pts-daracu-gte25 (team 32) @0.49; astatc-nba-por-sac-2026-11 |
-| nba | BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS | OTHER/UNKNOWN | 359 | Will Davion Mitchell record at least 25 combined points, reb | 25 | astatc-nba-cle-mia-2026-11-13-pra-davmit-gte25 (team 14) @0.45; astatc-nba-cle-mia-2026-11 |
-| nba | BASKETBALL_PLAYER_REBOUNDS | OTHER/UNKNOWN | 442 | Will Josh Hart record at least 2 total rebounds in NY Knicks | 2 | astatc-nba-ny-ind-2026-11-13-reb-joshar-gte2 (team 43) @0.91; astatc-nba-ny-ind-2026-11-13 |
-| nba | BASKETBALL_PLAYER_STEALS | OTHER/UNKNOWN | 145 | Will Josh Hart record at least 1 steals in NY Knicks vs. IND | 1 | astatc-nba-ny-ind-2026-11-13-stl-joshar-gte1 (team 43) @0.46; astatc-nba-ny-ind-2026-11-13 |
-| nba | BASKETBALL_PLAYER_THREES | OTHER/UNKNOWN | 308 | Will Obi Toppin record at least 2 three-point field goals ma | 2 | astatc-nba-ny-ind-2026-11-13-3pm-obitop-gte2 (team 19) @0.49; astatc-nba-ny-ind-2026-11-13 |
-| nba | BASKETBALL_PLAYER_TRIPLE_DOUBLE | OTHER/UNKNOWN | 11 | Will Jalen Johnson record a triple-double in ATL Hawks vs. C |  | astatc-nba-atl-chi-2026-11-13-td-jaljoh (team 25) @0.01; astatc-nba-atl-chi-2026-11-13-td- |
-| nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 302 | Will the NY Knicks cover -6.5 vs the IND Pacers in NY Knicks | -6.5 | asc-nba-ny-ind-2026-11-13-neg-6pt5 (team 43) @0.52; asc-nba-ny-ind-2026-11-13-neg-6pt5 (te |
-| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 271 | Will the total in NY Knicks vs. IND Pacers be more than 219. | 219.5 | tsc-nba-ny-ind-2026-11-13-219pt5 @0.51; tsc-nba-ny-ind-2026-11-13-219pt5 @0.52 |
-| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 107 | Who will win in the upcoming basketball event NY Knicks vs I |  | aec-nba-ny-ind-2026-11-13 (team 43) @0.71; aec-nba-ny-ind-2026-11-13 (team 19) @0.72 |
-| ncaab | BASKETBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 620 | Will Rutgers reach 30 points before Bryant? | 30 | atc-cbb-bryant-rutger-2026-11-13-race30-rutger (team 1762); atc-cbb-bryant-rutger-2026-11- |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 1385 | Will West Florida cover +3.5 vs Cleveland State in West Flor | 3.5 | asc-cbb-uwfl-clvst-2026-11-13-pos-3pt5 (team 43402) @0.49; asc-cbb-uwfl-clvst-2026-11-13-p |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 1447 | Will the total in West Florida vs. Cleveland State be more t | 153.5 | tsc-cbb-uwfl-clvst-2026-11-13-153pt5 @0.49; tsc-cbb-uwfl-clvst-2026-11-13-153pt5 @0.53 |
-| ncaab | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 746 | Who will win in the upcoming basketball event Viterbo vs Gre |  | aec-cbb-vit-gb-2026-11-13 (team 44947) @0.01; aec-cbb-vit-gb-2026-11-13 (team 1811) |
-| ncaab | BASKETBALL_TEAM_TOTAL_POINTS | OTHER/UNKNOWN | 306 | Will Cleveland State score more than 78.5 points in West Flo | 78.5 | tsc-cbb-uwfl-clvst-2026-11-13-tt-clvst-fg-78pt5 (team 1815) @0.46; tsc-cbb-uwfl-clvst-2026 |
-| nhl | HOCKEY_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 12 | Will NYR Rangers score the first goal in NYR vs VAN? |  | astatc-nhl-nyr-van-2026-11-13-ftts-nyr (team 1495) @0.74; astatc-nhl-nyr-van-2026-11-13-ft |
-| nhl | HOCKEY_GAME_OVERTIME | OTHER/UNKNOWN | 4 | Will the NHL hockey game between Kraken and Hurricanes on 20 | 0.5 | astatc-nhl-sea-car-2026-11-14-ot (team 1492) @0.18; astatc-nhl-sea-car-2026-11-14-ot (team |
-| nhl | HOCKEY_PLAYER_ASSISTS | OTHER/UNKNOWN | 46 | Will Mika Zibanejad record at least 1 assists in NYR vs VAN? | 1 | astatc-nhl-nyr-van-2026-11-13-ast-mikzib-gte1 (team 1495) @0.48; astatc-nhl-nyr-van-2026-1 |
-| nhl | HOCKEY_PLAYER_GOALS | OTHER/UNKNOWN | 74 | Will Pavel Dorofeyev record at least 1 goals in NYR vs VAN? | 1 | astatc-nhl-nyr-van-2026-11-13-goals-pavdor-gte1 (team 1495) @0.26; astatc-nhl-nyr-van-2026 |
-| nhl | HOCKEY_PLAYER_POINTS | OTHER/UNKNOWN | 64 | Will Adam Fox record at least 1 points in NYR vs VAN? | 1 | astatc-nhl-nyr-van-2026-11-13-pts-adafox-gte1 (team 1495) @0.62; astatc-nhl-nyr-van-2026-1 |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 8 | Will NYR Rangers cover -1.5 vs VAN Canucks in the first peri | -1.5 | asc-nhl-nyr-van-2026-11-13-p1-neg-1pt5 (team 1495) @0.11; asc-nhl-nyr-van-2026-11-13-p1-ne |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 16 | Will NYR vs VAN have more than 1.5 goals in the first period | 1.5 | tsc-nhl-nyr-van-2026-11-13-p1-1pt5 @0.56; tsc-nhl-nyr-van-2026-11-13-p1-1pt5 @0.58 |
-| nhl | HOCKEY_TEAM_FIRST_PERIOD_WINNER | WINNER/FIRST_PERIOD | 12 | Will NYR Rangers win the first period of NYR vs VAN? |  | atc-nhl-nyr-van-2026-11-13-p1-nyr (team 1495) @0.40; atc-nhl-nyr-van-2026-11-13-p1-nyr (te |
-| nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 24 | Will the NYR Rangers cover -1.5 vs the VAN Canucks in NYR vs | -1.5 | asc-nhl-nyr-van-2026-11-13-neg-1pt5 (team 1495) @0.45; asc-nhl-nyr-van-2026-11-13-neg-1pt5 |
-| nhl | HOCKEY_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 32 | Will the total in NYR vs VAN be more than 6.5? | 6.5 | tsc-nhl-nyr-van-2026-11-13-6pt5 @0.48; tsc-nhl-nyr-van-2026-11-13-6pt5 @0.49 |
-| nhl | HOCKEY_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 34 | Who will win in the upcoming hockey event NYR Rangers vs VAN |  | aec-nhl-nyr-van-2026-11-13 (team 1495) @0.67; aec-nhl-nyr-van-2026-11-13 (team 1511) @0.68 |
-| nhl | HOCKEY_TEAM_REGULATION_WINNER | WINNER/REGULATION | 12 | Will NYR Rangers lead after regulation of NYR vs VAN? |  | atc-nhl-nyr-van-2026-11-13-reg-nyr (team 1495) @0.47; atc-nhl-nyr-van-2026-11-13-reg-nyr ( |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_SPREAD | SPREAD/SECOND_PERIOD | 8 | Will NYR Rangers cover -1.5 vs VAN Canucks in the second per | -1.5 | asc-nhl-nyr-van-2026-11-13-p2-neg-1pt5 (team 1495) @0.14; asc-nhl-nyr-van-2026-11-13-p2-ne |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_TOTAL | TOTAL/SECOND_PERIOD | 16 | Will NYR vs VAN have more than 1.5 goals in the second perio | 1.5 | tsc-nhl-nyr-van-2026-11-13-p2-1pt5 @0.61; tsc-nhl-nyr-van-2026-11-13-p2-1pt5 @0.64 |
-| nhl | HOCKEY_TEAM_SECOND_PERIOD_WINNER | WINNER/SECOND_PERIOD | 12 | Will NYR Rangers win the second period of NYR vs VAN? |  | atc-nhl-nyr-van-2026-11-13-p2-nyr (team 1495) @0.41; atc-nhl-nyr-van-2026-11-13-p2-nyr (te |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_SPREAD | SPREAD/THIRD_PERIOD | 8 | Will NYR Rangers cover -1.5 vs VAN Canucks in the third peri | -1.5 | asc-nhl-nyr-van-2026-11-13-p3-neg-1pt5 (team 1495) @0.16; asc-nhl-nyr-van-2026-11-13-p3-ne |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_TOTAL | TOTAL/THIRD_PERIOD | 16 | Will NYR vs VAN have more than 2.5 goals in the third period | 2.5 | tsc-nhl-nyr-van-2026-11-13-p3-2pt5 @0.39; tsc-nhl-nyr-van-2026-11-13-p3-2pt5 @0.41 |
-| nhl | HOCKEY_TEAM_THIRD_PERIOD_WINNER | WINNER/THIRD_PERIOD | 12 | Will NYR Rangers win the third period of NYR vs VAN? |  | atc-nhl-nyr-van-2026-11-13-p3-nyr (team 1495) @0.46; atc-nhl-nyr-van-2026-11-13-p3-nyr (te |
-| nhl | HOCKEY_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 48 | Will NYR Rangers score more than 0.5 goals in NYR vs VAN? | 0.5 | tsc-nhl-nyr-van-2026-11-13-tt-nyr-0pt5 (team 1495) @0.94; tsc-nhl-nyr-van-2026-11-13-tt-ny |
-| nfl | FOOTBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 31 | Who will win in the upcoming football event New England Patr |  | aec-nfl-ne-det-2026-11-15 (team 69) @0.41; aec-nfl-ne-det-2026-11-15 (team 58) @0.42 |
-| cs2 | ESPORTS_MAP_WINNER_1 | WINNER/MAP_1 | 32 | Will Azuolas win Map 1 vs MORROW? |  | astatc-cs2-azu-mor-2026-11-13-map1 (team 29769) @0.08; astatc-cs2-azu-mor-2026-11-13-map1  |
-| cs2 | ESPORTS_MAP_WINNER_2 | WINNER/MAP_2 | 32 | Will Azuolas win Map 2 vs MORROW? |  | astatc-cs2-azu-mor-2026-11-13-map2 (team 29769) @0.09; astatc-cs2-azu-mor-2026-11-13-map2  |
-| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 40 | Who will win in the upcoming esports event Vitality vs MOUZ  |  | aec-cs2-vit-mouz-2026-11-13 (team 5165) @0.34; aec-cs2-vit-mouz-2026-11-13 (team 5163) @0. |
-| cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 20 | Will the Butterfly cover -1.5 vs the Leo Team in Butterfly v | -1.5 | asc-cs2-btf-leo-2026-11-13-hcap-neg-1pt5 (team 21931) @0.01; asc-cs2-btf-leo-2026-11-13-hc |
-| cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 20 | Will the total in Butterfly vs. Leo Team be more than 2.5? | 2.5 | tsc-cs2-btf-leo-2026-11-13-tot-2pt5 @0.45; tsc-cs2-btf-leo-2026-11-13-tot-2pt5 @0.48 |
-| lol | ESPORTS_GAME_PLAYER_KILLS_1 | OTHER/UNKNOWN | 10 | Will Canyon record 3 or more kills in Game 1 of BILIBILI GAM | 3 | astatc-lol-blg-gen-2026-11-14-g1-k-canyon-gte3 (team 5134) @0.36; astatc-lol-blg-gen-2026- |
+| nba | BASKETBALL_GAME_OVERTIME | OTHER/UNKNOWN | 5 | Will DEN Nuggets vs. NO Pelicans go to overtime? | 0.5 | astatc-nba-den-no-2026-11-14-ot @0.02; astatc-nba-den-no-2026-11-14-ot @0.04 |
+| nba | BASKETBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 145 | Will the DEN Nuggets reach 100 points before the NO Pelicans | 100 | atc-nba-den-no-2026-11-14-race100-den (team 40) @0.91; atc-nba-den-no-2026-11-14-race100-d |
+| nba | BASKETBALL_GAME_WINNING_MARGIN | OTHER/UNKNOWN | 50 | Will the DEN Nuggets beat the NO Pelicans by 21+ points? |  | atc-nba-den-no-2026-11-14-wm-den-21p @0.34; atc-nba-den-no-2026-11-14-wm-den-21p |
+| nba | BASKETBALL_PLAYER_ASSISTS | OTHER/UNKNOWN | 172 | Will James Harden record at least 6 assists in DAL Mavericks | 6 | astatc-nba-dal-cle-2026-11-14-ast-jamhar-gte6 (team 38) @0.38; astatc-nba-dal-cle-2026-11- |
+| nba | BASKETBALL_PLAYER_BLOCKS | OTHER/UNKNOWN | 32 | Will Jarrett Allen record at least 1 blocks in DAL Mavericks | 1 | astatc-nba-dal-cle-2026-11-14-blk-jarall-gte1 (team 38) @0.56; astatc-nba-dal-cle-2026-11- |
+| nba | BASKETBALL_PLAYER_DOUBLE_DOUBLE | OTHER/UNKNOWN | 35 | Will Aaron Gordon record a double-double in DEN Nuggets vs.  |  | astatc-nba-den-no-2026-11-14-dd-aargor (team 40) @0.01; astatc-nba-den-no-2026-11-14-dd-aa |
+| nba | BASKETBALL_PLAYER_POINTS | OTHER/UNKNOWN | 237 | Will Jamal Murray record at least 10 points in DEN Nuggets v | 10 | astatc-nba-den-no-2026-11-14-pts-jammur-gte10 (team 40) @0.64; astatc-nba-den-no-2026-11-1 |
+| nba | BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS | OTHER/UNKNOWN | 207 | Will Jamal Murray record at least 35 combined points, reboun | 35 | astatc-nba-den-no-2026-11-14-pra-jammur-gte35 (team 40) @0.42; astatc-nba-den-no-2026-11-1 |
+| nba | BASKETBALL_PLAYER_REBOUNDS | OTHER/UNKNOWN | 238 | Will Day'Ron Sharpe record at least 8 total rebounds in BKN  | 8 | astatc-nba-bkn-mem-2026-11-14-reb-daysha-gte8 (team 22) @0.48; astatc-nba-bkn-mem-2026-11- |
+| nba | BASKETBALL_PLAYER_STEALS | OTHER/UNKNOWN | 81 | Will Herbert Jones record at least 1 steals in DEN Nuggets v | 1 | astatc-nba-den-no-2026-11-14-stl-herjon-gte1 (team 42) @0.99; astatc-nba-den-no-2026-11-14 |
+| nba | BASKETBALL_PLAYER_THREES | OTHER/UNKNOWN | 142 | Will LaMelo Ball record at least 4 three-point field goals m | 4 | astatc-nba-chi-min-2026-11-14-3pm-lambal-gte4 (team 15) @0.48; astatc-nba-chi-min-2026-11- |
+| nba | BASKETBALL_PLAYER_TRIPLE_DOUBLE | OTHER/UNKNOWN | 7 | Will Jeremiah Fears record a triple-double in DEN Nuggets vs |  | astatc-nba-den-no-2026-11-14-td-jerfea (team 42) @0.01; astatc-nba-den-no-2026-11-14-td-je |
+| nba | BASKETBALL_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 15 | Will the DEN Nuggets win the first half vs the NO Pelicans? |  | atc-nba-den-no-2026-11-14-fh-den (team 40) @0.70; atc-nba-den-no-2026-11-14-fh-den (team 4 |
+| nba | BASKETBALL_TEAM_FIRST_QUARTER_WINNER | WINNER/FIRST_QUARTER | 15 | Will the DEN Nuggets win the first quarter vs the NO Pelican |  | atc-nba-den-no-2026-11-14-q1-den (team 40) @0.61; atc-nba-den-no-2026-11-14-q1-den (team 4 |
+| nba | BASKETBALL_TEAM_FOURTH_QUARTER_WINNER | WINNER/FOURTH_QUARTER | 15 | Will the DEN Nuggets win the fourth quarter vs the NO Pelica |  | atc-nba-den-no-2026-11-14-q4-den (team 40) @0.35; atc-nba-den-no-2026-11-14-q4-den (team 4 |
+| nba | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 167 | Will the DEN Nuggets cover -11.5 vs the NO Pelicans in DEN N | -11.5 | asc-nba-den-no-2026-11-14-neg-11pt5 (team 40) @0.51; asc-nba-den-no-2026-11-14-neg-11pt5 ( |
+| nba | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 153 | Will the total in DEN Nuggets vs. NO Pelicans be more than 2 | 234.5 | tsc-nba-den-no-2026-11-14-234pt5 @0.49; tsc-nba-den-no-2026-11-14-234pt5 @0.50 |
+| nba | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 103 | Who will win in the upcoming basketball event DEN Nuggets vs |  | aec-nba-den-no-2026-11-14 (team 40) @0.83; aec-nba-den-no-2026-11-14 (team 42) @0.84 |
+| nba | BASKETBALL_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 15 | Will the DEN Nuggets win the second half vs the NO Pelicans? |  | atc-nba-den-no-2026-11-14-sh-den (team 40) @0.44; atc-nba-den-no-2026-11-14-sh-den (team 4 |
+| nba | BASKETBALL_TEAM_SECOND_QUARTER_WINNER | WINNER/SECOND_QUARTER | 15 | Will the DEN Nuggets win the second quarter vs the NO Pelica |  | atc-nba-den-no-2026-11-14-q2-den (team 40) @0.56; atc-nba-den-no-2026-11-14-q2-den (team 4 |
+| nba | BASKETBALL_TEAM_THIRD_QUARTER_WINNER | WINNER/THIRD_QUARTER | 15 | Will the DEN Nuggets win the third quarter vs the NO Pelican |  | atc-nba-den-no-2026-11-14-q3-den (team 40) @0.58; atc-nba-den-no-2026-11-14-q3-den (team 4 |
+| ncaab | BASKETBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 570 | Will Lafayette reach 50 points before St. Bonaventure? | 50 | atc-cbb-lafay-stbon-2026-11-14-race50-lafay (team 1923) @0.34; atc-cbb-lafay-stbon-2026-11 |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 1392 | Will Tulane cover +12.5 vs Akron in Tulane vs. Akron? | 12.5 | asc-cbb-tulane-akron-2026-11-14-pos-12pt5 (team 1670) @0.52; asc-cbb-tulane-akron-2026-11- |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 1459 | Will the total in Tulane vs. Akron be more than 155.5? | 155.5 | tsc-cbb-tulane-akron-2026-11-14-155pt5 @0.49; tsc-cbb-tulane-akron-2026-11-14-155pt5 @0.52 |
+| ncaab | BASKETBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 743 | Who will win in the upcoming basketball event Tulane vs Akro |  | aec-cbb-tulane-akron-2026-11-14 (team 1670) @0.13; aec-cbb-tulane-akron-2026-11-14 (team 1 |
+| ncaab | BASKETBALL_TEAM_TOTAL_POINTS | OTHER/UNKNOWN | 342 | Will Tulane score more than 71.5 points in Tulane vs. Akron? | 71.5 | tsc-cbb-tulane-akron-2026-11-14-tt-tulane-fg-71pt5 (team 1670) @0.44; tsc-cbb-tulane-akron |
+| nhl | HOCKEY_GAME_FIRST_TEAM_TO_SCORE | OTHER/UNKNOWN | 42 | Will COL Avalanche score the first goal in COL vs MTL? |  | astatc-nhl-col-mon-2026-11-14-ftts-col (team 1502) @0.44; astatc-nhl-col-mon-2026-11-14-ft |
+| nhl | HOCKEY_GAME_OVERTIME | OTHER/UNKNOWN | 14 | Will the NHL hockey game between Kraken and Hurricanes on 20 | 0.5 | astatc-nhl-sea-car-2026-11-14-ot (team 1492) @0.14; astatc-nhl-sea-car-2026-11-14-ot (team |
+| nhl | HOCKEY_PLAYER_ASSISTS | OTHER/UNKNOWN | 307 | Will Sebastian Aho record at least 1 assists in SEA vs CAR? | 1 | astatc-nhl-sea-car-2026-11-14-ast-sebaho-gte1 (team 1492) @0.49; astatc-nhl-sea-car-2026-1 |
+| nhl | HOCKEY_PLAYER_GOALS | OTHER/UNKNOWN | 517 | Will Sebastian Aho record at least 1 goals in SEA vs CAR? | 1 | astatc-nhl-sea-car-2026-11-14-goals-sebaho-gte1 (team 1492) @0.39; astatc-nhl-sea-car-2026 |
+| nhl | HOCKEY_PLAYER_POINTS | OTHER/UNKNOWN | 418 | Will John Carlson record at least 1 points in DET vs TBL? | 1 | astatc-nhl-det-tb-2026-11-14-pts-johcar-gte1 (team 1489) @0.46; astatc-nhl-det-tb-2026-11- |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_SPREAD | SPREAD/FIRST_PERIOD | 28 | Will SEA Kraken cover +1.5 vs CAR Hurricanes in the first pe | 1.5 | asc-nhl-sea-car-2026-11-14-p1-pos-1pt5 (team 1514) @0.78; asc-nhl-sea-car-2026-11-14-p1-po |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_TOTAL | TOTAL/FIRST_PERIOD | 56 | Will SEA vs CAR have more than 1.5 goals in the first period | 1.5 | tsc-nhl-sea-car-2026-11-14-p1-1pt5 @0.53; tsc-nhl-sea-car-2026-11-14-p1-1pt5 @0.57 |
+| nhl | HOCKEY_TEAM_FIRST_PERIOD_WINNER | WINNER/FIRST_PERIOD | 42 | Will CAR Hurricanes win the first period of SEA vs CAR? |  | atc-nhl-sea-car-2026-11-14-p1-car (team 1492) @0.47; atc-nhl-sea-car-2026-11-14-p1-car (te |
+| nhl | HOCKEY_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 84 | Will the SEA Kraken cover 2.5 vs the CAR Hurricanes in SEA v | 2.5 | asc-nhl-sea-car-2026-11-14-pos-2pt5 (team 1514) @0.55; asc-nhl-sea-car-2026-11-14-pos-2pt5 |
+| nhl | HOCKEY_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 112 | Will the total in SEA vs CAR be more than 6.5? | 6.5 | tsc-nhl-sea-car-2026-11-14-6pt5 @0.47; tsc-nhl-sea-car-2026-11-14-6pt5 @0.48 |
+| nhl | HOCKEY_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 35 | Who will win in the upcoming hockey event SEA Kraken vs CAR  |  | aec-nhl-sea-car-2026-11-14 (team 1514) @0.21; aec-nhl-sea-car-2026-11-14 (team 1492) @0.22 |
+| nhl | HOCKEY_TEAM_REGULATION_WINNER | WINNER/REGULATION | 42 | Will CAR Hurricanes lead after regulation of SEA vs CAR? |  | atc-nhl-sea-car-2026-11-14-reg-car (team 1492) @0.59; atc-nhl-sea-car-2026-11-14-reg-car ( |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_SPREAD | SPREAD/SECOND_PERIOD | 28 | Will SEA Kraken cover +1.5 vs CAR Hurricanes in the second p | 1.5 | asc-nhl-sea-car-2026-11-14-p2-pos-1pt5 (team 1514) @0.72; asc-nhl-sea-car-2026-11-14-p2-po |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_TOTAL | TOTAL/SECOND_PERIOD | 56 | Will SEA vs CAR have more than 1.5 goals in the second perio | 1.5 | tsc-nhl-sea-car-2026-11-14-p2-1pt5 @0.61; tsc-nhl-sea-car-2026-11-14-p2-1pt5 @0.65 |
+| nhl | HOCKEY_TEAM_SECOND_PERIOD_WINNER | WINNER/SECOND_PERIOD | 42 | Will CAR Hurricanes win the second period of SEA vs CAR? |  | atc-nhl-sea-car-2026-11-14-p2-car (team 1492) @0.50; atc-nhl-sea-car-2026-11-14-p2-car (te |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_SPREAD | SPREAD/THIRD_PERIOD | 28 | Will SEA Kraken cover +1.5 vs CAR Hurricanes in the third pe | 1.5 | asc-nhl-sea-car-2026-11-14-p3-pos-1pt5 (team 1514) @0.68; asc-nhl-sea-car-2026-11-14-p3-po |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_TOTAL | TOTAL/THIRD_PERIOD | 56 | Will SEA vs CAR have more than 2.5 goals in the third period | 2.5 | tsc-nhl-sea-car-2026-11-14-p3-2pt5 @0.37; tsc-nhl-sea-car-2026-11-14-p3-2pt5 @0.41 |
+| nhl | HOCKEY_TEAM_THIRD_PERIOD_WINNER | WINNER/THIRD_PERIOD | 42 | Will CAR Hurricanes win the third period of SEA vs CAR? |  | atc-nhl-sea-car-2026-11-14-p3-car (team 1492) @0.57; atc-nhl-sea-car-2026-11-14-p3-car (te |
+| nhl | HOCKEY_TEAM_TOTAL_GOALS | OTHER/UNKNOWN | 168 | Will CAR Hurricanes score more than 0.5 goals in SEA vs CAR? | 0.5 | tsc-nhl-sea-car-2026-11-14-tt-car-0pt5 (team 1492) @0.88; tsc-nhl-sea-car-2026-11-14-tt-ca |
+| nfl | FOOTBALL_GAME_DOUBLE_RESULT | OTHER/UNKNOWN | 72 | Halftime / Full Time: NE 1H / NE Game |  | astatc-nfl-ne-det-2026-11-15-htft-away-away @0.23; astatc-nfl-ne-det-2026-11-15-htft-away- |
+| nfl | FOOTBALL_GAME_EXACT_MARGIN | OTHER/UNKNOWN | 56 | Exact Margin of Victory: NE Patriots by 15+ |  | astatc-nfl-ne-det-2026-11-15-margin-long-15-plus @0.06; astatc-nfl-ne-det-2026-11-15-margi |
+| nfl | FOOTBALL_GAME_FIRST_HALF_TOTAL | TOTAL/FIRST_HALF | 88 | Will the total in NE Patriots vs. DET Lions be more than 24. | 24.5 | tsc-nfl-ne-det-2026-11-15-1h-24pt5 @0.49; tsc-nfl-ne-det-2026-11-15-1h-24pt5 @0.51 |
+| nfl | FOOTBALL_GAME_FIRST_QUARTER_TOTAL | TOTAL/FIRST_QUARTER | 120 | Will the total in NE Patriots vs. DET Lions be more than 9.5 | 9.5 | tsc-nfl-ne-det-2026-11-15-1q-9pt5 @0.53; tsc-nfl-ne-det-2026-11-15-1q-9pt5 @0.56 |
+| nfl | FOOTBALL_GAME_FIRST_SCORE | OTHER/UNKNOWN | 24 | First Team to Score Points: New England Patriots |  | astatc-nfl-ne-det-2026-11-15-fs-ne (team 69) @0.03; astatc-nfl-ne-det-2026-11-15-fs-ne (te |
+| nfl | FOOTBALL_GAME_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 24 | First Team to Score a Touchdown: New England Patriots |  | astatc-nfl-ne-det-2026-11-15-ftd-ne (team 69) @0.37; astatc-nfl-ne-det-2026-11-15-ftd-ne ( |
+| nfl | FOOTBALL_GAME_FOURTH_QUARTER_TOTAL | TOTAL/FOURTH_QUARTER | 120 | Will the total in NE Patriots vs. DET Lions be more than 13. | 13.5 | tsc-nfl-ne-det-2026-11-15-4q-13pt5 @0.50; tsc-nfl-ne-det-2026-11-15-4q-13pt5 @0.53 |
+| nfl | FOOTBALL_GAME_OVERTIME | OTHER/UNKNOWN | 8 | Overtime?: Over 0.5 | 0.5 | astatc-nfl-ne-det-2026-11-15-ot-0pt5 @0.05; astatc-nfl-ne-det-2026-11-15-ot-0pt5 @0.07 |
+| nfl | FOOTBALL_GAME_RACE_TO_POINTS | OTHER/UNKNOWN | 120 | Race to 14 Points: New England Patriots | 14 | astatc-nfl-ne-det-2026-11-15-race14-ne (team 69) @0.20; astatc-nfl-ne-det-2026-11-15-race1 |
+| nfl | FOOTBALL_GAME_SAFETY | OTHER/UNKNOWN | 8 | Will there be a Safety?: Over 0.5 | 0.5 | astatc-nfl-ne-det-2026-11-15-safety-0pt5 @0.03; astatc-nfl-ne-det-2026-11-15-safety-0pt5 @ |
+| nfl | FOOTBALL_GAME_SECOND_HALF_TOTAL | TOTAL/SECOND_HALF | 88 | Will the total in NE Patriots vs. DET Lions be more than 24. | 24.5 | tsc-nfl-ne-det-2026-11-15-2h-24pt5 @0.46; tsc-nfl-ne-det-2026-11-15-2h-24pt5 @0.50 |
+| nfl | FOOTBALL_GAME_SECOND_QUARTER_TOTAL | TOTAL/SECOND_QUARTER | 120 | Will the total in NE Patriots vs. DET Lions be more than 14. | 14.5 | tsc-nfl-ne-det-2026-11-15-2q-14pt5 @0.47; tsc-nfl-ne-det-2026-11-15-2q-14pt5 @0.51 |
+| nfl | FOOTBALL_GAME_THIRD_QUARTER_TOTAL | TOTAL/THIRD_QUARTER | 119 | Will the total in NE Patriots vs. DET Lions be more than 9.5 | 9.5 | tsc-nfl-ne-det-2026-11-15-3q-9pt5 @0.53; tsc-nfl-ne-det-2026-11-15-3q-9pt5 @0.58 |
+| nfl | FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS | OTHER/UNKNOWN | 8 | Total Defensive/Special Teams Touchdowns: Over 0.5 | 0.5 | astatc-nfl-ne-det-2026-11-15-dstd-0pt5 @0.10; astatc-nfl-ne-det-2026-11-15-dstd-0pt5 @0.20 |
+| nfl | FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS | OTHER/UNKNOWN | 8 | Total Successful Two-Point Conversions: Over 0.5 | 0.5 | astatc-nfl-ne-det-2026-11-15-2pc-0pt5 @0.06; astatc-nfl-ne-det-2026-11-15-2pc-0pt5 @0.34 |
+| nfl | FOOTBALL_PLAYER_FANTASY_POINTS_PPR | OTHER/UNKNOWN | 86 | Will Xavier Worthy record 8+ fantasy points (PPR scoring)? | 8 | astatc-nfl-kc-atl-2026-11-15-fpts-xavwor-gte8 (team 63) @0.49; astatc-nfl-kc-atl-2026-11-1 |
+| nfl | FOOTBALL_PLAYER_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 173 | Will Amon-Ra St. Brown score the first touchdown? |  | astatc-nfl-ne-det-2026-11-15-firsttd-amobro (team 58) @0.11; astatc-nfl-ne-det-2026-11-15- |
+| nfl | FOOTBALL_PLAYER_INTERCEPTIONS_THROWN | OTHER/UNKNOWN | 32 | Will Geno Smith throw 1+ interceptions? | 1 | astatc-nfl-buf-nyj-2026-11-15-int-gensmi-gte1 (team 72) @0.49; astatc-nfl-buf-nyj-2026-11- |
+| nfl | FOOTBALL_PLAYER_LONGEST_RECEPTION | OTHER/UNKNOWN | 37 | Will Amon-Ra St. Brown record 25+ longest reception? | 25 | astatc-nfl-ne-det-2026-11-15-lrec-amobro-gte25 (team 58) @0.47; astatc-nfl-ne-det-2026-11- |
+| nfl | FOOTBALL_PLAYER_MOST_PASSING_YARDS | OTHER/UNKNOWN | 16 | Will Drake Maye record the most passing yards? |  | astatc-nfl-ne-det-2026-11-15-mpyd-dramay (team 69) @0.02; astatc-nfl-ne-det-2026-11-15-mpy |
+| nfl | FOOTBALL_PLAYER_PASSING_ATTEMPTS | OTHER/UNKNOWN | 48 | Will Drake Maye record 28+ passing attempts? | 28 | astatc-nfl-ne-det-2026-11-15-patt-dramay-gte28 (team 69) @0.52; astatc-nfl-ne-det-2026-11- |
+| nfl | FOOTBALL_PLAYER_PASSING_COMPLETIONS | OTHER/UNKNOWN | 48 | Will Drake Maye record 18+ passing completions? | 18 | astatc-nfl-ne-det-2026-11-15-pcmp-dramay-gte18 (team 69) @0.43; astatc-nfl-ne-det-2026-11- |
+| nfl | FOOTBALL_PLAYER_PASSING_TOUCHDOWNS | OTHER/UNKNOWN | 64 | Will Drake Maye record 1+ passing touchdowns? | 1 | astatc-nfl-ne-det-2026-11-15-ptd-dramay-gte1 (team 69) @0.84; astatc-nfl-ne-det-2026-11-15 |
+| nfl | FOOTBALL_PLAYER_PASSING_YARDS | OTHER/UNKNOWN | 141 | Will Drake Maye record 175+ passing yards? | 175 | astatc-nfl-ne-det-2026-11-15-pyd-dramay-gte175 (team 69) @0.86; astatc-nfl-ne-det-2026-11- |
+| nfl | FOOTBALL_PLAYER_RECEIVING_YARDS | OTHER/UNKNOWN | 442 | Will Amon-Ra St. Brown record 100+ receiving yards? | 100 | astatc-nfl-ne-det-2026-11-15-recyd-amobro-gte100 (team 58) @0.30; astatc-nfl-ne-det-2026-1 |
+| nfl | FOOTBALL_PLAYER_RECEPTIONS | OTHER/UNKNOWN | 297 | Will Amon-Ra St. Brown record 10+ receptions? | 10 | astatc-nfl-ne-det-2026-11-15-rec-amobro-gte10 (team 58) @0.08; astatc-nfl-ne-det-2026-11-1 |
+| nfl | FOOTBALL_PLAYER_RUSHING_ATTEMPTS | OTHER/UNKNOWN | 48 | Will Jahmyr Gibbs record 16+ rushing attempts? | 16 | astatc-nfl-ne-det-2026-11-15-ratt-jahgib-gte16 (team 58) @0.48; astatc-nfl-ne-det-2026-11- |
+| nfl | FOOTBALL_PLAYER_RUSHING_YARDS | OTHER/UNKNOWN | 174 | Will Corey Kiner record 50+ rushing yards? | 50 | astatc-nfl-ne-det-2026-11-15-ryd-corkin-gte50 (team 69) @0.47; astatc-nfl-ne-det-2026-11-1 |
+| nfl | FOOTBALL_PLAYER_SCRIMMAGE_YARDS | OTHER/UNKNOWN | 39 | Will Jahmyr Gibbs record 120+ scrimmage yards? | 120 | astatc-nfl-ne-det-2026-11-15-scrim-jahgib-gte120 (team 58) @0.02; astatc-nfl-ne-det-2026-1 |
+| nfl | FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN | OTHER/UNKNOWN | 181 | Will Amon-Ra St. Brown score the first Detroit Lions touchdo |  | astatc-nfl-ne-det-2026-11-15-tftd-det-amobro (team 58) @0.25; astatc-nfl-ne-det-2026-11-15 |
+| nfl | FOOTBALL_PLAYER_TOUCHDOWNS | OTHER/UNKNOWN | 338 | Will Amon-Ra St. Brown record 1+ touchdowns? | 1 | astatc-nfl-ne-det-2026-11-15-td-amobro-gte1 (team 58) @0.50; astatc-nfl-ne-det-2026-11-15- |
+| nfl | FOOTBALL_TEAM_FIRST_HALF_SPREAD | SPREAD/FIRST_HALF | 248 | Will the New England Patriots cover 1.5 vs the Detroit Lions | 1.5 | asc-nfl-ne-det-2026-11-15-1h-pos-1pt5 (team 69) @0.50; asc-nfl-ne-det-2026-11-15-1h-pos-1p |
+| nfl | FOOTBALL_TEAM_FIRST_HALF_TOTAL | TEAM_TOTAL/FIRST_HALF | 128 | Will the total in NE Patriots vs. DET Lions be more than 13. | 13.5 | tsc-nfl-ne-det-2026-11-15-tt1h-det-13pt5 (team 58) @0.48; tsc-nfl-ne-det-2026-11-15-tt1h-d |
+| nfl | FOOTBALL_TEAM_FIRST_HALF_WINNER | WINNER/FIRST_HALF | 24 | Will New England Patriots win the first half? |  | atc-nfl-ne-det-2026-11-15-winner-1h-ne (team 69) @0.37; atc-nfl-ne-det-2026-11-15-winner-1 |
+| nfl | FOOTBALL_TEAM_FIRST_QUARTER_SPREAD | SPREAD/FIRST_QUARTER | 40 | Will the New England Patriots cover 1.5 vs the Detroit Lions | 1.5 | asc-nfl-ne-det-2026-11-15-1q-pos-1pt5 (team 69) @0.57; asc-nfl-ne-det-2026-11-15-1q-pos-1p |
+| nfl | FOOTBALL_TEAM_FIRST_QUARTER_WINNER | WINNER/FIRST_QUARTER | 24 | Will New England Patriots win the first quarter? |  | atc-nfl-ne-det-2026-11-15-winner-1q-ne (team 69) @0.30; atc-nfl-ne-det-2026-11-15-winner-1 |
+| nfl | FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD | SPREAD/FOURTH_QUARTER | 40 | Will the New England Patriots cover -0.5 vs the Detroit Lion | -0.5 | asc-nfl-ne-det-2026-11-15-4q-neg-0pt5 (team 69) @0.32; asc-nfl-ne-det-2026-11-15-4q-neg-0p |
+| nfl | FOOTBALL_TEAM_FOURTH_QUARTER_WINNER | WINNER/FOURTH_QUARTER | 24 | Will New England Patriots win the fourth quarter? |  | atc-nfl-ne-det-2026-11-15-winner-4q-ne (team 69) @0.38; atc-nfl-ne-det-2026-11-15-winner-4 |
+| nfl | FOOTBALL_TEAM_FULL_GAME_SPREAD | SPREAD/FULL_GAME | 328 | Will the New England Patriots cover 2.5 vs the Detroit Lions | 2.5 | asc-nfl-ne-det-2026-11-15-pos-2pt5 (team 69) @0.47; asc-nfl-ne-det-2026-11-15-pos-2pt5 (te |
+| nfl | FOOTBALL_TEAM_FULL_GAME_TOTAL | TOTAL/FULL_GAME | 232 | Will the total in NE Patriots vs. DET Lions be more than 49. | 49.5 | tsc-nfl-ne-det-2026-11-15-total-49pt5 @0.51; tsc-nfl-ne-det-2026-11-15-total-49pt5 @0.51 |
+| nfl | FOOTBALL_TEAM_FULL_GAME_WINNER | WINNER/FULL_GAME | 31 | Who will win in the upcoming football event New England Patr |  | aec-nfl-ne-det-2026-11-15 (team 69) @0.42; aec-nfl-ne-det-2026-11-15 (team 58) @0.42 |
+| nfl | FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL | TEAM_TOTAL/FULL_GAME | 272 | Will the total in NE Patriots vs. DET Lions be more than 24. | 24.5 | tsc-nfl-ne-det-2026-11-15-tt-det-24pt5 (team 58) @0.55; tsc-nfl-ne-det-2026-11-15-tt-det-2 |
+| nfl | FOOTBALL_TEAM_SECOND_HALF_SPREAD | SPREAD/SECOND_HALF | 248 | Will the New England Patriots cover 1.5 vs the Detroit Lions | 1.5 | asc-nfl-ne-det-2026-11-15-2h-pos-1pt5 (team 69) @0.51; asc-nfl-ne-det-2026-11-15-2h-pos-1p |
+| nfl | FOOTBALL_TEAM_SECOND_HALF_TOTAL | TEAM_TOTAL/SECOND_HALF | 128 | Will the total in NE Patriots vs. DET Lions be more than 13. | 13.5 | tsc-nfl-ne-det-2026-11-15-tt2h-det-13pt5 (team 58) @0.36; tsc-nfl-ne-det-2026-11-15-tt2h-d |
+| nfl | FOOTBALL_TEAM_SECOND_HALF_WINNER | WINNER/SECOND_HALF | 24 | Will New England Patriots win the second half? |  | atc-nfl-ne-det-2026-11-15-winner-2h-ne (team 69) @0.39; atc-nfl-ne-det-2026-11-15-winner-2 |
+| nfl | FOOTBALL_TEAM_SECOND_QUARTER_SPREAD | SPREAD/SECOND_QUARTER | 40 | Will the New England Patriots cover 1.5 vs the Detroit Lions | 1.5 | asc-nfl-ne-det-2026-11-15-2q-pos-1pt5 (team 69) @0.52; asc-nfl-ne-det-2026-11-15-2q-pos-1p |
+| nfl | FOOTBALL_TEAM_SECOND_QUARTER_WINNER | WINNER/SECOND_QUARTER | 24 | Will New England Patriots win the second quarter? |  | atc-nfl-ne-det-2026-11-15-winner-2q-ne (team 69) @0.38; atc-nfl-ne-det-2026-11-15-winner-2 |
+| nfl | FOOTBALL_TEAM_THIRD_QUARTER_SPREAD | SPREAD/THIRD_QUARTER | 40 | Will the New England Patriots cover -0.5 vs the Detroit Lion | -0.5 | asc-nfl-ne-det-2026-11-15-3q-neg-0pt5 (team 69) @0.31; asc-nfl-ne-det-2026-11-15-3q-neg-0p |
+| nfl | FOOTBALL_TEAM_THIRD_QUARTER_WINNER | WINNER/THIRD_QUARTER | 24 | Will New England Patriots win the third quarter? |  | atc-nfl-ne-det-2026-11-15-winner-3q-ne (team 69) @0.38; atc-nfl-ne-det-2026-11-15-winner-3 |
+| nfl | FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE | OTHER/UNKNOWN | 48 | Team Total Field Goals Made: Over 0.5 | 0.5 | astatc-nfl-ne-det-2026-11-15-tfg-det-0pt5 (team 58) @0.39; astatc-nfl-ne-det-2026-11-15-tf |
+| nfl | FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS | OTHER/UNKNOWN | 48 | Team Total Offensive Yards: Over 250.5 | 250.5 | astatc-nfl-ne-det-2026-11-15-toyd-det-250pt5 (team 58) @0.68; astatc-nfl-ne-det-2026-11-15 |
+| nfl | FOOTBALL_TEAM_TOTAL_TOUCHDOWNS | OTHER/UNKNOWN | 48 | Team Total Touchdowns: Over 1.5 | 1.5 | astatc-nfl-ne-det-2026-11-15-ttds-det-1pt5 (team 58) @0.62; astatc-nfl-ne-det-2026-11-15-t |
+| cs2 | ESPORTS_MAP_WINNER_1 | WINNER/MAP_1 | 34 | Will Infinite win Map 1 vs Team ACES? |  | astatc-cs2-inf-aces-2026-11-14-map1 (team 9979) @0.36; astatc-cs2-inf-aces-2026-11-14-map1 |
+| cs2 | ESPORTS_MAP_WINNER_2 | WINNER/MAP_2 | 34 | Will Infinite win Map 2 vs Team ACES? |  | astatc-cs2-inf-aces-2026-11-14-map2 (team 9979) @0.38; astatc-cs2-inf-aces-2026-11-14-map2 |
+| cs2 | ESPORTS_MATCH_WINNER | WINNER/MATCH | 49 | Who will win in the upcoming esports event Spirit vs MOUZ sc |  | aec-cs2-ts-mouz-2026-11-14 (team 5161) @0.74; aec-cs2-ts-mouz-2026-11-14 (team 5163) @0.75 |
+| cs2 | ESPORTS_SERIES_MAP_HANDICAP | SPREAD/SERIES | 17 | Will the GenOne cover -1.5 vs the Balkan Outlaws in GenOne v | -1.5 | asc-cs2-g1-bal-2026-11-14-hcap-neg-1pt5 (team 7718) @0.26; asc-cs2-g1-bal-2026-11-14-hcap- |
+| cs2 | ESPORTS_SERIES_TOTAL_MAPS | TOTAL/SERIES | 15 | Will the total in GenOne vs. Balkan Outlaws be more than 2.5 | 2.5 | tsc-cs2-g1-bal-2026-11-14-tot-2pt5 @0.43; tsc-cs2-g1-bal-2026-11-14-tot-2pt5 @0.49 |
+| lol | ESPORTS_GAME_PLAYER_KILLS_1 | OTHER/UNKNOWN | 10 | Will Kiin record 3 or more kills in Game 1 of BILIBILI GAMIN | 3 | astatc-lol-blg-gen-2026-11-14-g1-k-kiin-gte3 (team 5134) @0.53; astatc-lol-blg-gen-2026-11 |
 | lol | ESPORTS_GAME_PLAYER_KILLS_2 | OTHER/UNKNOWN | 10 | Will Bin record 3 or more kills in Game 2 of BILIBILI GAMING | 3 | astatc-lol-blg-gen-2026-11-14-g2-k-bin-gte3 (team 5136); astatc-lol-blg-gen-2026-11-14-g2- |
 | lol | ESPORTS_GAME_PLAYER_KILLS_3 | OTHER/UNKNOWN | 10 | Will Bin record 3 or more kills in Game 3 of BILIBILI GAMING | 3 | astatc-lol-blg-gen-2026-11-14-g3-k-bin-gte3 (team 5136); astatc-lol-blg-gen-2026-11-14-g3- |
 | lol | ESPORTS_GAME_WINNER_1 | OTHER/UNKNOWN | 1 | Will BILIBILI GAMING win Game 1 vs Gen.G Esports? |  | astatc-lol-blg-gen-2026-11-14-game1 (team 5136) @0.42; astatc-lol-blg-gen-2026-11-14-game1 |
-| lol | ESPORTS_GAME_WINNER_2 | OTHER/UNKNOWN | 1 | Will BILIBILI GAMING win Game 2 vs Gen.G Esports? |  | astatc-lol-blg-gen-2026-11-14-game2 (team 5136) @0.40; astatc-lol-blg-gen-2026-11-14-game2 |
+| lol | ESPORTS_GAME_WINNER_2 | OTHER/UNKNOWN | 1 | Will BILIBILI GAMING win Game 2 vs Gen.G Esports? |  | astatc-lol-blg-gen-2026-11-14-game2 (team 5136) @0.42; astatc-lol-blg-gen-2026-11-14-game2 |
 | lol | ESPORTS_GAME_WINNER_3 | OTHER/UNKNOWN | 1 | Will BILIBILI GAMING win Game 3 vs Gen.G Esports? |  | astatc-lol-blg-gen-2026-11-14-game3 (team 5136) @0.42; astatc-lol-blg-gen-2026-11-14-game3 |
 | lol | ESPORTS_MATCH_WINNER | WINNER/MATCH | 1 | Who will win in the upcoming esports event BILIBILI GAMING v |  | aec-lol-blg-gen-2026-11-14 (team 5136) @0.37; aec-lol-blg-gen-2026-11-14 (team 5134) @0.38 |
-| lol | ESPORTS_PLAYER_KILLS | OTHER/UNKNOWN | 10 | Will Canyon record 8 or more kills in Games 1, 2 and 3 of BI | 8 | astatc-lol-blg-gen-2026-11-14-k-canyon-gte8 (team 5134) @0.61; astatc-lol-blg-gen-2026-11- |
-| lol | ESPORTS_SERIES_GAME_HANDICAP | OTHER/UNKNOWN | 4 | Will the BILIBILI GAMING cover 1.5 vs the Gen.G Esports in B | 1.5 | asc-lol-blg-gen-2026-11-14-hcap-pos-1pt5 (team 5136) @0.52; asc-lol-blg-gen-2026-11-14-hca |
-| lol | ESPORTS_SERIES_TOTAL_GAMES | OTHER/UNKNOWN | 2 | Will the total in BILIBILI GAMING vs. Gen.G Esports be more  | 3.5 | tsc-lol-blg-gen-2026-11-14-tot-3pt5 @0.71; tsc-lol-blg-gen-2026-11-14-tot-3pt5 @0.74 |
-| laliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 3 | Will Athletic Club win against RCD Espanyol de Barcelona in  |  | atc-lal-ath-esp-2026-11-20-ath (team 3445) @0.65; atc-lal-ath-esp-2026-11-20-ath (team 344 |
-| bundesliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 3 | Will FC Bayern Munchen win against 1. FC Koln in the Bundesl |  | atc-bun-fcb-koe-2026-11-20-fcb (team 3409) @0.89; atc-bun-fcb-koe-2026-11-20-fcb (team 340 |
-| ligue1 | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 3 | Will ES Troyes AC win against Le Havre AC in the Ligue 1 mat |  | atc-lg1-tro-hac-2026-11-20-tro (team 25621) @0.45; atc-lg1-tro-hac-2026-11-20-tro (team 25 |
+| lol | ESPORTS_PLAYER_KILLS | OTHER/UNKNOWN | 10 | Will Ruler record 14 or more kills in Games 1, 2 and 3 of BI | 14 | astatc-lol-blg-gen-2026-11-14-k-ruler-gte14 (team 5134) @0.42; astatc-lol-blg-gen-2026-11- |
+| lol | ESPORTS_SERIES_GAME_HANDICAP | OTHER/UNKNOWN | 4 | Will the BILIBILI GAMING cover 2.5 vs the Gen.G Esports in B | 2.5 | asc-lol-blg-gen-2026-11-14-hcap-pos-2pt5 (team 5136) @0.78; asc-lol-blg-gen-2026-11-14-hca |
+| lol | ESPORTS_SERIES_TOTAL_GAMES | OTHER/UNKNOWN | 2 | Will the total in BILIBILI GAMING vs. Gen.G Esports be more  | 3.5 | tsc-lol-blg-gen-2026-11-14-tot-3pt5 @0.70; tsc-lol-blg-gen-2026-11-14-tot-3pt5 @0.73 |
+| epl | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 21 | Will Manchester City FC win against Fulham FC in the Premier |  | atc-epl-mnc-ful-2026-11-21-mnc (team 2693) @0.69; atc-epl-mnc-ful-2026-11-21-mnc (team 269 |
+| laliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 15 | Will Athletic Club win against RCD Espanyol de Barcelona in  |  | atc-lal-ath-esp-2026-11-20-ath (team 3445) @0.65; atc-lal-ath-esp-2026-11-20-ath (team 344 |
+| bundesliga | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 21 | Will FC Bayern Munchen win against 1. FC Koln in the Bundesl |  | atc-bun-fcb-koe-2026-11-20-fcb (team 3409) @0.90; atc-bun-fcb-koe-2026-11-20-fcb (team 340 |
+| seriea | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 12 | Will Como 1907 win against Cagliari Calcio in the Serie A ma |  | atc-sea-com-cag-2026-11-21-com (team 3439) @0.74; atc-sea-com-cag-2026-11-21-com (team 343 |
+| ligue1 | SOCCER_TEAM_FULL_TIME_WINNER | WINNER/FULL_TIME | 18 | Will ES Troyes AC win against Le Havre AC in the Ligue 1 mat |  | atc-lg1-tro-hac-2026-11-20-tro (team 25621) @0.46; atc-lg1-tro-hac-2026-11-20-tro (team 25 |
 
 ## All leagues
 
@@ -451,28 +513,28 @@
 | cznbl | Czech NBL | True |
 | koris | Korisliiga | True |
 | nba | NBA | True |
+| rsmclas | The RSM Classic | True |
 | bsktcua | BSKT Cup | True |
 | bsktcin | BSKT Cup International | True |
 | lfa | LFA | True |
 | rlwc | RLWC | True |
 | bkfc | BKFC | True |
 | bskt3x3 | BSKT Cup 3x3 | True |
-| cmegrouc | CME Group Tour Championship | True |
 | acw | Astra Cup Women | True |
 | austcham | Austin Championship | True |
 | totojapa | Toto Japan Classic | True |
+| cmegrouc | CME Group Tour Championship | True |
 | ebattlesebb | eBattles: eBasketball | True |
 | worlwide | World Wide Technology Championship | True |
 | abudhabc | Abu Dhabi Championship | True |
 | ebattlesebbec | eBattles: eBasketball European Conference | True |
+| anni | ANNIKA | True |
 | wbbl | WBBL | True |
 | bblcr | BBL | True |
 | simmbank | Simmons Bank Championship | True |
 | majorlo | Major Clubs Limited Over Tournament | True |
 | omand50 | Oman D50 | True |
 | kcct20 | KCC T20 Summer League | True |
-| rsmclas | The RSM Classic | True |
-| anni | ANNIKA | True |
 | swt20 | Senior Women's T20 Trophy | True |
 | pga | PGA Tour | True |
 | maharani | Maharani Trophy Women | True |
@@ -490,6 +552,12 @@
 | falcons | Kuwait Falcons T20 | True |
 | jpbl2 | Japan B.League One | True |
 | itsc | Supercoppa Italiana | True |
+| heroworl | Hero World Challenge | True |
+| masttour | Masters Tournament | True |
+| austpgac | Australian PGA Championship | True |
+| aust | Australian Open | True |
+| nedbgolf | Nedbank Golf Challenge | True |
+| maur | Mauritius Open | True |
 | smat | SMAT | True |
 | maharaja | Maharaja Trophy | True |
 | adt10 | Abu Dhabi T10 | True |
@@ -505,12 +573,6 @@
 | npl | NPL | True |
 | thait20 | Thailand T20 Super League | True |
 | shpageeza | Shpageeza Cricket League | True |
-| heroworl | Hero World Challenge | True |
-| masttour | Masters Tournament | True |
-| austpgac | Australian PGA Championship | True |
-| aust | Australian Open | True |
-| nedbgolf | Nedbank Golf Challenge | True |
-| maur | Mauritius Open | True |
 | ausodc | Australia One-Day Cup | True |
 | sheffield | Sheffield Shield | True |
 | plunket | Plunket Shield | True |
