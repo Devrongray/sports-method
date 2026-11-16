@@ -1,5 +1,5 @@
 {
-  "ts": "2026-11-15T15:36:44+00:00",
+  "ts": "2026-11-16T18:22:50+00:00",
   "n_leagues": 452,
   "leagues": [
     {
@@ -2223,12 +2223,6 @@
       "sportId": 1
     },
     {
-      "slug": "cmegrouc",
-      "name": "CME Group Tour Championship",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
       "slug": "bsktcua",
       "name": "BSKT Cup",
       "isOperational": true,
@@ -2265,8 +2259,8 @@
       "sportId": 1
     },
     {
-      "slug": "rsmclas",
-      "name": "The RSM Classic",
+      "slug": "cmegrouc",
+      "name": "CME Group Tour Championship",
       "isOperational": true,
       "sportId": 7
     },
@@ -2285,6 +2279,12 @@
     {
       "slug": "totojapa",
       "name": "Toto Japan Classic",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "rsmclas",
+      "name": "The RSM Classic",
       "isOperational": true,
       "sportId": 7
     },
@@ -2457,6 +2457,42 @@
       "sportId": 2
     },
     {
+      "slug": "heroworl",
+      "name": "Hero World Challenge",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "masttour",
+      "name": "Masters Tournament",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "austpgac",
+      "name": "Australian PGA Championship",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "aust",
+      "name": "Australian Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "nedbgolf",
+      "name": "Nedbank Golf Challenge",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
+      "slug": "maur",
+      "name": "Mauritius Open",
+      "isOperational": true,
+      "sportId": 7
+    },
+    {
       "slug": "smat",
       "name": "SMAT",
       "isOperational": true,
@@ -2545,42 +2581,6 @@
       "name": "Shpageeza Cricket League",
       "isOperational": true,
       "sportId": 9
-    },
-    {
-      "slug": "heroworl",
-      "name": "Hero World Challenge",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "masttour",
-      "name": "Masters Tournament",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "austpgac",
-      "name": "Australian PGA Championship",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "aust",
-      "name": "Australian Open",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "nedbgolf",
-      "name": "Nedbank Golf Challenge",
-      "isOperational": true,
-      "sportId": 7
-    },
-    {
-      "slug": "maur",
-      "name": "Mauritius Open",
-      "isOperational": true,
-      "sportId": 7
     },
     {
       "slug": "ausodc",
@@ -2737,346 +2737,106 @@
       "sport": "nba",
       "slug": "nba",
       "slug_listed": true,
-      "events": 108,
-      "upcoming_in_horizon": 17,
+      "events": 106,
+      "upcoming_in_horizon": 13,
       "market_types": {
-        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 303,
-        "BASKETBALL_PLAYER_ASSISTS": 317,
-        "BASKETBALL_PLAYER_POINTS": 446,
-        "BASKETBALL_PLAYER_REBOUNDS": 472,
-        "BASKETBALL_TEAM_FOURTH_QUARTER_TOTAL": 117,
-        "BASKETBALL_TEAM_SECOND_HALF_SPREAD": 171,
-        "BASKETBALL_TEAM_THIRD_QUARTER_TOTAL": 117,
-        "BASKETBALL_TEAM_TOTAL_POINTS": 342,
-        "BASKETBALL_TEAM_FIRST_HALF_SPREAD": 171,
-        "BASKETBALL_TEAM_THIRD_QUARTER_SPREAD": 108,
-        "BASKETBALL_TEAM_SECOND_QUARTER_SPREAD": 108,
-        "BASKETBALL_TEAM_FOURTH_QUARTER_SPREAD": 108,
-        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS": 389,
-        "BASKETBALL_TEAM_SECOND_HALF_TOTAL": 171,
-        "BASKETBALL_TEAM_FIRST_QUARTER_SPREAD": 90,
-        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 274,
-        "BASKETBALL_PLAYER_THREES": 388,
-        "BASKETBALL_TEAM_SECOND_QUARTER_TOTAL": 117,
-        "BASKETBALL_TEAM_FIRST_QUARTER_TOTAL": 117,
-        "BASKETBALL_TEAM_TOTAL_POINTS_FIRST_HALF": 198,
-        "BASKETBALL_TEAM_FIRST_HALF_TOTAL": 153,
-        "BASKETBALL_GAME_RACE_TO_POINTS": 493,
-        "BASKETBALL_PLAYER_STEALS": 149,
-        "BASKETBALL_TEAM_FIRST_HALF_WINNER": 51,
-        "BASKETBALL_TEAM_SECOND_HALF_WINNER": 51,
-        "BASKETBALL_TEAM_TOTAL_POINTS_SECOND_HALF": 90,
-        "BASKETBALL_TEAM_FIRST_QUARTER_WINNER": 51,
-        "BASKETBALL_TEAM_THIRD_QUARTER_WINNER": 51,
-        "BASKETBALL_TEAM_SECOND_QUARTER_WINNER": 51,
-        "BASKETBALL_TEAM_FOURTH_QUARTER_WINNER": 51,
-        "BASKETBALL_PLAYER_DOUBLE_DOUBLE": 58,
-        "BASKETBALL_TEAM_FULL_GAME_WINNER": 108,
-        "BASKETBALL_GAME_WINNING_MARGIN": 170,
+        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 269,
+        "BASKETBALL_TEAM_SECOND_HALF_TOTAL": 152,
+        "BASKETBALL_TEAM_SECOND_HALF_SPREAD": 152,
+        "BASKETBALL_PLAYER_ASSISTS": 305,
+        "BASKETBALL_PLAYER_POINTS": 414,
+        "BASKETBALL_TEAM_FOURTH_QUARTER_TOTAL": 104,
+        "BASKETBALL_TEAM_TOTAL_POINTS": 304,
+        "BASKETBALL_TEAM_TOTAL_POINTS_FIRST_HALF": 176,
+        "BASKETBALL_TEAM_FIRST_HALF_SPREAD": 152,
+        "BASKETBALL_PLAYER_REBOUNDS": 439,
+        "BASKETBALL_TEAM_SECOND_QUARTER_TOTAL": 104,
+        "BASKETBALL_TEAM_SECOND_QUARTER_SPREAD": 96,
+        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 245,
+        "BASKETBALL_TEAM_FIRST_QUARTER_TOTAL": 104,
+        "BASKETBALL_TEAM_THIRD_QUARTER_SPREAD": 96,
+        "BASKETBALL_TEAM_FOURTH_QUARTER_SPREAD": 96,
+        "BASKETBALL_PLAYER_THREES": 342,
+        "BASKETBALL_TEAM_THIRD_QUARTER_TOTAL": 104,
+        "BASKETBALL_TEAM_FIRST_QUARTER_SPREAD": 80,
+        "BASKETBALL_TEAM_FIRST_HALF_TOTAL": 136,
+        "BASKETBALL_GAME_RACE_TO_POINTS": 377,
+        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS": 355,
+        "BASKETBALL_PLAYER_STEALS": 157,
+        "BASKETBALL_PLAYER_BLOCKS": 44,
+        "BASKETBALL_TEAM_FIRST_HALF_WINNER": 39,
+        "BASKETBALL_TEAM_FIRST_QUARTER_WINNER": 39,
+        "BASKETBALL_TEAM_SECOND_HALF_WINNER": 39,
+        "BASKETBALL_TEAM_SECOND_QUARTER_WINNER": 39,
+        "BASKETBALL_TEAM_THIRD_QUARTER_WINNER": 39,
+        "BASKETBALL_TEAM_FOURTH_QUARTER_WINNER": 39,
+        "BASKETBALL_TEAM_TOTAL_POINTS_SECOND_HALF": 80,
+        "BASKETBALL_PLAYER_DOUBLE_DOUBLE": 57,
+        "BASKETBALL_TEAM_FULL_GAME_WINNER": 106,
+        "BASKETBALL_GAME_WINNING_MARGIN": 130,
         "BASKETBALL_PLAYER_TRIPLE_DOUBLE": 11,
-        "BASKETBALL_GAME_OVERTIME": 17,
-        "BASKETBALL_PLAYER_BLOCKS": 54
+        "BASKETBALL_GAME_OVERTIME": 13
       },
       "market_classes": {
-        "SPREAD/FULL_GAME": 303,
-        "OTHER/UNKNOWN": 3594,
-        "TOTAL/FOURTH_QUARTER": 117,
-        "SPREAD/SECOND_HALF": 171,
-        "TOTAL/THIRD_QUARTER": 117,
-        "SPREAD/FIRST_HALF": 171,
-        "SPREAD/THIRD_QUARTER": 108,
-        "SPREAD/SECOND_QUARTER": 108,
-        "SPREAD/FOURTH_QUARTER": 108,
-        "TOTAL/SECOND_HALF": 171,
-        "SPREAD/FIRST_QUARTER": 90,
-        "TOTAL/FULL_GAME": 274,
-        "TOTAL/SECOND_QUARTER": 117,
-        "TOTAL/FIRST_QUARTER": 117,
-        "TOTAL/FIRST_HALF": 153,
-        "WINNER/FIRST_HALF": 51,
-        "WINNER/SECOND_HALF": 51,
-        "WINNER/FIRST_QUARTER": 51,
-        "WINNER/THIRD_QUARTER": 51,
-        "WINNER/SECOND_QUARTER": 51,
-        "WINNER/FOURTH_QUARTER": 51,
-        "WINNER/FULL_GAME": 108
+        "SPREAD/FULL_GAME": 269,
+        "TOTAL/SECOND_HALF": 152,
+        "SPREAD/SECOND_HALF": 152,
+        "OTHER/UNKNOWN": 3204,
+        "TOTAL/FOURTH_QUARTER": 104,
+        "SPREAD/FIRST_HALF": 152,
+        "TOTAL/SECOND_QUARTER": 104,
+        "SPREAD/SECOND_QUARTER": 96,
+        "TOTAL/FULL_GAME": 245,
+        "TOTAL/FIRST_QUARTER": 104,
+        "SPREAD/THIRD_QUARTER": 96,
+        "SPREAD/FOURTH_QUARTER": 96,
+        "TOTAL/THIRD_QUARTER": 104,
+        "SPREAD/FIRST_QUARTER": 80,
+        "TOTAL/FIRST_HALF": 136,
+        "WINNER/FIRST_HALF": 39,
+        "WINNER/FIRST_QUARTER": 39,
+        "WINNER/SECOND_HALF": 39,
+        "WINNER/SECOND_QUARTER": 39,
+        "WINNER/THIRD_QUARTER": 39,
+        "WINNER/FOURTH_QUARTER": 39,
+        "WINNER/FULL_GAME": 106
       },
-      "main_lines_in_horizon": 449,
+      "main_lines_in_horizon": 359,
       "unclassified": [
         "BASKETBALL_PLAYER_ASSISTS",
         "BASKETBALL_PLAYER_POINTS",
-        "BASKETBALL_PLAYER_REBOUNDS",
         "BASKETBALL_TEAM_TOTAL_POINTS",
-        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS",
-        "BASKETBALL_PLAYER_THREES",
         "BASKETBALL_TEAM_TOTAL_POINTS_FIRST_HALF",
+        "BASKETBALL_PLAYER_REBOUNDS",
+        "BASKETBALL_PLAYER_THREES",
         "BASKETBALL_GAME_RACE_TO_POINTS",
+        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS",
         "BASKETBALL_PLAYER_STEALS",
+        "BASKETBALL_PLAYER_BLOCKS",
         "BASKETBALL_TEAM_TOTAL_POINTS_SECOND_HALF",
         "BASKETBALL_PLAYER_DOUBLE_DOUBLE",
         "BASKETBALL_GAME_WINNING_MARGIN",
         "BASKETBALL_PLAYER_TRIPLE_DOUBLE",
-        "BASKETBALL_GAME_OVERTIME",
-        "BASKETBALL_PLAYER_BLOCKS"
+        "BASKETBALL_GAME_OVERTIME"
       ],
       "examples": {
         "BASKETBALL_TEAM_FULL_GAME_SPREAD": {
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the IND Pacers cover 7.5 vs the PHI 76ers in IND Pacers vs. PHI 76ers?",
-          "line": 7.5,
-          "slug": "asc-nba-ind-phi-2026-11-15-pos-7pt5",
+          "question": "Will the CHI Bulls cover 8.5 vs the CLE Cavaliers in CHI Bulls vs. CLE Cavaliers?",
+          "line": 8.5,
+          "slug": "asc-nba-chi-cle-2026-11-16-pos-8pt5",
           "sides": [
             {
-              "identifier": "asc-nba-ind-phi-2026-11-15-pos-7pt5",
-              "teamId": 19,
+              "identifier": "asc-nba-chi-cle-2026-11-16-pos-8pt5",
+              "teamId": 37,
+              "price": 0.49
+            },
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-pos-8pt5",
+              "teamId": 38,
               "price": 0.5
-            },
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-pos-7pt5",
-              "teamId": 29,
-              "price": 0.51
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_ASSISTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will LeBron James record at least 2 assists in IND Pacers vs. PHI 76ers?",
-          "line": 2,
-          "slug": "astatc-nba-ind-phi-2026-11-15-ast-lebjam-gte2",
-          "sides": [
-            {
-              "identifier": "astatc-nba-ind-phi-2026-11-15-ast-lebjam-gte2",
-              "teamId": 29,
-              "price": 0.98
-            },
-            {
-              "identifier": "astatc-nba-ind-phi-2026-11-15-ast-lebjam-gte2",
-              "teamId": 29,
-              "price": 0.99
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_POINTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Aday Mara record at least 10 points in OKC Thunder vs. SAC Kings?",
-          "line": 10,
-          "slug": "astatc-nba-okc-sac-2026-11-15-pts-adamar-gte10",
-          "sides": [
-            {
-              "identifier": "astatc-nba-okc-sac-2026-11-15-pts-adamar-gte10",
-              "teamId": 27,
-              "price": 0.49
-            },
-            {
-              "identifier": "astatc-nba-okc-sac-2026-11-15-pts-adamar-gte10",
-              "teamId": 27,
-              "price": 0.51
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_REBOUNDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Kyrie Irving record at least 4 total rebounds in DAL Mavericks vs. BOS Celtics?",
-          "line": 4,
-          "slug": "astatc-nba-dal-bos-2026-11-15-reb-kyrirv-gte4",
-          "sides": [
-            {
-              "identifier": "astatc-nba-dal-bos-2026-11-15-reb-kyrirv-gte4",
-              "teamId": 39,
-              "price": 0.49
-            },
-            {
-              "identifier": "astatc-nba-dal-bos-2026-11-15-reb-kyrirv-gte4",
-              "teamId": 39,
-              "price": 0.52
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_FOURTH_QUARTER_TOTAL": {
-          "class": "TOTAL",
-          "segment": "FOURTH_QUARTER",
-          "is_main": true,
-          "question": "Will the fourth quarter total in IND Pacers vs. PHI 76ers be more than 55.5?",
-          "line": 55.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-q4-55pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-q4-55pt5",
-              "teamId": null,
-              "price": 0.5
-            },
-            {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-q4-55pt5",
-              "teamId": null,
-              "price": 0.51
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_SECOND_HALF_SPREAD": {
-          "class": "SPREAD",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the IND Pacers cover +3.5 vs the PHI 76ers in the second half of IND Pacers vs. PHI 76ers?",
-          "line": 3.5,
-          "slug": "asc-nba-ind-phi-2026-11-15-sh-pos-3pt5",
-          "sides": [
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-sh-pos-3pt5",
-              "teamId": 19,
-              "price": 0.51
-            },
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-sh-pos-3pt5",
-              "teamId": 29,
-              "price": 0.52
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_THIRD_QUARTER_TOTAL": {
-          "class": "TOTAL",
-          "segment": "THIRD_QUARTER",
-          "is_main": true,
-          "question": "Will the third quarter total in IND Pacers vs. PHI 76ers be more than 57.5?",
-          "line": 57.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-q3-57pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-q3-57pt5",
-              "teamId": null,
-              "price": 0.51
-            },
-            {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-q3-57pt5",
-              "teamId": null,
-              "price": 0.52
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_TOTAL_POINTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will PHO Suns score more than 112.5 points in LA Lakers vs. PHO Suns?",
-          "line": 112.5,
-          "slug": "tsc-nba-lal-pho-2026-11-15-tt-pho-fg-112pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nba-lal-pho-2026-11-15-tt-pho-fg-112pt5",
-              "teamId": 30,
-              "price": 0.49
-            },
-            {
-              "identifier": "tsc-nba-lal-pho-2026-11-15-tt-pho-fg-112pt5",
-              "teamId": 30,
-              "price": 0.51
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_FIRST_HALF_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_HALF",
-          "is_main": true,
-          "question": "Will the IND Pacers cover +3.5 vs the PHI 76ers in the first half of IND Pacers vs. PHI 76ers?",
-          "line": 3.5,
-          "slug": "asc-nba-ind-phi-2026-11-15-fh-pos-3pt5",
-          "sides": [
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-fh-pos-3pt5",
-              "teamId": 19,
-              "price": 0.48
-            },
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-fh-pos-3pt5",
-              "teamId": 29,
-              "price": 0.49
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_THIRD_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "THIRD_QUARTER",
-          "is_main": true,
-          "question": "Will the IND Pacers cover +2.5 vs the PHI 76ers in the third quarter of IND Pacers vs. PHI 76ers?",
-          "line": 2.5,
-          "slug": "asc-nba-ind-phi-2026-11-15-q3-pos-2pt5",
-          "sides": [
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-q3-pos-2pt5",
-              "teamId": 19,
-              "price": 0.55
-            },
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-q3-pos-2pt5",
-              "teamId": 29,
-              "price": 0.56
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_SECOND_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "SECOND_QUARTER",
-          "is_main": true,
-          "question": "Will the IND Pacers cover +1.5 vs the PHI 76ers in the second quarter of IND Pacers vs. PHI 76ers?",
-          "line": 1.5,
-          "slug": "asc-nba-ind-phi-2026-11-15-q2-pos-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-q2-pos-1pt5",
-              "teamId": 19,
-              "price": 0.45
-            },
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-q2-pos-1pt5",
-              "teamId": 29,
-              "price": 0.46
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_FOURTH_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FOURTH_QUARTER",
-          "is_main": true,
-          "question": "Will the IND Pacers cover +2.5 vs the PHI 76ers in the fourth quarter of IND Pacers vs. PHI 76ers?",
-          "line": 2.5,
-          "slug": "asc-nba-ind-phi-2026-11-15-q4-pos-2pt5",
-          "sides": [
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-q4-pos-2pt5",
-              "teamId": 19,
-              "price": 0.47
-            },
-            {
-              "identifier": "asc-nba-ind-phi-2026-11-15-q4-pos-2pt5",
-              "teamId": 29,
-              "price": 0.64
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Kyle Kuzma record at least 20 combined points, rebounds and assists in ATL Hawks vs. MIL Bucks?",
-          "line": 20,
-          "slug": "astatc-nba-atl-mil-2026-11-15-pra-kylkuz-gte20",
-          "sides": [
-            {
-              "identifier": "astatc-nba-atl-mil-2026-11-15-pra-kylkuz-gte20",
-              "teamId": 41,
-              "price": 0.49
-            },
-            {
-              "identifier": "astatc-nba-atl-mil-2026-11-15-pra-kylkuz-gte20",
-              "teamId": 41,
-              "price": 0.51
             }
           ]
         },
@@ -3084,78 +2844,178 @@
           "class": "TOTAL",
           "segment": "SECOND_HALF",
           "is_main": true,
-          "question": "Will the second half total in IND Pacers vs. PHI 76ers be more than 114.5?",
-          "line": 114.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-sh-114pt5",
+          "question": "Will the second half total in CHI Bulls vs. CLE Cavaliers be more than 125.5?",
+          "line": 125.5,
+          "slug": "tsc-nba-chi-cle-2026-11-16-sh-125pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-sh-114pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-sh-125pt5",
               "teamId": null,
+              "price": 0.43
+            },
+            {
+              "identifier": "tsc-nba-chi-cle-2026-11-16-sh-125pt5",
+              "teamId": null,
+              "price": 0.44
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_SECOND_HALF_SPREAD": {
+          "class": "SPREAD",
+          "segment": "SECOND_HALF",
+          "is_main": true,
+          "question": "Will the CHI Bulls cover +2.5 vs the CLE Cavaliers in the second half of CHI Bulls vs. CLE Cavaliers?",
+          "line": 2.5,
+          "slug": "asc-nba-chi-cle-2026-11-16-sh-pos-2pt5",
+          "sides": [
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-sh-pos-2pt5",
+              "teamId": 37,
               "price": 0.46
             },
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-sh-114pt5",
-              "teamId": null,
+              "identifier": "asc-nba-chi-cle-2026-11-16-sh-pos-2pt5",
+              "teamId": 38,
               "price": 0.47
             }
           ]
         },
-        "BASKETBALL_TEAM_FIRST_QUARTER_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_QUARTER",
-          "is_main": true,
-          "question": "Will the IND Pacers cover +2.5 vs the PHI 76ers in the first quarter of IND Pacers vs. PHI 76ers?",
-          "line": 2.5,
-          "slug": "asc-nba-ind-phi-2026-11-15-q1-pos-2pt5",
+        "BASKETBALL_PLAYER_ASSISTS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Donovan Mitchell record at least 2 assists in CHI Bulls vs. CLE Cavaliers?",
+          "line": 2,
+          "slug": "astatc-nba-chi-cle-2026-11-16-ast-donmit-gte2",
           "sides": [
             {
-              "identifier": "asc-nba-ind-phi-2026-11-15-q1-pos-2pt5",
-              "teamId": 19,
-              "price": 0.5
+              "identifier": "astatc-nba-chi-cle-2026-11-16-ast-donmit-gte2",
+              "teamId": 38,
+              "price": 0.97
             },
             {
-              "identifier": "asc-nba-ind-phi-2026-11-15-q1-pos-2pt5",
-              "teamId": 29,
-              "price": 0.51
+              "identifier": "astatc-nba-chi-cle-2026-11-16-ast-donmit-gte2",
+              "teamId": 38,
+              "price": 0.98
             }
           ]
         },
-        "BASKETBALL_TEAM_FULL_GAME_TOTAL": {
+        "BASKETBALL_PLAYER_POINTS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Norman Powell record at least 10 points in CHI Bulls vs. CLE Cavaliers?",
+          "line": 10,
+          "slug": "astatc-nba-chi-cle-2026-11-16-pts-norpow-gte10",
+          "sides": [
+            {
+              "identifier": "astatc-nba-chi-cle-2026-11-16-pts-norpow-gte10",
+              "teamId": 37,
+              "price": 0.97
+            },
+            {
+              "identifier": "astatc-nba-chi-cle-2026-11-16-pts-norpow-gte10",
+              "teamId": 37,
+              "price": 0.98
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_FOURTH_QUARTER_TOTAL": {
           "class": "TOTAL",
-          "segment": "FULL_GAME",
+          "segment": "FOURTH_QUARTER",
           "is_main": true,
-          "question": "Will the total in IND Pacers vs. PHI 76ers be more than 225.5?",
-          "line": 225.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-225pt5",
+          "question": "Will the fourth quarter total in CHI Bulls vs. CLE Cavaliers be more than 59.5?",
+          "line": 59.5,
+          "slug": "tsc-nba-chi-cle-2026-11-16-q4-59pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-225pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-q4-59pt5",
               "teamId": null,
-              "price": 0.49
+              "price": 0.52
             },
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-225pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-q4-59pt5",
               "teamId": null,
-              "price": 0.5
+              "price": 0.53
             }
           ]
         },
-        "BASKETBALL_PLAYER_THREES": {
+        "BASKETBALL_TEAM_TOTAL_POINTS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will Stephon Castle record at least 2 three-point field goals made in SA Spurs vs. UTA Jazz?",
-          "line": 2,
-          "slug": "astatc-nba-sa-uta-2026-11-15-3pm-stecas-gte2",
+          "question": "Will WAS Wizards score more than 114.5 points in MEM Grizzlies vs. WAS Wizards?",
+          "line": 114.5,
+          "slug": "tsc-nba-mem-was-2026-11-16-tt-was-fg-114pt5",
           "sides": [
             {
-              "identifier": "astatc-nba-sa-uta-2026-11-15-3pm-stecas-gte2",
-              "teamId": 33,
-              "price": 0.49
+              "identifier": "tsc-nba-mem-was-2026-11-16-tt-was-fg-114pt5",
+              "teamId": 36,
+              "price": 0.48
             },
             {
-              "identifier": "astatc-nba-sa-uta-2026-11-15-3pm-stecas-gte2",
-              "teamId": 33,
+              "identifier": "tsc-nba-mem-was-2026-11-16-tt-was-fg-114pt5",
+              "teamId": 36,
+              "price": 0.52
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_TOTAL_POINTS_FIRST_HALF": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": true,
+          "question": "Will PHI 76ers score more than 59.5 points in the first half of PHI 76ers vs. BKN Nets?",
+          "line": 59.5,
+          "slug": "tsc-nba-phi-bkn-2026-11-16-tt-phi-fh-59pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nba-phi-bkn-2026-11-16-tt-phi-fh-59pt5",
+              "teamId": 29,
+              "price": 0.44
+            },
+            {
+              "identifier": "tsc-nba-phi-bkn-2026-11-16-tt-phi-fh-59pt5",
+              "teamId": 29,
+              "price": 0.56
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_FIRST_HALF_SPREAD": {
+          "class": "SPREAD",
+          "segment": "FIRST_HALF",
+          "is_main": true,
+          "question": "Will the CHI Bulls cover +5.5 vs the CLE Cavaliers in the first half of CHI Bulls vs. CLE Cavaliers?",
+          "line": 5.5,
+          "slug": "asc-nba-chi-cle-2026-11-16-fh-pos-5pt5",
+          "sides": [
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-fh-pos-5pt5",
+              "teamId": 37,
+              "price": 0.52
+            },
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-fh-pos-5pt5",
+              "teamId": 38,
+              "price": 0.53
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_REBOUNDS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": true,
+          "question": "Will Matas Buzelis record at least 6 total rebounds in CHI Bulls vs. CLE Cavaliers?",
+          "line": 6,
+          "slug": "astatc-nba-chi-cle-2026-11-16-reb-matbuz-gte6",
+          "sides": [
+            {
+              "identifier": "astatc-nba-chi-cle-2026-11-16-reb-matbuz-gte6",
+              "teamId": 37,
+              "price": 0.5
+            },
+            {
+              "identifier": "astatc-nba-chi-cle-2026-11-16-reb-matbuz-gte6",
+              "teamId": 37,
               "price": 0.51
             }
           ]
@@ -3164,19 +3024,59 @@
           "class": "TOTAL",
           "segment": "SECOND_QUARTER",
           "is_main": true,
-          "question": "Will the second quarter total in IND Pacers vs. PHI 76ers be more than 54.5?",
-          "line": 54.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-q2-54pt5",
+          "question": "Will the second quarter total in CHI Bulls vs. CLE Cavaliers be more than 57.5?",
+          "line": 57.5,
+          "slug": "tsc-nba-chi-cle-2026-11-16-q2-57pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-q2-54pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-q2-57pt5",
               "teamId": null,
-              "price": 0.57
+              "price": 0.5
             },
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-q2-54pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-q2-57pt5",
               "teamId": null,
-              "price": 0.58
+              "price": 0.51
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_SECOND_QUARTER_SPREAD": {
+          "class": "SPREAD",
+          "segment": "SECOND_QUARTER",
+          "is_main": true,
+          "question": "Will the CHI Bulls cover +2.5 vs the CLE Cavaliers in the second quarter of CHI Bulls vs. CLE Cavaliers?",
+          "line": 2.5,
+          "slug": "asc-nba-chi-cle-2026-11-16-q2-pos-2pt5",
+          "sides": [
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-q2-pos-2pt5",
+              "teamId": 37,
+              "price": 0.49
+            },
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-q2-pos-2pt5",
+              "teamId": 38,
+              "price": 0.5
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_FULL_GAME_TOTAL": {
+          "class": "TOTAL",
+          "segment": "FULL_GAME",
+          "is_main": true,
+          "question": "Will the total in CHI Bulls vs. CLE Cavaliers be more than 241.5?",
+          "line": 241.5,
+          "slug": "tsc-nba-chi-cle-2026-11-16-241pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nba-chi-cle-2026-11-16-241pt5",
+              "teamId": null,
+              "price": 0.49
+            },
+            {
+              "identifier": "tsc-nba-chi-cle-2026-11-16-241pt5",
+              "teamId": null,
+              "price": 0.5
             }
           ]
         },
@@ -3184,38 +3084,118 @@
           "class": "TOTAL",
           "segment": "FIRST_QUARTER",
           "is_main": true,
-          "question": "Will the first quarter total in IND Pacers vs. PHI 76ers be more than 56.5?",
-          "line": 56.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-q1-56pt5",
+          "question": "Will the first quarter total in CHI Bulls vs. CLE Cavaliers be more than 59.5?",
+          "line": 59.5,
+          "slug": "tsc-nba-chi-cle-2026-11-16-q1-59pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-q1-56pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-q1-59pt5",
               "teamId": null,
-              "price": 0.47
+              "price": 0.49
             },
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-q1-56pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-q1-59pt5",
               "teamId": null,
-              "price": 0.48
+              "price": 0.5
             }
           ]
         },
-        "BASKETBALL_TEAM_TOTAL_POINTS_FIRST_HALF": {
+        "BASKETBALL_TEAM_THIRD_QUARTER_SPREAD": {
+          "class": "SPREAD",
+          "segment": "THIRD_QUARTER",
+          "is_main": true,
+          "question": "Will the CHI Bulls cover +2.5 vs the CLE Cavaliers in the third quarter of CHI Bulls vs. CLE Cavaliers?",
+          "line": 2.5,
+          "slug": "asc-nba-chi-cle-2026-11-16-q3-pos-2pt5",
+          "sides": [
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-q3-pos-2pt5",
+              "teamId": 37,
+              "price": 0.48
+            },
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-q3-pos-2pt5",
+              "teamId": 38,
+              "price": 0.49
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_FOURTH_QUARTER_SPREAD": {
+          "class": "SPREAD",
+          "segment": "FOURTH_QUARTER",
+          "is_main": true,
+          "question": "Will the CHI Bulls cover +1.5 vs the CLE Cavaliers in the fourth quarter of CHI Bulls vs. CLE Cavaliers?",
+          "line": 1.5,
+          "slug": "asc-nba-chi-cle-2026-11-16-q4-pos-1pt5",
+          "sides": [
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-q4-pos-1pt5",
+              "teamId": 37,
+              "price": 0.45
+            },
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-q4-pos-1pt5",
+              "teamId": 38,
+              "price": 0.46
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_THREES": {
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will PHI 76ers score more than 57.5 points in the first half of IND Pacers vs. PHI 76ers?",
-          "line": 57.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-tt-phi-fh-57pt5",
+          "question": "Will Franz Wagner record at least 2 three-point field goals made in ORL Magic vs. BOS Celtics?",
+          "line": 2,
+          "slug": "astatc-nba-orl-bos-2026-11-16-3pm-frawag-gte2",
           "sides": [
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-tt-phi-fh-57pt5",
-              "teamId": 29,
-              "price": 0.47
+              "identifier": "astatc-nba-orl-bos-2026-11-16-3pm-frawag-gte2",
+              "teamId": 28,
+              "price": 0.5
             },
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-tt-phi-fh-57pt5",
-              "teamId": 29,
+              "identifier": "astatc-nba-orl-bos-2026-11-16-3pm-frawag-gte2",
+              "teamId": 28,
+              "price": 0.51
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_THIRD_QUARTER_TOTAL": {
+          "class": "TOTAL",
+          "segment": "THIRD_QUARTER",
+          "is_main": true,
+          "question": "Will the third quarter total in CHI Bulls vs. CLE Cavaliers be more than 63.5?",
+          "line": 63.5,
+          "slug": "tsc-nba-chi-cle-2026-11-16-q3-63pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nba-chi-cle-2026-11-16-q3-63pt5",
+              "teamId": null,
+              "price": 0.48
+            },
+            {
+              "identifier": "tsc-nba-chi-cle-2026-11-16-q3-63pt5",
+              "teamId": null,
+              "price": 0.49
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_FIRST_QUARTER_SPREAD": {
+          "class": "SPREAD",
+          "segment": "FIRST_QUARTER",
+          "is_main": true,
+          "question": "Will the CHI Bulls cover +3.5 vs the CLE Cavaliers in the first quarter of CHI Bulls vs. CLE Cavaliers?",
+          "line": 3.5,
+          "slug": "asc-nba-chi-cle-2026-11-16-q1-pos-3pt5",
+          "sides": [
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-q1-pos-3pt5",
+              "teamId": 37,
+              "price": 0.51
+            },
+            {
+              "identifier": "asc-nba-chi-cle-2026-11-16-q1-pos-3pt5",
+              "teamId": 38,
               "price": 0.52
             }
           ]
@@ -3224,19 +3204,19 @@
           "class": "TOTAL",
           "segment": "FIRST_HALF",
           "is_main": true,
-          "question": "Will the first half total in IND Pacers vs. PHI 76ers be more than 109.5?",
-          "line": 109.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-fh-109pt5",
+          "question": "Will the first half total in CHI Bulls vs. CLE Cavaliers be more than 117.5?",
+          "line": 117.5,
+          "slug": "tsc-nba-chi-cle-2026-11-16-fh-117pt5",
           "sides": [
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-fh-109pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-fh-117pt5",
               "teamId": null,
-              "price": 0.52
+              "price": 0.49
             },
             {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-fh-109pt5",
+              "identifier": "tsc-nba-chi-cle-2026-11-16-fh-117pt5",
               "teamId": null,
-              "price": 0.53
+              "price": 0.5
             }
           ]
         },
@@ -3244,39 +3224,79 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will the GS Warriors reach 10 points before the NO Pelicans?",
+          "question": "Will the HOU Rockets reach 10 points before the MIA Heat?",
           "line": 10,
-          "slug": "atc-nba-gs-no-2026-11-16-race10-gs",
+          "slug": "atc-nba-hou-mia-2026-11-16-race10-hou",
           "sides": [
             {
-              "identifier": "atc-nba-gs-no-2026-11-16-race10-gs",
-              "teamId": 47,
-              "price": 0.49
+              "identifier": "atc-nba-hou-mia-2026-11-16-race10-hou",
+              "teamId": 18,
+              "price": 0.5
             },
             {
-              "identifier": "atc-nba-gs-no-2026-11-16-race10-gs",
-              "teamId": 47,
-              "price": 0.5
+              "identifier": "atc-nba-hou-mia-2026-11-16-race10-hou",
+              "teamId": 18,
+              "price": 0.51
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_POINTS_REBOUNDS_ASSISTS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Tre Jones record at least 10 combined points, rebounds and assists in CHI Bulls vs. CLE Cavaliers?",
+          "line": 10,
+          "slug": "astatc-nba-chi-cle-2026-11-16-pra-trejon-gte10",
+          "sides": [
+            {
+              "identifier": "astatc-nba-chi-cle-2026-11-16-pra-trejon-gte10",
+              "teamId": 37,
+              "price": 0.84
+            },
+            {
+              "identifier": "astatc-nba-chi-cle-2026-11-16-pra-trejon-gte10",
+              "teamId": 37,
+              "price": 0.85
             }
           ]
         },
         "BASKETBALL_PLAYER_STEALS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Amen Thompson record at least 2 steals in HOU Rockets vs. WAS Wizards?",
-          "line": 2,
-          "slug": "astatc-nba-hou-was-2026-11-15-stl-ametho-gte2",
+          "is_main": false,
+          "question": "Will James Harden record at least 1 steals in CHI Bulls vs. CLE Cavaliers?",
+          "line": 1,
+          "slug": "astatc-nba-chi-cle-2026-11-16-stl-jamhar-gte1",
           "sides": [
             {
-              "identifier": "astatc-nba-hou-was-2026-11-15-stl-ametho-gte2",
-              "teamId": 18,
-              "price": 0.49
+              "identifier": "astatc-nba-chi-cle-2026-11-16-stl-jamhar-gte1",
+              "teamId": 38,
+              "price": 0.74
             },
             {
-              "identifier": "astatc-nba-hou-was-2026-11-15-stl-ametho-gte2",
-              "teamId": 18,
-              "price": 0.5
+              "identifier": "astatc-nba-chi-cle-2026-11-16-stl-jamhar-gte1",
+              "teamId": 38,
+              "price": 0.75
+            }
+          ]
+        },
+        "BASKETBALL_PLAYER_BLOCKS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will Jarrett Allen record at least 1 blocks in CHI Bulls vs. CLE Cavaliers?",
+          "line": 1,
+          "slug": "astatc-nba-chi-cle-2026-11-16-blk-jarall-gte1",
+          "sides": [
+            {
+              "identifier": "astatc-nba-chi-cle-2026-11-16-blk-jarall-gte1",
+              "teamId": 38,
+              "price": 0.65
+            },
+            {
+              "identifier": "astatc-nba-chi-cle-2026-11-16-blk-jarall-gte1",
+              "teamId": 38,
+              "price": 0.71
             }
           ]
         },
@@ -3284,59 +3304,19 @@
           "class": "WINNER",
           "segment": "FIRST_HALF",
           "is_main": true,
-          "question": "Will the PHI 76ers win the first half vs the IND Pacers?",
+          "question": "Will the CLE Cavaliers win the first half vs the CHI Bulls?",
           "line": null,
-          "slug": "atc-nba-ind-phi-2026-11-15-fh-phi",
+          "slug": "atc-nba-chi-cle-2026-11-16-fh-cle",
           "sides": [
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-fh-phi",
-              "teamId": 29,
-              "price": 0.6
-            },
-            {
-              "identifier": "atc-nba-ind-phi-2026-11-15-fh-phi",
-              "teamId": 29,
+              "identifier": "atc-nba-chi-cle-2026-11-16-fh-cle",
+              "teamId": 38,
               "price": 0.64
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_SECOND_HALF_WINNER": {
-          "class": "WINNER",
-          "segment": "SECOND_HALF",
-          "is_main": true,
-          "question": "Will the PHI 76ers win the second half vs the IND Pacers?",
-          "line": null,
-          "slug": "atc-nba-ind-phi-2026-11-15-sh-phi",
-          "sides": [
-            {
-              "identifier": "atc-nba-ind-phi-2026-11-15-sh-phi",
-              "teamId": 29,
-              "price": 0.54
             },
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-sh-phi",
-              "teamId": 29,
-              "price": 0.63
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_TOTAL_POINTS_SECOND_HALF": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will PHI 76ers score more than 58.5 points in the second half of IND Pacers vs. PHI 76ers?",
-          "line": 58.5,
-          "slug": "tsc-nba-ind-phi-2026-11-15-tt-phi-sh-58pt5",
-          "sides": [
-            {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-tt-phi-sh-58pt5",
-              "teamId": 29,
-              "price": 0.41
-            },
-            {
-              "identifier": "tsc-nba-ind-phi-2026-11-15-tt-phi-sh-58pt5",
-              "teamId": 29,
-              "price": 0.62
+              "identifier": "atc-nba-chi-cle-2026-11-16-fh-cle",
+              "teamId": 38,
+              "price": 0.68
             }
           ]
         },
@@ -3344,18 +3324,58 @@
           "class": "WINNER",
           "segment": "FIRST_QUARTER",
           "is_main": true,
-          "question": "Will the PHI 76ers win the first quarter vs the IND Pacers?",
+          "question": "Will the CLE Cavaliers win the first quarter vs the CHI Bulls?",
           "line": null,
-          "slug": "atc-nba-ind-phi-2026-11-15-q1-phi",
+          "slug": "atc-nba-chi-cle-2026-11-16-q1-cle",
           "sides": [
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-q1-phi",
-              "teamId": 29,
-              "price": 0.55
+              "identifier": "atc-nba-chi-cle-2026-11-16-q1-cle",
+              "teamId": 38,
+              "price": 0.61
             },
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-q1-phi",
-              "teamId": 29,
+              "identifier": "atc-nba-chi-cle-2026-11-16-q1-cle",
+              "teamId": 38,
+              "price": 0.66
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_SECOND_HALF_WINNER": {
+          "class": "WINNER",
+          "segment": "SECOND_HALF",
+          "is_main": true,
+          "question": "Will the CLE Cavaliers win the second half vs the CHI Bulls?",
+          "line": null,
+          "slug": "atc-nba-chi-cle-2026-11-16-sh-cle",
+          "sides": [
+            {
+              "identifier": "atc-nba-chi-cle-2026-11-16-sh-cle",
+              "teamId": 38,
+              "price": 0.59
+            },
+            {
+              "identifier": "atc-nba-chi-cle-2026-11-16-sh-cle",
+              "teamId": 38,
+              "price": 0.66
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_SECOND_QUARTER_WINNER": {
+          "class": "WINNER",
+          "segment": "SECOND_QUARTER",
+          "is_main": true,
+          "question": "Will the CLE Cavaliers win the second quarter vs the CHI Bulls?",
+          "line": null,
+          "slug": "atc-nba-chi-cle-2026-11-16-q2-cle",
+          "sides": [
+            {
+              "identifier": "atc-nba-chi-cle-2026-11-16-q2-cle",
+              "teamId": 38,
+              "price": 0.54
+            },
+            {
+              "identifier": "atc-nba-chi-cle-2026-11-16-q2-cle",
+              "teamId": 38,
               "price": 0.61
             }
           ]
@@ -3364,39 +3384,19 @@
           "class": "WINNER",
           "segment": "THIRD_QUARTER",
           "is_main": true,
-          "question": "Will the PHI 76ers win the third quarter vs the IND Pacers?",
+          "question": "Will the CLE Cavaliers win the third quarter vs the CHI Bulls?",
           "line": null,
-          "slug": "atc-nba-ind-phi-2026-11-15-q3-phi",
+          "slug": "atc-nba-chi-cle-2026-11-16-q3-cle",
           "sides": [
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-q3-phi",
-              "teamId": 29,
-              "price": 0.54
+              "identifier": "atc-nba-chi-cle-2026-11-16-q3-cle",
+              "teamId": 38,
+              "price": 0.55
             },
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-q3-phi",
-              "teamId": 29,
-              "price": 0.6
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_SECOND_QUARTER_WINNER": {
-          "class": "WINNER",
-          "segment": "SECOND_QUARTER",
-          "is_main": true,
-          "question": "Will the PHI 76ers win the second quarter vs the IND Pacers?",
-          "line": null,
-          "slug": "atc-nba-ind-phi-2026-11-15-q2-phi",
-          "sides": [
-            {
-              "identifier": "atc-nba-ind-phi-2026-11-15-q2-phi",
-              "teamId": 29,
-              "price": 0.53
-            },
-            {
-              "identifier": "atc-nba-ind-phi-2026-11-15-q2-phi",
-              "teamId": 29,
-              "price": 0.59
+              "identifier": "atc-nba-chi-cle-2026-11-16-q3-cle",
+              "teamId": 38,
+              "price": 0.61
             }
           ]
         },
@@ -3404,19 +3404,39 @@
           "class": "WINNER",
           "segment": "FOURTH_QUARTER",
           "is_main": true,
-          "question": "Will the PHI 76ers win the fourth quarter vs the IND Pacers?",
+          "question": "Will the CLE Cavaliers win the fourth quarter vs the CHI Bulls?",
           "line": null,
-          "slug": "atc-nba-ind-phi-2026-11-15-q4-phi",
+          "slug": "atc-nba-chi-cle-2026-11-16-q4-cle",
           "sides": [
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-q4-phi",
-              "teamId": 29,
-              "price": 0.5
+              "identifier": "atc-nba-chi-cle-2026-11-16-q4-cle",
+              "teamId": 38,
+              "price": 0.52
             },
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-q4-phi",
-              "teamId": 29,
-              "price": 0.56
+              "identifier": "atc-nba-chi-cle-2026-11-16-q4-cle",
+              "teamId": 38,
+              "price": 0.59
+            }
+          ]
+        },
+        "BASKETBALL_TEAM_TOTAL_POINTS_SECOND_HALF": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": false,
+          "question": "Will CHI Bulls score more than 60.5 points in the second half of CHI Bulls vs. CLE Cavaliers?",
+          "line": 60.5,
+          "slug": "tsc-nba-chi-cle-2026-11-16-tt-chi-sh-60pt5",
+          "sides": [
+            {
+              "identifier": "tsc-nba-chi-cle-2026-11-16-tt-chi-sh-60pt5",
+              "teamId": 37,
+              "price": 0.37
+            },
+            {
+              "identifier": "tsc-nba-chi-cle-2026-11-16-tt-chi-sh-60pt5",
+              "teamId": 37,
+              "price": 0.58
             }
           ]
         },
@@ -3424,19 +3444,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Ivica Zubac record a double-double in IND Pacers vs. PHI 76ers?",
+          "question": "Will Jarrett Allen record a double-double in CHI Bulls vs. CLE Cavaliers?",
           "line": null,
-          "slug": "astatc-nba-ind-phi-2026-11-15-dd-ivizub",
+          "slug": "astatc-nba-chi-cle-2026-11-16-dd-jarall",
           "sides": [
             {
-              "identifier": "astatc-nba-ind-phi-2026-11-15-dd-ivizub",
-              "teamId": 19,
-              "price": 0.45
+              "identifier": "astatc-nba-chi-cle-2026-11-16-dd-jarall",
+              "teamId": 38,
+              "price": 0.34
             },
             {
-              "identifier": "astatc-nba-ind-phi-2026-11-15-dd-ivizub",
-              "teamId": 19,
-              "price": 0.5
+              "identifier": "astatc-nba-chi-cle-2026-11-16-dd-jarall",
+              "teamId": 38,
+              "price": 0.41
             }
           ]
         },
@@ -3444,19 +3464,19 @@
           "class": "WINNER",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Who will win in the upcoming basketball event IND Pacers vs PHI 76ers scheduled for November 15, 2026 at 6:00 PM UTC?",
+          "question": "Who will win in the upcoming basketball event CHI Bulls vs CLE Cavaliers scheduled for November 17, 2026 at 12:00 AM UTC?",
           "line": null,
-          "slug": "aec-nba-ind-phi-2026-11-15",
+          "slug": "aec-nba-chi-cle-2026-11-16",
           "sides": [
             {
-              "identifier": "aec-nba-ind-phi-2026-11-15",
-              "teamId": 19,
-              "price": 0.27
+              "identifier": "aec-nba-chi-cle-2026-11-16",
+              "teamId": 37,
+              "price": 0.24
             },
             {
-              "identifier": "aec-nba-ind-phi-2026-11-15",
-              "teamId": 29,
-              "price": 0.28
+              "identifier": "aec-nba-chi-cle-2026-11-16",
+              "teamId": 38,
+              "price": 0.25
             }
           ]
         },
@@ -3464,19 +3484,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will the PHI 76ers beat the IND Pacers by 11-15 points?",
+          "question": "Will the CLE Cavaliers beat the CHI Bulls by 21+ points?",
           "line": null,
-          "slug": "atc-nba-ind-phi-2026-11-15-wm-phi-11-15",
+          "slug": "atc-nba-chi-cle-2026-11-16-wm-cle-21p",
           "sides": [
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-wm-phi-11-15",
+              "identifier": "atc-nba-chi-cle-2026-11-16-wm-cle-21p",
               "teamId": null,
-              "price": 0.2
+              "price": 0.14
             },
             {
-              "identifier": "atc-nba-ind-phi-2026-11-15-wm-phi-11-15",
+              "identifier": "atc-nba-chi-cle-2026-11-16-wm-cle-21p",
               "teamId": null,
-              "price": null
+              "price": 0.23
             }
           ]
         },
@@ -3484,26 +3504,26 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will LeBron James record a triple-double in IND Pacers vs. PHI 76ers?",
+          "question": "Will Josh Giddey record a triple-double in CHI Bulls vs. CLE Cavaliers?",
           "line": null,
-          "slug": "astatc-nba-ind-phi-2026-11-15-td-lebjam",
+          "slug": "astatc-nba-chi-cle-2026-11-16-td-josgid",
           "sides": [
             {
-              "identifier": "astatc-nba-ind-phi-2026-11-15-td-lebjam",
-              "teamId": 29,
-              "price": 0.03
+              "identifier": "astatc-nba-chi-cle-2026-11-16-td-josgid",
+              "teamId": 37,
+              "price": 0.05
             },
             {
-              "identifier": "astatc-nba-ind-phi-2026-11-15-td-lebjam",
-              "teamId": 29,
-              "price": 0.07
+              "identifier": "astatc-nba-chi-cle-2026-11-16-td-josgid",
+              "teamId": 37,
+              "price": 0.12
             }
           ]
         },
         "BASKETBALL_GAME_OVERTIME": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
+          "is_main": false,
           "question": "Will CHI Bulls vs. CLE Cavaliers go to overtime?",
           "line": 0.5,
           "slug": "astatc-nba-chi-cle-2026-11-16-ot",
@@ -3511,89 +3531,89 @@
             {
               "identifier": "astatc-nba-chi-cle-2026-11-16-ot",
               "teamId": null,
-              "price": 0.01
+              "price": 0.05
             },
             {
               "identifier": "astatc-nba-chi-cle-2026-11-16-ot",
               "teamId": null,
-              "price": 0.16
-            }
-          ]
-        },
-        "BASKETBALL_PLAYER_BLOCKS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Walker Kessler record at least 1 blocks in LA Lakers vs. PHO Suns?",
-          "line": 1,
-          "slug": "astatc-nba-lal-pho-2026-11-15-blk-walkes-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-nba-lal-pho-2026-11-15-blk-walkes-gte1",
-              "teamId": 24,
-              "price": 0.85
-            },
-            {
-              "identifier": "astatc-nba-lal-pho-2026-11-15-blk-walkes-gte1",
-              "teamId": 24,
-              "price": 0.86
+              "price": 0.06
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "nba-ind-phi-2026-11-15",
-        "title": "IND Pacers vs. PHI 76ers",
-        "start": "2026-11-15T18:00:00Z"
+        "slug": "nba-chi-cle-2026-11-16",
+        "title": "CHI Bulls vs. CLE Cavaliers",
+        "start": "2026-11-17T00:00:00Z"
       }
     },
     {
       "sport": "ncaab",
       "slug": "cbb",
       "slug_listed": true,
-      "events": 721,
-      "upcoming_in_horizon": 78,
+      "events": 686,
+      "upcoming_in_horizon": 97,
       "market_types": {
-        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 924,
-        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 960,
-        "BASKETBALL_TEAM_FIRST_HALF_SPREAD": 180,
-        "BASKETBALL_TEAM_FIRST_HALF_TOTAL": 180,
-        "BASKETBALL_TEAM_TOTAL_POINTS": 204,
-        "BASKETBALL_TEAM_FULL_GAME_WINNER": 721,
-        "BASKETBALL_GAME_RACE_TO_POINTS": 480
+        "BASKETBALL_TEAM_FULL_GAME_WINNER": 686,
+        "BASKETBALL_TEAM_FULL_GAME_SPREAD": 758,
+        "BASKETBALL_TEAM_FULL_GAME_TOTAL": 788,
+        "BASKETBALL_TEAM_FIRST_HALF_SPREAD": 105,
+        "BASKETBALL_TEAM_FIRST_HALF_TOTAL": 105,
+        "BASKETBALL_TEAM_TOTAL_POINTS": 132,
+        "BASKETBALL_GAME_RACE_TO_POINTS": 670
       },
       "market_classes": {
-        "SPREAD/FULL_GAME": 924,
-        "TOTAL/FULL_GAME": 960,
-        "SPREAD/FIRST_HALF": 180,
-        "TOTAL/FIRST_HALF": 180,
-        "OTHER/UNKNOWN": 684,
-        "WINNER/FULL_GAME": 721
+        "WINNER/FULL_GAME": 686,
+        "SPREAD/FULL_GAME": 758,
+        "TOTAL/FULL_GAME": 788,
+        "SPREAD/FIRST_HALF": 105,
+        "TOTAL/FIRST_HALF": 105,
+        "OTHER/UNKNOWN": 802
       },
-      "main_lines_in_horizon": 222,
+      "main_lines_in_horizon": 197,
       "unclassified": [
         "BASKETBALL_TEAM_TOTAL_POINTS",
         "BASKETBALL_GAME_RACE_TO_POINTS"
       ],
       "examples": {
+        "BASKETBALL_TEAM_FULL_GAME_WINNER": {
+          "class": "WINNER",
+          "segment": "FULL_GAME",
+          "is_main": true,
+          "question": "Who will win in the upcoming basketball event Fisk vs North Alabama scheduled for November 16, 2026 at 12:00PM ET?",
+          "line": null,
+          "slug": "aec-cbb-fisk-nal-2026-11-16",
+          "sides": [
+            {
+              "identifier": "aec-cbb-fisk-nal-2026-11-16",
+              "teamId": 44918,
+              "price": 0.01
+            },
+            {
+              "identifier": "aec-cbb-fisk-nal-2026-11-16",
+              "teamId": 2011,
+              "price": null
+            }
+          ]
+        },
         "BASKETBALL_TEAM_FULL_GAME_SPREAD": {
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will Quinnipiac cover -4.5 vs Central Connecticut State in Quinnipiac vs. Central Connecticut State?",
-          "line": -4.5,
-          "slug": "asc-cbb-quin-cencon-2026-11-15-neg-4pt5",
+          "question": "Will Florida A&M cover +20.5 vs UTEP in Florida A&M vs. UTEP?",
+          "line": 20.5,
+          "slug": "asc-cbb-flam-utep-2026-11-15-pos-20pt5",
           "sides": [
             {
-              "identifier": "asc-cbb-quin-cencon-2026-11-15-neg-4pt5",
-              "teamId": 1833,
-              "price": 0.46
+              "identifier": "asc-cbb-flam-utep-2026-11-15-pos-20pt5",
+              "teamId": 1856,
+              "price": 0.49
             },
             {
-              "identifier": "asc-cbb-quin-cencon-2026-11-15-neg-4pt5",
-              "teamId": 1889,
-              "price": 0.48
+              "identifier": "asc-cbb-flam-utep-2026-11-15-pos-20pt5",
+              "teamId": 1798,
+              "price": 0.5
             }
           ]
         },
@@ -3601,19 +3621,19 @@
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in Quinnipiac vs. Central Connecticut State be more than 135.5?",
-          "line": 135.5,
-          "slug": "tsc-cbb-quin-cencon-2026-11-15-135pt5",
+          "question": "Will the total in Florida A&M vs. UTEP be more than 142.5?",
+          "line": 142.5,
+          "slug": "tsc-cbb-flam-utep-2026-11-15-142pt5",
           "sides": [
             {
-              "identifier": "tsc-cbb-quin-cencon-2026-11-15-135pt5",
+              "identifier": "tsc-cbb-flam-utep-2026-11-15-142pt5",
               "teamId": null,
-              "price": 0.44
+              "price": 0.5
             },
             {
-              "identifier": "tsc-cbb-quin-cencon-2026-11-15-135pt5",
+              "identifier": "tsc-cbb-flam-utep-2026-11-15-142pt5",
               "teamId": null,
-              "price": 0.55
+              "price": 0.51
             }
           ]
         },
@@ -3621,19 +3641,19 @@
           "class": "SPREAD",
           "segment": "FIRST_HALF",
           "is_main": true,
-          "question": "Will Quinnipiac cover -2.5 vs Central Connecticut State in the first half of Quinnipiac vs. Central Connecticut State?",
-          "line": -2.5,
-          "slug": "asc-cbb-quin-cencon-2026-11-15-fh-neg-2pt5",
+          "question": "Will Florida A&M cover +10.5 vs UTEP in the first half of Florida A&M vs. UTEP?",
+          "line": 10.5,
+          "slug": "asc-cbb-flam-utep-2026-11-15-fh-pos-10pt5",
           "sides": [
             {
-              "identifier": "asc-cbb-quin-cencon-2026-11-15-fh-neg-2pt5",
-              "teamId": 1833,
-              "price": 0.38
+              "identifier": "asc-cbb-flam-utep-2026-11-15-fh-pos-10pt5",
+              "teamId": 1856,
+              "price": 0.46
             },
             {
-              "identifier": "asc-cbb-quin-cencon-2026-11-15-fh-neg-2pt5",
-              "teamId": 1889,
-              "price": 0.6
+              "identifier": "asc-cbb-flam-utep-2026-11-15-fh-pos-10pt5",
+              "teamId": 1798,
+              "price": 0.48
             }
           ]
         },
@@ -3641,19 +3661,19 @@
           "class": "TOTAL",
           "segment": "FIRST_HALF",
           "is_main": true,
-          "question": "Will the first half total in Quinnipiac vs. Central Connecticut State be more than 63.5?",
-          "line": 63.5,
-          "slug": "tsc-cbb-quin-cencon-2026-11-15-fh-63pt5",
+          "question": "Will the first half total in Florida A&M vs. UTEP be more than 66.5?",
+          "line": 66.5,
+          "slug": "tsc-cbb-flam-utep-2026-11-15-fh-66pt5",
           "sides": [
             {
-              "identifier": "tsc-cbb-quin-cencon-2026-11-15-fh-63pt5",
+              "identifier": "tsc-cbb-flam-utep-2026-11-15-fh-66pt5",
               "teamId": null,
-              "price": 0.38
+              "price": 0.52
             },
             {
-              "identifier": "tsc-cbb-quin-cencon-2026-11-15-fh-63pt5",
+              "identifier": "tsc-cbb-flam-utep-2026-11-15-fh-66pt5",
               "teamId": null,
-              "price": 0.59
+              "price": 0.55
             }
           ]
         },
@@ -3661,39 +3681,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will Quinnipiac score more than 68.5 points in Quinnipiac vs. Central Connecticut State?",
-          "line": 68.5,
-          "slug": "tsc-cbb-quin-cencon-2026-11-15-tt-quin-fg-68pt5",
+          "question": "Will UTEP score more than 82.5 points in Florida A&M vs. UTEP?",
+          "line": 82.5,
+          "slug": "tsc-cbb-flam-utep-2026-11-15-tt-utep-fg-82pt5",
           "sides": [
             {
-              "identifier": "tsc-cbb-quin-cencon-2026-11-15-tt-quin-fg-68pt5",
-              "teamId": 1833,
-              "price": 0.39
+              "identifier": "tsc-cbb-flam-utep-2026-11-15-tt-utep-fg-82pt5",
+              "teamId": 1798,
+              "price": 0.45
             },
             {
-              "identifier": "tsc-cbb-quin-cencon-2026-11-15-tt-quin-fg-68pt5",
-              "teamId": 1833,
-              "price": 0.6
-            }
-          ]
-        },
-        "BASKETBALL_TEAM_FULL_GAME_WINNER": {
-          "class": "WINNER",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Who will win in the upcoming basketball event Quinnipiac vs Central Connecticut State scheduled for November 15, 2026 at 1:00PM ET?",
-          "line": null,
-          "slug": "aec-cbb-quin-cencon-2026-11-15",
-          "sides": [
-            {
-              "identifier": "aec-cbb-quin-cencon-2026-11-15",
-              "teamId": 1833,
-              "price": 0.61
-            },
-            {
-              "identifier": "aec-cbb-quin-cencon-2026-11-15",
-              "teamId": 1889,
-              "price": 0.62
+              "identifier": "tsc-cbb-flam-utep-2026-11-15-tt-utep-fg-82pt5",
+              "teamId": 1798,
+              "price": 0.49
             }
           ]
         },
@@ -3701,18 +3701,18 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will Harvard reach 30 points before American?",
+          "question": "Will Murray State reach 30 points before Hofstra?",
           "line": 30,
-          "slug": "atc-cbb-harvrd-amercn-2026-11-15-race30-harvrd",
+          "slug": "atc-cbb-hofst-murst-2026-11-17-race30-murst",
           "sides": [
             {
-              "identifier": "atc-cbb-harvrd-amercn-2026-11-15-race30-harvrd",
-              "teamId": 1823,
-              "price": 0.99
+              "identifier": "atc-cbb-hofst-murst-2026-11-17-race30-murst",
+              "teamId": 1897,
+              "price": null
             },
             {
-              "identifier": "atc-cbb-harvrd-amercn-2026-11-15-race30-harvrd",
-              "teamId": 1823,
+              "identifier": "atc-cbb-hofst-murst-2026-11-17-race30-murst",
+              "teamId": 1897,
               "price": null
             }
           ]
@@ -3720,61 +3720,61 @@
       },
       "error": null,
       "example_event": {
-        "slug": "cbb-quin-cencon-2026-11-15",
-        "title": "Quinnipiac vs. Central Connecticut State",
-        "start": "2026-11-15T17:00:00Z"
+        "slug": "cbb-flam-utep-2026-11-15",
+        "title": "Florida A&M vs. UTEP",
+        "start": "2026-11-16T19:00:00Z"
       }
     },
     {
       "sport": "nhl",
       "slug": "nhl",
       "slug_listed": true,
-      "events": 33,
-      "upcoming_in_horizon": 7,
+      "events": 28,
+      "upcoming_in_horizon": 13,
       "market_types": {
-        "HOCKEY_TEAM_TOTAL_GOALS": 84,
-        "HOCKEY_TEAM_FULL_GAME_TOTAL": 56,
-        "HOCKEY_TEAM_FULL_GAME_SPREAD": 42,
-        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": 14,
-        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": 14,
-        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": 14,
-        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": 28,
-        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": 28,
-        "HOCKEY_TEAM_FIRST_PERIOD_TOTAL": 28,
-        "HOCKEY_PLAYER_POINTS": 205,
-        "HOCKEY_TEAM_SAVES": 30,
-        "HOCKEY_GAME_FIRST_TEAM_TO_SCORE": 21,
-        "HOCKEY_PLAYER_ASSISTS": 158,
-        "HOCKEY_TEAM_FULL_GAME_WINNER": 33,
-        "HOCKEY_TEAM_REGULATION_WINNER": 21,
-        "HOCKEY_PLAYER_GOALS": 188,
-        "HOCKEY_TEAM_THIRD_PERIOD_WINNER": 21,
-        "HOCKEY_TEAM_SECOND_PERIOD_WINNER": 21,
-        "HOCKEY_TEAM_FIRST_PERIOD_WINNER": 21,
-        "HOCKEY_GAME_OVERTIME": 7
+        "HOCKEY_TEAM_TOTAL_GOALS": 156,
+        "HOCKEY_TEAM_FULL_GAME_TOTAL": 104,
+        "HOCKEY_TEAM_FULL_GAME_SPREAD": 78,
+        "HOCKEY_TEAM_THIRD_PERIOD_TOTAL": 52,
+        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": 26,
+        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": 26,
+        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": 26,
+        "HOCKEY_TEAM_SECOND_PERIOD_TOTAL": 52,
+        "HOCKEY_TEAM_FIRST_PERIOD_TOTAL": 52,
+        "HOCKEY_TEAM_SAVES": 15,
+        "HOCKEY_GAME_FIRST_TEAM_TO_SCORE": 39,
+        "HOCKEY_PLAYER_POINTS": 76,
+        "HOCKEY_PLAYER_ASSISTS": 57,
+        "HOCKEY_TEAM_FULL_GAME_WINNER": 28,
+        "HOCKEY_TEAM_REGULATION_WINNER": 39,
+        "HOCKEY_PLAYER_GOALS": 75,
+        "HOCKEY_TEAM_SECOND_PERIOD_WINNER": 39,
+        "HOCKEY_TEAM_THIRD_PERIOD_WINNER": 39,
+        "HOCKEY_TEAM_FIRST_PERIOD_WINNER": 39,
+        "HOCKEY_GAME_OVERTIME": 13
       },
       "market_classes": {
-        "OTHER/UNKNOWN": 693,
-        "TOTAL/FULL_GAME": 56,
-        "SPREAD/FULL_GAME": 42,
-        "SPREAD/FIRST_PERIOD": 14,
-        "SPREAD/SECOND_PERIOD": 14,
-        "SPREAD/THIRD_PERIOD": 14,
-        "TOTAL/THIRD_PERIOD": 28,
-        "TOTAL/SECOND_PERIOD": 28,
-        "TOTAL/FIRST_PERIOD": 28,
-        "WINNER/FULL_GAME": 33,
-        "WINNER/REGULATION": 21,
-        "WINNER/THIRD_PERIOD": 21,
-        "WINNER/SECOND_PERIOD": 21,
-        "WINNER/FIRST_PERIOD": 21
+        "OTHER/UNKNOWN": 431,
+        "TOTAL/FULL_GAME": 104,
+        "SPREAD/FULL_GAME": 78,
+        "TOTAL/THIRD_PERIOD": 52,
+        "SPREAD/FIRST_PERIOD": 26,
+        "SPREAD/SECOND_PERIOD": 26,
+        "SPREAD/THIRD_PERIOD": 26,
+        "TOTAL/SECOND_PERIOD": 52,
+        "TOTAL/FIRST_PERIOD": 52,
+        "WINNER/FULL_GAME": 28,
+        "WINNER/REGULATION": 39,
+        "WINNER/SECOND_PERIOD": 39,
+        "WINNER/THIRD_PERIOD": 39,
+        "WINNER/FIRST_PERIOD": 39
       },
-      "main_lines_in_horizon": 147,
+      "main_lines_in_horizon": 273,
       "unclassified": [
         "HOCKEY_TEAM_TOTAL_GOALS",
-        "HOCKEY_PLAYER_POINTS",
         "HOCKEY_TEAM_SAVES",
         "HOCKEY_GAME_FIRST_TEAM_TO_SCORE",
+        "HOCKEY_PLAYER_POINTS",
         "HOCKEY_PLAYER_ASSISTS",
         "HOCKEY_PLAYER_GOALS",
         "HOCKEY_GAME_OVERTIME"
@@ -3784,19 +3784,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will MTL Canadiens score more than 4.5 goals in MTL vs NYR?",
-          "line": 4.5,
-          "slug": "tsc-nhl-mon-nyr-2026-11-16-tt-mon-4pt5",
+          "question": "Will EDM Oilers score more than 2.5 goals in EDM vs FLA?",
+          "line": 2.5,
+          "slug": "tsc-nhl-edm-fla-2026-11-17-tt-edm-2pt5",
           "sides": [
             {
-              "identifier": "tsc-nhl-mon-nyr-2026-11-16-tt-mon-4pt5",
-              "teamId": 1487,
-              "price": 0.13
+              "identifier": "tsc-nhl-edm-fla-2026-11-17-tt-edm-2pt5",
+              "teamId": 1508,
+              "price": 0.53
             },
             {
-              "identifier": "tsc-nhl-mon-nyr-2026-11-16-tt-mon-4pt5",
-              "teamId": 1487,
-              "price": 0.33
+              "identifier": "tsc-nhl-edm-fla-2026-11-17-tt-edm-2pt5",
+              "teamId": 1508,
+              "price": 0.68
             }
           ]
         },
@@ -3804,19 +3804,19 @@
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in EDM vs PHI be more than 5.5?",
-          "line": 5.5,
-          "slug": "tsc-nhl-edm-phi-2026-11-15-5pt5",
+          "question": "Will the total in MTL vs NYR be more than 6.5?",
+          "line": 6.5,
+          "slug": "tsc-nhl-mon-nyr-2026-11-16-6pt5",
           "sides": [
             {
-              "identifier": "tsc-nhl-edm-phi-2026-11-15-5pt5",
+              "identifier": "tsc-nhl-mon-nyr-2026-11-16-6pt5",
               "teamId": null,
-              "price": 0.55
+              "price": 0.44
             },
             {
-              "identifier": "tsc-nhl-edm-phi-2026-11-15-5pt5",
+              "identifier": "tsc-nhl-mon-nyr-2026-11-16-6pt5",
               "teamId": null,
-              "price": 0.56
+              "price": 0.45
             }
           ]
         },
@@ -3824,79 +3824,19 @@
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the EDM Oilers cover -1.5 vs the PHI Flyers in EDM vs PHI?",
+          "question": "Will the MTL Canadiens cover -1.5 vs the NYR Rangers in MTL vs NYR?",
           "line": -1.5,
-          "slug": "asc-nhl-edm-phi-2026-11-15-neg-1pt5",
+          "slug": "asc-nhl-mon-nyr-2026-11-16-neg-1pt5",
           "sides": [
             {
-              "identifier": "asc-nhl-edm-phi-2026-11-15-neg-1pt5",
-              "teamId": 1508,
-              "price": 0.34
+              "identifier": "asc-nhl-mon-nyr-2026-11-16-neg-1pt5",
+              "teamId": 1487,
+              "price": 0.29
             },
             {
-              "identifier": "asc-nhl-edm-phi-2026-11-15-neg-1pt5",
-              "teamId": 1496,
-              "price": 0.35
-            }
-          ]
-        },
-        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": {
-          "class": "SPREAD",
-          "segment": "FIRST_PERIOD",
-          "is_main": true,
-          "question": "Will EDM Oilers cover -1.5 vs PHI Flyers in the first period of EDM vs PHI?",
-          "line": -1.5,
-          "slug": "asc-nhl-edm-phi-2026-11-15-p1-neg-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-nhl-edm-phi-2026-11-15-p1-neg-1pt5",
-              "teamId": 1508,
-              "price": 0.09
-            },
-            {
-              "identifier": "asc-nhl-edm-phi-2026-11-15-p1-neg-1pt5",
-              "teamId": 1496,
-              "price": 0.13
-            }
-          ]
-        },
-        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": {
-          "class": "SPREAD",
-          "segment": "SECOND_PERIOD",
-          "is_main": true,
-          "question": "Will EDM Oilers cover -1.5 vs PHI Flyers in the second period of EDM vs PHI?",
-          "line": -1.5,
-          "slug": "asc-nhl-edm-phi-2026-11-15-p2-neg-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-nhl-edm-phi-2026-11-15-p2-neg-1pt5",
-              "teamId": 1508,
-              "price": 0.11
-            },
-            {
-              "identifier": "asc-nhl-edm-phi-2026-11-15-p2-neg-1pt5",
-              "teamId": 1496,
-              "price": 0.16
-            }
-          ]
-        },
-        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": {
-          "class": "SPREAD",
-          "segment": "THIRD_PERIOD",
-          "is_main": true,
-          "question": "Will EDM Oilers cover -1.5 vs PHI Flyers in the third period of EDM vs PHI?",
-          "line": -1.5,
-          "slug": "asc-nhl-edm-phi-2026-11-15-p3-neg-1pt5",
-          "sides": [
-            {
-              "identifier": "asc-nhl-edm-phi-2026-11-15-p3-neg-1pt5",
-              "teamId": 1508,
-              "price": 0.13
-            },
-            {
-              "identifier": "asc-nhl-edm-phi-2026-11-15-p3-neg-1pt5",
-              "teamId": 1496,
-              "price": 0.22
+              "identifier": "asc-nhl-mon-nyr-2026-11-16-neg-1pt5",
+              "teamId": 1495,
+              "price": 0.3
             }
           ]
         },
@@ -3904,19 +3844,79 @@
           "class": "TOTAL",
           "segment": "THIRD_PERIOD",
           "is_main": true,
-          "question": "Will EDM vs PHI have more than 2.5 goals in the third period?",
+          "question": "Will MTL vs NYR have more than 2.5 goals in the third period?",
           "line": 2.5,
-          "slug": "tsc-nhl-edm-phi-2026-11-15-p3-2pt5",
+          "slug": "tsc-nhl-mon-nyr-2026-11-16-p3-2pt5",
           "sides": [
             {
-              "identifier": "tsc-nhl-edm-phi-2026-11-15-p3-2pt5",
+              "identifier": "tsc-nhl-mon-nyr-2026-11-16-p3-2pt5",
               "teamId": null,
-              "price": 0.36
+              "price": 0.37
             },
             {
-              "identifier": "tsc-nhl-edm-phi-2026-11-15-p3-2pt5",
+              "identifier": "tsc-nhl-mon-nyr-2026-11-16-p3-2pt5",
               "teamId": null,
               "price": 0.38
+            }
+          ]
+        },
+        "HOCKEY_TEAM_FIRST_PERIOD_SPREAD": {
+          "class": "SPREAD",
+          "segment": "FIRST_PERIOD",
+          "is_main": true,
+          "question": "Will MTL Canadiens cover +1.5 vs NYR Rangers in the first period of MTL vs NYR?",
+          "line": 1.5,
+          "slug": "asc-nhl-mon-nyr-2026-11-16-p1-pos-1pt5",
+          "sides": [
+            {
+              "identifier": "asc-nhl-mon-nyr-2026-11-16-p1-pos-1pt5",
+              "teamId": 1487,
+              "price": 0.91
+            },
+            {
+              "identifier": "asc-nhl-mon-nyr-2026-11-16-p1-pos-1pt5",
+              "teamId": 1495,
+              "price": 0.92
+            }
+          ]
+        },
+        "HOCKEY_TEAM_SECOND_PERIOD_SPREAD": {
+          "class": "SPREAD",
+          "segment": "SECOND_PERIOD",
+          "is_main": true,
+          "question": "Will MTL Canadiens cover -1.5 vs NYR Rangers in the second period of MTL vs NYR?",
+          "line": -1.5,
+          "slug": "asc-nhl-mon-nyr-2026-11-16-p2-neg-1pt5",
+          "sides": [
+            {
+              "identifier": "asc-nhl-mon-nyr-2026-11-16-p2-neg-1pt5",
+              "teamId": 1487,
+              "price": 0.13
+            },
+            {
+              "identifier": "asc-nhl-mon-nyr-2026-11-16-p2-neg-1pt5",
+              "teamId": 1495,
+              "price": 0.14
+            }
+          ]
+        },
+        "HOCKEY_TEAM_THIRD_PERIOD_SPREAD": {
+          "class": "SPREAD",
+          "segment": "THIRD_PERIOD",
+          "is_main": true,
+          "question": "Will MTL Canadiens cover -1.5 vs NYR Rangers in the third period of MTL vs NYR?",
+          "line": -1.5,
+          "slug": "asc-nhl-mon-nyr-2026-11-16-p3-neg-1pt5",
+          "sides": [
+            {
+              "identifier": "asc-nhl-mon-nyr-2026-11-16-p3-neg-1pt5",
+              "teamId": 1487,
+              "price": 0.18
+            },
+            {
+              "identifier": "asc-nhl-mon-nyr-2026-11-16-p3-neg-1pt5",
+              "teamId": 1495,
+              "price": 0.19
             }
           ]
         },
@@ -3924,19 +3924,19 @@
           "class": "TOTAL",
           "segment": "SECOND_PERIOD",
           "is_main": true,
-          "question": "Will EDM vs PHI have more than 1.5 goals in the second period?",
+          "question": "Will MTL vs NYR have more than 1.5 goals in the second period?",
           "line": 1.5,
-          "slug": "tsc-nhl-edm-phi-2026-11-15-p2-1pt5",
+          "slug": "tsc-nhl-mon-nyr-2026-11-16-p2-1pt5",
           "sides": [
             {
-              "identifier": "tsc-nhl-edm-phi-2026-11-15-p2-1pt5",
+              "identifier": "tsc-nhl-mon-nyr-2026-11-16-p2-1pt5",
               "teamId": null,
               "price": 0.58
             },
             {
-              "identifier": "tsc-nhl-edm-phi-2026-11-15-p2-1pt5",
+              "identifier": "tsc-nhl-mon-nyr-2026-11-16-p2-1pt5",
               "teamId": null,
-              "price": 0.61
+              "price": 0.59
             }
           ]
         },
@@ -3944,59 +3944,39 @@
           "class": "TOTAL",
           "segment": "FIRST_PERIOD",
           "is_main": true,
-          "question": "Will EDM vs PHI have more than 1.5 goals in the first period?",
+          "question": "Will MTL vs NYR have more than 1.5 goals in the first period?",
           "line": 1.5,
-          "slug": "tsc-nhl-edm-phi-2026-11-15-p1-1pt5",
+          "slug": "tsc-nhl-mon-nyr-2026-11-16-p1-1pt5",
           "sides": [
             {
-              "identifier": "tsc-nhl-edm-phi-2026-11-15-p1-1pt5",
+              "identifier": "tsc-nhl-mon-nyr-2026-11-16-p1-1pt5",
               "teamId": null,
               "price": 0.54
             },
             {
-              "identifier": "tsc-nhl-edm-phi-2026-11-15-p1-1pt5",
+              "identifier": "tsc-nhl-mon-nyr-2026-11-16-p1-1pt5",
               "teamId": null,
-              "price": 0.56
-            }
-          ]
-        },
-        "HOCKEY_PLAYER_POINTS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Matvei Michkov record at least 1 points in EDM vs PHI?",
-          "line": 1,
-          "slug": "astatc-nhl-edm-phi-2026-11-15-pts-matmic-gte1",
-          "sides": [
-            {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-pts-matmic-gte1",
-              "teamId": 1496,
-              "price": 0.49
-            },
-            {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-pts-matmic-gte1",
-              "teamId": 1496,
-              "price": 0.51
+              "price": 0.55
             }
           ]
         },
         "HOCKEY_TEAM_SAVES": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will PHI Flyers record 20 or more saves in EDM vs PHI?",
-          "line": 20,
-          "slug": "astatc-nhl-edm-phi-2026-11-15-saves-phi-gte20",
+          "is_main": true,
+          "question": "Will MTL Canadiens record 24 or more saves in MTL vs NYR?",
+          "line": 24,
+          "slug": "astatc-nhl-mon-nyr-2026-11-16-saves-mon-gte24",
           "sides": [
             {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-saves-phi-gte20",
-              "teamId": 1496,
-              "price": 0.8
+              "identifier": "astatc-nhl-mon-nyr-2026-11-16-saves-mon-gte24",
+              "teamId": 1487,
+              "price": 0.44
             },
             {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-saves-phi-gte20",
-              "teamId": 1496,
-              "price": null
+              "identifier": "astatc-nhl-mon-nyr-2026-11-16-saves-mon-gte24",
+              "teamId": 1487,
+              "price": 0.55
             }
           ]
         },
@@ -4004,39 +3984,59 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will EDM Oilers score the first goal in EDM vs PHI?",
+          "question": "Will MTL Canadiens score the first goal in MTL vs NYR?",
           "line": null,
-          "slug": "astatc-nhl-edm-phi-2026-11-15-ftts-edm",
+          "slug": "astatc-nhl-mon-nyr-2026-11-16-ftts-mon",
           "sides": [
             {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-ftts-edm",
-              "teamId": 1508,
-              "price": 0.72
+              "identifier": "astatc-nhl-mon-nyr-2026-11-16-ftts-mon",
+              "teamId": 1487,
+              "price": 0.69
             },
             {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-ftts-edm",
-              "teamId": 1508,
+              "identifier": "astatc-nhl-mon-nyr-2026-11-16-ftts-mon",
+              "teamId": 1487,
               "price": null
+            }
+          ]
+        },
+        "HOCKEY_PLAYER_POINTS": {
+          "class": "OTHER",
+          "segment": "UNKNOWN",
+          "is_main": true,
+          "question": "Will Anders Lee record at least 1 points in VAN vs UTA?",
+          "line": 1,
+          "slug": "astatc-nhl-van-uta-2026-11-16-pts-andlee-gte1",
+          "sides": [
+            {
+              "identifier": "astatc-nhl-van-uta-2026-11-16-pts-andlee-gte1",
+              "teamId": 1515,
+              "price": 0.47
+            },
+            {
+              "identifier": "astatc-nhl-van-uta-2026-11-16-pts-andlee-gte1",
+              "teamId": 1515,
+              "price": 0.52
             }
           ]
         },
         "HOCKEY_PLAYER_ASSISTS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Mikko Rantanen record at least 1 assists in FLA vs DAL?",
+          "is_main": false,
+          "question": "Will Adam Fox record at least 1 assists in MTL vs NYR?",
           "line": 1,
-          "slug": "astatc-nhl-fla-dal-2026-11-15-ast-mikran-gte1",
+          "slug": "astatc-nhl-mon-nyr-2026-11-16-ast-adafox-gte1",
           "sides": [
             {
-              "identifier": "astatc-nhl-fla-dal-2026-11-15-ast-mikran-gte1",
-              "teamId": 1501,
-              "price": 0.48
+              "identifier": "astatc-nhl-mon-nyr-2026-11-16-ast-adafox-gte1",
+              "teamId": 1495,
+              "price": 0.51
             },
             {
-              "identifier": "astatc-nhl-fla-dal-2026-11-15-ast-mikran-gte1",
-              "teamId": 1501,
-              "price": 0.51
+              "identifier": "astatc-nhl-mon-nyr-2026-11-16-ast-adafox-gte1",
+              "teamId": 1495,
+              "price": 0.55
             }
           ]
         },
@@ -4044,19 +4044,19 @@
           "class": "WINNER",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Who will win in the upcoming hockey event EDM Oilers vs PHI Flyers scheduled for November 16, 2026 at 12:30 AM UTC?",
+          "question": "Who will win in the upcoming hockey event MTL Canadiens vs NYR Rangers scheduled for November 17, 2026 at 12:30 AM UTC?",
           "line": null,
-          "slug": "aec-nhl-edm-phi-2026-11-15",
+          "slug": "aec-nhl-mon-nyr-2026-11-16",
           "sides": [
             {
-              "identifier": "aec-nhl-edm-phi-2026-11-15",
-              "teamId": 1508,
-              "price": 0.57
+              "identifier": "aec-nhl-mon-nyr-2026-11-16",
+              "teamId": 1487,
+              "price": 0.49
             },
             {
-              "identifier": "aec-nhl-edm-phi-2026-11-15",
-              "teamId": 1496,
-              "price": 0.58
+              "identifier": "aec-nhl-mon-nyr-2026-11-16",
+              "teamId": 1495,
+              "price": 0.5
             }
           ]
         },
@@ -4064,19 +4064,19 @@
           "class": "WINNER",
           "segment": "REGULATION",
           "is_main": true,
-          "question": "Will EDM Oilers lead after regulation of EDM vs PHI?",
+          "question": "Will MTL Canadiens lead after regulation of MTL vs NYR?",
           "line": null,
-          "slug": "atc-nhl-edm-phi-2026-11-15-reg-edm",
+          "slug": "atc-nhl-mon-nyr-2026-11-16-reg-mon",
           "sides": [
             {
-              "identifier": "atc-nhl-edm-phi-2026-11-15-reg-edm",
-              "teamId": 1508,
-              "price": 0.33
+              "identifier": "atc-nhl-mon-nyr-2026-11-16-reg-mon",
+              "teamId": 1487,
+              "price": 0.35
             },
             {
-              "identifier": "atc-nhl-edm-phi-2026-11-15-reg-edm",
-              "teamId": 1508,
-              "price": 0.52
+              "identifier": "atc-nhl-mon-nyr-2026-11-16-reg-mon",
+              "teamId": 1487,
+              "price": 0.44
             }
           ]
         },
@@ -4084,39 +4084,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Leon Draisaitl record at least 1 goals in EDM vs PHI?",
+          "question": "Will Cole Caufield record at least 1 goals in MTL vs NYR?",
           "line": 1,
-          "slug": "astatc-nhl-edm-phi-2026-11-15-goals-leodra-gte1",
+          "slug": "astatc-nhl-mon-nyr-2026-11-16-goals-colcau-gte1",
           "sides": [
             {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-goals-leodra-gte1",
-              "teamId": 1508,
-              "price": 0.41
+              "identifier": "astatc-nhl-mon-nyr-2026-11-16-goals-colcau-gte1",
+              "teamId": 1487,
+              "price": 0.39
             },
             {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-goals-leodra-gte1",
-              "teamId": 1508,
-              "price": 0.43
-            }
-          ]
-        },
-        "HOCKEY_TEAM_THIRD_PERIOD_WINNER": {
-          "class": "WINNER",
-          "segment": "THIRD_PERIOD",
-          "is_main": true,
-          "question": "Will EDM Oilers win the third period of EDM vs PHI?",
-          "line": null,
-          "slug": "atc-nhl-edm-phi-2026-11-15-p3-edm",
-          "sides": [
-            {
-              "identifier": "atc-nhl-edm-phi-2026-11-15-p3-edm",
-              "teamId": 1508,
+              "identifier": "astatc-nhl-mon-nyr-2026-11-16-goals-colcau-gte1",
+              "teamId": 1487,
               "price": 0.4
-            },
-            {
-              "identifier": "atc-nhl-edm-phi-2026-11-15-p3-edm",
-              "teamId": 1508,
-              "price": 0.42
             }
           ]
         },
@@ -4124,19 +4104,39 @@
           "class": "WINNER",
           "segment": "SECOND_PERIOD",
           "is_main": true,
-          "question": "Will EDM Oilers win the second period of EDM vs PHI?",
+          "question": "Will MTL Canadiens win the second period of MTL vs NYR?",
           "line": null,
-          "slug": "atc-nhl-edm-phi-2026-11-15-p2-edm",
+          "slug": "atc-nhl-mon-nyr-2026-11-16-p2-mon",
           "sides": [
             {
-              "identifier": "atc-nhl-edm-phi-2026-11-15-p2-edm",
-              "teamId": 1508,
-              "price": 0.37
+              "identifier": "atc-nhl-mon-nyr-2026-11-16-p2-mon",
+              "teamId": 1487,
+              "price": 0.34
             },
             {
-              "identifier": "atc-nhl-edm-phi-2026-11-15-p2-edm",
-              "teamId": 1508,
-              "price": 0.39
+              "identifier": "atc-nhl-mon-nyr-2026-11-16-p2-mon",
+              "teamId": 1487,
+              "price": 0.36
+            }
+          ]
+        },
+        "HOCKEY_TEAM_THIRD_PERIOD_WINNER": {
+          "class": "WINNER",
+          "segment": "THIRD_PERIOD",
+          "is_main": true,
+          "question": "Will MTL Canadiens win the third period of MTL vs NYR?",
+          "line": null,
+          "slug": "atc-nhl-mon-nyr-2026-11-16-p3-mon",
+          "sides": [
+            {
+              "identifier": "atc-nhl-mon-nyr-2026-11-16-p3-mon",
+              "teamId": 1487,
+              "price": 0.35
+            },
+            {
+              "identifier": "atc-nhl-mon-nyr-2026-11-16-p3-mon",
+              "teamId": 1487,
+              "price": 0.36
             }
           ]
         },
@@ -4144,138 +4144,137 @@
           "class": "WINNER",
           "segment": "FIRST_PERIOD",
           "is_main": true,
-          "question": "Will EDM Oilers win the first period of EDM vs PHI?",
+          "question": "Will MTL Canadiens win the first period of MTL vs NYR?",
           "line": null,
-          "slug": "atc-nhl-edm-phi-2026-11-15-p1-edm",
+          "slug": "atc-nhl-mon-nyr-2026-11-16-p1-mon",
           "sides": [
             {
-              "identifier": "atc-nhl-edm-phi-2026-11-15-p1-edm",
-              "teamId": 1508,
-              "price": 0.35
+              "identifier": "atc-nhl-mon-nyr-2026-11-16-p1-mon",
+              "teamId": 1487,
+              "price": 0.34
             },
             {
-              "identifier": "atc-nhl-edm-phi-2026-11-15-p1-edm",
-              "teamId": 1508,
-              "price": 0.37
+              "identifier": "atc-nhl-mon-nyr-2026-11-16-p1-mon",
+              "teamId": 1487,
+              "price": 0.35
             }
           ]
         },
         "HOCKEY_GAME_OVERTIME": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will the NHL hockey game between Oilers and Flyers on 2026-11-15 go into Overtime?",
+          "is_main": true,
+          "question": "Will the NHL hockey game between Stars and Golden Knights on 2026-11-17 go into Overtime?",
           "line": 0.5,
-          "slug": "astatc-nhl-edm-phi-2026-11-15-ot",
+          "slug": "astatc-nhl-dal-veg-2026-11-17-ot",
           "sides": [
             {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-ot",
-              "teamId": 1496,
-              "price": 0.21
+              "identifier": "astatc-nhl-dal-veg-2026-11-17-ot",
+              "teamId": 1513,
+              "price": 0.19
             },
             {
-              "identifier": "astatc-nhl-edm-phi-2026-11-15-ot",
-              "teamId": 1496,
-              "price": 0.23
+              "identifier": "astatc-nhl-dal-veg-2026-11-17-ot",
+              "teamId": 1513,
+              "price": 0.25
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "nhl-edm-phi-2026-11-15",
-        "title": "EDM Oilers vs. PHI Flyers",
-        "start": "2026-11-16T00:30:00Z"
+        "slug": "nhl-mon-nyr-2026-11-16",
+        "title": "MTL Canadiens vs. NYR Rangers",
+        "start": "2026-11-17T00:30:00Z"
       }
     },
     {
       "sport": "nfl",
       "slug": "nfl",
       "slug_listed": true,
-      "events": 41,
-      "upcoming_in_horizon": 12,
+      "events": 30,
+      "upcoming_in_horizon": 1,
       "market_types": {
-        "FOOTBALL_TEAM_FULL_GAME_WINNER": 41,
-        "FOOTBALL_GAME_FIRST_SCORE": 36,
-        "FOOTBALL_GAME_FIRST_TOUCHDOWN": 36,
-        "FOOTBALL_GAME_DOUBLE_RESULT": 108,
-        "FOOTBALL_GAME_EXACT_MARGIN": 84,
-        "FOOTBALL_GAME_RACE_TO_POINTS": 180,
-        "FOOTBALL_TEAM_FIRST_HALF_WINNER": 36,
-        "FOOTBALL_TEAM_FIRST_QUARTER_WINNER": 36,
-        "FOOTBALL_TEAM_SECOND_HALF_WINNER": 36,
-        "FOOTBALL_TEAM_SECOND_QUARTER_WINNER": 36,
-        "FOOTBALL_TEAM_THIRD_QUARTER_WINNER": 36,
-        "FOOTBALL_TEAM_FOURTH_QUARTER_WINNER": 36,
-        "FOOTBALL_TEAM_FIRST_HALF_SPREAD": 372,
-        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": 60,
-        "FOOTBALL_TEAM_SECOND_HALF_SPREAD": 372,
-        "FOOTBALL_TEAM_SECOND_QUARTER_SPREAD": 60,
-        "FOOTBALL_TEAM_THIRD_QUARTER_SPREAD": 60,
-        "FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD": 60,
-        "FOOTBALL_TEAM_FULL_GAME_SPREAD": 492,
-        "FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS": 12,
-        "FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS": 12,
-        "FOOTBALL_PLAYER_FIRST_TOUCHDOWN": 269,
-        "FOOTBALL_PLAYER_FANTASY_POINTS_PPR": 127,
-        "FOOTBALL_PLAYER_INTERCEPTIONS_THROWN": 48,
-        "FOOTBALL_PLAYER_LONGEST_RECEPTION": 46,
-        "FOOTBALL_PLAYER_MOST_PASSING_YARDS": 24,
-        "FOOTBALL_GAME_OVERTIME": 12,
-        "FOOTBALL_PLAYER_PASSING_ATTEMPTS": 72,
-        "FOOTBALL_PLAYER_PASSING_COMPLETIONS": 72,
-        "FOOTBALL_PLAYER_PASSING_TOUCHDOWNS": 96,
-        "FOOTBALL_PLAYER_PASSING_YARDS": 214,
-        "FOOTBALL_PLAYER_RUSHING_ATTEMPTS": 87,
-        "FOOTBALL_PLAYER_RECEPTIONS": 460,
-        "FOOTBALL_PLAYER_RECEIVING_YARDS": 674,
-        "FOOTBALL_PLAYER_RUSHING_YARDS": 317,
-        "FOOTBALL_GAME_SAFETY": 12,
-        "FOOTBALL_PLAYER_SCRIMMAGE_YARDS": 60,
-        "FOOTBALL_PLAYER_TOUCHDOWNS": 523,
-        "FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE": 72,
-        "FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN": 281,
-        "FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS": 72,
-        "FOOTBALL_TEAM_TOTAL_TOUCHDOWNS": 72,
-        "FOOTBALL_GAME_FIRST_HALF_TOTAL": 132,
-        "FOOTBALL_GAME_FIRST_QUARTER_TOTAL": 178,
-        "FOOTBALL_GAME_SECOND_HALF_TOTAL": 132,
-        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": 180,
-        "FOOTBALL_GAME_THIRD_QUARTER_TOTAL": 179,
-        "FOOTBALL_GAME_FOURTH_QUARTER_TOTAL": 180,
-        "FOOTBALL_TEAM_FULL_GAME_TOTAL": 348,
-        "FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL": 408,
-        "FOOTBALL_TEAM_FIRST_HALF_TOTAL": 192,
-        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": 192
+        "FOOTBALL_GAME_FIRST_SCORE": 3,
+        "FOOTBALL_GAME_FIRST_TOUCHDOWN": 3,
+        "FOOTBALL_GAME_DOUBLE_RESULT": 9,
+        "FOOTBALL_GAME_EXACT_MARGIN": 7,
+        "FOOTBALL_GAME_RACE_TO_POINTS": 15,
+        "FOOTBALL_TEAM_FIRST_HALF_WINNER": 3,
+        "FOOTBALL_TEAM_FIRST_QUARTER_WINNER": 3,
+        "FOOTBALL_TEAM_SECOND_HALF_WINNER": 3,
+        "FOOTBALL_TEAM_SECOND_QUARTER_WINNER": 3,
+        "FOOTBALL_TEAM_THIRD_QUARTER_WINNER": 3,
+        "FOOTBALL_TEAM_FOURTH_QUARTER_WINNER": 3,
+        "FOOTBALL_TEAM_FULL_GAME_WINNER": 30,
+        "FOOTBALL_TEAM_FIRST_HALF_SPREAD": 31,
+        "FOOTBALL_TEAM_FIRST_QUARTER_SPREAD": 5,
+        "FOOTBALL_TEAM_SECOND_HALF_SPREAD": 31,
+        "FOOTBALL_TEAM_SECOND_QUARTER_SPREAD": 5,
+        "FOOTBALL_TEAM_THIRD_QUARTER_SPREAD": 5,
+        "FOOTBALL_TEAM_FOURTH_QUARTER_SPREAD": 5,
+        "FOOTBALL_TEAM_FULL_GAME_SPREAD": 41,
+        "FOOTBALL_GAME_TOTAL_TWO_POINT_CONVERSIONS": 1,
+        "FOOTBALL_GAME_TOTAL_DEFENSIVE_SPECIAL_TEAMS_TOUCHDOWNS": 1,
+        "FOOTBALL_PLAYER_FIRST_TOUCHDOWN": 23,
+        "FOOTBALL_PLAYER_FANTASY_POINTS_PPR": 8,
+        "FOOTBALL_PLAYER_INTERCEPTIONS_THROWN": 4,
+        "FOOTBALL_PLAYER_LONGEST_RECEPTION": 3,
+        "FOOTBALL_PLAYER_MOST_PASSING_YARDS": 2,
+        "FOOTBALL_GAME_OVERTIME": 1,
+        "FOOTBALL_PLAYER_PASSING_ATTEMPTS": 6,
+        "FOOTBALL_PLAYER_PASSING_COMPLETIONS": 6,
+        "FOOTBALL_PLAYER_PASSING_TOUCHDOWNS": 8,
+        "FOOTBALL_PLAYER_PASSING_YARDS": 18,
+        "FOOTBALL_PLAYER_RUSHING_ATTEMPTS": 6,
+        "FOOTBALL_PLAYER_RECEPTIONS": 49,
+        "FOOTBALL_PLAYER_RECEIVING_YARDS": 70,
+        "FOOTBALL_PLAYER_RUSHING_YARDS": 49,
+        "FOOTBALL_GAME_SAFETY": 1,
+        "FOOTBALL_PLAYER_TOUCHDOWNS": 42,
+        "FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE": 6,
+        "FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN": 24,
+        "FOOTBALL_TEAM_TOTAL_OFFENSIVE_YARDS": 6,
+        "FOOTBALL_TEAM_TOTAL_TOUCHDOWNS": 6,
+        "FOOTBALL_GAME_FIRST_HALF_TOTAL": 11,
+        "FOOTBALL_GAME_FIRST_QUARTER_TOTAL": 15,
+        "FOOTBALL_GAME_SECOND_HALF_TOTAL": 11,
+        "FOOTBALL_GAME_SECOND_QUARTER_TOTAL": 15,
+        "FOOTBALL_GAME_THIRD_QUARTER_TOTAL": 15,
+        "FOOTBALL_GAME_FOURTH_QUARTER_TOTAL": 15,
+        "FOOTBALL_TEAM_FULL_GAME_TOTAL": 29,
+        "FOOTBALL_TEAM_POINTS_FULL_GAME_TOTAL": 34,
+        "FOOTBALL_TEAM_FIRST_HALF_TOTAL": 16,
+        "FOOTBALL_TEAM_SECOND_HALF_TOTAL": 16
       },
       "market_classes": {
-        "WINNER/FULL_GAME": 41,
-        "OTHER/UNKNOWN": 4078,
-        "WINNER/FIRST_HALF": 36,
-        "WINNER/FIRST_QUARTER": 36,
-        "WINNER/SECOND_HALF": 36,
-        "WINNER/SECOND_QUARTER": 36,
-        "WINNER/THIRD_QUARTER": 36,
-        "WINNER/FOURTH_QUARTER": 36,
-        "SPREAD/FIRST_HALF": 372,
-        "SPREAD/FIRST_QUARTER": 60,
-        "SPREAD/SECOND_HALF": 372,
-        "SPREAD/SECOND_QUARTER": 60,
-        "SPREAD/THIRD_QUARTER": 60,
-        "SPREAD/FOURTH_QUARTER": 60,
-        "SPREAD/FULL_GAME": 492,
-        "TOTAL/FIRST_HALF": 132,
-        "TOTAL/FIRST_QUARTER": 178,
-        "TOTAL/SECOND_HALF": 132,
-        "TOTAL/SECOND_QUARTER": 180,
-        "TOTAL/THIRD_QUARTER": 179,
-        "TOTAL/FOURTH_QUARTER": 180,
-        "TOTAL/FULL_GAME": 348,
-        "TEAM_TOTAL/FULL_GAME": 408,
-        "TEAM_TOTAL/FIRST_HALF": 192,
-        "TEAM_TOTAL/SECOND_HALF": 192
+        "OTHER/UNKNOWN": 377,
+        "WINNER/FIRST_HALF": 3,
+        "WINNER/FIRST_QUARTER": 3,
+        "WINNER/SECOND_HALF": 3,
+        "WINNER/SECOND_QUARTER": 3,
+        "WINNER/THIRD_QUARTER": 3,
+        "WINNER/FOURTH_QUARTER": 3,
+        "WINNER/FULL_GAME": 30,
+        "SPREAD/FIRST_HALF": 31,
+        "SPREAD/FIRST_QUARTER": 5,
+        "SPREAD/SECOND_HALF": 31,
+        "SPREAD/SECOND_QUARTER": 5,
+        "SPREAD/THIRD_QUARTER": 5,
+        "SPREAD/FOURTH_QUARTER": 5,
+        "SPREAD/FULL_GAME": 41,
+        "TOTAL/FIRST_HALF": 11,
+        "TOTAL/FIRST_QUARTER": 15,
+        "TOTAL/SECOND_HALF": 11,
+        "TOTAL/SECOND_QUARTER": 15,
+        "TOTAL/THIRD_QUARTER": 15,
+        "TOTAL/FOURTH_QUARTER": 15,
+        "TOTAL/FULL_GAME": 29,
+        "TEAM_TOTAL/FULL_GAME": 34,
+        "TEAM_TOTAL/FIRST_HALF": 16,
+        "TEAM_TOTAL/SECOND_HALF": 16
       },
-      "main_lines_in_horizon": 84,
+      "main_lines_in_horizon": 7,
       "unclassified": [
         "FOOTBALL_GAME_FIRST_SCORE",
         "FOOTBALL_GAME_FIRST_TOUCHDOWN",
@@ -4299,7 +4298,6 @@
         "FOOTBALL_PLAYER_RECEIVING_YARDS",
         "FOOTBALL_PLAYER_RUSHING_YARDS",
         "FOOTBALL_GAME_SAFETY",
-        "FOOTBALL_PLAYER_SCRIMMAGE_YARDS",
         "FOOTBALL_PLAYER_TOUCHDOWNS",
         "FOOTBALL_TEAM_TOTAL_FIELD_GOALS_MADE",
         "FOOTBALL_PLAYER_TEAM_FIRST_TOUCHDOWN",
@@ -4307,43 +4305,23 @@
         "FOOTBALL_TEAM_TOTAL_TOUCHDOWNS"
       ],
       "examples": {
-        "FOOTBALL_TEAM_FULL_GAME_WINNER": {
-          "class": "WINNER",
-          "segment": "FULL_GAME",
-          "is_main": true,
-          "question": "Who will win in the upcoming football event New England Patriots vs Detroit Lions scheduled for November 15, 2026 at 2:30 PM UTC?",
-          "line": null,
-          "slug": "aec-nfl-ne-det-2026-11-15",
-          "sides": [
-            {
-              "identifier": "aec-nfl-ne-det-2026-11-15",
-              "teamId": 69,
-              "price": 0.075
-            },
-            {
-              "identifier": "aec-nfl-ne-det-2026-11-15",
-              "teamId": 58,
-              "price": 0.0775
-            }
-          ]
-        },
         "FOOTBALL_GAME_FIRST_SCORE": {
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "First Team to Score Points: Kansas City Chiefs",
+          "question": "First Team to Score Points: Los Angeles Chargers",
           "line": null,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-fs-kc",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-fs-lac",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-fs-kc",
-              "teamId": 63,
-              "price": 0.34
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-fs-lac",
+              "teamId": 65,
+              "price": 0.26
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-fs-kc",
-              "teamId": 63,
-              "price": 0.35
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-fs-lac",
+              "teamId": 65,
+              "price": 0.45
             }
           ]
         },
@@ -4351,39 +4329,39 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "First Team to Score a Touchdown: Kansas City Chiefs",
+          "question": "First Team to Score a Touchdown: Los Angeles Chargers",
           "line": null,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-ftd-kc",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-ftd-lac",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ftd-kc",
-              "teamId": 63,
-              "price": 0.5
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ftd-lac",
+              "teamId": 65,
+              "price": 0.38
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ftd-kc",
-              "teamId": 63,
-              "price": 0.51
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ftd-lac",
+              "teamId": 65,
+              "price": 0.44
             }
           ]
         },
         "FOOTBALL_GAME_DOUBLE_RESULT": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Halftime / Full Time: SF 1H / SF Game",
+          "is_main": false,
+          "question": "Halftime / Full Time: LAC 1H / LAC Game",
           "line": null,
-          "slug": "astatc-nfl-sf-dal-2026-11-15-htft-away-away",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-htft-away-away",
           "sides": [
             {
-              "identifier": "astatc-nfl-sf-dal-2026-11-15-htft-away-away",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-htft-away-away",
               "teamId": null,
-              "price": 0.49
+              "price": 0.24
             },
             {
-              "identifier": "astatc-nfl-sf-dal-2026-11-15-htft-away-away",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-htft-away-away",
               "teamId": null,
-              "price": 0.5
+              "price": 0.25
             }
           ]
         },
@@ -4391,39 +4369,39 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Exact Margin of Victory: KC Chiefs by 15+",
+          "question": "Exact Margin of Victory: LA Chargers by 15+",
           "line": null,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-margin-long-15-plus",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-margin-long-15-plus",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-margin-long-15-plus",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-margin-long-15-plus",
               "teamId": null,
-              "price": 0.18
+              "price": 0.02
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-margin-long-15-plus",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-margin-long-15-plus",
               "teamId": null,
-              "price": 0.19
+              "price": 0.06
             }
           ]
         },
         "FOOTBALL_GAME_RACE_TO_POINTS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Race to 28 Points: Jacksonville Jaguars",
-          "line": 28,
-          "slug": "astatc-nfl-jax-ten-2026-11-15-race28-jax",
+          "is_main": false,
+          "question": "Race to 14 Points: Los Angeles Chargers",
+          "line": 14,
+          "slug": "astatc-nfl-lac-bal-2026-11-16-race14-lac",
           "sides": [
             {
-              "identifier": "astatc-nfl-jax-ten-2026-11-15-race28-jax",
-              "teamId": 62,
-              "price": 0.5
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-race14-lac",
+              "teamId": 65,
+              "price": 0.32
             },
             {
-              "identifier": "astatc-nfl-jax-ten-2026-11-15-race28-jax",
-              "teamId": 62,
-              "price": 0.51
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-race14-lac",
+              "teamId": 65,
+              "price": 0.39
             }
           ]
         },
@@ -4431,19 +4409,19 @@
           "class": "WINNER",
           "segment": "FIRST_HALF",
           "is_main": true,
-          "question": "Will Kansas City Chiefs win the first half?",
+          "question": "Will Los Angeles Chargers win the first half?",
           "line": null,
-          "slug": "atc-nfl-kc-atl-2026-11-15-winner-1h-kc",
+          "slug": "atc-nfl-lac-bal-2026-11-16-winner-1h-lac",
           "sides": [
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-1h-kc",
-              "teamId": 63,
-              "price": 0.54
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-1h-lac",
+              "teamId": 65,
+              "price": 0.32
             },
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-1h-kc",
-              "teamId": 63,
-              "price": 0.55
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-1h-lac",
+              "teamId": 65,
+              "price": 0.34
             }
           ]
         },
@@ -4451,19 +4429,19 @@
           "class": "WINNER",
           "segment": "FIRST_QUARTER",
           "is_main": true,
-          "question": "Will Kansas City Chiefs win the first quarter?",
+          "question": "Will Los Angeles Chargers win the first quarter?",
           "line": null,
-          "slug": "atc-nfl-kc-atl-2026-11-15-winner-1q-kc",
+          "slug": "atc-nfl-lac-bal-2026-11-16-winner-1q-lac",
           "sides": [
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-1q-kc",
-              "teamId": 63,
-              "price": 0.43
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-1q-lac",
+              "teamId": 65,
+              "price": 0.3
             },
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-1q-kc",
-              "teamId": 63,
-              "price": 0.44
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-1q-lac",
+              "teamId": 65,
+              "price": 0.32
             }
           ]
         },
@@ -4471,19 +4449,19 @@
           "class": "WINNER",
           "segment": "SECOND_HALF",
           "is_main": true,
-          "question": "Will Kansas City Chiefs win the second half?",
+          "question": "Will Los Angeles Chargers win the second half?",
           "line": null,
-          "slug": "atc-nfl-kc-atl-2026-11-15-winner-2h-kc",
+          "slug": "atc-nfl-lac-bal-2026-11-16-winner-2h-lac",
           "sides": [
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-2h-kc",
-              "teamId": 63,
-              "price": 0.55
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-2h-lac",
+              "teamId": 65,
+              "price": 0.34
             },
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-2h-kc",
-              "teamId": 63,
-              "price": 0.56
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-2h-lac",
+              "teamId": 65,
+              "price": 0.36
             }
           ]
         },
@@ -4491,19 +4469,19 @@
           "class": "WINNER",
           "segment": "SECOND_QUARTER",
           "is_main": true,
-          "question": "Will Kansas City Chiefs win the second quarter?",
+          "question": "Will Los Angeles Chargers win the second quarter?",
           "line": null,
-          "slug": "atc-nfl-kc-atl-2026-11-15-winner-2q-kc",
+          "slug": "atc-nfl-lac-bal-2026-11-16-winner-2q-lac",
           "sides": [
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-2q-kc",
-              "teamId": 63,
-              "price": 0.48
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-2q-lac",
+              "teamId": 65,
+              "price": 0.32
             },
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-2q-kc",
-              "teamId": 63,
-              "price": 0.49
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-2q-lac",
+              "teamId": 65,
+              "price": 0.34
             }
           ]
         },
@@ -4511,19 +4489,19 @@
           "class": "WINNER",
           "segment": "THIRD_QUARTER",
           "is_main": true,
-          "question": "Will Kansas City Chiefs win the third quarter?",
+          "question": "Will Los Angeles Chargers win the third quarter?",
           "line": null,
-          "slug": "atc-nfl-kc-atl-2026-11-15-winner-3q-kc",
+          "slug": "atc-nfl-lac-bal-2026-11-16-winner-3q-lac",
           "sides": [
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-3q-kc",
-              "teamId": 63,
-              "price": 0.45
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-3q-lac",
+              "teamId": 65,
+              "price": 0.31
             },
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-3q-kc",
-              "teamId": 63,
-              "price": 0.46
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-3q-lac",
+              "teamId": 65,
+              "price": 0.33
             }
           ]
         },
@@ -4531,19 +4509,39 @@
           "class": "WINNER",
           "segment": "FOURTH_QUARTER",
           "is_main": true,
-          "question": "Will Kansas City Chiefs win the fourth quarter?",
+          "question": "Will Los Angeles Chargers win the fourth quarter?",
           "line": null,
-          "slug": "atc-nfl-kc-atl-2026-11-15-winner-4q-kc",
+          "slug": "atc-nfl-lac-bal-2026-11-16-winner-4q-lac",
           "sides": [
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-4q-kc",
-              "teamId": 63,
-              "price": 0.47
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-4q-lac",
+              "teamId": 65,
+              "price": 0.33
             },
             {
-              "identifier": "atc-nfl-kc-atl-2026-11-15-winner-4q-kc",
-              "teamId": 63,
-              "price": 0.48
+              "identifier": "atc-nfl-lac-bal-2026-11-16-winner-4q-lac",
+              "teamId": 65,
+              "price": 0.36
+            }
+          ]
+        },
+        "FOOTBALL_TEAM_FULL_GAME_WINNER": {
+          "class": "WINNER",
+          "segment": "FULL_GAME",
+          "is_main": true,
+          "question": "Who will win in the upcoming football event Los Angeles Chargers vs Baltimore Ravens scheduled for November 17, 2026 at 1:15 AM UTC?",
+          "line": null,
+          "slug": "aec-nfl-lac-bal-2026-11-16",
+          "sides": [
+            {
+              "identifier": "aec-nfl-lac-bal-2026-11-16",
+              "teamId": 65,
+              "price": 0.32
+            },
+            {
+              "identifier": "aec-nfl-lac-bal-2026-11-16",
+              "teamId": 50,
+              "price": 0.3225
             }
           ]
         },
@@ -4551,19 +4549,19 @@
           "class": "SPREAD",
           "segment": "FIRST_HALF",
           "is_main": true,
-          "question": "Will the Kansas City Chiefs cover -2.5 vs the Atlanta Falcons in KC Chiefs vs. ATL Falcons?",
-          "line": -2.5,
-          "slug": "asc-nfl-kc-atl-2026-11-15-1h-neg-2pt5",
+          "question": "Will the Los Angeles Chargers cover 3.5 vs the Baltimore Ravens in LA Chargers vs. BAL Ravens?",
+          "line": 3.5,
+          "slug": "asc-nfl-lac-bal-2026-11-16-1h-pos-3pt5",
           "sides": [
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-1h-neg-2pt5",
-              "teamId": 63,
-              "price": 0.5
+              "identifier": "asc-nfl-lac-bal-2026-11-16-1h-pos-3pt5",
+              "teamId": 65,
+              "price": 0.52
             },
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-1h-neg-2pt5",
-              "teamId": 49,
-              "price": 0.51
+              "identifier": "asc-nfl-lac-bal-2026-11-16-1h-pos-3pt5",
+              "teamId": 50,
+              "price": 0.53
             }
           ]
         },
@@ -4571,19 +4569,19 @@
           "class": "SPREAD",
           "segment": "FIRST_QUARTER",
           "is_main": true,
-          "question": "Will the Kansas City Chiefs cover -0.5 vs the Atlanta Falcons in KC Chiefs vs. ATL Falcons?",
-          "line": -0.5,
-          "slug": "asc-nfl-kc-atl-2026-11-15-1q-neg-0pt5",
+          "question": "Will the Los Angeles Chargers cover 0.5 vs the Baltimore Ravens in LA Chargers vs. BAL Ravens?",
+          "line": 0.5,
+          "slug": "asc-nfl-lac-bal-2026-11-16-1q-pos-0pt5",
           "sides": [
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-1q-neg-0pt5",
-              "teamId": 63,
-              "price": 0.44
+              "identifier": "asc-nfl-lac-bal-2026-11-16-1q-pos-0pt5",
+              "teamId": 65,
+              "price": 0.53
             },
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-1q-neg-0pt5",
-              "teamId": 49,
-              "price": 0.45
+              "identifier": "asc-nfl-lac-bal-2026-11-16-1q-pos-0pt5",
+              "teamId": 50,
+              "price": 0.55
             }
           ]
         },
@@ -4591,19 +4589,19 @@
           "class": "SPREAD",
           "segment": "SECOND_HALF",
           "is_main": true,
-          "question": "Will the Kansas City Chiefs cover -1.5 vs the Atlanta Falcons in KC Chiefs vs. ATL Falcons?",
-          "line": -1.5,
-          "slug": "asc-nfl-kc-atl-2026-11-15-2h-neg-1pt5",
+          "question": "Will the Los Angeles Chargers cover 2.5 vs the Baltimore Ravens in LA Chargers vs. BAL Ravens?",
+          "line": 2.5,
+          "slug": "asc-nfl-lac-bal-2026-11-16-2h-pos-2pt5",
           "sides": [
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-2h-neg-1pt5",
-              "teamId": 63,
-              "price": 0.45
+              "identifier": "asc-nfl-lac-bal-2026-11-16-2h-pos-2pt5",
+              "teamId": 65,
+              "price": 0.47
             },
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-2h-neg-1pt5",
-              "teamId": 49,
-              "price": 0.46
+              "identifier": "asc-nfl-lac-bal-2026-11-16-2h-pos-2pt5",
+              "teamId": 50,
+              "price": 0.49
             }
           ]
         },
@@ -4611,19 +4609,19 @@
           "class": "SPREAD",
           "segment": "SECOND_QUARTER",
           "is_main": true,
-          "question": "Will the Kansas City Chiefs cover -0.5 vs the Atlanta Falcons in KC Chiefs vs. ATL Falcons?",
-          "line": -0.5,
-          "slug": "asc-nfl-kc-atl-2026-11-15-2q-neg-0pt5",
+          "question": "Will the Los Angeles Chargers cover 1.5 vs the Baltimore Ravens in LA Chargers vs. BAL Ravens?",
+          "line": 1.5,
+          "slug": "asc-nfl-lac-bal-2026-11-16-2q-pos-1pt5",
           "sides": [
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-2q-neg-0pt5",
-              "teamId": 63,
-              "price": 0.52
+              "identifier": "asc-nfl-lac-bal-2026-11-16-2q-pos-1pt5",
+              "teamId": 65,
+              "price": 0.48
             },
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-2q-neg-0pt5",
-              "teamId": 49,
-              "price": 0.53
+              "identifier": "asc-nfl-lac-bal-2026-11-16-2q-pos-1pt5",
+              "teamId": 50,
+              "price": 0.52
             }
           ]
         },
@@ -4631,19 +4629,19 @@
           "class": "SPREAD",
           "segment": "THIRD_QUARTER",
           "is_main": true,
-          "question": "Will the Kansas City Chiefs cover -0.5 vs the Atlanta Falcons in KC Chiefs vs. ATL Falcons?",
-          "line": -0.5,
-          "slug": "asc-nfl-kc-atl-2026-11-15-3q-neg-0pt5",
+          "question": "Will the Los Angeles Chargers cover 0.5 vs the Baltimore Ravens in LA Chargers vs. BAL Ravens?",
+          "line": 0.5,
+          "slug": "asc-nfl-lac-bal-2026-11-16-3q-pos-0pt5",
           "sides": [
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-3q-neg-0pt5",
-              "teamId": 63,
-              "price": 0.44
+              "identifier": "asc-nfl-lac-bal-2026-11-16-3q-pos-0pt5",
+              "teamId": 65,
+              "price": 0.5
             },
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-3q-neg-0pt5",
-              "teamId": 49,
-              "price": 0.45
+              "identifier": "asc-nfl-lac-bal-2026-11-16-3q-pos-0pt5",
+              "teamId": 50,
+              "price": 0.57
             }
           ]
         },
@@ -4651,19 +4649,19 @@
           "class": "SPREAD",
           "segment": "FOURTH_QUARTER",
           "is_main": true,
-          "question": "Will the Kansas City Chiefs cover -0.5 vs the Atlanta Falcons in KC Chiefs vs. ATL Falcons?",
-          "line": -0.5,
-          "slug": "asc-nfl-kc-atl-2026-11-15-4q-neg-0pt5",
+          "question": "Will the Los Angeles Chargers cover 0.5 vs the Baltimore Ravens in LA Chargers vs. BAL Ravens?",
+          "line": 0.5,
+          "slug": "asc-nfl-lac-bal-2026-11-16-4q-pos-0pt5",
           "sides": [
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-4q-neg-0pt5",
-              "teamId": 63,
-              "price": 0.44
+              "identifier": "asc-nfl-lac-bal-2026-11-16-4q-pos-0pt5",
+              "teamId": 65,
+              "price": 0.48
             },
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-4q-neg-0pt5",
-              "teamId": 49,
-              "price": 0.45
+              "identifier": "asc-nfl-lac-bal-2026-11-16-4q-pos-0pt5",
+              "teamId": 50,
+              "price": 0.55
             }
           ]
         },
@@ -4671,19 +4669,19 @@
           "class": "SPREAD",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the Kansas City Chiefs cover -3.5 vs the Atlanta Falcons in KC Chiefs vs. ATL Falcons?",
-          "line": -3.5,
-          "slug": "asc-nfl-kc-atl-2026-11-15-neg-3pt5",
+          "question": "Will the Los Angeles Chargers cover 4.5 vs the Baltimore Ravens in LA Chargers vs. BAL Ravens?",
+          "line": 4.5,
+          "slug": "asc-nfl-lac-bal-2026-11-16-pos-4pt5",
           "sides": [
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-neg-3pt5",
-              "teamId": 63,
-              "price": 0.465
+              "identifier": "asc-nfl-lac-bal-2026-11-16-pos-4pt5",
+              "teamId": 65,
+              "price": 0.495
             },
             {
-              "identifier": "asc-nfl-kc-atl-2026-11-15-neg-3pt5",
-              "teamId": 49,
-              "price": 0.47
+              "identifier": "asc-nfl-lac-bal-2026-11-16-pos-4pt5",
+              "teamId": 50,
+              "price": 0.5
             }
           ]
         },
@@ -4693,17 +4691,17 @@
           "is_main": false,
           "question": "Total Successful Two-Point Conversions: Over 0.5",
           "line": 0.5,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-2pc-0pt5",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-2pc-0pt5",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-2pc-0pt5",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-2pc-0pt5",
               "teamId": null,
-              "price": 0.18
+              "price": 0.16
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-2pc-0pt5",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-2pc-0pt5",
               "teamId": null,
-              "price": 0.19
+              "price": 0.22
             }
           ]
         },
@@ -4713,17 +4711,17 @@
           "is_main": false,
           "question": "Total Defensive/Special Teams Touchdowns: Over 0.5",
           "line": 0.5,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-dstd-0pt5",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-dstd-0pt5",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-dstd-0pt5",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-dstd-0pt5",
               "teamId": null,
-              "price": 0.19
+              "price": 0.23
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-dstd-0pt5",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-dstd-0pt5",
               "teamId": null,
-              "price": 0.2
+              "price": 0.24
             }
           ]
         },
@@ -4731,19 +4729,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Andrew Armstrong score the first touchdown?",
+          "question": "Will Charlie Kolar score the first touchdown?",
           "line": null,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-firsttd-andarm",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-firsttd-chakol",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-firsttd-andarm",
-              "teamId": 63,
-              "price": 0.01
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-firsttd-chakol",
+              "teamId": 65,
+              "price": 0.03
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-firsttd-andarm",
-              "teamId": 63,
-              "price": 0.02
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-firsttd-chakol",
+              "teamId": 65,
+              "price": 0.04
             }
           ]
         },
@@ -4751,59 +4749,59 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": true,
-          "question": "Will Kenneth Walker record 20+ fantasy points (PPR scoring)?",
-          "line": 20,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-fpts-kenwal-gte20",
+          "question": "Will Ladd McConkey record 10+ fantasy points (PPR scoring)?",
+          "line": 10,
+          "slug": "astatc-nfl-lac-bal-2026-11-16-fpts-ladmcc-gte10",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-fpts-kenwal-gte20",
-              "teamId": 63,
-              "price": 0.64
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-fpts-ladmcc-gte10",
+              "teamId": 65,
+              "price": 0.5
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-fpts-kenwal-gte20",
-              "teamId": 63,
-              "price": 0.36
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-fpts-ladmcc-gte10",
+              "teamId": 65,
+              "price": 0.5
             }
           ]
         },
         "FOOTBALL_PLAYER_INTERCEPTIONS_THROWN": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Tyler Shough throw 1+ interceptions?",
+          "is_main": false,
+          "question": "Will Jacoby Brissett throw 1+ interceptions?",
           "line": 1,
-          "slug": "astatc-nfl-car-no-2026-11-15-int-tylsho-gte1",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-int-jacbri-gte1",
           "sides": [
             {
-              "identifier": "astatc-nfl-car-no-2026-11-15-int-tylsho-gte1",
-              "teamId": 70,
-              "price": 0.5
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-int-jacbri-gte1",
+              "teamId": 50,
+              "price": 0.49
             },
             {
-              "identifier": "astatc-nfl-car-no-2026-11-15-int-tylsho-gte1",
-              "teamId": 70,
-              "price": 0.51
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-int-jacbri-gte1",
+              "teamId": 50,
+              "price": 0.5
             }
           ]
         },
         "FOOTBALL_PLAYER_LONGEST_RECEPTION": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Ja'Marr Chase record 25+ longest reception?",
-          "line": 25,
-          "slug": "astatc-nfl-pit-cin-2026-11-15-lrec-jacha-gte25",
+          "is_main": false,
+          "question": "Will Ladd McConkey record 20+ longest reception?",
+          "line": 20,
+          "slug": "astatc-nfl-lac-bal-2026-11-16-lrec-ladmcc-gte20",
           "sides": [
             {
-              "identifier": "astatc-nfl-pit-cin-2026-11-15-lrec-jacha-gte25",
-              "teamId": 54,
-              "price": 0.45
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-lrec-ladmcc-gte20",
+              "teamId": 65,
+              "price": 0.46
             },
             {
-              "identifier": "astatc-nfl-pit-cin-2026-11-15-lrec-jacha-gte25",
-              "teamId": 54,
-              "price": 0.55
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-lrec-ladmcc-gte20",
+              "teamId": 65,
+              "price": 0.54
             }
           ]
         },
@@ -4811,19 +4809,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Michael Penix Jr. record the most passing yards?",
+          "question": "Will Jacoby Brissett record the most passing yards?",
           "line": null,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-mpyd-micpen",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-mpyd-jacbri",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-mpyd-micpen",
-              "teamId": 49,
-              "price": 0.06
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-mpyd-jacbri",
+              "teamId": 50,
+              "price": 0.02
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-mpyd-micpen",
-              "teamId": 49,
-              "price": 0.35
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-mpyd-jacbri",
+              "teamId": 50,
+              "price": 0.56
             }
           ]
         },
@@ -4833,17 +4831,17 @@
           "is_main": false,
           "question": "Overtime?: Over 0.5",
           "line": 0.5,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-ot-0pt5",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-ot-0pt5",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ot-0pt5",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ot-0pt5",
               "teamId": null,
               "price": 0.06
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ot-0pt5",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ot-0pt5",
               "teamId": null,
-              "price": 0.07
+              "price": 0.08
             }
           ]
         },
@@ -4851,19 +4849,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Michael Penix Jr. record 28+ passing attempts?",
+          "question": "Will Jacoby Brissett record 28+ passing attempts?",
           "line": 28,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-patt-micpen-gte28",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-patt-jacbri-gte28",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-patt-micpen-gte28",
-              "teamId": 49,
-              "price": 0.64
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-patt-jacbri-gte28",
+              "teamId": 50,
+              "price": 0.58
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-patt-micpen-gte28",
-              "teamId": 49,
-              "price": 0.65
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-patt-jacbri-gte28",
+              "teamId": 50,
+              "price": 0.68
             }
           ]
         },
@@ -4871,19 +4869,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Michael Penix Jr. record 18+ passing completions?",
-          "line": 18,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-pcmp-micpen-gte18",
+          "question": "Will Jacoby Brissett record 16+ passing completions?",
+          "line": 16,
+          "slug": "astatc-nfl-lac-bal-2026-11-16-pcmp-jacbri-gte16",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-pcmp-micpen-gte18",
-              "teamId": 49,
-              "price": 0.67
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-pcmp-jacbri-gte16",
+              "teamId": 50,
+              "price": 0.58
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-pcmp-micpen-gte18",
-              "teamId": 49,
-              "price": 0.68
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-pcmp-jacbri-gte16",
+              "teamId": 50,
+              "price": 0.81
             }
           ]
         },
@@ -4891,39 +4889,39 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Michael Penix Jr. record 1+ passing touchdowns?",
+          "question": "Will Jacoby Brissett record 1+ passing touchdowns?",
           "line": 1,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-ptd-micpen-gte1",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-ptd-jacbri-gte1",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ptd-micpen-gte1",
-              "teamId": 49,
-              "price": 0.79
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ptd-jacbri-gte1",
+              "teamId": 50,
+              "price": 0.75
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ptd-micpen-gte1",
-              "teamId": 49,
-              "price": 0.8
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ptd-jacbri-gte1",
+              "teamId": 50,
+              "price": 0.76
             }
           ]
         },
         "FOOTBALL_PLAYER_PASSING_YARDS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Drew Lock record 200+ passing yards?",
-          "line": 200,
-          "slug": "astatc-nfl-sea-lv-2026-11-15-pyd-dreloc-gte200",
+          "is_main": false,
+          "question": "Will Jacoby Brissett record 125+ passing yards?",
+          "line": 125,
+          "slug": "astatc-nfl-lac-bal-2026-11-16-pyd-jacbri-gte125",
           "sides": [
             {
-              "identifier": "astatc-nfl-sea-lv-2026-11-15-pyd-dreloc-gte200",
-              "teamId": 75,
-              "price": 0.5
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-pyd-jacbri-gte125",
+              "teamId": 50,
+              "price": 0.88
             },
             {
-              "identifier": "astatc-nfl-sea-lv-2026-11-15-pyd-dreloc-gte200",
-              "teamId": 75,
-              "price": 0.51
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-pyd-jacbri-gte125",
+              "teamId": 50,
+              "price": 0.89
             }
           ]
         },
@@ -4931,39 +4929,39 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Bijan Robinson record 16+ rushing attempts?",
+          "question": "Will Derrick Henry record 16+ rushing attempts?",
           "line": 16,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-ratt-bijrob-gte16",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-ratt-derhen-gte16",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ratt-bijrob-gte16",
-              "teamId": 49,
-              "price": 0.67
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ratt-derhen-gte16",
+              "teamId": 50,
+              "price": 0.74
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ratt-bijrob-gte16",
-              "teamId": 49,
-              "price": 0.68
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ratt-derhen-gte16",
+              "teamId": 50,
+              "price": 0.75
             }
           ]
         },
         "FOOTBALL_PLAYER_RECEPTIONS": {
           "class": "OTHER",
           "segment": "UNKNOWN",
-          "is_main": true,
-          "question": "Will Marvin Harrison Jr. record 2+ receptions?",
-          "line": 2,
-          "slug": "astatc-nfl-hou-cle-2026-11-15-rec-marhar-gte2",
+          "is_main": false,
+          "question": "Will Charlie Kolar record 1+ receptions?",
+          "line": 1,
+          "slug": "astatc-nfl-lac-bal-2026-11-16-rec-chakol-gte1",
           "sides": [
             {
-              "identifier": "astatc-nfl-hou-cle-2026-11-15-rec-marhar-gte2",
-              "teamId": 60,
-              "price": 0.59
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-rec-chakol-gte1",
+              "teamId": 65,
+              "price": 0.49
             },
             {
-              "identifier": "astatc-nfl-hou-cle-2026-11-15-rec-marhar-gte2",
-              "teamId": 60,
-              "price": 0.41
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-rec-chakol-gte1",
+              "teamId": 65,
+              "price": 0.85
             }
           ]
         },
@@ -4971,19 +4969,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Bijan Robinson record 10+ receiving yards?",
+          "question": "Will Charlie Kolar record 10+ receiving yards?",
           "line": 10,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-recyd-bijrob-gte10",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-recyd-chakol-gte10",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-recyd-bijrob-gte10",
-              "teamId": 49,
-              "price": 0.83
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-recyd-chakol-gte10",
+              "teamId": 65,
+              "price": 0.5
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-recyd-bijrob-gte10",
-              "teamId": 49,
-              "price": 0.84
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-recyd-chakol-gte10",
+              "teamId": 65,
+              "price": 0.66
             }
           ]
         },
@@ -4991,18 +4989,18 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Bijan Robinson record 100+ rushing yards?",
+          "question": "Will Derrick Henry record 100+ rushing yards?",
           "line": 100,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-ryd-bijrob-gte100",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-ryd-derhen-gte100",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ryd-bijrob-gte100",
-              "teamId": 49,
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ryd-derhen-gte100",
+              "teamId": 50,
               "price": 0.34
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ryd-bijrob-gte100",
-              "teamId": 49,
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ryd-derhen-gte100",
+              "teamId": 50,
               "price": 0.35
             }
           ]
@@ -5013,37 +5011,17 @@
           "is_main": false,
           "question": "Will there be a Safety?: Over 0.5",
           "line": 0.5,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-safety-0pt5",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-safety-0pt5",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-safety-0pt5",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-safety-0pt5",
               "teamId": null,
               "price": 0.05
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-safety-0pt5",
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-safety-0pt5",
               "teamId": null,
               "price": 0.06
-            }
-          ]
-        },
-        "FOOTBALL_PLAYER_SCRIMMAGE_YARDS": {
-          "class": "OTHER",
-          "segment": "UNKNOWN",
-          "is_main": false,
-          "question": "Will Bijan Robinson record 100+ scrimmage yards?",
-          "line": 100,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-scrim-bijrob-gte100",
-          "sides": [
-            {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-scrim-bijrob-gte100",
-              "teamId": 49,
-              "price": 0.69
-            },
-            {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-scrim-bijrob-gte100",
-              "teamId": 49,
-              "price": 0.7
             }
           ]
         },
@@ -5051,19 +5029,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Andrew Armstrong record 1+ touchdowns?",
+          "question": "Will Charlie Kolar record 1+ touchdowns?",
           "line": 1,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-td-andarm-gte1",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-td-chakol-gte1",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-td-andarm-gte1",
-              "teamId": 63,
-              "price": 0.06
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-td-chakol-gte1",
+              "teamId": 65,
+              "price": 0.13
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-td-andarm-gte1",
-              "teamId": 63,
-              "price": 0.07
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-td-chakol-gte1",
+              "teamId": 65,
+              "price": 0.14
             }
           ]
         },
@@ -5073,17 +5051,17 @@
           "is_main": false,
           "question": "Team Total Field Goals Made: Over 0.5",
           "line": 0.5,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-tfg-atl-0pt5",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-tfg-bal-0pt5",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-tfg-atl-0pt5",
-              "teamId": 49,
-              "price": 0.85
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-tfg-bal-0pt5",
+              "teamId": 50,
+              "price": 0.83
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-tfg-atl-0pt5",
-              "teamId": 49,
-              "price": 0.86
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-tfg-bal-0pt5",
+              "teamId": 50,
+              "price": 0.84
             }
           ]
         },
@@ -5091,19 +5069,19 @@
           "class": "OTHER",
           "segment": "UNKNOWN",
           "is_main": false,
-          "question": "Will Austin Hooper score the first Atlanta Falcons touchdown?",
+          "question": "Will Derrick Henry score the first Baltimore Ravens touchdown?",
           "line": null,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-tftd-atl-aushoo",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-tftd-bal-derhen",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-tftd-atl-aushoo",
-              "teamId": 49,
-              "price": 0.04
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-tftd-bal-derhen",
+              "teamId": 50,
+              "price": 0.25
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-tftd-atl-aushoo",
-              "teamId": 49,
-              "price": null
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-tftd-bal-derhen",
+              "teamId": 50,
+              "price": 0.32
             }
           ]
         },
@@ -5113,17 +5091,17 @@
           "is_main": false,
           "question": "Team Total Offensive Yards: Over 250.5",
           "line": 250.5,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-toyd-atl-250pt5",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-toyd-bal-250pt5",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-toyd-atl-250pt5",
-              "teamId": 49,
-              "price": 0.6
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-toyd-bal-250pt5",
+              "teamId": 50,
+              "price": 0.63
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-toyd-atl-250pt5",
-              "teamId": 49,
-              "price": 0.99
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-toyd-bal-250pt5",
+              "teamId": 50,
+              "price": 0.95
             }
           ]
         },
@@ -5133,17 +5111,17 @@
           "is_main": false,
           "question": "Team Total Touchdowns: Over 1.5",
           "line": 1.5,
-          "slug": "astatc-nfl-kc-atl-2026-11-15-ttds-atl-1pt5",
+          "slug": "astatc-nfl-lac-bal-2026-11-16-ttds-bal-1pt5",
           "sides": [
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ttds-atl-1pt5",
-              "teamId": 49,
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ttds-bal-1pt5",
+              "teamId": 50,
               "price": 0.74
             },
             {
-              "identifier": "astatc-nfl-kc-atl-2026-11-15-ttds-atl-1pt5",
-              "teamId": 49,
-              "price": 0.75
+              "identifier": "astatc-nfl-lac-bal-2026-11-16-ttds-bal-1pt5",
+              "teamId": 50,
+              "price": 0.88
             }
           ]
         },
@@ -5151,19 +5129,19 @@
           "class": "TOTAL",
           "segment": "FIRST_HALF",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 23.5?",
-          "line": 23.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-1h-23pt5",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 19.5?",
+          "line": 19.5,
+          "slug": "tsc-nfl-lac-bal-2026-11-16-1h-19pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-1h-23pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-1h-19pt5",
               "teamId": null,
-              "price": 0.5
+              "price": 0.52
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-1h-23pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-1h-19pt5",
               "teamId": null,
-              "price": 0.51
+              "price": 0.53
             }
           ]
         },
@@ -5171,19 +5149,19 @@
           "class": "TOTAL",
           "segment": "FIRST_QUARTER",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 9.5?",
-          "line": 9.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-1q-9pt5",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 8.5?",
+          "line": 8.5,
+          "slug": "tsc-nfl-lac-bal-2026-11-16-1q-8pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-1q-9pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-1q-8pt5",
               "teamId": null,
-              "price": 0.49
+              "price": 0.42
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-1q-9pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-1q-8pt5",
               "teamId": null,
-              "price": 0.5
+              "price": 0.44
             }
           ]
         },
@@ -5191,19 +5169,19 @@
           "class": "TOTAL",
           "segment": "SECOND_HALF",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 23.5?",
-          "line": 23.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-2h-23pt5",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 19.5?",
+          "line": 19.5,
+          "slug": "tsc-nfl-lac-bal-2026-11-16-2h-19pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-2h-23pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-2h-19pt5",
               "teamId": null,
-              "price": 0.46
+              "price": 0.48
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-2h-23pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-2h-19pt5",
               "teamId": null,
-              "price": 0.47
+              "price": 0.51
             }
           ]
         },
@@ -5211,17 +5189,17 @@
           "class": "TOTAL",
           "segment": "SECOND_QUARTER",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 13.5?",
-          "line": 13.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-2q-13pt5",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 10.5?",
+          "line": 10.5,
+          "slug": "tsc-nfl-lac-bal-2026-11-16-2q-10pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-2q-13pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-2q-10pt5",
               "teamId": null,
-              "price": 0.51
+              "price": 0.49
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-2q-13pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-2q-10pt5",
               "teamId": null,
               "price": 0.52
             }
@@ -5231,19 +5209,19 @@
           "class": "TOTAL",
           "segment": "THIRD_QUARTER",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 7.5?",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 7.5?",
           "line": 7.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-3q-7pt5",
+          "slug": "tsc-nfl-lac-bal-2026-11-16-3q-7pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-3q-7pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-3q-7pt5",
               "teamId": null,
-              "price": 0.56
+              "price": 0.44
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-3q-7pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-3q-7pt5",
               "teamId": null,
-              "price": 0.57
+              "price": 0.46
             }
           ]
         },
@@ -5251,17 +5229,17 @@
           "class": "TOTAL",
           "segment": "FOURTH_QUARTER",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 13.5?",
-          "line": 13.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-4q-13pt5",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 10.5?",
+          "line": 10.5,
+          "slug": "tsc-nfl-lac-bal-2026-11-16-4q-10pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-4q-13pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-4q-10pt5",
               "teamId": null,
-              "price": 0.47
+              "price": 0.45
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-4q-13pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-4q-10pt5",
               "teamId": null,
               "price": 0.48
             }
@@ -5271,19 +5249,19 @@
           "class": "TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 47.5?",
-          "line": 47.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-total-47pt5",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 39.5?",
+          "line": 39.5,
+          "slug": "tsc-nfl-lac-bal-2026-11-16-total-39pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-total-47pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-total-39pt5",
               "teamId": null,
-              "price": 0.5
+              "price": 0.485
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-total-47pt5",
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-total-39pt5",
               "teamId": null,
-              "price": 0.51
+              "price": 0.49
             }
           ]
         },
@@ -5291,19 +5269,19 @@
           "class": "TEAM_TOTAL",
           "segment": "FULL_GAME",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 22.5?",
-          "line": 22.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-tt-atl-22pt5",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 21.5?",
+          "line": 21.5,
+          "slug": "tsc-nfl-lac-bal-2026-11-16-tt-bal-21pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-tt-atl-22pt5",
-              "teamId": 49,
-              "price": 0.49
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-tt-bal-21pt5",
+              "teamId": 50,
+              "price": 0.52
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-tt-atl-22pt5",
-              "teamId": 49,
-              "price": 0.5
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-tt-bal-21pt5",
+              "teamId": 50,
+              "price": 0.53
             }
           ]
         },
@@ -5311,19 +5289,19 @@
           "class": "TEAM_TOTAL",
           "segment": "FIRST_HALF",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 10.5?",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 10.5?",
           "line": 10.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-tt1h-atl-10pt5",
+          "slug": "tsc-nfl-lac-bal-2026-11-16-tt1h-bal-10pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-tt1h-atl-10pt5",
-              "teamId": 49,
-              "price": 0.44
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-tt1h-bal-10pt5",
+              "teamId": 50,
+              "price": 0.47
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-tt1h-atl-10pt5",
-              "teamId": 49,
-              "price": 0.45
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-tt1h-bal-10pt5",
+              "teamId": 50,
+              "price": 0.48
             }
           ]
         },
@@ -5331,90 +5309,70 @@
           "class": "TEAM_TOTAL",
           "segment": "SECOND_HALF",
           "is_main": true,
-          "question": "Will the total in KC Chiefs vs. ATL Falcons be more than 11.5?",
-          "line": 11.5,
-          "slug": "tsc-nfl-kc-atl-2026-11-15-tt2h-atl-11pt5",
+          "question": "Will the total in LA Chargers vs. BAL Ravens be more than 10.5?",
+          "line": 10.5,
+          "slug": "tsc-nfl-lac-bal-2026-11-16-tt2h-bal-10pt5",
           "sides": [
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-tt2h-atl-11pt5",
-              "teamId": 49,
-              "price": 0.48
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-tt2h-bal-10pt5",
+              "teamId": 50,
+              "price": 0.39
             },
             {
-              "identifier": "tsc-nfl-kc-atl-2026-11-15-tt2h-atl-11pt5",
-              "teamId": 49,
-              "price": 0.49
+              "identifier": "tsc-nfl-lac-bal-2026-11-16-tt2h-bal-10pt5",
+              "teamId": 50,
+              "price": 0.48
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "nfl-kc-atl-2026-11-15",
-        "title": "KC Chiefs vs. ATL Falcons",
-        "start": "2026-11-15T18:00:00Z"
+        "slug": "nfl-lac-bal-2026-11-16",
+        "title": "LA Chargers vs. BAL Ravens",
+        "start": "2026-11-17T01:15:00Z"
       }
     },
     {
       "sport": "cs2",
       "slug": "cs2",
       "slug_listed": true,
-      "events": 49,
-      "upcoming_in_horizon": 22,
+      "events": 58,
+      "upcoming_in_horizon": 39,
       "market_types": {
-        "ESPORTS_MATCH_WINNER": 49,
-        "ESPORTS_MAP_WINNER_2": 16,
-        "ESPORTS_MAP_WINNER_1": 16,
-        "ESPORTS_SERIES_MAP_HANDICAP": 6,
-        "ESPORTS_SERIES_TOTAL_MAPS": 6
+        "ESPORTS_MATCH_WINNER": 58,
+        "ESPORTS_MAP_WINNER_1": 30,
+        "ESPORTS_MAP_WINNER_2": 30,
+        "ESPORTS_SERIES_MAP_HANDICAP": 15,
+        "ESPORTS_SERIES_TOTAL_MAPS": 15
       },
       "market_classes": {
-        "WINNER/MATCH": 49,
-        "WINNER/MAP_2": 16,
-        "WINNER/MAP_1": 16,
-        "SPREAD/SERIES": 6,
-        "TOTAL/SERIES": 6
+        "WINNER/MATCH": 58,
+        "WINNER/MAP_1": 30,
+        "WINNER/MAP_2": 30,
+        "SPREAD/SERIES": 15,
+        "TOTAL/SERIES": 15
       },
-      "main_lines_in_horizon": 66,
+      "main_lines_in_horizon": 129,
       "unclassified": [],
       "examples": {
         "ESPORTS_MATCH_WINNER": {
           "class": "WINNER",
           "segment": "MATCH",
           "is_main": true,
-          "question": "Who will win in the upcoming esports event 100 Thieves vs Eternal Fire scheduled for November 15, 2026 at 9:00 AM UTC?",
+          "question": "Who will win in the upcoming esports event Virtus.pro vs PRIVATE scheduled for November 16, 2026 at 5:00 PM UTC?",
           "line": null,
-          "slug": "aec-cs2-100t-ef-2026-11-15",
+          "slug": "aec-cs2-vp-priv-2026-11-16",
           "sides": [
             {
-              "identifier": "aec-cs2-100t-ef-2026-11-15",
-              "teamId": 7706,
-              "price": 0.45
+              "identifier": "aec-cs2-vp-priv-2026-11-16",
+              "teamId": 9980,
+              "price": 0.37
             },
             {
-              "identifier": "aec-cs2-100t-ef-2026-11-15",
-              "teamId": 7717,
-              "price": 0.52
-            }
-          ]
-        },
-        "ESPORTS_MAP_WINNER_2": {
-          "class": "WINNER",
-          "segment": "MAP_2",
-          "is_main": true,
-          "question": "Will Heroic win Map 2 vs FaZe?",
-          "line": null,
-          "slug": "astatc-cs2-hero-faze-2026-11-15-map2",
-          "sides": [
-            {
-              "identifier": "astatc-cs2-hero-faze-2026-11-15-map2",
-              "teamId": 5529,
-              "price": 0.54
-            },
-            {
-              "identifier": "astatc-cs2-hero-faze-2026-11-15-map2",
-              "teamId": 5529,
-              "price": 0.55
+              "identifier": "aec-cs2-vp-priv-2026-11-16",
+              "teamId": 36844,
+              "price": 0.38
             }
           ]
         },
@@ -5422,19 +5380,39 @@
           "class": "WINNER",
           "segment": "MAP_1",
           "is_main": true,
-          "question": "Will Heroic win Map 1 vs FaZe?",
+          "question": "Will DISFARCADOS win Map 1 vs ALKA GAMING?",
           "line": null,
-          "slug": "astatc-cs2-hero-faze-2026-11-15-map1",
+          "slug": "astatc-cs2-dis-alka-2026-11-17-map1",
           "sides": [
             {
-              "identifier": "astatc-cs2-hero-faze-2026-11-15-map1",
-              "teamId": 5529,
-              "price": 0.47
+              "identifier": "astatc-cs2-dis-alka-2026-11-17-map1",
+              "teamId": 46388,
+              "price": 0.07
             },
             {
-              "identifier": "astatc-cs2-hero-faze-2026-11-15-map1",
-              "teamId": 5529,
-              "price": 0.48
+              "identifier": "astatc-cs2-dis-alka-2026-11-17-map1",
+              "teamId": 46388,
+              "price": 0.97
+            }
+          ]
+        },
+        "ESPORTS_MAP_WINNER_2": {
+          "class": "WINNER",
+          "segment": "MAP_2",
+          "is_main": true,
+          "question": "Will DISFARCADOS win Map 2 vs ALKA GAMING?",
+          "line": null,
+          "slug": "astatc-cs2-dis-alka-2026-11-17-map2",
+          "sides": [
+            {
+              "identifier": "astatc-cs2-dis-alka-2026-11-17-map2",
+              "teamId": 46388,
+              "price": 0.09
+            },
+            {
+              "identifier": "astatc-cs2-dis-alka-2026-11-17-map2",
+              "teamId": 46388,
+              "price": 0.95
             }
           ]
         },
@@ -5442,19 +5420,19 @@
           "class": "SPREAD",
           "segment": "SERIES",
           "is_main": true,
-          "question": "Will the Heroic cover 1.5 vs the FaZe in Heroic vs. FaZe?",
-          "line": 1.5,
-          "slug": "asc-cs2-hero-faze-2026-11-15-hcap-pos-1pt5",
+          "question": "Will the WBT cover -1.5 vs the ex-ENCE in WBT vs. ex-ENCE?",
+          "line": -1.5,
+          "slug": "asc-cs2-wba-eex-2026-11-17-hcap-neg-1pt5",
           "sides": [
             {
-              "identifier": "asc-cs2-hero-faze-2026-11-15-hcap-pos-1pt5",
-              "teamId": 5529,
-              "price": null
+              "identifier": "asc-cs2-wba-eex-2026-11-17-hcap-neg-1pt5",
+              "teamId": 11965,
+              "price": 0.01
             },
             {
-              "identifier": "asc-cs2-hero-faze-2026-11-15-hcap-pos-1pt5",
-              "teamId": 5155,
-              "price": null
+              "identifier": "asc-cs2-wba-eex-2026-11-17-hcap-neg-1pt5",
+              "teamId": 44083,
+              "price": 0.99
             }
           ]
         },
@@ -5462,28 +5440,28 @@
           "class": "TOTAL",
           "segment": "SERIES",
           "is_main": true,
-          "question": "Will the total in Heroic vs. FaZe be more than 2.5?",
+          "question": "Will the total in WBT vs. ex-ENCE be more than 2.5?",
           "line": 2.5,
-          "slug": "tsc-cs2-hero-faze-2026-11-15-tot-2pt5",
+          "slug": "tsc-cs2-wba-eex-2026-11-17-tot-2pt5",
           "sides": [
             {
-              "identifier": "tsc-cs2-hero-faze-2026-11-15-tot-2pt5",
+              "identifier": "tsc-cs2-wba-eex-2026-11-17-tot-2pt5",
               "teamId": null,
-              "price": 0.05
+              "price": 0.01
             },
             {
-              "identifier": "tsc-cs2-hero-faze-2026-11-15-tot-2pt5",
+              "identifier": "tsc-cs2-wba-eex-2026-11-17-tot-2pt5",
               "teamId": null,
-              "price": 0.95
+              "price": 0.99
             }
           ]
         }
       },
       "error": null,
       "example_event": {
-        "slug": "cs2-oldboyspl-ff-2026-11-15",
-        "title": "OLDBOYS PL vs. Fire Flux Esports",
-        "start": "2026-11-15T16:00:00Z"
+        "slug": "cs2-ff-bang-2026-11-16",
+        "title": "Fire Flux Esports vs. BANGARANGA",
+        "start": "2026-11-16T18:30:00Z"
       }
     },
     {
@@ -5521,13 +5499,13 @@
       "sport": "epl",
       "slug": "epl",
       "slug_listed": true,
-      "events": 9,
+      "events": 10,
       "upcoming_in_horizon": 0,
       "market_types": {
-        "SOCCER_TEAM_FULL_TIME_WINNER": 27
+        "SOCCER_TEAM_FULL_TIME_WINNER": 30
       },
       "market_classes": {
-        "WINNER/FULL_TIME": 27
+        "WINNER/FULL_TIME": 30
       },
       "main_lines_in_horizon": 0,
       "unclassified": [],
@@ -5560,13 +5538,13 @@
       "sport": "laliga",
       "slug": "lal",
       "slug_listed": true,
-      "events": 9,
+      "events": 10,
       "upcoming_in_horizon": 0,
       "market_types": {
-        "SOCCER_TEAM_FULL_TIME_WINNER": 27
+        "SOCCER_TEAM_FULL_TIME_WINNER": 30
       },
       "market_classes": {
-        "WINNER/FULL_TIME": 27
+        "WINNER/FULL_TIME": 30
       },
       "main_lines_in_horizon": 0,
       "unclassified": [],
@@ -5638,13 +5616,13 @@
       "sport": "seriea",
       "slug": "sea",
       "slug_listed": true,
-      "events": 9,
+      "events": 10,
       "upcoming_in_horizon": 0,
       "market_types": {
-        "SOCCER_TEAM_FULL_TIME_WINNER": 27
+        "SOCCER_TEAM_FULL_TIME_WINNER": 30
       },
       "market_classes": {
-        "WINNER/FULL_TIME": 27
+        "WINNER/FULL_TIME": 30
       },
       "main_lines_in_horizon": 0,
       "unclassified": [],
@@ -5699,12 +5677,12 @@
             {
               "identifier": "atc-lg1-tro-hac-2026-11-20-tro",
               "teamId": 25621,
-              "price": 0.46
+              "price": 0.44
             },
             {
               "identifier": "atc-lg1-tro-hac-2026-11-20-tro",
               "teamId": 25621,
-              "price": 0.47
+              "price": 0.46
             }
           ]
         }
